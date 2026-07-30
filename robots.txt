@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://economic-tutoring.pages.dev/sitemap.xml
