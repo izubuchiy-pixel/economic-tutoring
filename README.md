@@ -19,3 +19,5 @@ canonical・OGP・sitemapは以下のCloudflare Pages URLに設定していま�
 https://economic-tutoring.pages.dev/
 
 Cloudflare Pagesでは、Framework presetを `None`、Build commandを `exit 0`、Build output directoryを `.` に設定してください。
+
+Cloudflare Pagesで公開
