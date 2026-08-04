@@ -1,0 +1,632 @@
+[hidden] {
+  display: none !important;
+}
+
+.skip-link {
+  position: fixed;
+  z-index: 999;
+  top: 8px;
+  left: 8px;
+  transform: translateY(-160%);
+  background: var(--white);
+  padding: 8px 14px;
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.hero-facts {
+  margin: 20px 0 0;
+  color: var(--gold-light);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.hero h1 {
+  font-size: clamp(45px, 4.5vw, 64px);
+}
+
+.hero-grid > *,
+.hero-copy,
+.hero-lead,
+.section-heading,
+.contact-copy,
+.difference-heading {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.hero-lead,
+.section-heading > p,
+.contact-copy > p,
+.scenario-card p {
+  overflow-wrap: anywhere;
+}
+
+.scenario-grid-three {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.scenario-grid-three .scenario-card {
+  min-height: 255px;
+}
+
+.support-card,
+.feature-card {
+  background: var(--white);
+}
+
+.outcome-grid-four {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.subject-note {
+  margin: 24px 0 0;
+  border-left: 3px solid var(--gold);
+  background: rgba(255, 253, 248, 0.72);
+  padding: 15px 18px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.difference-grid {
+  display: grid;
+  align-items: start;
+  gap: 72px;
+  grid-template-columns: 0.82fr 1.18fr;
+}
+
+.difference-heading {
+  position: sticky;
+  top: 120px;
+  margin-bottom: 0;
+}
+
+.difference-cards {
+  display: grid;
+  gap: 16px;
+}
+
+.difference-card {
+  border: 1px solid var(--line);
+  background: var(--ivory);
+  padding: 38px;
+}
+
+.difference-card.difference-featured {
+  border-color: rgba(201, 164, 92, 0.78);
+  background: var(--navy);
+  color: var(--white);
+}
+
+.difference-card h3 {
+  margin: 0 0 14px;
+  font-family: "Yu Mincho", "YuMincho", serif;
+  font-size: 28px;
+}
+
+.difference-card > p:not(.section-label) {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.difference-featured > p:not(.section-label) {
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.difference-card ul {
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.difference-card li {
+  position: relative;
+  border-top: 1px solid var(--line);
+  padding: 12px 0 12px 24px;
+  font-size: 13px;
+}
+
+.difference-featured li {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.difference-card li::before {
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+  content: "✓";
+}
+
+.plan-section-title {
+  margin: 0 0 24px;
+  color: var(--white);
+  font-family: "Yu Mincho", "YuMincho", serif;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.plan-section-title-spaced {
+  margin-top: 68px;
+}
+
+.plan-grid-monthly {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.plan-grid-monthly.has-premium {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.monthly-card {
+  min-height: 610px;
+}
+
+.monthly-card .plan-price strong {
+  font-size: clamp(34px, 3.5vw, 44px);
+}
+
+.plan-context {
+  margin: 16px 0 0;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 12px;
+}
+
+.premium-consult {
+  display: grid;
+  min-height: 180px;
+  align-content: center;
+  border: 1px dashed rgba(201, 164, 92, 0.56);
+  background: rgba(16, 42, 69, 0.52);
+  padding: 32px 38px;
+  grid-column: 1 / -1;
+}
+
+.premium-consult h3 {
+  margin: 10px 0 8px;
+  font-family: "Yu Mincho", "YuMincho", serif;
+  font-size: 24px;
+}
+
+.premium-consult p {
+  max-width: 800px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+}
+
+.comparison-block {
+  margin-top: 72px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(16, 42, 69, 0.62);
+  padding: 38px;
+}
+
+.comparison-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.comparison-heading .section-label {
+  margin: 0;
+}
+
+.comparison-heading h3 {
+  margin: 0;
+  font-family: "Yu Mincho", "YuMincho", serif;
+  font-size: 27px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
+}
+
+.comparison-table {
+  width: 100%;
+  min-width: 820px;
+  border-collapse: collapse;
+  color: var(--white);
+  font-size: 12px;
+}
+
+.comparison-table th,
+.comparison-table td {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.comparison-table thead th {
+  background: rgba(201, 164, 92, 0.16);
+  color: var(--gold-light);
+  white-space: nowrap;
+}
+
+.comparison-table tbody th {
+  width: 130px;
+  color: var(--gold-light);
+  white-space: nowrap;
+}
+
+.flow-list li {
+  padding-bottom: 27px;
+}
+
+.contact-methods {
+  display: grid;
+  gap: 14px;
+}
+
+.email-card {
+  display: grid;
+  gap: 10px;
+  background: rgba(255, 253, 248, 0.9);
+  padding: 24px 28px;
+}
+
+.email-card a {
+  overflow-wrap: anywhere;
+  color: var(--navy);
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.email-card button {
+  justify-self: start;
+  cursor: pointer;
+  border: 0;
+  border-bottom: 1px solid rgba(11, 31, 51, 0.4);
+  background: transparent;
+  padding: 2px 0;
+  color: var(--navy);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.copy-status {
+  min-height: 1.7em;
+  margin: 0;
+  color: var(--navy);
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 12px 20px;
+}
+
+.footer-links a {
+  color: var(--gold-light);
+  font-size: 11px;
+}
+
+.legal-page {
+  min-height: 100vh;
+  background: var(--ivory);
+}
+
+.legal-header {
+  position: static;
+}
+
+.legal-header .brand {
+  flex: 1 1 auto;
+}
+
+.legal-header .button {
+  width: auto;
+  flex: 0 0 auto;
+}
+
+.legal-main {
+  padding: 72px 0 112px;
+}
+
+.legal-title {
+  margin-bottom: 48px;
+}
+
+.legal-title h1 {
+  margin: 0;
+  font-family: "Yu Mincho", "YuMincho", serif;
+  font-size: clamp(34px, 5vw, 54px);
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.legal-title p:last-child {
+  max-width: 760px;
+  margin: 18px 0 0;
+  color: var(--muted);
+}
+
+.legal-content {
+  display: grid;
+  gap: 18px;
+}
+
+.legal-section {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--white);
+  padding: 34px 38px;
+}
+
+.legal-section h2 {
+  margin: 0 0 14px;
+  font-family: "Yu Mincho", "YuMincho", serif;
+  font-size: 23px;
+}
+
+.legal-section p,
+.legal-section li {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.legal-section ul,
+.legal-section ol {
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+.legal-section a {
+  color: var(--navy-3);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.legal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.legal-table th,
+.legal-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 16px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.legal-table th {
+  width: 220px;
+  color: var(--ink);
+}
+
+.legal-table td {
+  color: var(--muted);
+}
+
+.legal-updated {
+  margin: 22px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  text-align: right;
+}
+
+@media (max-width: 960px) {
+  .nav {
+    position: fixed;
+    inset: 76px 0 0;
+    display: none;
+    height: calc(100dvh - 76px);
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 0;
+    background: var(--navy);
+    padding: 32px;
+  }
+
+  .nav.is-open {
+    display: flex;
+  }
+
+  .nav > a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 17px 4px;
+    font-size: 16px;
+  }
+
+  .nav-cta {
+    margin-top: 16px;
+    border: 1px solid var(--gold) !important;
+    text-align: center;
+  }
+
+  .menu-button {
+    display: grid;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    place-content: center;
+    border: 0;
+    background: transparent;
+    gap: 7px;
+  }
+
+  .menu-button span {
+    display: block;
+    width: 24px;
+    height: 1px;
+    background: var(--white);
+    transition: transform 0.2s ease;
+  }
+
+  .menu-button.is-open span:first-child {
+    transform: translateY(4px) rotate(45deg);
+  }
+
+  .menu-button.is-open span:last-child {
+    transform: translateY(-4px) rotate(-45deg);
+  }
+
+  .scenario-grid-three {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .difference-grid {
+    gap: 48px;
+    grid-template-columns: 1fr;
+  }
+
+  .difference-heading {
+    position: static;
+  }
+
+  .outcome-grid-four {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .plan-grid-monthly,
+  .plan-grid-monthly.has-premium {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .premium-plan:last-of-type {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 760px) {
+  .hero-facts {
+    font-size: 11px;
+    line-height: 1.7;
+  }
+
+  .hero h1 {
+    font-size: clamp(31px, 9vw, 36px);
+  }
+
+  .hero-lead {
+    width: 100%;
+  }
+
+  .scenario-grid-three,
+  .outcome-grid-four,
+  .plan-grid-monthly,
+  .plan-grid-monthly.has-premium {
+    grid-template-columns: 1fr;
+  }
+
+  .scenario-grid-three .scenario-card {
+    min-height: 0;
+  }
+
+  .difference-cards {
+    gap: 12px;
+  }
+
+  .difference-card {
+    padding: 30px 25px;
+  }
+
+  .difference-card h3 {
+    font-size: 24px;
+  }
+
+  .plan-section-title {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .plan-section-title-spaced {
+    margin-top: 52px;
+  }
+
+  .monthly-card {
+    min-height: 0;
+  }
+
+  .premium-plan:last-of-type {
+    grid-column: auto;
+  }
+
+  .premium-consult,
+  .comparison-block {
+    padding: 26px 22px;
+  }
+
+  .premium-consult h3 {
+    font-size: 21px;
+  }
+
+  .comparison-heading {
+    display: block;
+  }
+
+  .comparison-heading h3 {
+    margin-top: 8px;
+    font-size: 23px;
+  }
+
+  .table-wrap {
+    margin-inline: -22px;
+    border-right: 0;
+    border-left: 0;
+  }
+
+  .email-card {
+    padding: 22px;
+  }
+
+  .footer-links {
+    justify-content: flex-start;
+    gap: 10px 16px;
+  }
+
+  .legal-main {
+    padding: 58px 0 78px;
+  }
+
+  .legal-header .button {
+    min-height: 42px;
+    padding: 9px 13px;
+    font-size: 12px;
+  }
+
+  .legal-title {
+    margin-bottom: 34px;
+  }
+
+  .legal-section {
+    padding: 27px 23px;
+  }
+
+  .legal-table,
+  .legal-table tbody,
+  .legal-table tr,
+  .legal-table th,
+  .legal-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .legal-table th {
+    border-bottom: 0;
+    padding: 15px 0 3px;
+  }
+
+  .legal-table td {
+    padding: 0 0 15px;
+  }
+}
