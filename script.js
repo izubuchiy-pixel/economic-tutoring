@@ -1,77 +1,161 @@
-const menuButton = document.querySelector(".menu-button");
-const navigation = document.querySelector(".nav");
+(() => {
+  const site = window.ECONOMIC_TUTORING;
+  if (!site) return;
 
-function closeMenu() {
-  if (!menuButton || !navigation) return;
-  navigation.classList.remove("is-open");
-  menuButton.classList.remove("is-open");
-  menuButton.setAttribute("aria-expanded", "false");
-  menuButton.setAttribute("aria-label", "メニューを開く");
-  document.body.style.overflow = "";
-}
+  const yen = (value) => new Intl.NumberFormat("ja-JP").format(value);
+  const product = (key) => site.products[key];
+  const priceText = (key) => `${yen(product(key).price)}円`;
 
-if (menuButton && navigation) {
-  menuButton.addEventListener("click", () => {
-    const isOpen = navigation.classList.toggle("is-open");
-    menuButton.classList.toggle("is-open", isOpen);
-    menuButton.setAttribute("aria-expanded", String(isOpen));
-    menuButton.setAttribute("aria-label", isOpen ? "メニューを閉じる" : "メニューを開く");
-    document.body.style.overflow = isOpen ? "hidden" : "";
+  const page = document.body.dataset.page || "top";
+  const navItems = [
+    ["top", "トップ", "index.html"],
+    ["pricing", "料金・サービス", "pricing.html"],
+    ["web", "専用確認テスト", "web-learning.html"]
+  ];
+
+  const header = `
+    <a class="skip-link" href="#main">本文へ移動</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="index.html" aria-label="economic_tutoring トップへ">
+          <span class="brand-name">${site.brand}</span>
+          <span class="brand-sub">UNIVERSITY SUBJECT SUPPORT</span>
+        </a>
+        <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav"><span></span><span></span><span></span></button>
+        <nav class="nav" id="global-nav" aria-label="メインナビゲーション">
+          ${navItems.map(([id, label, href]) => `<a href="${href}"${page === id ? ' aria-current="page"' : ""}>${label}</a>`).join("")}
+          <a class="nav-cta" href="${page === "legal" || page === "error" ? "index.html#contact" : "#contact"}">${site.cta.short}</a>
+        </nav>
+      </div>
+    </header>`;
+
+  const footer = `
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div class="footer-brand"><strong>${site.brand}</strong><p>大学生向け 経済学系専門科目のオンライン個別指導・学習管理</p></div>
+        <nav class="footer-nav" aria-label="サイト案内">
+          <a href="index.html">トップ</a><a href="pricing.html">料金・サービス</a><a href="web-learning.html">専用確認テスト</a>
+          <a href="terms.html">利用案内・受講規約</a><a href="privacy.html">プライバシーポリシー</a><a href="tokusho.html">特定商取引法に基づく表記</a>
+        </nav>
+        <small>© 2026 ${site.brand}</small>
+      </div>
+    </footer>`;
+
+  const contact = `
+    <section class="section contact" id="contact">
+      <div class="shell contact-grid">
+        <div>
+          <p class="section-label">CONTACT</p>
+          <h2>まずは60分で、<br>現在地と次の一手を整理。</h2>
+          <p>シラバス・講義資料・試験範囲など、手元にある資料を確認しながら進めます。相談時点で継続受講を決める必要はありません。</p>
+          <div class="contact-facts"><span>オンライン</span><span>60分</span><span data-price="trial"></span></div>
+        </div>
+        <div class="contact-card">
+          <h3>Instagramまたはメールで相談</h3>
+          <p>次の内容が分かる範囲でお知らせください。</p>
+          <div class="contact-template" id="contact-template">大学名・学部：
+相談したい科目：
+試験・課題の時期：
+現在困っていること：</div>
+          <button class="button button-navy" type="button" data-copy-template>相談文をコピー</button>
+          <a class="button button-gold" href="${site.instagram.url}" target="_blank" rel="noopener">Instagram DMを開く</a>
+          <div class="email-row"><a href="mailto:${site.email}">${site.email}</a><button type="button" data-copy-email>コピー</button></div>
+          <p class="copy-status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>`;
+
+  document.querySelectorAll("[data-site-header]").forEach((el) => { el.outerHTML = header; });
+  document.querySelectorAll("[data-site-footer]").forEach((el) => { el.outerHTML = footer; });
+  document.querySelectorAll("[data-site-contact]").forEach((el) => { el.outerHTML = contact; });
+
+  document.querySelectorAll("[data-price]").forEach((el) => {
+    const item = product(el.dataset.price);
+    if (item) el.textContent = priceText(el.dataset.price);
   });
 
-  navigation.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", closeMenu);
+  document.querySelectorAll("[data-product-name]").forEach((el) => {
+    const item = product(el.dataset.productName);
+    if (item) el.textContent = item.name;
   });
 
-  window.addEventListener("resize", () => {
-    if (window.innerWidth > 920) closeMenu();
-  });
-}
+  const list = (items) => `<ul class="check-list">${items.map((item) => `<li>${item}</li>`).join("")}</ul>`;
+  const exclusions = (items) => items?.length ? `<div class="not-included"><strong>確認事項</strong>${items.map((item) => `<p>${item}</p>`).join("")}</div>` : "";
+  const card = (key, compact = false) => {
+    const item = product(key);
+    return `<article class="plan-card${key === "support8" ? " plan-card-focus" : ""}">
+      <p class="plan-label">${item.label}</p><h3>${item.name}</h3>
+      <div class="plan-price"><strong>${yen(item.price)}</strong><span>円<br>${item.unit}</span></div>
+      <p class="plan-summary">${item.summary}</p>
+      ${item.lessons || item.subjects ? `<div class="plan-facts">${item.lessons ? `<span>${item.lessons}</span>` : ""}${item.subjects ? `<span>${item.subjects}</span>` : ""}</div>` : ""}
+      ${compact ? "" : `<details class="plan-details"><summary>含まれる内容を見る</summary>${list(item.includes)}${exclusions(item.excludes)}</details>`}
+      <a class="text-link" href="#contact">このプランを相談する →</a>
+    </article>`;
+  };
 
-async function copyText(text) {
-  try {
-    await navigator.clipboard.writeText(text);
-  } catch {
-    const textArea = document.createElement("textarea");
-    textArea.value = text;
-    textArea.setAttribute("readonly", "");
-    textArea.style.position = "fixed";
-    textArea.style.opacity = "0";
-    document.body.appendChild(textArea);
-    textArea.select();
-    document.execCommand("copy");
-    textArea.remove();
+  document.querySelectorAll("[data-plan-cards]").forEach((el) => {
+    const keys = (el.dataset.planCards || "").split(",").map((v) => v.trim()).filter(Boolean);
+    el.innerHTML = keys.map((key) => card(key)).join("");
+  });
+
+  document.querySelectorAll("[data-web-plan-cards]").forEach((el) => {
+    el.innerHTML = ["testOnly", "testAddon", "full"].map((key) => card(key, true)).join("");
+  });
+
+  const legalPrices = document.querySelector("[data-legal-prices]");
+  if (legalPrices) {
+    legalPrices.innerHTML = Object.values(site.products).map((item) => `<div><strong>${item.name}</strong><span>${yen(item.price)}円（${item.unit}）</span></div>`).join("");
   }
-}
 
-const copyStatus = document.querySelector(".copy-status");
-let statusTimer;
-
-function showCopyStatus(message) {
-  if (!copyStatus) return;
-  window.clearTimeout(statusTimer);
-  copyStatus.textContent = message;
-  statusTimer = window.setTimeout(() => {
-    copyStatus.textContent = "";
-  }, 2600);
-}
-
-const templateButton = document.querySelector("[data-copy-template]");
-const template = document.querySelector("#contact-template");
-
-if (templateButton && template) {
-  templateButton.addEventListener("click", async () => {
-    await copyText(template.textContent.trim());
-    showCopyStatus("相談文をコピーしました。Instagramまたはメールへ貼り付けてください。");
+  const menuButton = document.querySelector(".menu-button");
+  const navigation = document.querySelector(".nav");
+  const closeMenu = () => {
+    if (!menuButton || !navigation) return;
+    navigation.classList.remove("is-open");
+    menuButton.classList.remove("is-open");
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.setAttribute("aria-label", "メニューを開く");
+    document.body.classList.remove("menu-open");
+  };
+  menuButton?.addEventListener("click", () => {
+    const open = !navigation.classList.contains("is-open");
+    closeMenu();
+    if (open) {
+      navigation.classList.add("is-open");
+      menuButton.classList.add("is-open");
+      menuButton.setAttribute("aria-expanded", "true");
+      menuButton.setAttribute("aria-label", "メニューを閉じる");
+      document.body.classList.add("menu-open");
+    }
   });
-}
+  navigation?.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMenu));
+  window.addEventListener("resize", () => { if (window.innerWidth > 900) closeMenu(); });
 
-const emailButton = document.querySelector("[data-copy-email]");
-const emailAddress = "economic.tutoring.office@gmail.com";
-
-if (emailButton) {
-  emailButton.addEventListener("click", async () => {
-    await copyText(emailAddress);
-    showCopyStatus("メールアドレスをコピーしました。");
+  async function copyText(text) {
+    try { await navigator.clipboard.writeText(text); }
+    catch {
+      const area = document.createElement("textarea");
+      area.value = text; area.readOnly = true; area.style.position = "fixed"; area.style.opacity = "0";
+      document.body.append(area); area.select(); document.execCommand("copy"); area.remove();
+    }
+  }
+  let timer;
+  const status = document.querySelector(".copy-status");
+  const showStatus = (message) => {
+    if (!status) return;
+    clearTimeout(timer); status.textContent = message;
+    timer = setTimeout(() => { status.textContent = ""; }, 2600);
+  };
+  document.querySelector("[data-copy-template]")?.addEventListener("click", async () => {
+    await copyText(document.querySelector("#contact-template")?.textContent.trim() || "");
+    showStatus("相談文をコピーしました。");
   });
-}
+  document.querySelector("[data-copy-email]")?.addEventListener("click", async () => {
+    await copyText(site.email); showStatus("メールアドレスをコピーしました。");
+  });
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => { if (entry.isIntersecting) entry.target.classList.add("is-visible"); });
+  }, { threshold: 0.08 });
+  document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+})();
