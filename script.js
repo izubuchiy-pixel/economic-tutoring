@@ -10,7 +10,7 @@
   const navItems = [
     ["top", "トップ", "index.html"],
     ["pricing", "料金・サービス", "pricing.html"],
-    ["web", "Web学習環境", "web-learning.html"]
+    ["web", "伴走の仕組み", "web-learning.html"]
   ];
 
   const header = `
@@ -34,7 +34,7 @@
       <div class="shell footer-grid">
         <div class="footer-brand"><strong>${site.brand}</strong><p>大学生向け 経済学系専門科目のオンライン個別指導・学習管理</p></div>
         <nav class="footer-nav" aria-label="サイト案内">
-          <a href="index.html">トップ</a><a href="pricing.html">料金・サービス</a><a href="web-learning.html">Web学習環境</a>
+          <a href="index.html">トップ</a><a href="pricing.html">料金・サービス</a><a href="web-learning.html">伴走の仕組み</a>
           <a href="terms.html">利用案内・受講規約</a><a href="privacy.html">プライバシーポリシー</a><a href="tokusho.html">特定商取引法に基づく表記</a>
         </nav>
         <small>© 2026 ${site.brand}</small>
