@@ -173,6 +173,19 @@
 .companion-inline-cta p { margin: 0; color: var(--muted); font-size: .86rem; }
 .companion-inline-cta > div:last-child { display: grid; justify-items: start; gap: .85rem; }
 
+.option-example {
+  max-width: 48rem;
+  margin: 1.4rem auto 0;
+  padding: 1.15rem 1.35rem;
+  border-left: 3px solid var(--gold);
+  border-radius: .65rem;
+  background: var(--ivory);
+}
+.option-example strong { color: var(--navy); }
+.option-example p { margin: .35rem 0 0; color: var(--muted); }
+.screen-gallery-three { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 1.4rem; }
+.quiz-screen-block { max-width: 48rem; margin: 1.75rem auto 0; }
+
 @media (max-width: 900px) {
   .companion-spotlight-grid,
   .companion-hero-grid { grid-template-columns: 1fr; }
@@ -209,4 +222,6 @@
   .companion-facts { grid-template-columns: 1fr; }
   .companion-inline-cta { grid-template-columns: 1fr; }
   .companion-inline-cta > div:last-child { justify-items: stretch; }
+  .screen-gallery-three { grid-template-columns: 1fr; }
+  .option-example { margin-top: 1rem; padding: 1rem; }
 }

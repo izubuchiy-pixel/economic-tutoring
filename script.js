@@ -24,7 +24,7 @@
         <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav"><span></span><span></span><span></span></button>
         <nav class="nav" id="global-nav" aria-label="メインナビゲーション">
           ${navItems.map(([id, label, href]) => `<a href="${href}"${page === id ? ' aria-current="page"' : ""}>${label}</a>`).join("")}
-          <a class="nav-cta" href="${page === "legal" || page === "error" ? "index.html#contact" : "#contact"}">${site.cta.short}</a>
+          <a class="nav-cta" href="${page === "top" ? "#contact" : "index.html#contact"}">${site.cta.short}</a>
         </nav>
       </div>
     </header>`;
@@ -99,7 +99,7 @@
   });
 
   document.querySelectorAll("[data-web-plan-cards]").forEach((el) => {
-    el.innerHTML = ["testAddon", "full"].map((key) => card(key, true)).join("");
+    el.innerHTML = ["testAddon"].map((key) => card(key, true)).join("");
   });
 
   const legalPrices = document.querySelector("[data-legal-prices]");
