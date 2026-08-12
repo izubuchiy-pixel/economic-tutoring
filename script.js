@@ -41,6 +41,13 @@
       </div>
     </footer>`;
 
+  const inquirySubject = encodeURIComponent("【LP相談】初回相談・体験");
+  const inquiryBody = encodeURIComponent(`大学名・学部：
+相談したい科目：
+試験・課題の時期：
+現在困っていること：
+相談経路：LP`);
+
   const contact = `
     <section class="section contact" id="contact">
       <div class="shell contact-grid">
@@ -56,10 +63,11 @@
           <div class="contact-template" id="contact-template">大学名・学部：
 相談したい科目：
 試験・課題の時期：
-現在困っていること：</div>
+現在困っていること：
+相談経路：LP</div>
           <button class="button button-navy" type="button" data-copy-template>相談文をコピー</button>
           <a class="button button-gold" href="${site.instagram.url}" target="_blank" rel="noopener">Instagram DMを開く</a>
-          <div class="email-row"><a href="mailto:${site.email}">${site.email}</a><button type="button" data-copy-email>コピー</button></div>
+          <div class="email-row"><a href="mailto:${site.email}?subject=${inquirySubject}&body=${inquiryBody}">${site.email}</a><button type="button" data-copy-email>コピー</button></div>
           <p class="copy-status" aria-live="polite"></p>
         </div>
       </div>
