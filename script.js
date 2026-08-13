@@ -8,23 +8,25 @@
 
   const page = document.body.dataset.page || "top";
   const navItems = [
-    ["top", "トップ", "index.html"],
-    ["pricing", "料金・サービス", "pricing.html"],
-    ["web", "伴走の仕組み", "web-learning.html"]
+    ["top", "ホーム", "/"],
+    ["subjects", "対応科目", "/subjects.html"],
+    ["pricing", "料金・サービス", "/pricing.html"],
+    ["web", "伴走の仕組み", "/web-learning.html"]
   ];
+  const contactHref = page === "top" || page === "instagram" ? "#contact" : "/#contact";
 
   const header = `
     <a class="skip-link" href="#main">本文へ移動</a>
     <header class="site-header">
       <div class="shell header-inner">
-        <a class="brand" href="index.html" aria-label="economic_tutoring トップへ">
+        <a class="brand" href="/" aria-label="economic_tutoring ホームへ">
           <span class="brand-name">${site.brand}</span>
           <span class="brand-sub">UNIVERSITY SUBJECT SUPPORT</span>
         </a>
         <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav"><span></span><span></span><span></span></button>
         <nav class="nav" id="global-nav" aria-label="メインナビゲーション">
           ${navItems.map(([id, label, href]) => `<a href="${href}"${page === id ? ' aria-current="page"' : ""}>${label}</a>`).join("")}
-          <a class="nav-cta" href="${page === "top" ? "#contact" : "index.html#contact"}">${site.cta.short}</a>
+          <a class="nav-cta" href="${contactHref}">${site.cta.short}</a>
         </nav>
       </div>
     </header>`;
@@ -34,19 +36,20 @@
       <div class="shell footer-grid">
         <div class="footer-brand"><strong>${site.brand}</strong><p>大学生向け 経済学系専門科目のオンライン個別指導・学習管理</p></div>
         <nav class="footer-nav" aria-label="サイト案内">
-          <a href="index.html">トップ</a><a href="pricing.html">料金・サービス</a><a href="web-learning.html">伴走の仕組み</a>
-          <a href="terms.html">利用案内・受講規約</a><a href="privacy.html">プライバシーポリシー</a><a href="tokusho.html">特定商取引法に基づく表記</a>
+          <a href="/">ホーム</a><a href="/subjects.html">対応科目</a><a href="/pricing.html">料金・サービス</a><a href="/web-learning.html">伴走の仕組み</a>
+          <a href="/terms.html">利用案内・受講規約</a><a href="/privacy.html">プライバシーポリシー</a><a href="/tokusho.html">特定商取引法に基づく表記</a>
         </nav>
         <small>© 2026 ${site.brand}</small>
       </div>
     </footer>`;
 
-  const inquirySubject = encodeURIComponent("【LP相談】初回相談・体験");
+  const inquirySource = page === "instagram" ? "Instagram LP" : "公式サイト";
+  const inquirySubject = encodeURIComponent("【サイト相談】初回相談・体験");
   const inquiryBody = encodeURIComponent(`大学名・学部：
 相談したい科目：
 試験・課題の時期：
 現在困っていること：
-相談経路：LP`);
+相談経路：${inquirySource}`);
 
   const contact = `
     <section class="section contact" id="contact">
@@ -64,7 +67,7 @@
 相談したい科目：
 試験・課題の時期：
 現在困っていること：
-相談経路：LP</div>
+相談経路：${inquirySource}</div>
           <button class="button button-navy" type="button" data-copy-template>相談文をコピー</button>
           <a class="button button-gold" href="${site.instagram.url}" target="_blank" rel="noopener">Instagram DMを開く</a>
           <div class="email-row"><a href="mailto:${site.email}?subject=${inquirySubject}&body=${inquiryBody}">${site.email}</a><button type="button" data-copy-email>コピー</button></div>
