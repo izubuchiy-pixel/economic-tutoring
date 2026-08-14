@@ -276,6 +276,19 @@ img, svg { display: block; max-width: 100%; }
 .contact-card { background: var(--white); padding: 34px; box-shadow: var(--shadow); }
 .contact-card h3 { margin: 0; color: var(--navy); font-size: 21px; }
 .contact-card > p { color: var(--muted); font-size: 12px; }
+.contact-kicker { margin: 0 0 8px; color: var(--gold-dark) !important; font-size: 9px !important; font-weight: 900; letter-spacing: .18em; }
+.contact-form-points { display: grid; gap: 0; margin: 20px 0 16px; padding: 0; list-style: none; }
+.contact-form-points li { display: grid; align-items: center; gap: 13px; grid-template-columns: 34px 1fr; border-top: 1px solid var(--line); padding: 13px 0; }
+.contact-form-points li:last-child { border-bottom: 1px solid var(--line); }
+.contact-form-points li > span { display: grid; width: 30px; height: 30px; place-items: center; border-radius: 50%; background: var(--navy); color: var(--gold-light); font-size: 9px; font-weight: 900; }
+.contact-form-points strong, .contact-form-points small { display: block; }
+.contact-form-points strong { color: var(--navy); font-size: 12px; }
+.contact-form-points small { margin-top: 2px; color: var(--muted); font-size: 10px; line-height: 1.6; }
+.contact-form-button { min-height: 52px; }
+.contact-assurance { margin: 10px 0 0 !important; color: var(--navy) !important; font-size: 10px !important; font-weight: 800; text-align: center; }
+.contact-alternatives { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 5px; margin-top: 18px; border-top: 1px solid var(--line); padding-top: 15px; color: var(--muted); font-size: 10px; }
+.contact-alternatives p { width: 100%; margin: 0 0 2px; text-align: center; }
+.contact-alternatives a { color: var(--navy); font-weight: 850; text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px; }
 .contact-template { margin: 17px 0; background: var(--ivory); padding: 16px; color: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; white-space: pre-line; }
 .contact-card .button { width: 100%; margin-top: 9px; }
 .email-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 14px; border-top: 1px solid var(--line); padding-top: 14px; }

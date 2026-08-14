@@ -9,13 +9,14 @@ document.documentElement.classList.add("js");
   const priceText = (key) => `${yen(product(key).price)}円`;
 
   const page = document.body.dataset.page || "top";
+  const isInstagramPage = page === "instagram";
   const navItems = [
     ["top", "ホーム", "/"],
     ["subjects", "対応科目", "/subjects.html"],
     ["pricing", "料金・サービス", "/pricing.html"],
     ["web", "伴走の仕組み", "/web-learning.html"]
   ];
-  const contactHref = page === "top" || page === "instagram" ? "#contact" : "/#contact";
+  const contactHref = page === "top" || isInstagramPage ? "#contact" : "/#contact";
 
   const header = `
     <a class="skip-link" href="#main">本文へ移動</a>
@@ -45,7 +46,7 @@ document.documentElement.classList.add("js");
       </div>
     </footer>`;
 
-  const inquirySource = page === "instagram" ? "Instagram LP" : "公式サイト";
+  const inquirySource = isInstagramPage ? "Instagram LP" : "公式サイト";
   const inquirySubject = encodeURIComponent("【サイト相談】初回相談・体験");
   const inquiryBody = encodeURIComponent(`大学名・学部：
 相談したい科目：
@@ -53,7 +54,7 @@ document.documentElement.classList.add("js");
 現在困っていること：
 相談経路：${inquirySource}`);
 
-  const contact = `
+  const instagramContact = `
     <section class="section contact" id="contact">
       <div class="shell contact-grid">
         <div>
@@ -63,7 +64,7 @@ document.documentElement.classList.add("js");
           <div class="contact-facts"><span>オンライン</span><span>60分</span><span data-price="trial"></span></div>
         </div>
         <div class="contact-card">
-          <h3>Instagramまたはメールで相談</h3>
+          <h3>Instagram DMで相談</h3>
           <p>次の内容が分かる範囲でお知らせください。</p>
           <div class="contact-template" id="contact-template">大学名・学部：
 相談したい科目：
@@ -77,6 +78,38 @@ document.documentElement.classList.add("js");
         </div>
       </div>
     </section>`;
+
+  const officialContact = `
+    <section class="section contact" id="contact">
+      <div class="shell contact-grid">
+        <div>
+          <p class="section-label">CONTACT</p>
+          <h2>まずは60分で、<br>現在地と次の一手を整理。</h2>
+          <p>大学・学年、科目、試験時期、困っていることを分かる範囲で入力してください。相談時点で継続受講を決める必要はありません。</p>
+          <div class="contact-facts"><span>全国オンライン</span><span>60分</span><span data-price="trial"></span></div>
+        </div>
+        <div class="contact-card contact-card-form">
+          <p class="contact-kicker">OFFICIAL APPLICATION</p>
+          <h3>相談フォームから申し込む</h3>
+          <p>入力は2〜3分程度です。講義資料や答案の添付は求めません。</p>
+          <ul class="contact-form-points">
+            <li><span>01</span><div><strong>状況を入力</strong><small>大学・学年、科目、期限、困りごと</small></div></li>
+            <li><span>02</span><div><strong>内容を確認</strong><small>対応可否を確認し、事業用メールから連絡</small></div></li>
+            <li><span>03</span><div><strong>日程を調整</strong><small>双方で確認してから初回相談・体験を確定</small></div></li>
+          </ul>
+          <a class="button button-navy contact-form-button" href="${site.consultationForm.url}" target="_blank" rel="noopener">${site.consultationForm.label}</a>
+          <p class="contact-assurance">フォーム送信だけで契約・支払いは確定しません。</p>
+          <div class="contact-alternatives">
+            <p>入力前に短く相談したい方は</p>
+            <a href="${site.instagram.url}" target="_blank" rel="noopener">Instagram DM</a>
+            <span>または</span>
+            <a href="mailto:${site.email}?subject=${inquirySubject}&body=${inquiryBody}">メール</a>
+          </div>
+        </div>
+      </div>
+    </section>`;
+
+  const contact = isInstagramPage ? instagramContact : officialContact;
 
   document.querySelectorAll("[data-site-header]").forEach((el) => { el.outerHTML = header; });
   document.querySelectorAll("[data-site-footer]").forEach((el) => { el.outerHTML = footer; });

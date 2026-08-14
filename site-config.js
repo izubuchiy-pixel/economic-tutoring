@@ -5,6 +5,10 @@ window.ECONOMIC_TUTORING = {
     url: "https://www.instagram.com/economic_tutoring/"
   },
   email: "economic.tutoring.office@gmail.com",
+  consultationForm: {
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform",
+    label: "初回相談・体験をフォームから申し込む"
+  },
   cta: {
     primary: "60分3,000円で初回相談・体験を申し込む",
     short: "初回相談・体験"
