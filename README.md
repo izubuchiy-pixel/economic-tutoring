@@ -9,6 +9,9 @@
 - Instagram専用LP: https://economic-tutoring.pages.dev/instagram/
 - 料金・サービス: https://economic-tutoring.pages.dev/pricing.html
 - 受講者専用学習環境・確認小テスト: https://economic-tutoring.pages.dev/web-learning.html
+- 経済学部の数学ガイド: https://economic-tutoring.pages.dev/guides/economics-math-basics.html
+- 大学統計学の勉強順ガイド: https://economic-tutoring.pages.dev/guides/university-statistics-study-order.html
+- 計量経済学・回帰分析ガイド: https://economic-tutoring.pages.dev/guides/econometrics-regression-basics.html
 
 ## ページの役割
 
@@ -17,6 +20,9 @@
 - `instagram/index.html`: Instagramから訪れた人向けの相談獲得LP。検索結果には掲載しない
 - `pricing.html`: 単発3商品、月額伴走2プラン、確認小テストオプションの料金と提供範囲を比較する詳細ページ
 - `web-learning.html`: 標準の受講者専用学習環境と任意の確認小テストを、実画面と学習サイクルで説明するページ
+- `guides/economics-math-basics.html`: 経済学部で数学につまずいた学生向けに、科目別の復習順と例題を示す検索入口
+- `guides/university-statistics-study-order.html`: 記述統計から推定・検定までの接続を、確認問題と数値例で示す検索入口
+- `guides/econometrics-regression-basics.html`: 回帰係数・誤差項・標準誤差・因果解釈を分けて説明する検索入口
 - `terms.html`: 利用案内・受講規約
 - `privacy.html`: プライバシーポリシー
 - `tokusho.html`: 特定商取引法に基づく表記

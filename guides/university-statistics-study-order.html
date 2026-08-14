@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>大学の統計学がわからないときの勉強順｜economic_tutoring</title>
+  <meta name="description" content="大学の統計学がわからないときに、記述統計・確率・期待値と分散・標本分布・推定と検定をどの順番で復習するか、確認問題と数値例で解説します。">
+  <meta name="theme-color" content="#0b1f33">
+  <link rel="canonical" href="https://economic-tutoring.pages.dev/guides/university-statistics-study-order.html">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="economic_tutoring"><meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="大学の統計学がわからないときの勉強順"><meta property="og:description" content="公式暗記の前に、記述統計から推定・検定までのつながりを整理します。">
+  <meta property="og:url" content="https://economic-tutoring.pages.dev/guides/university-statistics-study-order.html"><meta property="og:image" content="https://economic-tutoring.pages.dev/og.png">
+  <meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css?v=24"><link rel="stylesheet" href="/enhancements.css?v=24">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"大学の統計学がわからないときの勉強順","description":"大学統計学のつまずきと、記述統計から推定・検定までの復習順を解説する学習ガイド","datePublished":"2026-08-14","dateModified":"2026-08-14","author":{"@type":"EducationalOrganization","name":"economic_tutoring"},"publisher":{"@type":"EducationalOrganization","name":"economic_tutoring"},"mainEntityOfPage":"https://economic-tutoring.pages.dev/guides/university-statistics-study-order.html","inLanguage":"ja"}</script>
+  <script src="/site-config.js?v=23"></script><script src="/script.js?v=23" defer></script>
+</head>
+<body data-page="subjects">
+  <div data-site-header></div>
+  <main id="main">
+    <article class="guide-article">
+      <header class="guide-hero">
+        <div class="shell guide-shell">
+          <div class="breadcrumbs"><a href="/">トップ</a><span>／</span><a href="/subjects.html#statistics">統計学</a><span>／</span><span>勉強する順番</span></div>
+          <p class="eyebrow">UNIVERSITY STATISTICS GUIDE</p>
+          <h1>大学の統計学がわからないとき、<br><em>何から勉強し直すか。</em></h1>
+          <p class="guide-lead">統計学は、平均や分散の計算、確率、確率分布、推定・検定が前後につながる科目です。今の講義が検定でも、標本分布の意味が曖昧なら、その一段前へ戻る方が早く理解できます。</p>
+          <div class="guide-meta"><span>対象：大学の統計学・統計学I／II</span><span>更新：2026年8月14日</span></div>
+        </div>
+      </header>
+
+      <div class="shell guide-shell guide-body">
+        <section class="guide-section">
+          <p class="section-label">QUICK DIAGNOSIS</p>
+          <h2>3問で、戻る地点の候補を確認。</h2>
+          <div class="guide-question-list">
+            <article><span>Q1</span><div><h3>変換後の標準偏差</h3><p>標準偏差が10の変数 X を Y = 2X + 3 と変換したとき、Y の標準偏差は？</p><details><summary>答えと確認点</summary><p>20です。定数3は散らばりを変えず、2倍すると分散は4倍、標準偏差は2倍になります。</p></details></div></article>
+            <article><span>Q2</span><div><h3>条件付き確率</h3><p>P(A∩B) と P(A｜B) を同じものとして扱っていませんか。</p><details><summary>答えと確認点</summary><p>P(A｜B) = P(A∩B) / P(B) です。Bが起きた世界に母集団を絞って考えます。</p></details></div></article>
+            <article><span>Q3</span><div><h3>標準偏差と標準誤差</h3><p>標本数を増やすと小さくなるのは、データの標準偏差と標本平均の標準誤差のどちら？</p><details><summary>答えと確認点</summary><p>標本平均の標準誤差です。母標準偏差を σ、標本数を n とすると σ/√n です。</p></details></div></article>
+          </div>
+        </section>
+
+        <section class="guide-section guide-section-tint">
+          <p class="section-label">STUDY ORDER</p>
+          <h2>公式ではなく、判断の階段を上る。</h2>
+          <div class="guide-ladder">
+            <article><span>01</span><div><strong>記述統計</strong><p>平均・分散・標準偏差・共分散・相関で、手元のデータを説明する。</p></div></article>
+            <article><span>02</span><div><strong>確率</strong><p>和事象、積事象、条件付き確率、独立を区別する。</p></div></article>
+            <article><span>03</span><div><strong>確率変数と分布</strong><p>期待値・分散を計算し、二項分布や正規分布を条件から選ぶ。</p></div></article>
+            <article><span>04</span><div><strong>標本分布</strong><p>データの分布と、統計量を繰り返し計算したときの分布を分ける。</p></div></article>
+            <article><span>05</span><div><strong>推定・検定</strong><p>母数、推定量、標準誤差、帰無仮説、有意水準を一つの流れで読む。</p></div></article>
+          </div>
+        </section>
+
+        <section class="guide-section">
+          <p class="section-label">NUMBER EXAMPLE</p>
+          <h2>例：標準偏差10、標本数25なら。</h2>
+          <div class="guide-formula" aria-label="標準誤差イコール10割るルート25イコール2">標本平均の標準誤差 = 10 / √25 = 2</div>
+          <div class="guide-compare">
+            <article><span>データの標準偏差</span><strong>10</strong><p>個々の観測値が平均からどの程度散らばるか。</p></article>
+            <article><span>標本平均の標準誤差</span><strong>2</strong><p>標本平均が母平均の周りでどの程度ばらつくか。</p></article>
+          </div>
+          <p class="guide-note">「nが増えるとデータそのものが均一になる」のではありません。同じ母集団から標本を取り直したとき、標本平均のばらつきが小さくなるという意味です。</p>
+        </section>
+
+        <section class="guide-section guide-section-navy">
+          <p class="section-label">BEFORE THE EXAM</p>
+          <h2>問題文を見たら、先に4点を特定。</h2>
+          <ul class="guide-checklist">
+            <li>対象は個々のデータか、標本平均・標本比率などの統計量か</li>
+            <li>母数の何を知りたいのか</li>
+            <li>使う分布と、その分布を使える条件は何か</li>
+            <li>求めた値を、元の問題に沿った日本語で説明できるか</li>
+          </ul>
+        </section>
+
+        <aside class="guide-related">
+          <p class="section-label">RELATED GUIDES</p>
+          <h2>次に読む</h2>
+          <div><a href="/guides/economics-math-basics.html"><strong>経済学部の数学についていけないとき</strong><span>前提数学の戻り方 →</span></a><a href="/guides/econometrics-regression-basics.html"><strong>計量経済学・回帰分析の最初の整理</strong><span>統計から回帰への接続 →</span></a></div>
+        </aside>
+      </div>
+    </article>
+    <div data-site-contact></div>
+  </main>
+  <div data-site-footer></div>
+</body>
+</html>

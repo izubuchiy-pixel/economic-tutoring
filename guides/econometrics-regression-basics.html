@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>計量経済学・回帰分析がわからないとき｜最初の勉強順｜economic_tutoring</title>
+  <meta name="description" content="計量経済学の回帰分析で、回帰係数・誤差項・残差・標準誤差・因果関係が混ざったときの整理方法と勉強順を、式と具体例で解説します。">
+  <meta name="theme-color" content="#0b1f33">
+  <link rel="canonical" href="https://economic-tutoring.pages.dev/guides/econometrics-regression-basics.html">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="economic_tutoring"><meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="計量経済学・回帰分析がわからないとき｜最初の勉強順"><meta property="og:description" content="係数の解釈、誤差項、残差、標準誤差、因果を順番に整理します。">
+  <meta property="og:url" content="https://economic-tutoring.pages.dev/guides/econometrics-regression-basics.html"><meta property="og:image" content="https://economic-tutoring.pages.dev/og.png">
+  <meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css?v=24"><link rel="stylesheet" href="/enhancements.css?v=24">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"計量経済学・回帰分析がわからないとき｜最初の勉強順","description":"回帰係数・誤差項・標準誤差・因果関係の区別と復習順を解説する学習ガイド","datePublished":"2026-08-14","dateModified":"2026-08-14","author":{"@type":"EducationalOrganization","name":"economic_tutoring"},"publisher":{"@type":"EducationalOrganization","name":"economic_tutoring"},"mainEntityOfPage":"https://economic-tutoring.pages.dev/guides/econometrics-regression-basics.html","inLanguage":"ja"}</script>
+  <script src="/site-config.js?v=23"></script><script src="/script.js?v=23" defer></script>
+</head>
+<body data-page="subjects">
+  <div data-site-header></div>
+  <main id="main">
+    <article class="guide-article">
+      <header class="guide-hero">
+        <div class="shell guide-shell">
+          <div class="breadcrumbs"><a href="/">トップ</a><span>／</span><a href="/subjects.html#econometrics">計量経済学</a><span>／</span><span>回帰分析の基礎</span></div>
+          <p class="eyebrow">ECONOMETRICS GUIDE</p>
+          <h1>回帰式は計算できても、<br><em>何を意味するか分からないとき。</em></h1>
+          <p class="guide-lead">計量経済学では、式を推定する計算と、その係数をどこまで解釈してよいかを分ける必要があります。まず変数・単位・誤差項を読み、次に推定値と不確実性、最後に因果解釈の条件を確認します。</p>
+          <div class="guide-meta"><span>対象：大学の計量経済学・回帰分析</span><span>更新：2026年8月14日</span></div>
+        </div>
+      </header>
+
+      <div class="shell guide-shell guide-body">
+        <section class="guide-section">
+          <p class="section-label">READ THE MODEL</p>
+          <h2>最初に、回帰式の役割を読む。</h2>
+          <div class="guide-formula" aria-label="yイコールベータゼロプラスベータワンxプラスu">y = β₀ + β₁x + u</div>
+          <div class="guide-term-grid">
+            <article><span>y</span><h3>被説明変数</h3><p>説明したい結果。例：試験得点、賃金、消費額。</p></article>
+            <article><span>x</span><h3>説明変数</h3><p>結果との関係を調べたい変数。例：学習時間。</p></article>
+            <article><span>β₁</span><h3>回帰係数</h3><p>xが1単位異なるときの、yの条件付き平均の差を表す。</p></article>
+            <article><span>u</span><h3>誤差項</h3><p>この式に明示されていない、yに影響する要因をまとめる。</p></article>
+          </div>
+        </section>
+
+        <section class="guide-section guide-section-tint">
+          <p class="section-label">INTERPRETATION ORDER</p>
+          <h2>係数は4段階で解釈する。</h2>
+          <div class="guide-ladder">
+            <article><span>01</span><div><strong>変数を特定</strong><p>何を何で説明している式か。対数やダミー変数になっていないか。</p></div></article>
+            <article><span>02</span><div><strong>単位を確認</strong><p>xが1時間、1万円、1％ポイントなど、何単位増えるのか。</p></div></article>
+            <article><span>03</span><div><strong>符号と大きさ</strong><p>正か負か、1単位の違いに対してyがどの程度違うのか。</p></div></article>
+            <article><span>04</span><div><strong>条件を限定</strong><p>単回帰か重回帰か、他の変数を一定として読むのか、因果と呼べる設計か。</p></div></article>
+          </div>
+        </section>
+
+        <section class="guide-section">
+          <p class="section-label">COMMON ERROR</p>
+          <h2>回帰係数が正でも、すぐ因果とは言えない。</h2>
+          <p>学習時間 x と試験得点 y に正の関係が見つかったとします。それだけで「学習時間を1時間増やせば、誰でも係数分だけ得点が上がる」とは断定できません。</p>
+          <div class="guide-causal-map">
+            <div><span>学習時間 x</span><strong>→</strong><span>試験得点 y</span></div>
+            <p>事前理解、授業出席、学習環境などが、学習時間と得点の両方に関係している可能性があります。これらが誤差項に入り、xとも相関すると、単純な係数にはその影響が混ざります。</p>
+          </div>
+          <p class="guide-note">試験答案では「正の相関がある」「他の条件を一定とした関連を表す」「因果解釈には追加の仮定が必要」を区別します。</p>
+        </section>
+
+        <section class="guide-section">
+          <p class="section-label">STUDY ORDER</p>
+          <h2>計量経済学をやり直す順番。</h2>
+          <div class="guide-route-list">
+            <article><span>STEP 1</span><strong>平均・分散・共分散・相関</strong><p>データの関係を何で測っているかを確認します。</p></article>
+            <article><span>STEP 2</span><strong>単回帰・OLS・残差</strong><p>予測値と実測値の差を使い、どの直線を選ぶかを理解します。</p></article>
+            <article><span>STEP 3</span><strong>標準誤差・t検定・信頼区間</strong><p>推定した係数にどの程度の不確実性があるかを判断します。</p></article>
+            <article><span>STEP 4</span><strong>重回帰・仮定・因果解釈</strong><p>他の変数を加えたときの係数と、解釈に必要な条件を確認します。</p></article>
+          </div>
+        </section>
+
+        <section class="guide-section guide-section-navy">
+          <p class="section-label">BEFORE THE EXAM</p>
+          <h2>回帰表では、数値を読む順番を固定。</h2>
+          <ul class="guide-checklist">
+            <li>被説明変数・説明変数・基準カテゴリーを特定する</li>
+            <li>係数の符号、大きさ、単位を文章にする</li>
+            <li>標準誤差、t値、p値、信頼区間のどれで判断するか確認する</li>
+            <li>統計的有意性と、経済的な大きさを分ける</li>
+            <li>因果と解釈するための仮定が示されているか確認する</li>
+          </ul>
+        </section>
+
+        <aside class="guide-related">
+          <p class="section-label">RELATED GUIDES</p>
+          <h2>前提から確認する</h2>
+          <div><a href="/guides/university-statistics-study-order.html"><strong>大学の統計学が分からないときの勉強順</strong><span>標準誤差までの前提 →</span></a><a href="/guides/economics-math-basics.html"><strong>経済学部の数学についていけないとき</strong><span>式変形・関数から確認 →</span></a></div>
+        </aside>
+      </div>
+    </article>
+    <div data-site-contact></div>
+  </main>
+  <div data-site-footer></div>
+</body>
+</html>
