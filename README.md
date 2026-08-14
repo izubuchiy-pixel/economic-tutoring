@@ -9,9 +9,9 @@
 - Instagram専用LP: https://economic-tutoring.pages.dev/instagram/
 - 料金・サービス: https://economic-tutoring.pages.dev/pricing.html
 - 受講者専用学習環境・確認小テスト: https://economic-tutoring.pages.dev/web-learning.html
-- 経済学部の数学ガイド: https://economic-tutoring.pages.dev/guides/economics-math-basics.html
-- 大学統計学の勉強順ガイド: https://economic-tutoring.pages.dev/guides/university-statistics-study-order.html
-- 計量経済学・回帰分析ガイド: https://economic-tutoring.pages.dev/guides/econometrics-regression-basics.html
+- 経済学部の数学ガイド: https://economic-tutoring.pages.dev/guides/economics-math-basics
+- 大学統計学の勉強順ガイド: https://economic-tutoring.pages.dev/guides/university-statistics-study-order
+- 計量経済学・回帰分析ガイド: https://economic-tutoring.pages.dev/guides/econometrics-regression-basics
 
 ## ページの役割
 
