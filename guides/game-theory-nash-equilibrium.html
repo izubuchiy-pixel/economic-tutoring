@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ナッシュ均衡の求め方｜最適反応と混合戦略のつまずき｜economic_tutoring</title>
+  <meta name="description" content="ゲーム理論のナッシュ均衡を、支配戦略との違い、最適反応、利得表、複数均衡、混合戦略まで、診断問題と具体例でわかりやすく解説します。">
+  <meta name="theme-color" content="#0b1f33">
+  <link rel="canonical" href="https://economic-tutoring.pages.dev/guides/game-theory-nash-equilibrium">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="economic_tutoring"><meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="ナッシュ均衡の求め方｜最適反応と混合戦略のつまずき"><meta property="og:description" content="利得の大きいマスを探すのではなく、相手の戦略ごとに最適反応を確認します。">
+  <meta property="og:url" content="https://economic-tutoring.pages.dev/guides/game-theory-nash-equilibrium"><meta property="og:image" content="https://economic-tutoring.pages.dev/og.png">
+  <meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css?v=24"><link rel="stylesheet" href="/enhancements.css?v=26">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"ナッシュ均衡の求め方｜最適反応と混合戦略のつまずき","description":"ゲーム理論の支配戦略、最適反応、純粋戦略ナッシュ均衡、混合戦略を利得表で解説する学習ガイド","datePublished":"2026-08-14","dateModified":"2026-08-14","author":{"@type":"EducationalOrganization","name":"economic_tutoring"},"publisher":{"@type":"EducationalOrganization","name":"economic_tutoring"},"mainEntityOfPage":"https://economic-tutoring.pages.dev/guides/game-theory-nash-equilibrium","inLanguage":"ja"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ナッシュ均衡とは何ですか？","acceptedAnswer":{"@type":"Answer","text":"相手の戦略を所与としたとき、どのプレイヤーも自分だけ戦略を変えて利得を高められない戦略の組です。全員にとって最も望ましい結果とは限りません。"}},{"@type":"Question","name":"支配戦略がないとナッシュ均衡もありませんか？","acceptedAnswer":{"@type":"Answer","text":"そうとは限りません。支配戦略は相手の選択にかかわらず最適な戦略ですが、ナッシュ均衡は相手の戦略に対する最適反応の組なので、支配戦略がなくても存在し得ます。"}},{"@type":"Question","name":"混合戦略の確率はどう求めますか？","acceptedAnswer":{"@type":"Answer","text":"相手が純粋戦略のどちらを選んでも同じ期待利得になるように、自分の混合確率を決めます。自分の無差別条件ではなく、相手の無差別条件から自分の確率を求めます。"}}]}]}</script>
+  <script src="/site-config.js?v=23"></script><script src="/script.js?v=23" defer></script>
+</head>
+<body data-page="subjects">
+  <div data-site-header></div>
+  <main id="main">
+    <article class="guide-article">
+      <header class="guide-hero">
+        <div class="shell guide-shell">
+          <div class="breadcrumbs"><a href="/">トップ</a><span>／</span><a href="/subjects.html#micro">ミクロ経済学</a><span>／</span><span>ゲーム理論</span></div>
+          <p class="eyebrow">MICROECONOMICS — GAME THEORY</p>
+          <h1>利得表は読めても、<br><em>均衡を選べない。</em></h1>
+          <p class="guide-lead">ナッシュ均衡は「合計利得が最大のマス」ではありません。相手の選択を一度固定し、自分だけ変えたくなるかを両方のプレイヤーについて確かめます。</p>
+          <div class="guide-meta"><span>対象：大学のミクロ経済学・ゲーム理論</span><span>読了目安：10分</span><span>更新：2026年8月14日</span></div>
+        </div>
+      </header>
+
+      <div class="shell guide-shell guide-body">
+        <section class="guide-section">
+          <p class="section-label">FOUR DIFFERENT IDEAS</p>
+          <h2>似ている言葉を、同じ判断にしない。</h2>
+          <div class="guide-check-grid">
+            <article><span>01</span><h3>最適反応</h3><p>相手の戦略を固定したとき、自分の利得が最大になる戦略です。</p></article>
+            <article><span>02</span><h3>支配戦略</h3><p>相手が何を選んでも、常に他の自分の戦略以上の利得を与えます。</p></article>
+            <article><span>03</span><h3>ナッシュ均衡</h3><p>全員の戦略が、互いに相手への最適反応になっている組です。</p></article>
+            <article><span>04</span><h3>パレート効率性</h3><p>誰も悪化させず誰かを改善できない状態。ナッシュ均衡とは別の基準です。</p></article>
+          </div>
+        </section>
+
+        <section class="guide-section guide-section-tint">
+          <p class="section-label">QUICK DIAGNOSIS</p>
+          <h2>3問で、利得表の読み方を確認する。</h2>
+          <div class="guide-question-list">
+            <article><span>Q1</span><div><h3>利得 (3,2) の順番</h3><p>行プレイヤーAと列プレイヤーBの利得は、それぞれどちら？</p><details><summary>答えと診断</summary><p>通常は左が行プレイヤーA、右が列プレイヤーBです。授業資料の規約を必ず確認します。</p></details></div></article>
+            <article><span>Q2</span><div><h3>ナッシュ均衡の判定</h3><p>あるマスからAだけ動く、Bだけ動く場合を別々に確認できる？</p><details><summary>答えと診断</summary><p>どちらも一人だけ変えて利得を上げられないならナッシュ均衡です。同時に二人が動く比較ではありません。</p></details></div></article>
+            <article><span>Q3</span><div><h3>支配戦略がない場合</h3><p>支配戦略がなければ、純粋戦略ナッシュ均衡もない？</p><details><summary>答えと診断</summary><p>いいえ。相手の戦略ごとに最適反応が変わっても、その交点として純粋戦略均衡が存在することがあります。</p></details></div></article>
+          </div>
+        </section>
+
+        <section class="guide-section">
+          <p class="section-label">PAYOFF MATRIX</p>
+          <h2>相手を固定して、縦と横を別々に比較する。</h2>
+          <p>Aが行、Bが列を選び、利得は(A,B)の順とします。</p>
+          <div class="guide-table-wrap"><table class="guide-payoff-table"><caption>AとBの利得表</caption><thead><tr><th rowspan="2">A ＼ B</th><th colspan="2">Bの戦略</th></tr><tr><th>左 L</th><th>右 R</th></tr></thead><tbody>
+            <tr><th>A：上 U</th><td class="is-equilibrium"><strong>(3, 2)</strong><small>A・Bとも最適反応</small></td><td><strong>(0, 0)</strong></td></tr>
+            <tr><th>A：下 D</th><td><strong>(1, 1)</strong></td><td class="is-equilibrium"><strong>(2, 3)</strong><small>A・Bとも最適反応</small></td></tr>
+          </tbody></table></div>
+          <div class="guide-steps">
+            <article><span>1</span><div><strong>BがLなら、AはU</strong><p>Aの利得はUで3、Dで1。したがってUが最適反応です。</p></div></article>
+            <article><span>2</span><div><strong>BがRなら、AはD</strong><p>Aの利得はUで0、Dで2。相手の選択によってAの最適反応は変わります。</p></div></article>
+            <article><span>3</span><div><strong>AがUならBはL、AがDならBはR</strong><p>Bの利得を列方向に比較します。最適反応が重なる(U,L)と(D,R)がナッシュ均衡です。</p></div></article>
+          </div>
+          <p class="guide-note">このゲームにはAにもBにも支配戦略がありません。それでも、純粋戦略ナッシュ均衡は2つあります。</p>
+        </section>
+
+        <section class="guide-section guide-section-tint">
+          <p class="section-label">THE DEFINITION</p>
+          <h2>均衡では「自分だけ変える」比較をする。</h2>
+          <div class="guide-formula guide-formula-stack" aria-label="ナッシュ均衡の条件">
+            <span>uA(sA*, sB*) ≥ uA(sA, sB*)　for all sA</span>
+            <span>uB(sA*, sB*) ≥ uB(sA*, sB)　for all sB</span>
+          </div>
+          <div class="guide-answer-pair"><p><span>誤った判定</span>合計利得が最大のマスを均衡とする。</p><p><span>正しい判定</span>相手の戦略を固定し、一人だけ変更して得をするプレイヤーがいないか調べる。</p></div>
+          <p class="guide-note">ナッシュ均衡は安定性の概念です。公平、協力的、社会的に最善という意味は含みません。</p>
+        </section>
+
+        <section class="guide-section">
+          <p class="section-label">WHEN THERE ARE TWO EQUILIBRIA</p>
+          <h2>均衡を見つけることと、どちらが実現するかは別問題。</h2>
+          <div class="guide-flow">
+            <article><span>均衡の列挙</span><strong>(U,L) と (D,R)</strong><p>最適反応の交点をすべて挙げます。</p></article><b aria-hidden="true">→</b>
+            <article><span>利得の比較</span><strong>Aは(U,L)、Bは(D,R)を好む</strong><p>プレイヤー間で望ましい均衡が違います。</p></article><b aria-hidden="true">→</b>
+            <article><span>追加情報</span><strong>慣習・事前合意・順序</strong><p>どの均衡が選ばれるかには、ゲーム外の調整要因が必要です。</p></article>
+          </div>
+          <p>「ナッシュ均衡をすべて求めよ」なら2つを答えます。「実現する均衡を説明せよ」なら、問題文にある先手、情報、繰り返し、調整装置を確認します。</p>
+        </section>
+
+        <section class="guide-section guide-section-tint">
+          <p class="section-label">MIXED STRATEGY</p>
+          <h2>混合確率は、相手を無差別にするように決める。</h2>
+          <p>AがUを選ぶ確率をp、BがLを選ぶ確率をqとします。Bが確率qで混ぜるとき、Aの各純粋戦略の期待利得は次の通りです。</p>
+          <div class="guide-formula guide-formula-stack"><span>EU<sub>A</sub>(U) = 3q</span><span>EU<sub>A</sub>(D) = q + 2(1−q) = 2−q</span><span>3q = 2−q　→　q = 1/2</span></div>
+          <p>同様に、Aが確率pで混ぜるときBを無差別にします。</p>
+          <div class="guide-formula guide-formula-stack"><span>EU<sub>B</sub>(L) = 2p + 1(1−p) = 1+p</span><span>EU<sub>B</sub>(R) = 3(1−p)</span><span>1+p = 3−3p　→　p = 1/2</span></div>
+          <div class="guide-answer-pair"><p><span>よくある取り違え</span>Aの確率pを、A自身の無差別条件から求める。</p><p><span>正しい対応</span>Aの確率pはBを無差別にする式、Bの確率qはAを無差別にする式から求める。</p></div>
+        </section>
+
+        <section class="guide-section">
+          <p class="section-label">COMMON ERRORS</p>
+          <h2>均衡の数より、比較の方向を間違えやすい。</h2>
+          <div class="guide-mistake-grid">
+            <article><span>誤り 1</span><h3>利得の左右を逆に読む</h3><p>最初に(A,B)か(B,A)かを確認し、Aは縦、Bは横に比較します。</p></article>
+            <article><span>誤り 2</span><h3>最大の数字だけに印を付ける</h3><p>相手の戦略ごとに条件付きで最大を探します。表全体の最大ではありません。</p></article>
+            <article><span>誤り 3</span><h3>均衡を1つ見つけて終える</h3><p>各行・各列を最後まで比較し、最適反応の交点をすべて列挙します。</p></article>
+            <article><span>誤り 4</span><h3>ナッシュ均衡＝協力解</h3><p>一人だけ逸脱しない状態であり、合計利得や公平性は別途確認します。</p></article>
+          </div>
+        </section>
+
+        <section class="guide-section guide-section-navy">
+          <p class="section-label">EXAM CHECKLIST</p><h2>利得表は、この順で読む。</h2>
+          <ol class="guide-checklist guide-checklist-numbered">
+            <li>プレイヤー、戦略、利得の順番を明記する</li>
+            <li>Bの各列を固定し、Aの最適反応を探す</li>
+            <li>Aの各行を固定し、Bの最適反応を探す</li>
+            <li>印が重なるマスをすべて列挙する</li>
+            <li>支配戦略の有無とナッシュ均衡を混同していないか</li>
+            <li>混合戦略なら、相手を無差別にする式を立てたか</li>
+          </ol>
+        </section>
+
+        <section class="guide-personal-help">
+          <p class="section-label">FROM NORMAL FORM TO EXTENSIVE FORM</p>
+          <h2>授業がゲームの木や部分ゲーム完全均衡へ進んでも対応します。</h2>
+          <p>同時手番、逐次手番、クールノー競争、シュタッケルベルク競争では、同じ「最適反応」でも表し方が変わります。実際の講義資料に合わせて、どの均衡概念を使う問題かから整理します。</p>
+          <a class="button button-navy" href="#contact" data-consultation-link>ゲーム理論の資料を相談する</a>
+        </section>
+
+        <section class="guide-sources">
+          <p class="section-label">SOURCES</p><h2>内容確認に使用した一次資料</h2>
+          <ul>
+            <li><a href="https://class.admin.tus.ac.jp/slResult/2026/japanese/syllabusHtml/SyllabusHtml.2026.9987A26.html" target="_blank" rel="noopener">東京理科大学 2026年度「ゲーム理論1」シラバス</a> — 最適反応、ナッシュ均衡、純粋・混合戦略の授業順。</li>
+            <li><a href="https://ocw.mit.edu/courses/14-126-game-theory-spring-2016/" target="_blank" rel="noopener">MIT OpenCourseWare: Game Theory</a> — 戦略形ゲームと均衡概念の公式教材。</li>
+          </ul>
+        </section>
+
+        <section class="guide-related">
+          <p class="section-label">RELATED GUIDES</p><h2>次につながる学習ガイド</h2>
+          <div><a href="/guides/micro-marginal-rate-substitution"><strong>一人の最適化へ戻り、限界代替率を確認する</strong><span>消費者理論を見る →</span></a><a href="/guides/economics-math-basics"><strong>利潤最大化と制約付き最適化の土台を確認する</strong><span>経済数学を見る →</span></a></div>
+        </section>
+      </div>
+    </article>
+    <div data-site-contact></div>
+  </main>
+  <div data-site-footer></div>
+</body>
+</html>

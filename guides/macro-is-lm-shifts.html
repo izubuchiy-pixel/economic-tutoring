@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>IS-LM分析がわからない｜曲線上の移動とシフトの違い｜economic_tutoring</title>
+  <meta name="description" content="IS-LM分析で混同しやすい曲線上の移動とシフト、財政政策・金融政策の効果を、診断問題、連立方程式、グラフ、数値例、試験での判断順で解説します。">
+  <meta name="theme-color" content="#0b1f33">
+  <link rel="canonical" href="https://economic-tutoring.pages.dev/guides/macro-is-lm-shifts">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="economic_tutoring"><meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="IS-LM分析がわからない｜曲線上の移動とシフトの違い"><meta property="og:description" content="曲線名の暗記ではなく、市場・外生変数・均衡の変化を一つの数値例で追います。">
+  <meta property="og:url" content="https://economic-tutoring.pages.dev/guides/macro-is-lm-shifts"><meta property="og:image" content="https://economic-tutoring.pages.dev/og.png">
+  <meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css?v=24"><link rel="stylesheet" href="/enhancements.css?v=26">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"IS-LM分析がわからない｜曲線上の移動とシフトの違い","description":"IS曲線・LM曲線の意味、曲線上の移動とシフト、財政政策・金融政策の効果を数値例で解説する学習ガイド","datePublished":"2026-08-14","dateModified":"2026-08-14","author":{"@type":"EducationalOrganization","name":"economic_tutoring"},"publisher":{"@type":"EducationalOrganization","name":"economic_tutoring"},"mainEntityOfPage":"https://economic-tutoring.pages.dev/guides/macro-is-lm-shifts","inLanguage":"ja"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"IS曲線は何を表しますか？","acceptedAnswer":{"@type":"Answer","text":"財市場を均衡させる産出量Yと利子率rの組合せです。利子率が下がると投資が増え、総需要と均衡産出量が増える標準的な設定では右下がりになります。"}},{"@type":"Question","name":"曲線上の移動とシフトはどう見分けますか？","acceptedAnswer":{"@type":"Answer","text":"縦軸・横軸の内生変数が変化しただけなら曲線上の移動、その曲線を作る外生変数やパラメータが変わったなら曲線自体のシフトです。"}},{"@type":"Question","name":"政府支出の増加で利子率も上がるのはなぜですか？","acceptedAnswer":{"@type":"Answer","text":"IS曲線が右へ動いて所得と貨幣需要が増えます。実質貨幣供給が一定なら、貨幣市場を均衡させるため利子率が上昇します。"}}]}]}</script>
+  <script src="/site-config.js?v=23"></script><script src="/script.js?v=23" defer></script>
+</head>
+<body data-page="subjects">
+  <div data-site-header></div>
+  <main id="main">
+    <article class="guide-article">
+      <header class="guide-hero">
+        <div class="shell guide-shell">
+          <div class="breadcrumbs"><a href="/">トップ</a><span>／</span><a href="/subjects.html#macro">マクロ経済学</a><span>／</span><span>IS-LM分析</span></div>
+          <p class="eyebrow">MACROECONOMICS — IS-LM</p>
+          <h1>曲線は描けても、<br><em>なぜ動くかで止まる。</em></h1>
+          <p class="guide-lead">IS-LM分析の難所は、右・左を暗記することではありません。「どの市場の均衡か」「何が外から変わったか」「新しい均衡までどの曲線上を動くか」を分けることです。</p>
+          <div class="guide-meta"><span>対象：大学のマクロ経済学・短期モデル</span><span>読了目安：10分</span><span>更新：2026年8月14日</span></div>
+        </div>
+      </header>
+
+      <div class="shell guide-shell guide-body">
+        <section class="guide-section">
+          <p class="section-label">WHERE STUDENTS GET STUCK</p>
+          <h2>同じグラフに、4種類の判断が重なっている。</h2>
+          <p>矢印だけを覚えると、問題文の条件が少し変わっただけで判断できなくなります。まず次の4点を別々に確認します。</p>
+          <div class="guide-check-grid">
+            <article><span>01</span><h3>市場</h3><p>ISは財市場、LMは貨幣市場。それぞれを均衡させる組合せです。</p></article>
+            <article><span>02</span><h3>軸</h3><p>横軸は産出量Y、縦軸は利子率r。軸の変数はモデル内部で同時に決まります。</p></article>
+            <article><span>03</span><h3>外生変数</h3><p>政府支出G、租税T、名目貨幣供給M、物価Pなどは曲線の位置を変えます。</p></article>
+            <article><span>04</span><h3>調整経路</h3><p>一方の曲線が動いた後、もう一方の曲線上を移動して新しい交点へ向かいます。</p></article>
+          </div>
+        </section>
+
+        <section class="guide-section guide-section-tint">
+          <p class="section-label">QUICK DIAGNOSIS</p>
+          <h2>3問で、暗記になっていないか確認する。</h2>
+          <div class="guide-question-list">
+            <article><span>Q1</span><div><h3>利子率rだけが低下した</h3><p>他の条件が一定なら、IS曲線はシフトする？ それとも曲線上を動く？</p><details><summary>答えと診断</summary><p>IS曲線上の移動です。rは縦軸の変数であり、曲線を作る外生条件そのものは変わっていません。</p></details></div></article>
+            <article><span>Q2</span><div><h3>政府支出Gが増えた</h3><p>同じ利子率の下で財市場の均衡産出量はどう変わる？</p><details><summary>答えと診断</summary><p>総需要が増えるため均衡産出量は増え、IS曲線が右へシフトします。</p></details></div></article>
+            <article><span>Q3</span><div><h3>名目貨幣供給Mが増えた</h3><p>物価Pが一定なら、LM曲線はどちらへ動く？</p><details><summary>答えと診断</summary><p>実質貨幣供給M/Pが増えるのでLM曲線は右、または下へシフトします。同じYなら均衡利子率が低くなるからです。</p></details></div></article>
+          </div>
+        </section>
+
+        <section class="guide-section">
+          <p class="section-label">READ THE TWO MARKETS</p>
+          <h2>ISとLMは「2本の線」ではなく、2つの均衡条件。</h2>
+          <div class="guide-compare">
+            <article><span>IS：財市場</span><strong>Y = C + I + G</strong><p>利子率が下がると投資Iが増え、需要と均衡産出量Yが増えるため、標準的には右下がりです。</p></article>
+            <article><span>LM：貨幣市場</span><strong>M/P = L(Y,r)</strong><p>所得Yが増えると取引のための貨幣需要が増えます。供給一定なら、均衡には高いrが必要なので右上がりです。</p></article>
+          </div>
+          <figure class="guide-visual">
+            <svg viewBox="0 0 720 390" role="img" aria-labelledby="islm-title islm-desc">
+              <title id="islm-title">IS曲線とLM曲線の交点</title><desc id="islm-desc">横軸を産出量Y、縦軸を利子率rとし、右下がりのIS曲線と右上がりのLM曲線が交わる図</desc>
+              <line x1="90" y1="325" x2="650" y2="325" class="axis"/><line x1="90" y1="325" x2="90" y2="55" class="axis"/>
+              <path d="M130 80 L610 300" class="curve curve-gold"/><path d="M135 300 L610 75" class="curve curve-navy"/>
+              <circle cx="370" cy="190" r="7" class="point"/><line x1="370" y1="190" x2="370" y2="325" class="guide-dash"/><line x1="90" y1="190" x2="370" y2="190" class="guide-dash"/>
+              <text x="615" y="306" class="svg-label gold">IS</text><text x="615" y="75" class="svg-label navy">LM</text><text x="380" y="178" class="svg-note">財市場と貨幣市場が同時に均衡</text>
+              <text x="655" y="347" class="svg-axis-label">産出量 Y</text><text x="42" y="52" class="svg-axis-label">利子率 r</text>
+            </svg>
+            <figcaption>交点は、財市場と貨幣市場を同時に均衡させるYとrです。</figcaption>
+          </figure>
+        </section>
+
+        <section class="guide-section guide-section-tint">
+          <p class="section-label">WORKED EXAMPLE</p>
+          <h2>連立方程式なら、政策前後を検算できる。</h2>
+          <p>単純化したIS式とLM式を次のように置きます。rはパーセント単位です。</p>
+          <div class="guide-formula guide-formula-stack" aria-label="IS式とLM式">
+            <span>IS：Y = 1000 − 20r</span>
+            <span>LM：Y = 500 + 30r</span>
+          </div>
+          <div class="guide-steps">
+            <article><span>1</span><div><strong>2つの式を等しくする</strong><p>1000 − 20r = 500 + 30r より、500 = 50r。</p></div></article>
+            <article><span>2</span><div><strong>利子率を求める</strong><p>r = 10。どちらかの式へ戻します。</p></div></article>
+            <article><span>3</span><div><strong>産出量を求めて検算する</strong><p>Y = 1000 − 20×10 = 800。LM式でも500 + 30×10 = 800です。</p></div></article>
+          </div>
+          <p class="guide-note">グラフで方向を判断し、連立方程式で大きさを確認します。どちらか一方だけでは、符号の取り違えや代入ミスを見落としやすくなります。</p>
+        </section>
+
+        <section class="guide-section">
+          <p class="section-label">SHIFT OR MOVEMENT</p>
+          <h2>「軸の変数か、曲線の外の条件か」で決める。</h2>
+          <div class="guide-table-wrap"><table class="guide-table"><thead><tr><th>変化</th><th>最初に起こること</th><th>曲線</th><th>新しい均衡まで</th></tr></thead><tbody>
+            <tr><td>政府支出G↑</td><td>同じrで総需要・Yが増える</td><td>ISが右へシフト</td><td>LM曲線上を右上へ移動</td></tr>
+            <tr><td>租税T↑</td><td>可処分所得と消費が減る</td><td>ISが左へシフト</td><td>LM曲線上を左下へ移動</td></tr>
+            <tr><td>貨幣供給M↑</td><td>同じYで均衡rが下がる</td><td>LMが右・下へシフト</td><td>IS曲線上を右下へ移動</td></tr>
+            <tr><td>物価P↑</td><td>実質貨幣供給M/Pが減る</td><td>LMが左・上へシフト</td><td>IS曲線上を左上へ移動</td></tr>
+          </tbody></table></div>
+          <div class="guide-answer-pair"><p><span>暗記だけの説明</span>政府支出が増えるとISは右、だからYが増える。</p><p><span>因果が伝わる説明</span>Gの増加で同じrの総需要が増えISが右へ動く。Y増加で貨幣需要が増えるため、LM上を右上へ移動してrも上がる。</p></div>
+        </section>
+
+        <section class="guide-section guide-section-tint">
+          <p class="section-label">POLICY WITH NUMBERS</p>
+          <h2>財政政策では、利子率上昇が需要増加の一部を打ち消す。</h2>
+          <p>政府支出の増加によってIS式が Y = 1100 − 20r へ変わったとします。LM式は変わりません。</p>
+          <div class="guide-formula guide-formula-stack"><span>1100 − 20r = 500 + 30r</span><span>r = 12、Y = 860</span></div>
+          <div class="guide-flow">
+            <article><span>政策前</span><strong>Y = 800、r = 10</strong><p>最初の同時均衡。</p></article><b aria-hidden="true">→</b>
+            <article><span>ISだけを見ると</span><strong>r = 10なら Y = 900</strong><p>需要増加は100。</p></article><b aria-hidden="true">→</b>
+            <article><span>新しい同時均衡</span><strong>Y = 860、r = 12</strong><p>r上昇で投資が減り、増加は60に縮む。</p></article>
+          </div>
+          <p class="guide-note">この差がクラウディング・アウトです。「財政政策は無効」という意味ではなく、この例では利子率上昇が産出量の増加を一部弱めています。</p>
+        </section>
+
+        <section class="guide-section">
+          <p class="section-label">COMMON ERRORS</p>
+          <h2>試験では、矢印より説明の途中が採点される。</h2>
+          <div class="guide-mistake-grid">
+            <article><span>誤り 1</span><h3>rが下がるからISが右へシフト</h3><p>rは軸の変数です。他条件一定ならIS曲線上を右下へ動きます。</p></article>
+            <article><span>誤り 2</span><h3>貨幣供給が増えるとISが動く</h3><p>最初に変わるのは貨幣市場です。LMが右・下へ動きます。</p></article>
+            <article><span>誤り 3</span><h3>右シフトならrも必ず上がる</h3><p>どの曲線が動くかでrの方向は違います。IS右ならr↑、LM右ならr↓が標準です。</p></article>
+            <article><span>誤り 4</span><h3>モデルの前提を書かない</h3><p>短期・物価固定・投資が利子率に反応する等、授業で置かれた前提を確認します。</p></article>
+          </div>
+        </section>
+
+        <section class="guide-section guide-section-navy">
+          <p class="section-label">EXAM CHECKLIST</p>
+          <h2>政策問題は、この順番なら崩れにくい。</h2>
+          <ol class="guide-checklist guide-checklist-numbered">
+            <li>変化したのはG・T・M・Pなどのどの条件か</li>
+            <li>最初に財市場と貨幣市場のどちらが変わるか</li>
+            <li>ISまたはLMはどちらへシフトするか</li>
+            <li>もう一方の曲線上をどちらへ移動するか</li>
+            <li>Yとrの最終方向を、式または言葉で検算したか</li>
+            <li>短期・物価固定など問題の前提を書いたか</li>
+          </ol>
+        </section>
+
+        <section class="guide-personal-help">
+          <p class="section-label">WHEN YOUR CLASS USES DIFFERENT NOTATION</p>
+          <h2>消費関数・投資関数の形が違っても、判断軸は同じです。</h2>
+          <p>授業によって、租税、期待、物価調整、海外部門まで含む式は異なります。実際の講義資料と試験範囲を確認し、どの式からIS・LMを導く授業なのかに合わせて整理します。</p>
+          <a class="button button-navy" href="#contact" data-consultation-link>マクロ経済学の資料を相談する</a>
+        </section>
+
+        <section class="guide-sources">
+          <p class="section-label">SOURCES</p><h2>内容確認に使用した一次資料</h2>
+          <ul>
+            <li><a href="https://www.dokkyo.ac.jp/research/syllabus/2026/02/02_23233_ja_JP.html" target="_blank" rel="noopener">獨協大学 2026年度シラバス：マクロ経済学</a> — AD-AS、IS-LM、政策効果の授業上の位置づけ。</li>
+            <li><a href="https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/" target="_blank" rel="noopener">MIT OpenCourseWare: Principles of Macroeconomics</a> — 短期マクロモデルと政策分析の公式教材。</li>
+          </ul>
+        </section>
+
+        <section class="guide-related">
+          <p class="section-label">RELATED GUIDES</p><h2>次につながる学習ガイド</h2>
+          <div><a href="/guides/macro-solow-steady-state"><strong>短期のIS-LMから、長期のソローモデルへ</strong><span>定常状態を確認する →</span></a><a href="/guides/matrix-linear-equations"><strong>2本の均衡式を、行列と連立方程式で読む</strong><span>行列の意味を確認する →</span></a></div>
+        </section>
+      </div>
+    </article>
+    <div data-site-contact></div>
+  </main>
+  <div data-site-footer></div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>行列と連立方程式がわからない｜逆行列・行列式の意味｜economic_tutoring</title>
+  <meta name="description" content="大学の経済数学でつまずきやすい行列と連立方程式を、係数行列、行列式、逆行列、解の存在、レオンチェフモデル・OLSとの接続まで数値例で解説します。">
+  <meta name="theme-color" content="#0b1f33">
+  <link rel="canonical" href="https://economic-tutoring.pages.dev/guides/matrix-linear-equations">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="economic_tutoring"><meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="行列と連立方程式がわからない｜逆行列・行列式の意味"><meta property="og:description" content="記号の掛け算ではなく、複数の式を一つの構造として読みます。">
+  <meta property="og:url" content="https://economic-tutoring.pages.dev/guides/matrix-linear-equations"><meta property="og:image" content="https://economic-tutoring.pages.dev/og.png">
+  <meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css?v=24"><link rel="stylesheet" href="/enhancements.css?v=26">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"行列と連立方程式がわからない｜逆行列・行列式の意味","description":"行列、行列式、逆行列、連立一次方程式と経済学での使い道を数値例で解説する学習ガイド","datePublished":"2026-08-14","dateModified":"2026-08-14","author":{"@type":"EducationalOrganization","name":"economic_tutoring"},"publisher":{"@type":"EducationalOrganization","name":"economic_tutoring"},"mainEntityOfPage":"https://economic-tutoring.pages.dev/guides/matrix-linear-equations","inLanguage":"ja"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"行列は経済学で何に使いますか？","acceptedAnswer":{"@type":"Answer","text":"複数の市場や産業、観測データの関係をまとめて表すために使います。産業連関分析のレオンチェフモデルや、計量経済学の最小二乗法が代表例です。"}},{"@type":"Question","name":"行列式が0だと逆行列がないのはなぜですか？","acceptedAnswer":{"@type":"Answer","text":"式同士が独立でなく、異なる未知数の組を一つに特定できないからです。2本の直線なら、平行で交わらないか、同じ直線で交点が無数にある状態に対応します。"}},{"@type":"Question","name":"逆行列で解くときの順番は？","acceptedAnswer":{"@type":"Answer","text":"連立方程式をAx=bと書き、det Aが0でないことを確認してから、両辺の左からAの逆行列を掛けてx=Aの逆行列bとします。掛ける順番は変えられません。"}}]}]}</script>
+  <script src="/site-config.js?v=23"></script><script src="/script.js?v=23" defer></script>
+</head>
+<body data-page="subjects">
+  <div data-site-header></div>
+  <main id="main">
+    <article class="guide-article">
+      <header class="guide-hero"><div class="shell guide-shell">
+        <div class="breadcrumbs"><a href="/">トップ</a><span>／</span><a href="/subjects.html#mathematics">経済数学</a><span>／</span><span>行列</span></div>
+        <p class="eyebrow">ECONOMIC MATHEMATICS — MATRIX</p>
+        <h1>計算手順は追えても、<br><em>何をまとめた式かわからない。</em></h1>
+        <p class="guide-lead">行列は数字を四角く並べる技術ではありません。複数の方程式を一つの写像として読み、「解が一つに決まる条件」まで確認すると、逆行列の公式が経済学の道具になります。</p>
+        <div class="guide-meta"><span>対象：大学の経済数学・線形代数</span><span>読了目安：10分</span><span>更新：2026年8月14日</span></div>
+      </div></header>
+
+      <div class="shell guide-shell guide-body">
+        <section class="guide-section"><p class="section-label">FOUR LAYERS</p><h2>行列問題は、4つの役割を分ける。</h2>
+          <div class="guide-check-grid">
+            <article><span>01</span><h3>未知数ベクトル</h3><p>xとyなど、同時に求めたい量を縦に並べます。</p></article>
+            <article><span>02</span><h3>係数行列</h3><p>各式で未知数が何倍されるかを、式の順番どおりに並べます。</p></article>
+            <article><span>03</span><h3>定数ベクトル</h3><p>各方程式の右辺を同じ順番で縦に並べます。</p></article>
+            <article><span>04</span><h3>可逆性</h3><p>式が独立で、未知数が一意に定まるかを行列式で確認します。</p></article>
+          </div>
+        </section>
+
+        <section class="guide-section guide-section-tint"><p class="section-label">QUICK DIAGNOSIS</p><h2>3問で、記号と意味がつながっているか確認する。</h2>
+          <div class="guide-question-list">
+            <article><span>Q1</span><div><h3>積Axの1行目</h3><p>Aの1行目が(2,1)、xが(x,y)なら、何を表す？</p><details><summary>答えと診断</summary><p>2x+yです。「Aの行」と「xの列」の内積が、対応する方程式の左辺になります。</p></details></div></article>
+            <article><span>Q2</span><div><h3>det A = 0</h3><p>このとき、逆行列の公式を使ってよい？</p><details><summary>答えと診断</summary><p>使えません。1/det Aが定義できず、連立方程式の解も一つには決まりません。</p></details></div></article>
+            <article><span>Q3</span><div><h3>Aの逆行列を掛ける位置</h3><p>Ax=bから、右側にAの逆行列を掛けてもよい？</p><details><summary>答えと診断</summary><p>一般にはいけません。行列の積は順序を交換できないため、両辺の左から掛けてA<sup>−1</sup>Ax=A<sup>−1</sup>bとします。</p></details></div></article>
+          </div>
+        </section>
+
+        <section class="guide-section"><p class="section-label">FROM EQUATIONS TO A MATRIX</p><h2>2本の式を、Ax = bという一文にする。</h2>
+          <div class="guide-formula guide-formula-stack"><span>2x + y = 8</span><span>x + 3y = 9</span></div>
+          <div class="matrix-expression" role="img" aria-label="係数行列、未知数ベクトル、定数ベクトルによる行列表現">
+            <div><span class="matrix-caption">係数 A</span><span class="matrix-box"><i>2</i><i>1</i><i>1</i><i>3</i></span></div><b>×</b>
+            <div><span class="matrix-caption">未知数 x</span><span class="matrix-box matrix-vector"><i>x</i><i>y</i></span></div><b>=</b>
+            <div><span class="matrix-caption">定数 b</span><span class="matrix-box matrix-vector"><i>8</i><i>9</i></span></div>
+          </div>
+          <p class="guide-note">行列の大きさは Aが2×2、未知数ベクトルが2×1なので、積Axは2×1です。計算前に「内側の次元が一致するか」を確認します。</p>
+        </section>
+
+        <section class="guide-section guide-section-tint"><p class="section-label">WORKED EXAMPLE</p><h2>行列式で確認してから、逆行列を使う。</h2>
+          <div class="guide-steps">
+            <article><span>1</span><div><strong>行列式を求める</strong><p>det A = 2×3 − 1×1 = 5。0ではないので逆行列が存在します。</p></div></article>
+            <article><span>2</span><div><strong>逆行列を作る</strong><p>A<sup>−1</sup> = (1/5) [[3,−1],[−1,2]]。対角を入れ替え、非対角の符号を変えます。</p></div></article>
+            <article><span>3</span><div><strong>bに左から掛ける</strong><p>x = A<sup>−1</sup>b = (1/5)(15,10)<sup>T</sup> = (3,2)<sup>T</sup>。</p></div></article>
+            <article><span>4</span><div><strong>元の式へ戻して検算</strong><p>2×3+2=8、3+3×2=9。両方の式を満たします。</p></div></article>
+          </div>
+          <div class="guide-formula guide-formula-stack"><span>A<sup>−1</sup> = 1/5 × [[3, −1], [−1, 2]]</span><span>(x, y) = (3, 2)</span></div>
+        </section>
+
+        <section class="guide-section"><p class="section-label">WHAT THE DETERMINANT TELLS YOU</p><h2>det A = 0は、単なる計算禁止ではない。</h2>
+          <div class="guide-answer-pair">
+            <p><span>det A ≠ 0</span>2本の直線が1点で交わる。式は独立で、解は一意に決まる。</p>
+            <p><span>det A = 0</span>直線が平行、または一致する。解がないか、無数にあり、一意には決まらない。</p>
+          </div>
+          <p>たとえば x+y=3 と 2x+2y=6 は同じ条件を2回書いています。係数行列の2行目が1行目の2倍なので det A=0となり、x+y=3上のすべての点が解です。</p>
+        </section>
+
+        <section class="guide-section guide-section-tint"><p class="section-label">WHY ECONOMICS USES MATRICES</p><h2>変数が増えても、構造を同じ形で扱える。</h2>
+          <div class="guide-compare">
+            <article><span>産業連関分析</span><strong>(I − A)x = d</strong><p>各産業の中間投入係数Aと最終需要dから、必要な総生産xをまとめて求めます。</p></article>
+            <article><span>最小二乗法</span><strong>β̂ = (X<sup>T</sup>X)<sup>−1</sup>X<sup>T</sup>y</strong><p>複数の説明変数と観測を行列Xにまとめ、回帰係数を同時に求めます。</p></article>
+          </div>
+          <p class="guide-note">公式を丸暗記する前に、行が何を表し、列が何を表すかを言葉にします。転置や次元のミスを大きく減らせます。</p>
+        </section>
+
+        <section class="guide-section"><p class="section-label">COMMON ERRORS</p><h2>答えが出ても、行列として成立していないことがある。</h2>
+          <div class="guide-mistake-grid">
+            <article><span>誤り 1</span><h3>係数の順番を変える</h3><p>各行でx,yの順を統一し、右辺も方程式の順にそろえます。</p></article>
+            <article><span>誤り 2</span><h3>det Aを確認しない</h3><p>逆行列の前に0でないかを確認し、解の存在と一意性を判断します。</p></article>
+            <article><span>誤り 3</span><h3>掛け算の順序を交換する</h3><p>一般にAB≠BAです。逆行列はAを打ち消せる側から掛けます。</p></article>
+            <article><span>誤り 4</span><h3>逆行列を求めて終える</h3><p>元の2本の式へ代入し、両方を満たすかまで検算します。</p></article>
+          </div>
+        </section>
+
+        <section class="guide-section guide-section-navy"><p class="section-label">EXAM CHECKLIST</p><h2>連立方程式は、この順番で崩さない。</h2>
+          <ol class="guide-checklist guide-checklist-numbered"><li>未知数と方程式の順番を固定する</li><li>行列の大きさと積の次元を確認する</li><li>det Aを計算し、逆行列の存在を確認する</li><li>両辺の左からA<sup>−1</sup>を掛ける</li><li>行列積を行×列で計算する</li><li>元の全方程式へ代入して検算する</li></ol>
+        </section>
+
+        <section class="guide-personal-help"><p class="section-label">WHEN MATRICES APPEAR INSIDE ECONOMICS</p><h2>線形代数だけでなく、使われる経済モデルから戻って説明します。</h2><p>産業連関、最小二乗法、連立均衡モデルでは、同じ行列でも行と列の意味が違います。講義資料の記号に合わせ、次元、転置、逆行列が何をしているかを一つずつ整理します。</p><a class="button button-navy" href="#contact" data-consultation-link>行列を使う授業資料を相談する</a></section>
+
+        <section class="guide-sources"><p class="section-label">SOURCES</p><h2>内容確認に使用した一次資料</h2><ul>
+          <li><a href="https://www.dokkyo.ac.jp/research/syllabus/2026/02/02_21569_ja_JP.html" target="_blank" rel="noopener">獨協大学 2026年度シラバス：経済数学・統計関連科目</a> — 行列、逆行列と回帰分析の学習上の接続。</li>
+          <li><a href="https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/" target="_blank" rel="noopener">MIT OpenCourseWare: Linear Algebra</a> — 連立方程式、行列、逆行列の公式教材。</li>
+        </ul></section>
+
+        <section class="guide-related"><p class="section-label">RELATED GUIDES</p><h2>次につながる学習ガイド</h2><div><a href="/guides/econometrics-regression-basics"><strong>回帰式のXとβを、意味までつないで読む</strong><span>計量経済学を見る →</span></a><a href="/guides/macro-is-lm-shifts"><strong>2本の均衡式をIS-LM分析で使う</strong><span>短期マクロを見る →</span></a></div></section>
+      </div>
+    </article>
+    <div data-site-contact></div>
+  </main>
+  <div data-site-footer></div>
+</body>
+</html>
