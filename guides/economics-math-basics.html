@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>経済学部の数学についていけないとき｜復習する順番｜economic_tutoring</title>
-  <meta name="description" content="経済学部で使う微分・偏微分・指数対数・行列が分からないときの復習順を、科目別のつながりと簡単な例題で解説します。大学の経済数学・ミクロ・統計・計量経済学に対応。">
+  <title>微分はできるのに経済数学が解けない｜偏微分・最適化のつまずき｜economic_tutoring</title>
+  <meta name="description" content="経済学部の数学で、微分はできるのに利潤最大化・偏微分・ラグランジュ未定乗数法が解けない理由を、診断問題、直感、具体例、試験での判断順で解説します。">
   <meta name="theme-color" content="#0b1f33">
   <link rel="canonical" href="https://economic-tutoring.pages.dev/guides/economics-math-basics">
   <meta property="og:type" content="article"><meta property="og:site_name" content="economic_tutoring"><meta property="og:locale" content="ja_JP">
-  <meta property="og:title" content="経済学部の数学についていけないとき｜復習する順番"><meta property="og:description" content="微分だけをやり直す前に、どの接続で止まっているかを確認。科目別の復習順と例題を解説します。">
+  <meta property="og:title" content="微分はできるのに経済数学が解けない｜偏微分・最適化のつまずき"><meta property="og:description" content="公式ではなく、選択変数・限界・偏微分・制約の接続から解き直します。">
   <meta property="og:url" content="https://economic-tutoring.pages.dev/guides/economics-math-basics"><meta property="og:image" content="https://economic-tutoring.pages.dev/og.png">
   <meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/styles.css?v=24"><link rel="stylesheet" href="/enhancements.css?v=24">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"経済学部の数学についていけないとき｜復習する順番","description":"経済学部で使う数学のつまずき方と、科目別の復習順を解説する学習ガイド","datePublished":"2026-08-14","dateModified":"2026-08-14","author":{"@type":"EducationalOrganization","name":"economic_tutoring"},"publisher":{"@type":"EducationalOrganization","name":"economic_tutoring"},"mainEntityOfPage":"https://economic-tutoring.pages.dev/guides/economics-math-basics","inLanguage":"ja"}</script>
+  <link rel="stylesheet" href="/styles.css?v=24"><link rel="stylesheet" href="/enhancements.css?v=25">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"微分はできるのに経済数学が解けない｜偏微分・最適化のつまずき","description":"経済学部で使う微分・偏微分・最適化・ラグランジュ未定乗数法のつまずきを具体例で解説する学習ガイド","datePublished":"2026-08-14","dateModified":"2026-08-14","author":{"@type":"EducationalOrganization","name":"economic_tutoring"},"publisher":{"@type":"EducationalOrganization","name":"economic_tutoring"},"mainEntityOfPage":"https://economic-tutoring.pages.dev/guides/economics-math-basics","inLanguage":"ja"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"なぜ最大化問題で一階微分を0にするのですか？","acceptedAnswer":{"@type":"Answer","text":"選択変数を少し増減できる内点では、最大点の傾きが0になるからです。ただし端点や制約がある場合は、一階条件だけで結論にせず候補を比較します。"}},{"@type":"Question","name":"偏微分では何を固定するのですか？","acceptedAnswer":{"@type":"Answer","text":"注目している変数以外を一時的に固定します。たとえばU(x,y)=xyをxで偏微分するときはyを定数として扱い、答えはyです。"}},{"@type":"Question","name":"ラグランジュ未定乗数法は何をしているのですか？","acceptedAnswer":{"@type":"Answer","text":"制約を守りながら目的関数を改善できなくなる接点を、目的関数と制約の傾きがそろう条件として式にしています。"}}]}]}</script>
   <script src="/site-config.js?v=23"></script><script src="/script.js?v=23" defer></script>
 </head>
 <body data-page="subjects">
@@ -22,64 +22,119 @@
       <header class="guide-hero">
         <div class="shell guide-shell">
           <div class="breadcrumbs"><a href="/">トップ</a><span>／</span><a href="/subjects.html">対応科目</a><span>／</span><span>経済学部の数学</span></div>
-          <p class="eyebrow">ECONOMICS MATH GUIDE</p>
-          <h1>経済学部の数学についていけないとき、<br><em>どこから復習するか。</em></h1>
-          <p class="guide-lead">「微分が苦手」と感じていても、実際には分数式の整理、関数とグラフ、指数・対数との接続で止まっていることがあります。科目名から一律に戻るのではなく、講義で必要な地点までの経路を確認します。</p>
-          <div class="guide-meta"><span>対象：大学の経済数学・ミクロ・マクロ・統計・計量</span><span>更新：2026年8月14日</span></div>
+          <p class="eyebrow">ECONOMICS MATH — OPTIMIZATION</p>
+          <h1>微分はできるのに、<br><em>最適化で止まる理由。</em></h1>
+          <p class="guide-lead">経済数学で難しいのは、公式そのものより「誰が、何を選び、何を固定し、どの条件の中で最大化するか」を式へつなぐ部分です。利潤最大化から偏微分、制約付き最適化までを、同じ判断順で整理します。</p>
+          <div class="guide-meta"><span>対象：大学の経済数学・ミクロ経済学</span><span>読了目安：9分</span><span>更新：2026年8月14日</span></div>
         </div>
       </header>
 
       <div class="shell guide-shell guide-body">
         <section class="guide-section">
-          <p class="section-label">30-SECOND CHECK</p>
-          <h2>まず「どの操作で止まるか」を分ける。</h2>
-          <p>次のうち、説明を見ずに途中式まで書けない項目が、復習地点の候補です。全部を最初からやり直す必要はありません。</p>
+          <p class="section-label">WHERE STUDENTS GET STUCK</p>
+          <h2>計算の前にある「4つの接続」で止まりやすい。</h2>
+          <p>微分公式を覚えていても、次の4点が曖昧だと経済学の問題として解けません。全部を高校数学からやり直すのではなく、止まった接続だけを戻ります。</p>
           <div class="guide-check-grid">
-            <article><span>01</span><h3>式を整理する</h3><p>分数、平方根、指数法則を使い、同じ形へ変形できる。</p></article>
-            <article><span>02</span><h3>関数を読む</h3><p>傾き、切片、増減とグラフの形を対応させられる。</p></article>
-            <article><span>03</span><h3>微分の意味を言う</h3><p>公式だけでなく、限界的な変化として説明できる。</p></article>
-            <article><span>04</span><h3>条件を式にする</h3><p>予算制約や費用、確率の条件を数式へ置き換えられる。</p></article>
+            <article><span>01</span><h3>選択変数</h3><p>企業が選ぶのは生産量か価格か。消費者が選ぶのは財の組合せか。最初に主役を決めます。</p></article>
+            <article><span>02</span><h3>限界の意味</h3><p>導関数は「もう1単位増やしたとき、目的がどちらへ動くか」。公式と経済語を往復します。</p></article>
+            <article><span>03</span><h3>固定するもの</h3><p>偏微分では、他の数量や価格を一時的に固定します。何を固定したかで答えの意味が変わります。</p></article>
+            <article><span>04</span><h3>制約</h3><p>予算や技術は、好きな点を選べないという境界です。目的関数の一部ではなく、選べる範囲を決めます。</p></article>
           </div>
         </section>
 
         <section class="guide-section guide-section-tint">
-          <p class="section-label">STUDY ORDER</p>
-          <h2>科目ごとに、必要な数学の順番は違う。</h2>
-          <div class="guide-route-list">
-            <article><span>ミクロ経済学</span><strong>関数とグラフ → 微分・偏微分 → 最適化 → 制約付き最適化</strong><p>限界効用や限界費用を、導関数の計算と経済学的な意味の両方から確認します。</p></article>
-            <article><span>マクロ経済学</span><strong>比率・成長率 → 指数・対数 → モデルの式変形 → グラフ</strong><p>変数が増減したとき、均衡や成長率がどう変わるかを式と図でつなぎます。</p></article>
-            <article><span>統計・計量経済学</span><strong>代数 → 確率 → 期待値・分散 → 推定 → 回帰</strong><p>計算公式へ進む前に、何が確率変数で、何を推定しているかを分けます。</p></article>
+          <p class="section-label">QUICK DIAGNOSIS</p>
+          <h2>3問で、戻る場所を確かめる。</h2>
+          <div class="guide-question-list">
+            <article><span>Q1</span><div><h3>微分計算</h3><p>π(q) = 10q − q² − 16 を q で微分すると？</p><details><summary>答えと診断</summary><p>π′(q) = 10 − 2q。ここで止まるなら、べき乗・定数・和の微分を先に確認します。</p></details></div></article>
+            <article><span>Q2</span><div><h3>偏微分</h3><p>U(x,y) = xy を x で偏微分すると？ そのとき何を固定する？</p><details><summary>答えと診断</summary><p>∂U/∂x = y。yを定数として固定します。答えだけでなく「yを固定」と言えることが大切です。</p></details></div></article>
+            <article><span>Q3</span><div><h3>制約の役割</h3><p>max U(x,y) = xy、制約 2x + y = 12 の「2x + y = 12」は何を決める？</p><details><summary>答えと診断</summary><p>予算内で選べる(x,y)の組合せです。効用へ足す費用ではなく、実行可能な範囲を限定します。</p></details></div></article>
           </div>
         </section>
 
         <section class="guide-section">
-          <p class="section-label">WORKED EXAMPLE</p>
-          <h2>例：利潤最大化で、本当に必要なこと。</h2>
-          <p>ある企業の利潤が次で表されるとします。</p>
+          <p class="section-label">BRIDGE 1 — ONE VARIABLE</p>
+          <h2>なぜ「微分して0」が最大化になるのか。</h2>
+          <p>企業の利潤を π(q) = 10q − q² − 16 とします。企業が選ぶのは生産量 q です。</p>
           <div class="guide-formula" aria-label="利潤パイ括弧q括弧イコール10qマイナスq二乗マイナス16">π(q) = 10q − q² − 16</div>
-          <div class="guide-steps">
-            <article><span>1</span><div><strong>目的を確認</strong><p>生産量 <i>q</i> を選び、利潤 π を最大にする問題です。</p></div></article>
-            <article><span>2</span><div><strong>一階条件</strong><p>π′(q) = 10 − 2q = 0 から、候補は q = 5。</p></div></article>
-            <article><span>3</span><div><strong>最大か確認</strong><p>π″(q) = −2 &lt; 0 なので、q = 5 で極大になります。</p></div></article>
+          <div class="guide-flow" aria-label="限界利潤を使った最大化の判断">
+            <article><span>q &lt; 5</span><strong>π′(q) &gt; 0</strong><p>少し増産すると利潤が増える。</p></article>
+            <b aria-hidden="true">→</b>
+            <article><span>q = 5</span><strong>π′(q) = 0</strong><p>増減どちらでも改善しない候補。</p></article>
+            <b aria-hidden="true">→</b>
+            <article><span>q &gt; 5</span><strong>π′(q) &lt; 0</strong><p>さらに増産すると利潤が減る。</p></article>
           </div>
-          <p class="guide-note">ここで詰まる原因は、微分公式だけとは限りません。「何を選ぶ問題か」「0に置く理由」「二階微分で何を確認するか」のどこが曖昧かを切り分けます。</p>
+          <div class="guide-steps">
+            <article><span>1</span><div><strong>一階条件で候補を出す</strong><p>π′(q) = 10 − 2q = 0 より q = 5。</p></div></article>
+            <article><span>2</span><div><strong>最大かを確認する</strong><p>π″(q) = −2 &lt; 0。グラフは山型（上に凸）なので q = 5 は最大点です。</p></div></article>
+            <article><span>3</span><div><strong>経済語へ戻す</strong><p>π′(q) = MR − MC なので、q = 5では限界収入と限界費用が等しくなります。</p></div></article>
+          </div>
+          <div class="guide-answer-pair"><p><span>よくある答案</span>微分して0だから q = 5。</p><p><span>伝わる答案</span>選択変数はq。内点の一階条件からq=5を得て、二階微分が負なので利潤を最大化する。</p></div>
+          <p class="guide-note">「微分＝0」は候補を出す条件です。q ≥ 0のような範囲があるときは端点も確認します。一階条件だけを書いて終わらないことが重要です。</p>
+        </section>
+
+        <section class="guide-section guide-section-tint">
+          <p class="section-label">BRIDGE 2 — CONSTRAINT</p>
+          <h2>ラグランジュ法は、制約と目的が接する点を探す。</h2>
+          <p>効用 U(x,y) = xy を、予算 2x + y = 12 の中で最大化します。xの価格は2、yの価格は1です。</p>
+          <div class="guide-formula guide-formula-stack" aria-label="ラグランジュ関数と一階条件">
+            <span>ℒ = xy + λ(12 − 2x − y)</span>
+            <span>∂ℒ/∂x = y − 2λ = 0</span>
+            <span>∂ℒ/∂y = x − λ = 0</span>
+            <span>∂ℒ/∂λ = 12 − 2x − y = 0</span>
+          </div>
+          <div class="guide-steps">
+            <article><span>1</span><div><strong>xとyの価値を同じ単位で比べる</strong><p>y = 2λ、x = λ なので y = 2x。価格が2倍のxは、限界効用も2倍でなければ追加購入する意味がありません。</p></div></article>
+            <article><span>2</span><div><strong>予算制約へ戻す</strong><p>2x + y = 12へ y = 2x を代入すると4x = 12。したがって x = 3、y = 6。</p></div></article>
+            <article><span>3</span><div><strong>接点条件を読む</strong><p>限界代替率 MUx/MUy = y/x = 2 は、価格比 px/py = 2/1 = 2と一致します。</p></div></article>
+          </div>
+          <p class="guide-note">λを覚えることが目的ではありません。「制約を守ったままxを少し増やすにはyを減らす必要があり、それでも効用が改善するか」を同じ式で比較しています。</p>
+        </section>
+
+        <section class="guide-section">
+          <p class="section-label">COMMON ERRORS</p>
+          <h2>難問になるほど、計算以外で差がつく。</h2>
+          <div class="guide-mistake-grid">
+            <article><span>誤り 1</span><h3>何でも微分して0にする</h3><p>端点、非負制約、角のある関数では内点条件だけでは不十分です。選べる範囲を先に確認します。</p></article>
+            <article><span>誤り 2</span><h3>偏微分で全部を動かす</h3><p>xで偏微分するときは他の変数を固定します。全微分や合成関数の微分とは役割が違います。</p></article>
+            <article><span>誤り 3</span><h3>制約を目的関数と混ぜる</h3><p>予算制約は「選べる集合」。目的関数は「その中で何を良しとするか」です。</p></article>
+            <article><span>誤り 4</span><h3>解いた後に意味へ戻らない</h3><p>q、x、yが何を表し、なぜその値を選ぶのかを文章にして初めて経済学の答案になります。</p></article>
+          </div>
         </section>
 
         <section class="guide-section guide-section-navy">
           <p class="section-label">BEFORE THE EXAM</p>
-          <h2>試験前は、公式の数より判断手順を確認。</h2>
-          <ul class="guide-checklist">
-            <li>何を選ぶ問題で、目的関数と制約はどれか</li>
-            <li>微分する変数と、固定して扱う変数を区別できるか</li>
-            <li>一階条件だけでなく、最大・最小や端点を確認したか</li>
-            <li>計算結果を元の経済学的な意味へ戻して説明できるか</li>
-          </ul>
+          <h2>最適化問題は、この6行で読む。</h2>
+          <ol class="guide-checklist guide-checklist-numbered">
+            <li>主体は誰で、何を選ぶのか</li>
+            <li>目的関数は何を最大・最小にするのか</li>
+            <li>外生変数として固定するものは何か</li>
+            <li>制約と変数の範囲は何か</li>
+            <li>一階条件の候補は、二階条件・端点を含めて本当に最適か</li>
+            <li>結果を限界、価格比、数量など元の経済語で説明できるか</li>
+          </ol>
         </section>
+
+        <section class="guide-section guide-personal-help">
+          <p class="section-label">WHEN A TEXTBOOK STILL FEELS HARD</p>
+          <h2>「微分が苦手」では、戻る範囲が広すぎます。</h2>
+          <p>実際には、式変形、選択変数、偏微分、制約、最大判定のどこか1点で止まっていることが多くあります。講義資料の該当範囲と途中式を確認すれば、全部を最初からやり直さずに開始地点を絞れます。</p>
+          <a class="button button-primary" data-consultation-link href="#contact">経済数学の相談内容をフォームで送る</a>
+        </section>
+
+        <aside class="guide-sources">
+          <p class="section-label">REFERENCE MATERIALS</p>
+          <h2>内容確認に使用した公開教材</h2>
+          <ul>
+            <li><a href="https://ocw.u-tokyo.ac.jp/lecture_2487/">東京大学OCW「二変数関数の最適化問題」</a> — 制約なし最適化、線形計画法、ラグランジュ未定乗数法</li>
+            <li><a href="https://ocw.mit.edu/courses/11-203-microeconomics-fall-2010/32b79dfd8a2aa7f13322e5a13d549271_MIT11_203F10_calcnotes.pdf">MIT OpenCourseWare “Notes on Calculus and Utility Functions”</a> — 限界分析、効用・利潤最大化と微分</li>
+          </ul>
+        </aside>
 
         <aside class="guide-related">
           <p class="section-label">RELATED GUIDES</p>
           <h2>次に読む</h2>
-          <div><a href="/guides/university-statistics-study-order"><strong>大学の統計学が分からないときの勉強順</strong><span>確率から推定・検定まで →</span></a><a href="/guides/econometrics-regression-basics"><strong>計量経済学・回帰分析の最初の整理</strong><span>係数・誤差項・因果の区別 →</span></a></div>
+          <div><a href="/guides/university-statistics-study-order"><strong>標準偏差と標準誤差は何が違う？</strong><span>統計学の難所をつなぐ →</span></a><a href="/guides/econometrics-regression-basics"><strong>回帰係数を因果と読めない理由</strong><span>係数・残差・欠落変数 →</span></a></div>
         </aside>
       </div>
     </article>

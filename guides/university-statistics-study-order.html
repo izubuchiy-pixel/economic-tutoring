@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>大学の統計学がわからないときの勉強順｜economic_tutoring</title>
-  <meta name="description" content="大学の統計学がわからないときに、記述統計・確率・期待値と分散・標本分布・推定と検定をどの順番で復習するか、確認問題と数値例で解説します。">
+  <title>標準偏差と標準誤差の違い｜大学統計学がわからないとき｜economic_tutoring</title>
+  <meta name="description" content="大学統計学で詰まりやすい標準偏差・標準誤差・信頼区間・仮説検定のつながりを、診断問題と同じ数値例で段階的に解説します。">
   <meta name="theme-color" content="#0b1f33">
   <link rel="canonical" href="https://economic-tutoring.pages.dev/guides/university-statistics-study-order">
   <meta property="og:type" content="article"><meta property="og:site_name" content="economic_tutoring"><meta property="og:locale" content="ja_JP">
-  <meta property="og:title" content="大学の統計学がわからないときの勉強順"><meta property="og:description" content="公式暗記の前に、記述統計から推定・検定までのつながりを整理します。">
+  <meta property="og:title" content="標準偏差と標準誤差の違い｜大学統計学がわからないとき"><meta property="og:description" content="データの散らばりから、推定値の不確実性と検定までを1本につなぎます。">
   <meta property="og:url" content="https://economic-tutoring.pages.dev/guides/university-statistics-study-order"><meta property="og:image" content="https://economic-tutoring.pages.dev/og.png">
   <meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/styles.css?v=24"><link rel="stylesheet" href="/enhancements.css?v=24">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"大学の統計学がわからないときの勉強順","description":"大学統計学のつまずきと、記述統計から推定・検定までの復習順を解説する学習ガイド","datePublished":"2026-08-14","dateModified":"2026-08-14","author":{"@type":"EducationalOrganization","name":"economic_tutoring"},"publisher":{"@type":"EducationalOrganization","name":"economic_tutoring"},"mainEntityOfPage":"https://economic-tutoring.pages.dev/guides/university-statistics-study-order","inLanguage":"ja"}</script>
+  <link rel="stylesheet" href="/styles.css?v=24"><link rel="stylesheet" href="/enhancements.css?v=25">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"標準偏差と標準誤差の違い｜大学統計学がわからないとき","description":"標準偏差・標準誤差・信頼区間・仮説検定のつながりを数値例で解説する大学統計学ガイド","datePublished":"2026-08-14","dateModified":"2026-08-14","author":{"@type":"EducationalOrganization","name":"economic_tutoring"},"publisher":{"@type":"EducationalOrganization","name":"economic_tutoring"},"mainEntityOfPage":"https://economic-tutoring.pages.dev/guides/university-statistics-study-order","inLanguage":"ja"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"標準偏差と標準誤差は何が違いますか？","acceptedAnswer":{"@type":"Answer","text":"標準偏差は個々のデータの散らばり、標準誤差は標本平均などの推定量を標本ごとに計算し直したときの散らばりです。"}},{"@type":"Question","name":"標本数が増えると標準偏差も小さくなりますか？","acceptedAnswer":{"@type":"Answer","text":"母集団のばらつき自体が小さくなるわけではありません。標本数が増えると、標本平均の標準誤差σ/√nが小さくなり、母平均の推定が安定します。"}},{"@type":"Question","name":"p値は帰無仮説が正しい確率ですか？","acceptedAnswer":{"@type":"Answer","text":"違います。p値は帰無仮説を前提としたとき、観測結果以上に極端な統計量が得られる確率です。"}}]}]}</script>
   <script src="/site-config.js?v=23"></script><script src="/script.js?v=23" defer></script>
 </head>
 <body data-page="subjects">
@@ -21,63 +21,121 @@
     <article class="guide-article">
       <header class="guide-hero">
         <div class="shell guide-shell">
-          <div class="breadcrumbs"><a href="/">トップ</a><span>／</span><a href="/subjects.html#statistics">統計学</a><span>／</span><span>勉強する順番</span></div>
-          <p class="eyebrow">UNIVERSITY STATISTICS GUIDE</p>
-          <h1>大学の統計学がわからないとき、<br><em>何から勉強し直すか。</em></h1>
-          <p class="guide-lead">統計学は、平均や分散の計算、確率、確率分布、推定・検定が前後につながる科目です。今の講義が検定でも、標本分布の意味が曖昧なら、その一段前へ戻る方が早く理解できます。</p>
-          <div class="guide-meta"><span>対象：大学の統計学・統計学I／II</span><span>更新：2026年8月14日</span></div>
+          <div class="breadcrumbs"><a href="/">トップ</a><span>／</span><a href="/subjects.html#statistics">統計学</a><span>／</span><span>標準誤差と推測統計</span></div>
+          <p class="eyebrow">UNIVERSITY STATISTICS — INFERENCE</p>
+          <h1>公式は覚えたのに、<br><em>検定で急に分からなくなる理由。</em></h1>
+          <p class="guide-lead">大学統計学の大きな難所は、「手元のデータの散らばり」から「標本を取り直したときの統計量の散らばり」へ視点が切り替わるところです。標準偏差、標準誤差、信頼区間、p値を、同じ数値例でつなぎます。</p>
+          <div class="guide-meta"><span>対象：大学の統計学I／II・推測統計</span><span>読了目安：10分</span><span>更新：2026年8月14日</span></div>
         </div>
       </header>
 
       <div class="shell guide-shell guide-body">
         <section class="guide-section">
-          <p class="section-label">QUICK DIAGNOSIS</p>
-          <h2>3問で、戻る地点の候補を確認。</h2>
-          <div class="guide-question-list">
-            <article><span>Q1</span><div><h3>変換後の標準偏差</h3><p>標準偏差が10の変数 X を Y = 2X + 3 と変換したとき、Y の標準偏差は？</p><details><summary>答えと確認点</summary><p>20です。定数3は散らばりを変えず、2倍すると分散は4倍、標準偏差は2倍になります。</p></details></div></article>
-            <article><span>Q2</span><div><h3>条件付き確率</h3><p>P(A∩B) と P(A｜B) を同じものとして扱っていませんか。</p><details><summary>答えと確認点</summary><p>P(A｜B) = P(A∩B) / P(B) です。Bが起きた世界に母集団を絞って考えます。</p></details></div></article>
-            <article><span>Q3</span><div><h3>標準偏差と標準誤差</h3><p>標本数を増やすと小さくなるのは、データの標準偏差と標本平均の標準誤差のどちら？</p><details><summary>答えと確認点</summary><p>標本平均の標準誤差です。母標準偏差を σ、標本数を n とすると σ/√n です。</p></details></div></article>
+          <p class="section-label">THE HARDEST SWITCH</p>
+          <h2>「データの分布」と「標本平均の分布」は別物。</h2>
+          <p>1クラス25人の得点を見ている場面と、25人のクラスを何度も作って平均点を記録する場面を分けます。ここが混ざると、標準誤差以降の式がすべて暗記になります。</p>
+          <div class="guide-distribution-bridge">
+            <article><span>観測値</span><strong>一人ひとりの得点</strong><p>散らばりは標準偏差で表す。</p><div class="guide-dot-row" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
+            <b aria-hidden="true">平均を計算<br>標本を取り直す →</b>
+            <article><span>統計量</span><strong>クラスごとの平均点</strong><p>散らばりは標準誤差で表す。</p><div class="guide-dot-row guide-dot-row-tight" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></article>
           </div>
+          <div class="guide-compare">
+            <article><span>標準偏差 SD</span><strong>σ</strong><p>個々の観測値が母平均からどの程度散らばるか。</p></article>
+            <article><span>標本平均の標準誤差 SE</span><strong>σ / √n</strong><p>標本平均が標本ごとにどの程度変わるか。</p></article>
+          </div>
+          <p class="guide-note">nを増やしても、個人差そのものが消えるわけではありません。平均という推定値が、母平均の近くで安定するようになります。</p>
         </section>
 
         <section class="guide-section guide-section-tint">
-          <p class="section-label">STUDY ORDER</p>
-          <h2>公式ではなく、判断の階段を上る。</h2>
-          <div class="guide-ladder">
-            <article><span>01</span><div><strong>記述統計</strong><p>平均・分散・標準偏差・共分散・相関で、手元のデータを説明する。</p></div></article>
-            <article><span>02</span><div><strong>確率</strong><p>和事象、積事象、条件付き確率、独立を区別する。</p></div></article>
-            <article><span>03</span><div><strong>確率変数と分布</strong><p>期待値・分散を計算し、二項分布や正規分布を条件から選ぶ。</p></div></article>
-            <article><span>04</span><div><strong>標本分布</strong><p>データの分布と、統計量を繰り返し計算したときの分布を分ける。</p></div></article>
-            <article><span>05</span><div><strong>推定・検定</strong><p>母数、推定量、標準誤差、帰無仮説、有意水準を一つの流れで読む。</p></div></article>
+          <p class="section-label">QUICK DIAGNOSIS</p>
+          <h2>どこから戻るべきか、4問で確認。</h2>
+          <div class="guide-question-list">
+            <article><span>Q1</span><div><h3>変換後の標準偏差</h3><p>標準偏差10のXをY = 2X + 3へ変換すると、Yの標準偏差は？</p><details><summary>答えと診断</summary><p>20。定数3は散らばりを変えず、2倍すると分散は4倍、標準偏差は2倍です。</p></details></div></article>
+            <article><span>Q2</span><div><h3>条件付き確率</h3><p>P(A∩B)とP(A｜B)の違いを、分母を使って説明できる？</p><details><summary>答えと診断</summary><p>P(A｜B) = P(A∩B)/P(B)。Bが起きた場合だけへ全体を絞り直します。</p></details></div></article>
+            <article><span>Q3</span><div><h3>標準誤差</h3><p>σ = 10、n = 25のとき、標本平均の標準誤差は？</p><details><summary>答えと診断</summary><p>10/√25 = 2。10ではなく2になる理由を説明できるかが確認点です。</p></details></div></article>
+            <article><span>Q4</span><div><h3>p値</h3><p>p = 0.03は「帰無仮説が正しい確率3%」という意味？</p><details><summary>答えと診断</summary><p>違います。帰無仮説が正しいと仮定した世界で、観測値以上に極端な結果が出る確率です。</p></details></div></article>
           </div>
         </section>
 
         <section class="guide-section">
-          <p class="section-label">NUMBER EXAMPLE</p>
-          <h2>例：標準偏差10、標本数25なら。</h2>
-          <div class="guide-formula" aria-label="標準誤差イコール10割るルート25イコール2">標本平均の標準誤差 = 10 / √25 = 2</div>
-          <div class="guide-compare">
-            <article><span>データの標準偏差</span><strong>10</strong><p>個々の観測値が平均からどの程度散らばるか。</p></article>
-            <article><span>標本平均の標準誤差</span><strong>2</strong><p>標本平均が母平均の周りでどの程度ばらつくか。</p></article>
+          <p class="section-label">ONE EXAMPLE, FOUR IDEAS</p>
+          <h2>平均52点、σ = 10、n = 25から全部つなぐ。</h2>
+          <p>母標準偏差σ = 10が既知の母集団から25人を無作為抽出し、標本平均が52点だったとします。説明を明確にするため、ここでは正規母集団または正規近似を使えるものとします。</p>
+          <div class="guide-formula guide-formula-stack" aria-label="標準誤差、信頼区間、検定統計量の計算">
+            <span>SE(x̄) = σ / √n = 10 / √25 = 2</span>
+            <span>95%信頼区間 = 52 ± 1.96 × 2</span>
+            <span>= [48.08, 55.92]</span>
           </div>
-          <p class="guide-note">「nが増えるとデータそのものが均一になる」のではありません。同じ母集団から標本を取り直したとき、標本平均のばらつきが小さくなるという意味です。</p>
+          <div class="guide-steps">
+            <article><span>1</span><div><strong>標準誤差</strong><p>別の25人を抽出するたびに変わる標本平均の、典型的なばらつきが2点です。</p></div></article>
+            <article><span>2</span><div><strong>信頼区間</strong><p>同じ方法で区間を何度も作ると、その約95%が母平均を含むように設計された手続きです。</p></div></article>
+            <article><span>3</span><div><strong>検定統計量</strong><p>H₀: μ = 50なら z = (52 − 50)/2 = 1。帰無仮説の平均から1標準誤差だけ離れています。</p></div></article>
+            <article><span>4</span><div><strong>p値と結論</strong><p>両側p値は約0.317。5%水準ではH₀を棄却できません。「μ = 50と証明した」わけではありません。</p></div></article>
+          </div>
+          <p class="guide-note">母標準偏差が未知で標本が小さい場合は、σの代わりに標本標準偏差sを使い、条件を確認したうえでt分布を使います。問題文の条件を読まず、常に1.96を使うのは危険です。</p>
+        </section>
+
+        <section class="guide-section guide-section-tint">
+          <p class="section-label">COMMON MISREADINGS</p>
+          <h2>計算が合っていても、解釈で間違えやすい。</h2>
+          <div class="guide-table-wrap">
+            <table class="guide-table">
+              <thead><tr><th>よくある読み違い</th><th>正しい整理</th></tr></thead>
+              <tbody>
+                <tr><td>nが増えるとデータの標準偏差が小さくなる</td><td>小さくなるのは主に推定量の標準誤差。母集団の個人差とは別です。</td></tr>
+                <tr><td>95%信頼区間なら、この区間に母平均が95%の確率で入る</td><td>母平均は固定値。95%は区間を作る手続きの長期的な被覆率です。</td></tr>
+                <tr><td>p &gt; 0.05だから帰無仮説は正しい</td><td>棄却できないだけ。標本数不足や推定の不確実性もあり得ます。</td></tr>
+                <tr><td>統計的に有意なら重要な差である</td><td>有意性と、実際の差の大きさ・実質的な重要性は分けて読みます。</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="guide-section">
+          <p class="section-label">STUDY ORDER</p>
+          <h2>検定で止まったときも、全部を戻らない。</h2>
+          <div class="guide-ladder">
+            <article><span>01</span><div><strong>平均・分散・標準偏差</strong><p>手元のデータをどう要約するか。変数変換後の平均・分散まで確認します。</p></div></article>
+            <article><span>02</span><div><strong>確率・条件付き確率・独立</strong><p>どの世界を分母にしているか、同時に起きることと独立を区別します。</p></div></article>
+            <article><span>03</span><div><strong>確率変数・期待値・分布</strong><p>二項・正規などを、形ではなく発生条件から選びます。</p></div></article>
+            <article><span>04</span><div><strong>標本分布・標準誤差</strong><p>個々のデータから、標本平均などの統計量へ視点を切り替えます。</p></div></article>
+            <article><span>05</span><div><strong>推定・検定</strong><p>母数、推定量、仮説、統計量、分布、結論を同じ順番で書きます。</p></div></article>
+          </div>
         </section>
 
         <section class="guide-section guide-section-navy">
           <p class="section-label">BEFORE THE EXAM</p>
-          <h2>問題文を見たら、先に4点を特定。</h2>
-          <ul class="guide-checklist">
-            <li>対象は個々のデータか、標本平均・標本比率などの統計量か</li>
-            <li>母数の何を知りたいのか</li>
-            <li>使う分布と、その分布を使える条件は何か</li>
-            <li>求めた値を、元の問題に沿った日本語で説明できるか</li>
-          </ul>
+          <h2>推定・検定は、計算前にこの6点を書く。</h2>
+          <ol class="guide-checklist guide-checklist-numbered">
+            <li>知りたい母数は平均・比率・平均との差のどれか</li>
+            <li>手元にあるのは母集団・標本・統計量のどれか</li>
+            <li>帰無仮説と対立仮説は何か。片側か両側か</li>
+            <li>使う統計量と、その分布を使える条件は何か</li>
+            <li>標準偏差と標準誤差を取り違えていないか</li>
+            <li>棄却／棄却できないを、問題の文脈へ戻して書いたか</li>
+          </ol>
         </section>
+
+        <section class="guide-section guide-personal-help">
+          <p class="section-label">WHEN FORMULAS DO NOT CONNECT</p>
+          <h2>「検定が分からない」の一段前を特定する。</h2>
+          <p>条件付き確率、確率分布、標本分布、標準誤差のどこで止まっているかにより、必要な復習量は変わります。講義資料と途中式に合わせて開始地点を決めれば、試験範囲を外さずに立て直せます。</p>
+          <a class="button button-primary" data-consultation-link href="#contact">統計学の相談内容をフォームで送る</a>
+        </section>
+
+        <aside class="guide-sources">
+          <p class="section-label">REFERENCE MATERIALS</p>
+          <h2>内容確認に使用した公開教材</h2>
+          <ul>
+            <li><a href="https://openstax.org/books/introductory-statistics/pages/2-7-measures-of-the-spread-of-the-data">OpenStax “Measures of the Spread of the Data”</a> — 標準偏差、標本変動、標本平均の標準誤差</li>
+            <li><a href="https://live.ocw.mit.edu/courses/14-30-introduction-to-statistical-method-in-economics-spring-2006/">MIT OpenCourseWare “Introduction to Statistical Method in Economics”</a> — 確率、標本理論、推定、検定、回帰への接続</li>
+          </ul>
+        </aside>
 
         <aside class="guide-related">
           <p class="section-label">RELATED GUIDES</p>
-          <h2>次に読む</h2>
-          <div><a href="/guides/economics-math-basics"><strong>経済学部の数学についていけないとき</strong><span>前提数学の戻り方 →</span></a><a href="/guides/econometrics-regression-basics"><strong>計量経済学・回帰分析の最初の整理</strong><span>統計から回帰への接続 →</span></a></div>
+          <h2>前後のつながりを確認する</h2>
+          <div><a href="/guides/economics-math-basics"><strong>微分はできるのに最適化で止まる理由</strong><span>前提数学と制約を整理 →</span></a><a href="/guides/econometrics-regression-basics"><strong>回帰係数を因果と読めない理由</strong><span>統計から回帰へ進む →</span></a></div>
         </aside>
       </div>
     </article>

@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>計量経済学・回帰分析がわからないとき｜最初の勉強順｜economic_tutoring</title>
-  <meta name="description" content="計量経済学の回帰分析で、回帰係数・誤差項・残差・標準誤差・因果関係が混ざったときの整理方法と勉強順を、式と具体例で解説します。">
+  <title>回帰係数を因果と読めない理由｜計量経済学のつまずき｜economic_tutoring</title>
+  <meta name="description" content="計量経済学で詰まりやすい回帰係数・予測値・残差・標準誤差・欠落変数バイアスを、数値例と回帰表で整理し、因果解釈の限界まで解説します。">
   <meta name="theme-color" content="#0b1f33">
   <link rel="canonical" href="https://economic-tutoring.pages.dev/guides/econometrics-regression-basics">
   <meta property="og:type" content="article"><meta property="og:site_name" content="economic_tutoring"><meta property="og:locale" content="ja_JP">
-  <meta property="og:title" content="計量経済学・回帰分析がわからないとき｜最初の勉強順"><meta property="og:description" content="係数の解釈、誤差項、残差、標準誤差、因果を順番に整理します。">
+  <meta property="og:title" content="回帰係数を因果と読めない理由｜計量経済学のつまずき"><meta property="og:description" content="係数・残差・標準誤差を読み、欠落変数が係数へ混ざる仕組みまで整理します。">
   <meta property="og:url" content="https://economic-tutoring.pages.dev/guides/econometrics-regression-basics"><meta property="og:image" content="https://economic-tutoring.pages.dev/og.png">
   <meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/styles.css?v=24"><link rel="stylesheet" href="/enhancements.css?v=24">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"計量経済学・回帰分析がわからないとき｜最初の勉強順","description":"回帰係数・誤差項・標準誤差・因果関係の区別と復習順を解説する学習ガイド","datePublished":"2026-08-14","dateModified":"2026-08-14","author":{"@type":"EducationalOrganization","name":"economic_tutoring"},"publisher":{"@type":"EducationalOrganization","name":"economic_tutoring"},"mainEntityOfPage":"https://economic-tutoring.pages.dev/guides/econometrics-regression-basics","inLanguage":"ja"}</script>
+  <link rel="stylesheet" href="/styles.css?v=24"><link rel="stylesheet" href="/enhancements.css?v=25">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"回帰係数を因果と読めない理由｜計量経済学のつまずき","description":"回帰係数・予測値・残差・標準誤差・欠落変数バイアスと因果解釈を数値例で解説する学習ガイド","datePublished":"2026-08-14","dateModified":"2026-08-14","author":{"@type":"EducationalOrganization","name":"economic_tutoring"},"publisher":{"@type":"EducationalOrganization","name":"economic_tutoring"},"mainEntityOfPage":"https://economic-tutoring.pages.dev/guides/econometrics-regression-basics","inLanguage":"ja"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"回帰係数は何を表しますか？","acceptedAnswer":{"@type":"Answer","text":"単回帰では、説明変数xが1単位異なるときの被説明変数yの条件付き平均の差を表します。重回帰では、式に含めた他の説明変数を一定とした差です。"}},{"@type":"Question","name":"誤差項と残差は何が違いますか？","acceptedAnswer":{"@type":"Answer","text":"誤差項は母集団モデルで観測できない要因を表し、残差は標本データで実測値から予測値を引いて計算できる値です。"}},{"@type":"Question","name":"回帰係数が統計的に有意なら因果効果ですか？","acceptedAnswer":{"@type":"Answer","text":"有意であることだけでは因果効果とは言えません。欠落変数、逆の因果、測定誤差などを排除できる研究設計や仮定が必要です。"}}]}]}</script>
   <script src="/site-config.js?v=23"></script><script src="/script.js?v=23" defer></script>
 </head>
 <body data-page="subjects">
@@ -21,76 +21,139 @@
     <article class="guide-article">
       <header class="guide-hero">
         <div class="shell guide-shell">
-          <div class="breadcrumbs"><a href="/">トップ</a><span>／</span><a href="/subjects.html#econometrics">計量経済学</a><span>／</span><span>回帰分析の基礎</span></div>
-          <p class="eyebrow">ECONOMETRICS GUIDE</p>
-          <h1>回帰式は計算できても、<br><em>何を意味するか分からないとき。</em></h1>
-          <p class="guide-lead">計量経済学では、式を推定する計算と、その係数をどこまで解釈してよいかを分ける必要があります。まず変数・単位・誤差項を読み、次に推定値と不確実性、最後に因果解釈の条件を確認します。</p>
-          <div class="guide-meta"><span>対象：大学の計量経済学・回帰分析</span><span>更新：2026年8月14日</span></div>
+          <div class="breadcrumbs"><a href="/">トップ</a><span>／</span><a href="/subjects.html#econometrics">計量経済学</a><span>／</span><span>回帰と因果</span></div>
+          <p class="eyebrow">ECONOMETRICS — REGRESSION &amp; CAUSALITY</p>
+          <h1>回帰係数は読めても、<br><em>因果と言えないのはなぜか。</em></h1>
+          <p class="guide-lead">計量経済学の難所は、計算した係数の意味と、そこから言ってよい結論の範囲を分けることです。予測値と残差、係数と標準誤差を数値で読み、欠落変数の影響が係数へ混ざる仕組みまで進みます。</p>
+          <div class="guide-meta"><span>対象：大学の計量経済学・回帰分析</span><span>読了目安：11分</span><span>更新：2026年8月14日</span></div>
         </div>
       </header>
 
       <div class="shell guide-shell guide-body">
         <section class="guide-section">
-          <p class="section-label">READ THE MODEL</p>
-          <h2>最初に、回帰式の役割を読む。</h2>
-          <div class="guide-formula" aria-label="yイコールベータゼロプラスベータワンxプラスu">y = β₀ + β₁x + u</div>
-          <div class="guide-term-grid">
-            <article><span>y</span><h3>被説明変数</h3><p>説明したい結果。例：試験得点、賃金、消費額。</p></article>
-            <article><span>x</span><h3>説明変数</h3><p>結果との関係を調べたい変数。例：学習時間。</p></article>
-            <article><span>β₁</span><h3>回帰係数</h3><p>xが1単位異なるときの、yの条件付き平均の差を表す。</p></article>
-            <article><span>u</span><h3>誤差項</h3><p>この式に明示されていない、yに影響する要因をまとめる。</p></article>
+          <p class="section-label">FIRST BOTTLENECK</p>
+          <h2>母集団の式と、手元で推定した式を分ける。</h2>
+          <div class="guide-formula guide-formula-stack" aria-label="母集団回帰モデルと推定回帰式">
+            <span>母集団モデル：y = β₀ + β₁x + u</span>
+            <span>推定回帰式：ŷ = b₀ + b₁x</span>
+            <span>残差：e = y − ŷ</span>
           </div>
+          <div class="guide-term-grid">
+            <article><span>β₁</span><h3>母集団の係数</h3><p>本当に知りたい未知の関係。標本から直接は見えません。</p></article>
+            <article><span>b₁</span><h3>推定された係数</h3><p>手元の標本から計算したβ₁の推定値。標本が変われば値も変わります。</p></article>
+            <article><span>u</span><h3>誤差項</h3><p>母集団モデルで式に明示されない要因。通常は直接観測できません。</p></article>
+            <article><span>e</span><h3>残差</h3><p>標本内で計算できる、実測値と推定回帰式の予測値の差です。</p></article>
+          </div>
+          <p class="guide-note">誤差項uと残差eを同じものとして書くと、母集団で仮定していることと、標本から計算した結果が混ざります。</p>
         </section>
 
         <section class="guide-section guide-section-tint">
-          <p class="section-label">INTERPRETATION ORDER</p>
-          <h2>係数は4段階で解釈する。</h2>
-          <div class="guide-ladder">
-            <article><span>01</span><div><strong>変数を特定</strong><p>何を何で説明している式か。対数やダミー変数になっていないか。</p></div></article>
-            <article><span>02</span><div><strong>単位を確認</strong><p>xが1時間、1万円、1％ポイントなど、何単位増えるのか。</p></div></article>
-            <article><span>03</span><div><strong>符号と大きさ</strong><p>正か負か、1単位の違いに対してyがどの程度違うのか。</p></div></article>
-            <article><span>04</span><div><strong>条件を限定</strong><p>単回帰か重回帰か、他の変数を一定として読むのか、因果と呼べる設計か。</p></div></article>
+          <p class="section-label">QUICK DIAGNOSIS</p>
+          <h2>回帰式を「計算・解釈・限界」の3層で読む。</h2>
+          <p>推定式が ŷ = 40 + 2.4x で、xは学習時間、yは試験得点とします。</p>
+          <div class="guide-question-list">
+            <article><span>Q1</span><div><h3>予測値</h3><p>x = 5時間のときの予測得点は？</p><details><summary>答えと診断</summary><p>40 + 2.4×5 = 52点。推定回帰線上の値であり、全員の実測値が52点になる意味ではありません。</p></details></div></article>
+            <article><span>Q2</span><div><h3>残差</h3><p>実際の得点が56点なら残差は？</p><details><summary>答えと診断</summary><p>e = 56 − 52 = 4点。回帰式の予測より4点高かったという標本内の差です。</p></details></div></article>
+            <article><span>Q3</span><div><h3>係数</h3><p>b₁ = 2.4をどう読む？</p><details><summary>答えと診断</summary><p>学習時間が1時間異なる学生の間で、予測される得点は平均2.4点異なります。この式だけで「1時間増やせば2.4点上がる」とは言えません。</p></details></div></article>
           </div>
         </section>
 
         <section class="guide-section">
-          <p class="section-label">COMMON ERROR</p>
-          <h2>回帰係数が正でも、すぐ因果とは言えない。</h2>
-          <p>学習時間 x と試験得点 y に正の関係が見つかったとします。それだけで「学習時間を1時間増やせば、誰でも係数分だけ得点が上がる」とは断定できません。</p>
-          <div class="guide-causal-map">
-            <div><span>学習時間 x</span><strong>→</strong><span>試験得点 y</span></div>
-            <p>事前理解、授業出席、学習環境などが、学習時間と得点の両方に関係している可能性があります。これらが誤差項に入り、xとも相関すると、単純な係数にはその影響が混ざります。</p>
+          <p class="section-label">READ A REGRESSION TABLE</p>
+          <h2>係数2.4だけでは、まだ判断できない。</h2>
+          <div class="guide-table-wrap">
+            <table class="guide-table guide-regression-table">
+              <thead><tr><th>変数</th><th>係数</th><th>標準誤差</th><th>t値</th><th>95%信頼区間</th></tr></thead>
+              <tbody>
+                <tr><td>学習時間</td><td>2.40</td><td>0.80</td><td>3.00</td><td>[0.83, 3.97]</td></tr>
+                <tr><td>定数項</td><td>40.00</td><td>3.20</td><td>12.50</td><td>[33.73, 46.27]</td></tr>
+              </tbody>
+            </table>
           </div>
-          <p class="guide-note">試験答案では「正の相関がある」「他の条件を一定とした関連を表す」「因果解釈には追加の仮定が必要」を区別します。</p>
+          <div class="guide-steps">
+            <article><span>1</span><div><strong>大きさと単位</strong><p>学習時間が1時間異なると、得点の条件付き平均は2.4点異なります。</p></div></article>
+            <article><span>2</span><div><strong>推定の不確実性</strong><p>t = 2.4/0.8 = 3。標準誤差に比べて係数がどれほど0から離れているかを見ます。</p></div></article>
+            <article><span>3</span><div><strong>統計的有意性</strong><p>95%信頼区間は0を含みません。この標本と仮定の下では、0との差が統計的に確認されます。</p></div></article>
+            <article><span>4</span><div><strong>まだ言えないこと</strong><p>有意であっても、学習時間を外から1時間増やした因果効果が2.4点とは限りません。</p></div></article>
+          </div>
+          <div class="guide-answer-pair"><p><span>言いすぎる答案</span>学習時間を1時間増やすと、得点が2.4点上がる。</p><p><span>安全な答案</span>学習時間が1時間多い学生は、得点の条件付き平均が2.4点高い。因果解釈には追加の仮定が必要である。</p></div>
+        </section>
+
+        <section class="guide-section guide-section-tint">
+          <p class="section-label">OMITTED VARIABLE BIAS</p>
+          <h2>観測していない「事前理解」が、係数へ混ざる。</h2>
+          <p>本当の得点が、学習時間xだけでなく事前理解zにも影響されるとします。しかしzを回帰式へ入れなかった場合、zの影響は誤差項へ入ります。</p>
+          <div class="guide-causal-map guide-causal-map-ovb">
+            <div class="guide-ovb-path"><span>事前理解 z</span><strong>→</strong><span>学習時間 x</span><strong>→</strong><span>試験得点 y</span></div>
+            <div class="guide-ovb-direct"><span>事前理解 z</span><strong>→</strong><span>試験得点 y</span></div>
+            <p>事前理解zが学習時間xと得点yの両方に関係すると、xの係数は「学習時間の関係」と「事前理解の関係」を分け切れません。</p>
+          </div>
+          <div class="guide-formula guide-formula-stack" aria-label="欠落変数バイアスの符号を表す式">
+            <span>本来の式：y = β₀ + β₁x + γz + u</span>
+            <span>zとxの関係：z = δ₀ + δ₁x + v</span>
+            <span>xだけで回帰した係数 ≈ β₁ + γδ₁</span>
+          </div>
+          <p>γはzがyへ向かう関係、δ₁はzとxの関係です。両方が正なら、xだけの回帰係数は本来のβ₁より上へずれやすくなります。</p>
+          <div class="guide-table-wrap">
+            <table class="guide-table guide-sign-table">
+              <thead><tr><th>z → y（γ）</th><th>xとzの関係（δ₁）</th><th>バイアス γδ₁</th></tr></thead>
+              <tbody>
+                <tr><td>正</td><td>正</td><td>上向き</td></tr>
+                <tr><td>正</td><td>負</td><td>下向き</td></tr>
+                <tr><td>負</td><td>正</td><td>下向き</td></tr>
+                <tr><td>負</td><td>負</td><td>上向き</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="guide-note">この表は方向を整理する道具です。実際のバイアスの大きさや、変数を追加すれば必ず解決するかは別途確認が必要です。</p>
         </section>
 
         <section class="guide-section">
-          <p class="section-label">STUDY ORDER</p>
-          <h2>計量経済学をやり直す順番。</h2>
-          <div class="guide-route-list">
-            <article><span>STEP 1</span><strong>平均・分散・共分散・相関</strong><p>データの関係を何で測っているかを確認します。</p></article>
-            <article><span>STEP 2</span><strong>単回帰・OLS・残差</strong><p>予測値と実測値の差を使い、どの直線を選ぶかを理解します。</p></article>
-            <article><span>STEP 3</span><strong>標準誤差・t検定・信頼区間</strong><p>推定した係数にどの程度の不確実性があるかを判断します。</p></article>
-            <article><span>STEP 4</span><strong>重回帰・仮定・因果解釈</strong><p>他の変数を加えたときの係数と、解釈に必要な条件を確認します。</p></article>
+          <p class="section-label">WHY CONTROLS ARE NOT MAGIC</p>
+          <h2>重回帰に変数を足しても、自動で因果にはならない。</h2>
+          <div class="guide-mistake-grid">
+            <article><span>問題 1</span><h3>重要な要因を観測できない</h3><p>能力、意欲、環境などを完全には測れないことがあります。誤差項とxの相関が残れば、OLSの因果解釈は崩れます。</p></article>
+            <article><span>問題 2</span><h3>因果の向きが逆かもしれない</h3><p>学習時間が得点へ影響するだけでなく、苦手な学生ほど長く学習する可能性もあります。</p></article>
+            <article><span>問題 3</span><h3>測定誤差がある</h3><p>自己申告の学習時間が不正確なら、説明変数の誤差が係数へ影響します。</p></article>
+            <article><span>問題 4</span><h3>入れるべきでない変数もある</h3><p>xの後に決まる変数を機械的に統制すると、知りたい効果の一部まで消すことがあります。</p></article>
           </div>
+          <p class="guide-note">因果効果を知るには、無作為化、自然実験、操作変数、差の差など、比較の作り方と仮定を確認します。手法名より先に「誰と誰を比較すればよいか」を考えます。</p>
         </section>
 
         <section class="guide-section guide-section-navy">
           <p class="section-label">BEFORE THE EXAM</p>
-          <h2>回帰表では、数値を読む順番を固定。</h2>
-          <ul class="guide-checklist">
-            <li>被説明変数・説明変数・基準カテゴリーを特定する</li>
-            <li>係数の符号、大きさ、単位を文章にする</li>
-            <li>標準誤差、t値、p値、信頼区間のどれで判断するか確認する</li>
-            <li>統計的有意性と、経済的な大きさを分ける</li>
-            <li>因果と解釈するための仮定が示されているか確認する</li>
-          </ul>
+          <h2>回帰表は、この7点を順番に読む。</h2>
+          <ol class="guide-checklist guide-checklist-numbered">
+            <li>被説明変数yと説明変数xは何か</li>
+            <li>水準・対数・比率・ダミーのどの形か</li>
+            <li>係数の符号、大きさ、単位を文章にしたか</li>
+            <li>標準誤差、t値、p値、信頼区間のどれで不確実性を判断するか</li>
+            <li>統計的有意性と経済的な大きさを分けたか</li>
+            <li>誤差項と残差、母係数と推定値を区別したか</li>
+            <li>因果と言うための仮定・比較設計が示されているか</li>
+          </ol>
         </section>
+
+        <section class="guide-section guide-personal-help">
+          <p class="section-label">WHEN A REGRESSION TABLE STOPS MAKING SENSE</p>
+          <h2>式変形より、どの言葉を混同しているかを探す。</h2>
+          <p>係数と予測値、誤差項と残差、標準偏差と標準誤差、相関と因果のどこが混ざっているかで、必要な復習は変わります。講義で使う回帰表と問題文に合わせて、最初の1か所から整理できます。</p>
+          <a class="button button-primary" data-consultation-link href="#contact">計量経済学の相談内容をフォームで送る</a>
+        </section>
+
+        <aside class="guide-sources">
+          <p class="section-label">REFERENCE MATERIALS</p>
+          <h2>内容確認に使用した公開教材</h2>
+          <ul>
+            <li><a href="https://ocw.mit.edu/courses/14-32-econometrics-spring-2007/pages/syllabus/">MIT OpenCourseWare “Econometrics”</a> — 回帰推定、標本分布、重回帰、欠落変数、因果と統制</li>
+            <li><a href="https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/pages/week-9/">MIT OpenCourseWare “Practical Issues in Running Regressions and Omitted Variable Bias”</a> — 回帰の実務的解釈と欠落変数バイアス</li>
+          </ul>
+        </aside>
 
         <aside class="guide-related">
           <p class="section-label">RELATED GUIDES</p>
           <h2>前提から確認する</h2>
-          <div><a href="/guides/university-statistics-study-order"><strong>大学の統計学が分からないときの勉強順</strong><span>標準誤差までの前提 →</span></a><a href="/guides/economics-math-basics"><strong>経済学部の数学についていけないとき</strong><span>式変形・関数から確認 →</span></a></div>
+          <div><a href="/guides/university-statistics-study-order"><strong>標準偏差と標準誤差は何が違う？</strong><span>推定・検定の前提へ →</span></a><a href="/guides/economics-math-basics"><strong>微分はできるのに最適化で止まる理由</strong><span>式と判断の接続へ →</span></a></div>
         </aside>
       </div>
     </article>
