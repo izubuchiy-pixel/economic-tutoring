@@ -1,3 +1,5 @@
+document.documentElement.classList.add("js");
+
 (() => {
   const site = window.ECONOMIC_TUTORING;
   if (!site) return;
@@ -165,8 +167,17 @@
     await copyText(site.email); showStatus("メールアドレスをコピーしました。");
   });
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => { if (entry.isIntersecting) entry.target.classList.add("is-visible"); });
-  }, { threshold: 0.08 });
-  document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+  const revealElements = document.querySelectorAll(".reveal");
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      });
+    }, { threshold: 0.08 });
+    revealElements.forEach((el) => observer.observe(el));
+  } else {
+    revealElements.forEach((el) => el.classList.add("is-visible"));
+  }
 })();

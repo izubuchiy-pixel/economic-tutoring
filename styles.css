@@ -31,6 +31,7 @@ body.menu-open { overflow: hidden; }
 a { color: inherit; text-decoration: none; }
 button, a { -webkit-tap-highlight-color: transparent; }
 button { font: inherit; }
+:where(a, button, summary):focus-visible { outline: 3px solid #f6c65b; outline-offset: 4px; }
 img, svg { display: block; max-width: 100%; }
 .shell { width: min(calc(100% - 48px), var(--shell)); margin-inline: auto; }
 .section { padding: 104px 0; }
@@ -101,6 +102,7 @@ img, svg { display: block; max-width: 100%; }
 .hero-layer span { color: var(--gold-light); font-size: 11px; font-weight: 900; }
 .hero-layer strong { font-size: 14px; }
 .hero-layer small { display: block; margin-top: 3px; color: rgba(255,255,255,.58); font-size: 11px; }
+.hero-panel-note { margin: 18px 0 0; border-left: 2px solid var(--gold); padding-left: 13px; color: rgba(255,255,255,.68); font-size: 11px; }
 .hero-facts { position: relative; display: grid; border-top: 1px solid rgba(255,255,255,.12); grid-template-columns: repeat(4, 1fr); }
 .hero-facts div { padding: 22px; text-align: center; }
 .hero-facts strong { display: block; color: var(--white); font-size: 15px; }
@@ -132,6 +134,19 @@ img, svg { display: block; max-width: 100%; }
 .route-card strong { color: var(--gold-dark); font-size: 15px; text-align: right; }
 .route-card small { display: block; color: var(--muted); font-size: 10px; font-weight: 600; }
 
+.fit-grid { display: grid; gap: 18px; grid-template-columns: repeat(3, minmax(0,1fr)); }
+.fit-card { display: flex; min-width: 0; flex-direction: column; border: 1px solid var(--line); background: var(--white); padding: 30px; }
+.fit-card.is-fit { border-top: 4px solid var(--gold); }
+.fit-card.is-boundary { border-top: 4px solid var(--navy); background: #f1ece3; }
+.fit-status { margin: 0; color: var(--gold-dark); font-size: 10px; font-weight: 900; letter-spacing: .14em; }
+.fit-card.is-boundary .fit-status { color: var(--navy-3); }
+.fit-card h3 { min-height: 3.2em; margin: 12px 0 18px; color: var(--navy); font-family: "Yu Mincho", "YuMincho", serif; font-size: 22px; line-height: 1.55; }
+.fit-card ul { display: grid; gap: 9px; margin: 0; padding: 0; list-style: none; }
+.fit-card li { position: relative; padding-left: 20px; color: var(--muted); font-size: 13px; }
+.fit-card li::before { position: absolute; left: 0; color: var(--gold-dark); content: "—"; font-weight: 900; }
+.fit-card .text-link { margin-top: auto; padding-top: 24px; }
+.fit-note { margin: auto 0 0; padding-top: 22px; color: var(--muted); font-size: 11px; }
+
 .price-overview { display: grid; gap: 16px; grid-template-columns: repeat(3, minmax(0,1fr)); }
 .price-overview-card { border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.05); padding: 30px; }
 .price-overview-card span { color: var(--gold-light); font-size: 10px; font-weight: 900; letter-spacing: .13em; }
@@ -147,8 +162,10 @@ img, svg { display: block; max-width: 100%; }
 .subject-note { margin: 20px 0 0; border-left: 3px solid var(--gold); background: var(--ivory); padding: 16px 18px; color: var(--muted); font-size: 13px; }
 
 .trust-grid { display: grid; align-items: start; gap: 70px; grid-template-columns: .86fr 1.14fr; }
+#principles { border-top: 1px solid rgba(255,255,255,.1); background: var(--navy-2); }
 .trust-copy h2 { margin: 0; color: var(--white); font-family: "Yu Mincho", "YuMincho", serif; font-size: clamp(32px,4vw,48px); font-weight: 600; line-height: 1.45; }
 .trust-copy p { color: rgba(255,255,255,.7); }
+.trust-copy .button { margin-top: 20px; }
 .feature-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
 .feature-card { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.14); }
 .feature-card h3 { color: var(--white); }
@@ -160,6 +177,10 @@ img, svg { display: block; max-width: 100%; }
 .flow-list span { display: block; margin-bottom: 13px; color: var(--gold-dark); font-size: 11px; font-weight: 900; }
 .flow-list h3 { margin: 0 0 9px; color: var(--navy); font-size: 16px; }
 .flow-list p { margin: 0; color: var(--muted); font-size: 12px; }
+.flow-cta { display: grid; align-items: center; gap: 20px 30px; margin-top: 40px; border: 1px solid var(--line); background: var(--white); padding: 24px 28px; grid-template-columns: 1fr auto; }
+.flow-cta p { display: flex; min-width: 0; flex-direction: column; gap: 2px; margin: 0; }
+.flow-cta strong { color: var(--navy); font-size: 16px; }
+.flow-cta p > span { color: var(--muted); font-size: 12px; }
 
 .faq-grid { display: grid; align-items: start; gap: 70px; grid-template-columns: .66fr 1.34fr; }
 .faq-list { border-top: 1px solid var(--line); }
@@ -300,9 +321,10 @@ img, svg { display: block; max-width: 100%; }
 .error-card strong { color: var(--gold-light); font-size: 70px; }
 .error-card h1 { font-family: "Yu Mincho", serif; font-size: 34px; }
 
-.reveal { opacity: 0; transform: translateY(16px); transition: opacity .55s ease, transform .55s ease; }
-.reveal.is-visible { opacity: 1; transform: none; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .reveal { opacity: 1; transform: none; transition: none; } .button:hover, .text-link:hover { transform: none; } }
+.reveal { opacity: 1; transform: none; }
+.js .reveal { opacity: 0; transform: translateY(16px); transition: opacity .55s ease, transform .55s ease; }
+.js .reveal.is-visible { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .js .reveal { opacity: 1; transform: none; transition: none; } .button:hover, .text-link:hover { transform: none; } }
 
 @media (max-width: 980px) {
   .hero-grid, .trust-grid, .contact-grid, .faq-grid, .mock-grid, .web-inclusion-grid { grid-template-columns: 1fr; }
@@ -334,7 +356,7 @@ img, svg { display: block; max-width: 100%; }
   .hero h1 { max-width: 100%; overflow-wrap: anywhere; font-size: clamp(34px,9.6vw,42px); line-height: 1.45; }
   .hero h1 .mobile-title-line { display: block; }
   .hero h1 .desktop-title-break { display: none; }
-  .hero-lead { max-width: 100%; word-break: break-all; font-size: 14px; }
+  .hero-lead { max-width: 100%; overflow-wrap: anywhere; font-size: 14px; }
   .hero-actions { flex-direction: column; }
   .hero-actions .button { width: 100%; }
   .hero-panel { padding: 25px; }
@@ -342,11 +364,12 @@ img, svg { display: block; max-width: 100%; }
   .hero-facts div { border-bottom: 1px solid rgba(255,255,255,.1); padding: 17px 8px; }
   .page-hero { padding: 76px 0 66px; }
   .page-hero h1 { font-size: clamp(36px,10.4vw,49px); }
-  .problem-grid, .support-grid, .quick-grid, .feature-grid, .route-grid, .price-overview, .plan-grid, .choice-guide, .role-grid, .difference-grid, .screen-gallery { grid-template-columns: 1fr; }
+  .problem-grid, .support-grid, .quick-grid, .feature-grid, .route-grid, .fit-grid, .price-overview, .plan-grid, .choice-guide, .role-grid, .difference-grid, .screen-gallery { grid-template-columns: 1fr; }
   .problem-card, .support-card, .feature-card, .quick-card { padding: 25px; }
   .support-card { min-height: auto; }
   .route-card { padding: 24px; grid-template-columns: 1fr; gap: 12px; }
   .route-card strong { text-align: left; }
+  .fit-card h3 { min-height: auto; }
   .section-heading { margin-bottom: 32px; }
   .section-heading h2 { font-size: clamp(30px,9.2vw,42px); }
   .subject-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
@@ -369,6 +392,7 @@ img, svg { display: block; max-width: 100%; }
   .mock-body { padding: 16px; }
   .mock-stats { grid-template-columns: 1fr; }
   .faq-grid { gap: 15px; }
+  .flow-cta { align-items: stretch; padding: 22px; grid-template-columns: 1fr; }
   .contact-grid { gap: 35px; }
   .contact-card { padding: 26px 22px; }
   .email-row { align-items: flex-start; flex-direction: column; }
