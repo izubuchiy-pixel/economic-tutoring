@@ -149,7 +149,7 @@ img, svg { display: block; max-width: 100%; }
 
 .price-overview { display: grid; gap: 16px; grid-template-columns: repeat(3, minmax(0,1fr)); }
 .price-overview-card { border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.05); padding: 30px; }
-.price-overview-card span { color: var(--gold-light); font-size: 10px; font-weight: 900; letter-spacing: .13em; }
+.price-overview-card > span { color: var(--gold-light); font-size: 10px; font-weight: 900; letter-spacing: .13em; }
 .price-overview-card h3 { margin: 12px 0; color: var(--white); font-family: "Yu Mincho", "YuMincho", serif; font-size: 23px; }
 .price-overview-card strong { display: block; color: var(--gold-light); font-size: 24px; }
 .price-overview-card p { margin: 12px 0 0; color: rgba(255,255,255,.65); font-size: 12px; }
