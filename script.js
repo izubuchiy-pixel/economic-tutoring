@@ -12,6 +12,7 @@ document.documentElement.classList.add("js");
   const isInstagramPage = page === "instagram";
   const navItems = [
     ["top", "ホーム", "/"],
+    ["tutor", "塾・家庭教師", "/economics-tutor.html"],
     ["subjects", "対応科目", "/subjects.html"],
     ["pricing", "料金・サービス", "/pricing.html"],
     ["web", "伴走の仕組み", "/web-learning.html"]
@@ -39,7 +40,7 @@ document.documentElement.classList.add("js");
       <div class="shell footer-grid">
         <div class="footer-brand"><strong>${site.brand}</strong><p>大学生向け 経済学系専門科目のオンライン個別指導・学習管理</p></div>
         <nav class="footer-nav" aria-label="サイト案内">
-          <a href="/">ホーム</a><a href="/subjects.html">対応科目</a><a href="/pricing.html">料金・サービス</a><a href="/web-learning.html">伴走の仕組み</a>
+          <a href="/">ホーム</a><a href="/economics-tutor.html">経済学塾・オンライン家庭教師</a><a href="/subjects.html">対応科目</a><a href="/pricing.html">料金・サービス</a><a href="/web-learning.html">伴走の仕組み</a>
           <a href="/terms.html">利用案内・受講規約</a><a href="/privacy.html">プライバシーポリシー</a><a href="/tokusho.html">特定商取引法に基づく表記</a>
         </nav>
         <small>© 2026 ${site.brand}</small>

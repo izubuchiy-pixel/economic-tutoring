@@ -5,6 +5,7 @@
 ## 公開URL
 
 - トップ: https://economic-tutoring.pages.dev/
+- 経済学塾・オンライン家庭教師: https://economic-tutoring.pages.dev/economics-tutor.html
 - 対応科目: https://economic-tutoring.pages.dev/subjects.html
 - Instagram専用LP: https://economic-tutoring.pages.dev/instagram/
 - 料金・サービス: https://economic-tutoring.pages.dev/pricing.html
@@ -22,6 +23,7 @@
 ## ページの役割
 
 - `index.html`: Google検索から訪れた学生・保護者がサービス全体を確認する公式ホーム
+- `economics-tutor.html`: 「経済学 塾」「経済学 家庭教師」「経済学 オンライン塾・オンライン家庭教師」で探す大学生・保護者へ、1対1指導の形式、対象、科目、料金、相談条件を説明する検索入口
 - `subjects.html`: ミクロ・マクロ・統計・計量・経済数学、授業・試験・再履修の対応内容
 - `instagram/index.html`: Instagramから訪れた人向けの相談獲得LP。検索結果には掲載しない
 - `pricing.html`: 単発3商品、月額伴走2プラン、確認小テストオプションの料金と提供範囲を比較する詳細ページ
