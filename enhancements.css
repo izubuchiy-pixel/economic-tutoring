@@ -76,6 +76,7 @@
   gap: 1rem;
   margin-top: 2.5rem;
 }
+.companion-flow.is-five { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .companion-flow::before {
   content: "";
   position: absolute;
@@ -185,6 +186,17 @@
 .option-example p { margin: .35rem 0 0; color: var(--muted); }
 .screen-gallery-three { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 1.4rem; }
 .quiz-screen-block { max-width: 48rem; margin: 1.75rem auto 0; }
+
+.showcase-proof { display: grid; justify-items: start; gap: .85rem; }
+.showcase-proof figure { position: relative; overflow: hidden; width: 100%; margin: 0; border: 1px solid rgba(211,170,89,.36); border-radius: 1rem; background: #fff; box-shadow: 0 1.6rem 4rem rgba(0,0,0,.28); }
+.showcase-proof figure > span { position: absolute; z-index: 2; top: .75rem; left: .75rem; padding: .35rem .6rem; border-radius: 999px; background: rgba(11,31,51,.93); color: #fff; font-size: .68rem; font-weight: 800; letter-spacing: .06em; }
+.showcase-proof img { display: block; width: 100%; height: auto; }
+.showcase-proof > p { margin: 0; color: rgba(255,255,255,.58); font-size: .72rem; }
+.text-link-light { color: #fff; }
+.showcase-proof-instagram { justify-items: center; }
+.showcase-proof-instagram figure { width: min(100%, 20rem); }
+.showcase-gallery { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(15rem, .55fr); gap: 1.4rem; align-items: start; margin-top: 2.5rem; }
+.screen-card-mobile img { display: block; width: 100%; aspect-ratio: 390 / 844; object-fit: cover; object-position: top; }
 
 .learning-report-grid {
   display: grid;
@@ -621,7 +633,8 @@
   .subject-detail .section-heading { margin-bottom: 1.5rem; }
   .companion-spotlight-screens { width: 100%; max-width: 43rem; min-height: 28rem; margin: 0 auto; }
   .companion-problems { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .companion-flow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .companion-flow,
+  .companion-flow.is-five { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .companion-flow::before { display: none; }
   .support-depth-grid { grid-template-columns: 1fr; max-width: 44rem; margin-right: auto; margin-left: auto; }
   .learning-report-grid { grid-template-columns: 1fr; }
@@ -644,6 +657,7 @@
   .companion-hero-screen { transform: none; border-radius: .7rem; }
   .companion-problems,
   .companion-flow,
+  .companion-flow.is-five,
   .screen-pair,
   .screen-gallery-compact,
   .comparison-grid { grid-template-columns: 1fr; }
@@ -657,6 +671,8 @@
   .companion-inline-cta { grid-template-columns: 1fr; }
   .companion-inline-cta > div:last-child { justify-items: stretch; }
   .screen-gallery-three { grid-template-columns: 1fr; }
+  .showcase-gallery { grid-template-columns: 1fr; }
+  .screen-card-mobile { max-width: 24rem; margin-right: auto; margin-left: auto; }
   .option-example { margin-top: 1rem; padding: 1rem; }
   .report-summary { grid-template-columns: 1fr; }
   .report-summary span { border-right: 0; border-bottom: 1px solid var(--line); }
