@@ -291,6 +291,11 @@ img, svg { display: block; max-width: 100%; }
 .contact-alternatives a { color: var(--navy); font-weight: 850; text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px; }
 .contact-template { margin: 17px 0; background: var(--ivory); padding: 16px; color: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; white-space: pre-line; }
 .contact-card .button { width: 100%; margin-top: 9px; }
+.instagram-form-option { margin-top: 18px; border-top: 1px solid var(--line); padding-top: 16px; }
+.instagram-form-option > p:first-child { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.75; }
+.instagram-form-option > p:first-child strong { display: block; color: var(--navy); font-size: 13px; }
+.instagram-form-option > p:first-child span { display: block; }
+.instagram-form-option .contact-assurance { margin: 9px 0 0; color: var(--muted); font-size: 10px; line-height: 1.7; }
 .email-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 14px; border-top: 1px solid var(--line); padding-top: 14px; }
 .email-row a { min-width: 0; overflow-wrap: anywhere; color: var(--navy); font-size: 11px; font-weight: 800; }
 .email-row button { border: 0; background: transparent; color: var(--gold-dark); font-size: 11px; font-weight: 850; cursor: pointer; }

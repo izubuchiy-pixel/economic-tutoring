@@ -74,6 +74,11 @@ document.documentElement.classList.add("js");
 相談経路：${inquirySource}</div>
           <button class="button button-navy" type="button" data-copy-template>相談文をコピー</button>
           <a class="button button-gold" href="${site.instagram.url}" target="_blank" rel="noopener">Instagram DMを開く</a>
+          <div class="instagram-form-option">
+            <p><strong>初回相談・体験を申し込む方は相談フォーム</strong><span>大学・学年、科目、期限、困りごとを2〜3分で送れます。</span></p>
+            <a class="button button-navy contact-form-button" href="${site.consultationForm.url}" target="_blank" rel="noopener">${site.consultationForm.label}</a>
+            <p class="contact-assurance">講義資料や答案の添付は不要です。送信だけで契約・支払いは確定しません。</p>
+          </div>
           <div class="email-row"><a href="mailto:${site.email}?subject=${inquirySubject}&body=${inquiryBody}">${site.email}</a><button type="button" data-copy-email>コピー</button></div>
           <p class="copy-status" aria-live="polite"></p>
         </div>
