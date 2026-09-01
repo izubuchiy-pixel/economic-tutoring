@@ -104,6 +104,7 @@
 .demo-actions { display: flex; align-items: center; justify-content: center; gap: 1rem 1.5rem; flex-wrap: wrap; margin-top: 2rem; }
 .demo-actions p { max-width: 34rem; margin: 0; color: rgba(255,255,255,.58); font-size: .78rem; }
 .comparison-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; max-width: 58rem; margin: 2.5rem auto 0; }
+.comparison-grid-three { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 74rem; }
 .comparison-card { padding: clamp(1.5rem, 3vw, 2.2rem); border: 1px solid var(--line); border-radius: 1rem; background: #fff; }
 .comparison-card.is-accent { border-color: var(--gold); box-shadow: 0 1.2rem 3rem rgba(11,31,51,.1); }
 .comparison-card > strong { display: block; min-height: 3.2rem; margin: .75rem 0 1.2rem; color: var(--muted); font-size: .92rem; }
@@ -117,6 +118,7 @@
   gap: 1.25rem;
   margin-top: 2.5rem;
 }
+.support-depth-grid-four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .support-depth-card {
   display: flex;
   flex-direction: column;
@@ -173,6 +175,29 @@
 .companion-inline-cta h3 { margin: .35rem 0; }
 .companion-inline-cta p { margin: 0; color: var(--muted); font-size: .86rem; }
 .companion-inline-cta > div:last-child { display: grid; justify-items: start; gap: .85rem; }
+
+.learning-check-cycle {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: .65rem;
+  margin: 2rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.learning-check-cycle li {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--gold);
+  border-radius: .75rem;
+  background: #fff;
+}
+.learning-check-cycle span,
+.learning-check-cycle strong,
+.learning-check-cycle small { display: block; }
+.learning-check-cycle span { color: var(--gold-dark); font-size: .7rem; font-weight: 900; letter-spacing: .08em; }
+.learning-check-cycle strong { margin-top: .55rem; color: var(--navy); font-size: .86rem; line-height: 1.55; }
+.learning-check-cycle small { margin-top: .4rem; color: var(--muted); font-size: .7rem; line-height: 1.7; }
 
 .option-example {
   max-width: 48rem;
@@ -637,6 +662,7 @@
   .companion-flow.is-five { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .companion-flow::before { display: none; }
   .support-depth-grid { grid-template-columns: 1fr; max-width: 44rem; margin-right: auto; margin-left: auto; }
+  .learning-check-cycle { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .learning-report-grid { grid-template-columns: 1fr; }
   .referral-highlight-grid { grid-template-columns: 1fr; }
   .referral-benefit-grid { grid-template-columns: 1fr; }
@@ -666,6 +692,7 @@
   .companion-step h3 { margin: 0 0 .25rem; }
   .screen-card-large img { aspect-ratio: 4 / 3; }
   .comparison-card > strong { min-height: 0; }
+  .learning-check-cycle { grid-template-columns: 1fr; }
   .comparison-row { align-items: center; }
   .companion-facts { grid-template-columns: 1fr; }
   .companion-inline-cta { grid-template-columns: 1fr; }

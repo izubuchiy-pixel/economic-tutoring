@@ -15,7 +15,7 @@ document.documentElement.classList.add("js");
     ["tutor", "塾・家庭教師", "/economics-tutor"],
     ["subjects", "対応科目", "/subjects"],
     ["pricing", "料金・サービス", "/pricing"],
-    ["web", "伴走の仕組み", "/web-learning"]
+    ["web", "学習環境", "/web-learning"]
   ];
   const contactHref = page === "top" || isInstagramPage ? "#contact" : "/#contact";
 
@@ -38,9 +38,9 @@ document.documentElement.classList.add("js");
   const footer = `
     <footer class="site-footer">
       <div class="shell footer-grid">
-        <div class="footer-brand"><strong>${site.brand}</strong><p>大学生向け 経済学系専門科目のオンライン個別指導・学習管理</p></div>
+        <div class="footer-brand"><strong>${site.brand}</strong><p>大学生向け 経済学系専門科目のオンライン個別指導・学習確認</p></div>
         <nav class="footer-nav" aria-label="サイト案内">
-          <a href="/">ホーム</a><a href="/economics-tutor">経済学塾・オンライン家庭教師</a><a href="/subjects">対応科目</a><a href="/pricing">料金・サービス</a><a href="/web-learning">伴走の仕組み</a>
+          <a href="/">ホーム</a><a href="/economics-tutor">経済学塾・オンライン家庭教師</a><a href="/subjects">対応科目</a><a href="/pricing">料金・サービス</a><a href="/web-learning">学習環境</a>
           <a href="/terms">利用案内・受講規約</a><a href="/privacy">プライバシーポリシー</a><a href="/tokusho">特定商取引法に基づく表記</a>
         </nav>
         <small>© 2026 ${site.brand}</small>
@@ -135,9 +135,10 @@ document.documentElement.classList.add("js");
   const exclusions = (items) => items?.length ? `<div class="not-included"><strong>確認事項</strong>${items.map((item) => `<p>${item}</p>`).join("")}</div>` : "";
   const card = (key, compact = false) => {
     const item = product(key);
-    return `<article class="plan-card${key === "support8" ? " plan-card-focus" : ""}">
+    return `<article class="plan-card${key === "support8" || key === "quizService" ? " plan-card-focus" : ""}">
       <p class="plan-label">${item.label}</p><h3>${item.name}</h3>
       <div class="plan-price"><strong>${yen(item.price)}</strong><span>円<br>${item.unit}</span></div>
+      ${item.priceNote ? `<p class="plan-price-note">${item.priceNote}</p>` : ""}
       <p class="plan-summary">${item.summary}</p>
       ${item.lessons || item.subjects ? `<div class="plan-facts">${item.lessons ? `<span>${item.lessons}</span>` : ""}${item.subjects ? `<span>${item.subjects}</span>` : ""}</div>` : ""}
       ${compact ? "" : `<details class="plan-details"><summary>含まれる内容を見る</summary>${list(item.includes)}${exclusions(item.excludes)}</details>`}
@@ -156,7 +157,7 @@ document.documentElement.classList.add("js");
 
   const legalPrices = document.querySelector("[data-legal-prices]");
   if (legalPrices) {
-    legalPrices.innerHTML = Object.values(site.products).map((item) => `<div><strong>${item.name}</strong><span>${yen(item.price)}円（${item.unit}）</span></div>`).join("");
+    legalPrices.innerHTML = Object.values(site.products).map((item) => `<div><strong>${item.name}</strong><span>${item.legalPrice || `${yen(item.price)}円（${item.unit}）`}</span></div>`).join("");
   }
 
   const menuButton = document.querySelector(".menu-button");

@@ -5,11 +5,11 @@
 ## 公開URL
 
 - トップ: https://economic-tutoring.pages.dev/
-- 経済学塾・オンライン家庭教師: https://economic-tutoring.pages.dev/economics-tutor.html
-- 対応科目: https://economic-tutoring.pages.dev/subjects.html
+- 経済学塾・オンライン家庭教師: https://economic-tutoring.pages.dev/economics-tutor
+- 対応科目: https://economic-tutoring.pages.dev/subjects
 - Instagram専用LP: https://economic-tutoring.pages.dev/instagram/
-- 料金・サービス: https://economic-tutoring.pages.dev/pricing.html
-- 受講者専用学習環境・確認小テスト: https://economic-tutoring.pages.dev/web-learning.html
+- 料金・サービス: https://economic-tutoring.pages.dev/pricing
+- 受講者専用学習環境・学習確認: https://economic-tutoring.pages.dev/web-learning
 - 経済学部の数学ガイド: https://economic-tutoring.pages.dev/guides/economics-math-basics
 - 大学統計学の勉強順ガイド: https://economic-tutoring.pages.dev/guides/university-statistics-study-order
 - 計量経済学・回帰分析ガイド: https://economic-tutoring.pages.dev/guides/econometrics-regression-basics
@@ -26,8 +26,8 @@
 - `economics-tutor.html`: 「経済学 塾」「経済学 家庭教師」「経済学 オンライン塾・オンライン家庭教師」で探す大学生・保護者へ、1対1指導の形式、対象、科目、料金、相談条件を説明する検索入口
 - `subjects.html`: ミクロ・マクロ・統計・計量・経済数学、授業・試験・再履修の対応内容
 - `instagram/index.html`: Instagramから訪れた人向けの相談獲得LP。DMを主導線、初回相談・体験フォームを第2導線、メールを補助導線とし、検索結果には掲載しない
-- `pricing.html`: 単発3商品、月額伴走2プラン、確認小テストオプションの料金と提供範囲を比較する詳細ページ
-- `web-learning.html`: 標準の受講者専用学習環境と任意の確認小テストを、実画面と学習サイクルで説明するページ
+- `pricing.html`: 単発3商品、月額伴走2プラン、確認小テストオプション、授業なしの月4回・学習確認コースを比較する詳細ページ
+- `web-learning.html`: 伴走プランの受講者専用学習環境と、授業なしの学習確認コースの6段階サイクルを、公開サンプルとともに説明するページ
 - `guides/economics-math-basics.html`: 変数・限界・偏微分・制約条件のどこで止まっているかを診断し、利潤最大化とラグランジュ法を数値例でつなぐ検索入口
 - `guides/university-statistics-study-order.html`: 標準偏差・標準誤差・信頼区間・検定の対象の違いを、一つの数値例と確認問題でつなぐ検索入口
 - `guides/econometrics-regression-basics.html`: 母集団モデル・推定式・残差、係数・標準誤差・因果解釈、欠落変数バイアスを分けて説明する検索入口
@@ -47,9 +47,9 @@
 `site-config.js` で次を一元管理しています。
 
 - ブランド名、Instagram、メール、CTA
-- 商品名、料金、授業回数、対象科目数
+- 商品名、料金、授業回数・確認サイクル、対象科目数
 - 各プランの要約、含まれる内容、含まれない内容
-- 標準の受講者専用学習環境と確認小テストオプションの共通説明
+- 標準の受講者専用学習環境、確認小テストオプション、月4回・学習確認コースの共通説明
 
 料金や連絡先を変更する場合は、原則として `site-config.js` を変更します。`script.js` が共通ヘッダー、フッター、問い合わせ欄、プランカード、法的ページの料金一覧へ反映します。
 
