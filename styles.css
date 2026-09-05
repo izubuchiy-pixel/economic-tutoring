@@ -343,9 +343,9 @@ img, svg { display: block; max-width: 100%; }
 .error-card h1 { font-family: "Yu Mincho", serif; font-size: 34px; }
 
 .reveal { opacity: 1; transform: none; }
-.js .reveal { opacity: 0; transform: translateY(16px); transition: opacity .55s ease, transform .55s ease; }
-.js .reveal.is-visible { opacity: 1; transform: none; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .js .reveal { opacity: 1; transform: none; transition: none; } .button:hover, .text-link:hover { transform: none; } }
+.reveal-ready .reveal { opacity: 0; transform: translateY(16px); transition: opacity .55s ease, transform .55s ease; }
+.reveal-ready .reveal.is-visible { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .reveal-ready .reveal { opacity: 1; transform: none; transition: none; } .button:hover, .text-link:hover { transform: none; } }
 
 @media (max-width: 980px) {
   .hero-grid, .trust-grid, .contact-grid, .faq-grid, .mock-grid, .web-inclusion-grid { grid-template-columns: 1fr; }

@@ -10,6 +10,7 @@
 - Instagram専用LP: https://economic-tutoring.pages.dev/instagram/
 - 料金・サービス: https://economic-tutoring.pages.dev/pricing
 - 受講者専用学習環境・学習確認: https://economic-tutoring.pages.dev/web-learning
+- 学習ガイド一覧: https://economic-tutoring.pages.dev/guides/
 - 経済学部の数学ガイド: https://economic-tutoring.pages.dev/guides/economics-math-basics
 - 大学統計学の勉強順ガイド: https://economic-tutoring.pages.dev/guides/university-statistics-study-order
 - 計量経済学・回帰分析ガイド: https://economic-tutoring.pages.dev/guides/econometrics-regression-basics
@@ -28,6 +29,7 @@
 - `instagram/index.html`: Instagramから訪れた人向けの相談獲得LP。DMを主導線、初回相談・体験フォームを第2導線、メールを補助導線とし、検索結果には掲載しない
 - `pricing.html`: 単発3商品、月額伴走2プラン、確認小テストオプション、授業なしの月4回・学習確認コースを比較する詳細ページ
 - `web-learning.html`: 伴走プランの受講者専用学習環境と、授業なしの学習確認コースの6段階サイクルを、公開サンプルとともに説明するページ
+- `guides/index.html`: 9本の学習ガイドを科目別に選べる一覧ページ
 - `guides/economics-math-basics.html`: 変数・限界・偏微分・制約条件のどこで止まっているかを診断し、利潤最大化とラグランジュ法を数値例でつなぐ検索入口
 - `guides/university-statistics-study-order.html`: 標準偏差・標準誤差・信頼区間・検定の対象の違いを、一つの数値例と確認問題でつなぐ検索入口
 - `guides/econometrics-regression-basics.html`: 母集団モデル・推定式・残差、係数・標準誤差・因果解釈、欠落変数バイアスを分けて説明する検索入口
@@ -52,6 +54,13 @@
 - 標準の受講者専用学習環境、確認小テストオプション、月4回・学習確認コースの共通説明
 
 料金や連絡先を変更する場合は、原則として `site-config.js` を変更します。`script.js` が共通ヘッダー、フッター、問い合わせ欄、プランカード、法的ページの料金一覧へ反映します。
+
+## サイト構成
+
+- 公式ホームを全体案内の中心にし、単発・授業あり伴走・授業なし学習確認の3つから目的別ページへ案内します。
+- Instagram専用LPはDMを主導線にした短い入口として維持し、詳細は料金・対応科目・学習環境へ分けます。
+- 学習ガイドは検索入口として本文を維持し、`guides/index.html`から横断できるようにします。
+- `hp-refresh.css` は公式ホーム、Instagram専用LP、料金、対応科目、学習環境、経済学塾ページ、学習ガイド一覧に限定したHP型レイアウトです。
 
 ## Cloudflare Pages
 

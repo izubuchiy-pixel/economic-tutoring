@@ -1,5 +1,3 @@
-document.documentElement.classList.add("js");
-
 (() => {
   const site = window.ECONOMIC_TUTORING;
   if (!site) return;
@@ -12,12 +10,14 @@ document.documentElement.classList.add("js");
   const isInstagramPage = page === "instagram";
   const navItems = [
     ["top", "ホーム", "/"],
-    ["tutor", "塾・家庭教師", "/economics-tutor"],
-    ["subjects", "対応科目", "/subjects"],
     ["pricing", "料金・サービス", "/pricing"],
-    ["web", "学習環境", "/web-learning"]
+    ["subjects", "対応科目", "/subjects"],
+    ["web", "学習環境", "/web-learning"],
+    ["guides", "学習ガイド", "/guides/"]
   ];
-  const contactHref = page === "top" || isInstagramPage ? "#contact" : "/#contact";
+  const consultationHref = site.consultationForm.url;
+  const primaryContactHref = isInstagramPage ? site.instagram.url : consultationHref;
+  const primaryContactLabel = isInstagramPage ? "Instagram DMで相談" : site.cta.short;
 
   const header = `
     <a class="skip-link" href="#main">本文へ移動</a>
@@ -30,7 +30,7 @@ document.documentElement.classList.add("js");
         <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav"><span></span><span></span><span></span></button>
         <nav class="nav" id="global-nav" aria-label="メインナビゲーション">
           ${navItems.map(([id, label, href]) => `<a href="${href}"${page === id ? ' aria-current="page"' : ""}>${label}</a>`).join("")}
-          <a class="nav-cta" href="${contactHref}">${site.cta.short}</a>
+          <a class="nav-cta" href="${primaryContactHref}" target="_blank" rel="noopener">${primaryContactLabel}</a>
         </nav>
       </div>
     </header>`;
@@ -40,7 +40,7 @@ document.documentElement.classList.add("js");
       <div class="shell footer-grid">
         <div class="footer-brand"><strong>${site.brand}</strong><p>大学生向け 経済学系専門科目のオンライン個別指導・学習確認</p></div>
         <nav class="footer-nav" aria-label="サイト案内">
-          <a href="/">ホーム</a><a href="/economics-tutor">経済学塾・オンライン家庭教師</a><a href="/subjects">対応科目</a><a href="/pricing">料金・サービス</a><a href="/web-learning">学習環境</a>
+          <a href="/">ホーム</a><a href="/economics-tutor">経済学塾・オンライン家庭教師</a><a href="/subjects">対応科目</a><a href="/pricing">料金・サービス</a><a href="/web-learning">学習環境</a><a href="/guides/">学習ガイド</a>
           <a href="/terms">利用案内・受講規約</a><a href="/privacy">プライバシーポリシー</a><a href="/tokusho">特定商取引法に基づく表記</a>
         </nav>
         <small>© 2026 ${site.brand}</small>
@@ -121,6 +121,12 @@ document.documentElement.classList.add("js");
   document.querySelectorAll("[data-site-footer]").forEach((el) => { el.outerHTML = footer; });
   document.querySelectorAll("[data-site-contact]").forEach((el) => { el.outerHTML = contact; });
 
+  document.querySelectorAll("[data-direct-consultation], [data-consultation-link]").forEach((link) => {
+    link.href = consultationHref;
+    link.target = "_blank";
+    link.rel = "noopener";
+  });
+
   document.querySelectorAll("[data-price]").forEach((el) => {
     const item = product(el.dataset.price);
     if (item) el.textContent = priceText(el.dataset.price);
@@ -149,6 +155,26 @@ document.documentElement.classList.add("js");
   document.querySelectorAll("[data-plan-cards]").forEach((el) => {
     const keys = (el.dataset.planCards || "").split(",").map((v) => v.trim()).filter(Boolean);
     el.innerHTML = keys.map((key) => card(key)).join("");
+  });
+
+  const detailRow = (key) => {
+    const item = product(key);
+    const price = `${yen(item.price)}円`;
+    return `<details class="hub-plan-detail">
+      <summary><span><small>${item.label}</small><strong>${item.name}</strong></span><b>${price}<em>${item.unit}</em></b></summary>
+      <div class="hub-plan-detail-body">
+        <p>${item.summary}</p>
+        ${item.priceNote ? `<p class="hub-plan-price-note">${item.priceNote}</p>` : ""}
+        ${item.lessons || item.subjects ? `<div class="hub-details-meta">${item.lessons ? `<b>${item.lessons}</b>` : ""}${item.subjects ? `<b>${item.subjects}</b>` : ""}</div>` : ""}
+        <div class="hub-plan-columns"><div><h4>含まれる内容</h4>${list(item.includes)}</div>${item.excludes?.length ? `<div><h4>確認事項</h4>${list(item.excludes)}</div>` : ""}</div>
+        <a class="text-link" href="#contact">このプランを相談する →</a>
+      </div>
+    </details>`;
+  };
+
+  document.querySelectorAll("[data-plan-details]").forEach((el) => {
+    const keys = (el.dataset.planDetails || "").split(",").map((value) => value.trim()).filter(Boolean);
+    el.innerHTML = keys.map((key) => detailRow(key)).join("");
   });
 
   document.querySelectorAll("[data-web-plan-cards]").forEach((el) => {
@@ -207,16 +233,39 @@ document.documentElement.classList.add("js");
     await copyText(site.email); showStatus("メールアドレスをコピーしました。");
   });
 
+  const mobileCta = document.querySelector(".hub-mobile-cta");
+  const contactSection = document.querySelector("#contact");
+  if (mobileCta && contactSection) {
+    let contactFrame;
+    const updateMobileCta = () => {
+      const bounds = contactSection.getBoundingClientRect();
+      mobileCta.classList.toggle("is-contact-visible", bounds.top < window.innerHeight && bounds.bottom > 0);
+      contactFrame = undefined;
+    };
+    updateMobileCta();
+    window.addEventListener("scroll", () => {
+      if (contactFrame) return;
+      contactFrame = requestAnimationFrame(updateMobileCta);
+    }, { passive: true });
+    window.addEventListener("resize", updateMobileCta);
+  }
+
   const revealElements = document.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window) {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add("is-visible");
-        observer.unobserve(entry.target);
-      });
-    }, { threshold: 0.08 });
-    revealElements.forEach((el) => observer.observe(el));
+    try {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        });
+      }, { threshold: 0.08 });
+      document.documentElement.classList.add("reveal-ready");
+      revealElements.forEach((el) => observer.observe(el));
+    } catch {
+      document.documentElement.classList.remove("reveal-ready");
+      revealElements.forEach((el) => el.classList.add("is-visible"));
+    }
   } else {
     revealElements.forEach((el) => el.classList.add("is-visible"));
   }
