@@ -294,6 +294,39 @@ img, svg { display: block; max-width: 100%; }
 .contact-alternatives a { color: var(--navy); font-weight: 850; text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px; }
 .contact-template { margin: 17px 0; background: var(--ivory); padding: 16px; color: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; white-space: pre-line; }
 .contact-card .button { width: 100%; margin-top: 9px; }
+.inquiry-contact { background: #f5f0e6; border-top: 1px solid var(--line); }
+.inquiry-contact .contact-grid { gap: clamp(2rem, 5vw, 4.5rem); }
+.inquiry-contact .contact-card { border: 1px solid var(--line); box-shadow: 0 14px 42px rgba(11,31,51,.06); }
+.inquiry-contact .contact-card > p { font-size: .875rem; }
+.inquiry-contact .contact-card h3 { font-size: 1.3rem; line-height: 1.6; }
+.inquiry-trial { margin-top: 2rem; border-top: 2px solid var(--gold); padding-top: 1.4rem; }
+.inquiry-trial-label { margin: 0 0 .35rem; color: var(--gold-dark); font-size: .75rem; font-weight: 750; }
+.inquiry-trial h3 { margin: 0; font-size: 1.35rem; }
+.inquiry-trial-price { margin: .4rem 0 1rem; font-size: 1rem; }
+.inquiry-trial-price strong { font-size: 1.7rem; }
+.inquiry-trial-price span { margin-left: .3rem; color: var(--muted); font-size: .75rem; }
+.inquiry-trial ul { margin: 0; padding-left: 1.2rem; font-size: .9rem; }
+.inquiry-trial li + li { margin-top: .3rem; }
+.inquiry-trial-note { color: var(--muted); font-size: .8rem; }
+.inquiry-example { border-left: 3px solid var(--gold); background: var(--ivory); padding: 1rem 1.1rem; margin: 1.2rem 0; }
+.inquiry-example > span { color: var(--gold-dark); font-size: .72rem; font-weight: 800; }
+.inquiry-example p { margin: .35rem 0 0; color: var(--ink); font-size: .9rem; line-height: 1.8; }
+.inquiry-template-details { margin-bottom: .6rem; }
+.inquiry-template-details summary { padding: .6rem 0; cursor: pointer; color: var(--navy); font-size: .85rem; text-decoration: underline; text-underline-offset: .25rem; }
+.inquiry-template-details .contact-template { color: var(--ink); font-size: .8rem; overflow-wrap: anywhere; }
+.inquiry-template-details .button-outline { border-color: var(--navy); color: var(--navy); }
+.inquiry-button-help { margin: .5rem 0 0; color: var(--muted); font-size: .8rem !important; line-height: 1.7; }
+.inquiry-steps { list-style: none; margin: 1.6rem 0 0; padding: 0; border-top: 1px solid var(--line); }
+.inquiry-steps li { display: grid; grid-template-columns: 1.8rem minmax(0,1fr); gap: .6rem; padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.inquiry-steps li > span { color: var(--gold-dark); font-family: Georgia, serif; font-size: 1rem; }
+.inquiry-steps strong { font-size: .9rem; }
+.inquiry-steps p { margin: .2rem 0 0; color: var(--muted); font-size: .8rem; line-height: 1.7; }
+.inquiry-contact .contact-assurance { font-size: .78rem !important; line-height: 1.7; font-weight: 500; }
+.inquiry-contact .copy-status { min-height: 0; margin: .5rem 0; color: var(--navy); font-size: .8rem; }
+.inquiry-contact .copy-status:empty { display: none; }
+.inquiry-contact .email-row { flex-wrap: wrap; }
+.inquiry-contact .email-row a { overflow-wrap: anywhere; }
+.inquiry-contact .contact-alternatives { font-size: .8rem; }
 .instagram-form-option { margin-top: 18px; border-top: 1px solid var(--line); padding-top: 16px; }
 .instagram-form-option > p:first-child { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.75; }
 .instagram-form-option > p:first-child strong { display: block; color: var(--navy); font-size: 13px; }

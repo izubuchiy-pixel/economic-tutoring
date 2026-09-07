@@ -67,7 +67,8 @@
   letter-spacing: -.045em;
   line-height: 1.28;
 }
-.hub-hero h1 { font-size: clamp(2.7rem, 6.4vw, 5.4rem); }
+.hub-hero h1 { font-size: clamp(2.35rem, 4vw, 3.2rem); line-height: 1.5; }
+.hub-phrase { display: inline-block; }
 .hub-hero h1 em { color: var(--gold-light); font-style: normal; }
 .hub-hero-lead {
   max-width: 42rem;
@@ -75,7 +76,9 @@
   color: rgba(255,255,255,.76);
   font-size: clamp(.98rem, 1.5vw, 1.12rem);
 }
-.hub-hero-note { margin: .85rem 0 0; color: rgba(255,255,255,.58); font-size: .75rem; }
+.hub-hero-note { margin: .85rem 0 0; color: rgba(255,255,255,.82); font-size: .82rem; }
+.hub-inquiry-link { display: inline-flex; gap: .65rem; align-items: center; min-height: 44px; margin-top: .5rem; color: var(--gold-light); font-size: .82rem; text-decoration: underline; text-underline-offset: .3rem; }
+.hub-hero-aside .hub-inquiry-aside-note { margin-top: 1rem; color: rgba(255,255,255,.78); font-size: .78rem; }
 .hub-hero .hero-actions { margin-top: 2rem; }
 .hub-hero-aside {
   border: 1px solid rgba(231,206,150,.45);
@@ -291,7 +294,7 @@
 .hub-callout p { margin: 0; color: rgba(255,255,255,.68); font-size: .82rem; }
 
 .hub-page .contact { border-top: 1px solid var(--hub-line); }
-.hub-page .contact h2 { font-size: clamp(2rem, 4vw, 3.2rem); }
+.hub-page .contact h2 { font-size: clamp(1.75rem, 3vw, 2.5rem); }
 .hub-page .contact-card { border-radius: 0; }
 .hub-page .faq-list summary { font-size: .9rem; }
 
@@ -313,8 +316,7 @@
   .hub-page .section { padding: 3.8rem 0; }
   .hub-hero-inner { gap: 2rem; padding-block: 4rem 3.2rem; }
   .hub-hero .hub-hero-inner > .hub-hero-aside { display: none; }
-  .hub-hero h1 { font-size: clamp(2.5rem, 12.3vw, 4rem); }
-  .hub-hero h1 br { display: none; }
+  .hub-hero h1 { font-size: clamp(1.65rem, 9vw, 2.4rem); }
   .hub-hero-lead { font-size: .96rem; }
   .hub-hero-aside { padding: 1.3rem; }
   .hub-facts { grid-template-columns: repeat(2, 1fr); }

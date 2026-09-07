@@ -17,7 +17,7 @@
   ];
   const consultationHref = site.consultationForm.url;
   const primaryContactHref = isInstagramPage ? site.instagram.url : consultationHref;
-  const primaryContactLabel = isInstagramPage ? "Instagram DMで相談" : site.cta.short;
+  const primaryContactLabel = isInstagramPage ? "Instagramで相談" : site.cta.short;
 
   const header = `
     <a class="skip-link" href="#main">本文へ移動</a>
@@ -55,56 +55,67 @@
 現在困っていること：
 相談経路：${inquirySource}`);
 
+  const consultationIntro = `
+        <div class="inquiry-intro">
+          <p class="section-label">相談の入口</p>
+          <h2>プランは未定でも、<br>相談できます。</h2>
+          <p>「どこが分からないか」を、きれいに説明できなくても大丈夫。科目と、いま止まっているところを分かる範囲でお知らせください。</p>
+          <div class="inquiry-trial">
+            <p class="inquiry-trial-label">内容・日程・条件を確認してから</p>
+            <h3>初回相談・体験</h3>
+            <p class="inquiry-trial-price">60分 <strong data-price="trial">3,000円</strong><span>（税込）</span></p>
+            <ul><li>現在の授業と、止まっている地点を確認</li><li>実際の問題を使って、説明と練習</li><li>次に取り組む内容と、進め方を整理</li></ul>
+            <p class="inquiry-trial-note">継続契約は必須ではありません。資料の共有方法は必要に応じて返信後にご案内します。</p>
+          </div>
+        </div>`;
+
+  const inquirySteps = `
+          <ol class="inquiry-steps" aria-label="問い合わせから初回相談・体験まで">
+            <li><span>01</span><div><strong>状況を送る</strong><p>科目・時期・困りごと。プランは未定でも構いません。</p></div></li>
+            <li><span>02</span><div><strong>対応可否と日程を確認</strong><p>内容を確認して返信し、必要な支援と条件をご案内します。</p></div></li>
+            <li><span>03</span><div><strong>合意後に、初回相談・体験</strong><p>60分3,000円（税込）。送信だけで契約・支払いは確定しません。</p></div></li>
+          </ol>`;
+
   const instagramContact = `
-    <section class="section contact" id="contact">
+    <section class="section contact inquiry-contact" id="contact">
       <div class="shell contact-grid">
-        <div>
-          <p class="section-label">CONTACT</p>
-          <h2>まずは60分で、<br>現在地と次の一手を整理。</h2>
-          <p>シラバス・講義資料・試験範囲など、手元にある資料を確認しながら進めます。相談時点で継続受講を決める必要はありません。</p>
-          <div class="contact-facts"><span>オンライン</span><span>60分</span><span data-price="trial"></span></div>
-        </div>
+        ${consultationIntro}
         <div class="contact-card">
-          <h3>Instagram DMで相談</h3>
-          <p>次の内容が分かる範囲でお知らせください。</p>
-          <div class="contact-template" id="contact-template">大学名・学部：
-相談したい科目：
-試験・課題の時期：
-現在困っていること：
-相談経路：${inquirySource}</div>
-          <button class="button button-navy" type="button" data-copy-template>相談文をコピー</button>
-          <a class="button button-gold" href="${site.instagram.url}" target="_blank" rel="noopener">Instagram DMを開く</a>
+          <p class="contact-kicker">INSTAGRAM</p>
+          <h3>まずは、科目と困りごとをDMで。</h3>
+          <p>大学・学年や試験時期も、分かる範囲で添えてください。</p>
+          <div class="inquiry-example"><span>相談文の例</span><p>ミクロ経済学の予算制約が分かりません。式は書けるのですが、グラフから解き方を選ぶところで止まります。</p></div>
+          <details class="inquiry-template-details"><summary>書き始めに迷ったら、ひな形を使う</summary><div class="contact-template" id="contact-template">相談したい科目：
+いま困っていること：
+大学・学年（分かる範囲で）：
+試験などの時期（未定でも可）：</div><button class="button button-outline" type="button" data-copy-template>ひな形をコピー</button></details>
+          <p class="copy-status" aria-live="polite"></p>
+          <a class="button button-gold" href="${site.instagram.url}" target="_blank" rel="noopener">Instagramのプロフィールへ</a>
+          <p class="inquiry-button-help">プロフィールの「メッセージ」から送信してください。</p>
+          ${inquirySteps}
           <div class="instagram-form-option">
-            <p><strong>初回相談・体験を申し込む方は相談フォーム</strong><span>大学・学年、科目、期限、困りごとを2〜3分で送れます。</span></p>
+            <p><strong>DM以外をご希望の方は、フォームでも。</strong><span>項目に沿って相談内容を送れます。資料の添付は不要です。</span></p>
             <a class="button button-navy contact-form-button" href="${site.consultationForm.url}" target="_blank" rel="noopener">${site.consultationForm.label}</a>
             <p class="contact-assurance">講義資料や答案の添付は不要です。送信だけで契約・支払いは確定しません。</p>
           </div>
           <div class="email-row"><a href="mailto:${site.email}?subject=${inquirySubject}&body=${inquiryBody}">${site.email}</a><button type="button" data-copy-email>コピー</button></div>
-          <p class="copy-status" aria-live="polite"></p>
         </div>
       </div>
     </section>`;
 
   const officialContact = `
-    <section class="section contact" id="contact">
+    <section class="section contact inquiry-contact" id="contact">
       <div class="shell contact-grid">
-        <div>
-          <p class="section-label">CONTACT</p>
-          <h2>まずは60分で、<br>現在地と次の一手を整理。</h2>
-          <p>大学・学年、科目、試験時期、困っていることを分かる範囲で入力してください。相談時点で継続受講を決める必要はありません。</p>
-          <div class="contact-facts"><span>全国オンライン</span><span>60分</span><span data-price="trial"></span></div>
-        </div>
+        ${consultationIntro}
         <div class="contact-card contact-card-form">
-          <p class="contact-kicker">OFFICIAL APPLICATION</p>
-          <h3>相談フォームから申し込む</h3>
-          <p>入力は2〜3分程度です。講義資料や答案の添付は求めません。</p>
-          <ul class="contact-form-points">
-            <li><span>01</span><div><strong>状況を入力</strong><small>大学・学年、科目、期限、困りごと</small></div></li>
-            <li><span>02</span><div><strong>内容を確認</strong><small>対応可否を確認し、事業用メールから連絡</small></div></li>
-            <li><span>03</span><div><strong>日程を調整</strong><small>双方で確認してから初回相談・体験を確定</small></div></li>
-          </ul>
+          <p class="contact-kicker">CONSULTATION FORM</p>
+          <h3>フォームで、今の状況を送る。</h3>
+          <p>大学・学年、科目、希望時期、困りごとなどを入力します。講義資料や答案の添付は不要です。</p>
+          <div class="inquiry-example"><span>困りごとの書き方の例</span><p>統計学の検定で、どの公式を使うのか判断できません。授業の演習を一人で進められるようになりたいです。</p></div>
           <a class="button button-navy contact-form-button" href="${site.consultationForm.url}" target="_blank" rel="noopener">${site.consultationForm.label}</a>
           <p class="contact-assurance">フォーム送信だけで契約・支払いは確定しません。</p>
+          ${inquirySteps}
+          <p class="inquiry-button-help">フォームでいただいた内容を確認し、事業用メールからご連絡します。</p>
           <div class="contact-alternatives">
             <p>入力前に短く相談したい方は</p>
             <a href="${site.instagram.url}" target="_blank" rel="noopener">Instagram DM</a>
@@ -211,11 +222,14 @@
   window.addEventListener("resize", () => { if (window.innerWidth > 900) closeMenu(); });
 
   async function copyText(text) {
-    try { await navigator.clipboard.writeText(text); }
+    try { await navigator.clipboard.writeText(text); return true; }
     catch {
       const area = document.createElement("textarea");
       area.value = text; area.readOnly = true; area.style.position = "fixed"; area.style.opacity = "0";
-      document.body.append(area); area.select(); document.execCommand("copy"); area.remove();
+      document.body.append(area); area.select();
+      try { return document.execCommand("copy"); }
+      catch { return false; }
+      finally { area.remove(); }
     }
   }
   let timer;
@@ -226,11 +240,12 @@
     timer = setTimeout(() => { status.textContent = ""; }, 2600);
   };
   document.querySelector("[data-copy-template]")?.addEventListener("click", async () => {
-    await copyText(document.querySelector("#contact-template")?.textContent.trim() || "");
-    showStatus("相談文をコピーしました。");
+    const copied = await copyText(document.querySelector("#contact-template")?.textContent.trim() || "");
+    showStatus(copied ? "相談文をコピーしました。必要なところを書き足して送れます。" : "コピーできませんでした。上のひな形を選択してコピーしてください。");
   });
   document.querySelector("[data-copy-email]")?.addEventListener("click", async () => {
-    await copyText(site.email); showStatus("メールアドレスをコピーしました。");
+    const copied = await copyText(site.email);
+    showStatus(copied ? "メールアドレスをコピーしました。" : "コピーできませんでした。メールアドレスを選択してコピーしてください。");
   });
 
   const mobileCta = document.querySelector(".hub-mobile-cta");
