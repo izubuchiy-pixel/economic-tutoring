@@ -1,10 +1,12 @@
 import {privateGroupEntries} from './university-entry-data-batch2.mjs';
 import {economicsEntries} from './university-entry-data-economics.mjs';
+import {economicsBatch2} from './university-entry-data-economics-batch2.mjs';
 export const universityEntryPath = d => `universities/${d.slug}/${d.subject || 'economics-math'}/`;
 export const universityEntryId = d => `university-${d.slug}${d.subject ? '-' + d.subject : ''}`;
 // Individually researched and authored entries, not a keyword/page generator.
 // Facts describe the cited curriculum only; examples are original, not exam questions.
 export const universityEntries = [
+  ...economicsBatch2,
   ...economicsEntries,
   ...privateGroupEntries,
   {

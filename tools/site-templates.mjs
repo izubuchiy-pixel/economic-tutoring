@@ -74,7 +74,8 @@ export function renderComponents(site, page) {
             <p class="inquiry-trial-price">60分 <strong data-price="trial">${priceText("trial")}</strong><span>（税込）</span></p>
             <ul><li>現在の授業と、止まっている地点を確認</li><li>実際の問題を使って、説明と練習</li><li>次に取り組む内容と、進め方を整理</li></ul>
             <p class="inquiry-trial-note">継続契約は必須ではありません。資料の共有方法は必要に応じて返信後にご案内します。</p>
-          </div>
+          </div>${page.startsWith('university-') || page === 'universities' ? `
+          <div class="inquiry-example"><h3>ご家族に説明したいときは</h3><p>支援内容・費用・進め方をまとめたページを、そのまま送れます。成人の受講者の学習状況は、ご本人の同意なく保護者へ共有しません。</p><a href="/parents/#share">保護者への説明用ページを見る →</a></div>` : ''}
         </div>`;
 
   const inquirySteps = `

@@ -11,7 +11,7 @@
 - 料金・サービス: https://economic-tutoring.pages.dev/pricing
 - 受講者専用学習環境・学習確認: https://economic-tutoring.pages.dev/web-learning
 - 学習ガイド一覧: https://economic-tutoring.pages.dev/guides/
-- 大学・科目別の入口（早慶・上智・GMARCH・関関同立・日東駒専・産近甲龍の21大学・25入口）: https://economic-tutoring.pages.dev/universities/
+- 大学・科目別の入口（早慶・上智・GMARCH・関関同立・日東駒専・産近甲龍の21大学・29入口）: https://economic-tutoring.pages.dev/universities/
 - ミクロ・マクロ経済学の入口（早稲田・慶應・上智）: https://economic-tutoring.pages.dev/universities/#economics-subjects
 - 保護者向け・ご家族への説明: https://economic-tutoring.pages.dev/parents/
 - 経済学部の数学ガイド: https://economic-tutoring.pages.dev/guides/economics-math-basics
@@ -69,7 +69,7 @@ node tools/verify-site.mjs
 git diff --check
 ```
 
-共通部品の生成対象はGit追跡済みHTMLと `tools/site-files.mjs` の明示的な入口ページのみです（現在47ページ）。未追跡の作業用HTMLや素材フォルダには触れません。個別原稿と出典は `tools/university-entry-data.mjs`、そこから読み込む `tools/university-entry-data-batch2.mjs` と `tools/university-entry-data-economics.mjs` で管理し、専用レンダラーは22ページを生成します。上智・関西学院・立教の既存経済数学ページと保護者ページの本文は直接編集します。科目別URL・問い合わせ例の識別子は共通ヘルパーで生成し、同じ大学のミクロ・マクロが混ざらないようにします。
+共通部品の生成対象はGit追跡済みHTMLと `tools/site-files.mjs` の明示的な入口ページのみです（現在51ページ）。未追跡の作業用HTMLや素材フォルダには触れません。個別原稿と出典は `tools/university-entry-data.mjs`、そこから読み込む `tools/university-entry-data-batch2.mjs`・`tools/university-entry-data-economics.mjs`・`tools/university-entry-data-economics-batch2.mjs` で管理し、専用レンダラーは26ページを生成します。上智・関西学院・立教の既存経済数学ページと保護者ページの本文は直接編集します。科目別URL・問い合わせ例の識別子は共通ヘルパーで生成し、同じ大学のミクロ・マクロが混ざらないようにします。ミクロ・マクロの個別入口は現在、早稲田・慶應・上智・関西学院・立教の5大学です。
 
 大学名だけの置換で増やさず、公式情報の確認範囲、固有の復習案・解説付き例題を確認してから追加します。公開済みでも検索登録・順位・流入を確認済みとは扱いません。HP・SEO作業は本人依頼時だけで、投稿自動化に混ぜません。
 

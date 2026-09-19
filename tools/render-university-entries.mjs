@@ -14,7 +14,7 @@ for(const d of universityEntries) {
  const url=`https://economic-tutoring.pages.dev/${universityEntryPath(d)}`;
  const pageId=universityEntryId(d);
  const comp=renderComponents(site,pageId);
- const related=d.subject ? `<section class="entry-section"><div class="shell"><h2>別の科目・前提へ戻りたいときは。</h2><nav class="entry-jumps" aria-label="関連する学習入口">${universityEntries.filter(other=>other.slug===d.slug&&other!==d).map(other=>`<a href="/${universityEntryPath(other)}">${esc(other.course)}</a>`).join('')}${d.slug==='sophia'?'<a href="/universities/sophia/economics-math/">上智大学の経済数学</a>':''}<a href="/universities/#economics-subjects">科目別の入口一覧</a></nav></div></section>\n` : '';
+ const related=d.subject ? `<section class="entry-section"><div class="shell"><h2>別の科目・前提へ戻りたいときは。</h2><nav class="entry-jumps" aria-label="関連する学習入口">${universityEntries.filter(other=>other.slug===d.slug&&other!==d).map(other=>`<a href="/${universityEntryPath(other)}">${esc(other.course)}</a>`).join('')}${['sophia','kwansei-gakuin','rikkyo'].includes(d.slug)?`<a href="/universities/${d.slug}/economics-math/">${esc(d.school)}の経済数学</a>`:''}<a href="/universities/#economics-subjects">科目別の入口一覧</a></nav></div></section>\n` : '';
  const html=`<!doctype html>
 <html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
