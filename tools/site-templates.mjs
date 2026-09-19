@@ -7,6 +7,12 @@ export function renderComponents(site, page) {
 
   
   const isInstagramPage = page === "instagram";
+  const isParentPage = page === "parents";
+  const entryExamples = {
+    'university-sophia': '上智大学の経済数学解析で、微分の計算はできるのですが、最大だと確認するところが分かりません。現在の授業に合わせて復習したいです。',
+    'university-kwansei': '関西学院大学の経済数学入門で、関数に代入することはできますが、微分の意味が分かりません。何から復習すべきか相談したいです。',
+    'university-rikkyo': '立教大学の経済数学入門で、連立方程式と行列の関係が分かりません。いまの単元の前提から確認したいです。'
+  };
   const navItems = [
     ["top", "ホーム", "/"],
     ["pricing", "料金・サービス", "/pricing"],
@@ -40,13 +46,14 @@ export function renderComponents(site, page) {
         <div class="footer-brand"><strong>${site.brand}</strong><p>大学生向け 経済学系専門科目のオンライン個別指導・学習確認</p></div>
         <nav class="footer-nav" aria-label="サイト案内">
           <a href="/">ホーム</a><a href="/economics-tutor">経済学塾・オンライン家庭教師</a><a href="/subjects">対応科目</a><a href="/pricing">料金・サービス</a><a href="/web-learning">学習環境</a><a href="/guides/">学習ガイド</a>
+          <a href="/universities/">大学・科目別の案内</a><a href="/parents/">保護者の方へ</a>
           <a href="/terms">利用案内・受講規約</a><a href="/privacy">プライバシーポリシー</a><a href="/tokusho">特定商取引法に基づく表記</a>
         </nav>
         <small>© 2026 ${site.brand}</small>
       </div>
     </footer>`;
 
-  const inquirySource = isInstagramPage ? "Instagram LP" : "公式サイト";
+  const inquirySource = isInstagramPage ? "Instagram LP" : isParentPage ? "保護者向けページ" : page.startsWith('university-') ? page : "公式サイト";
   const inquirySubject = encodeURIComponent("【サイト相談】初回相談・体験");
   const inquiryBody = encodeURIComponent(`大学名・学部：
 相談したい科目：
@@ -108,11 +115,11 @@ export function renderComponents(site, page) {
         ${consultationIntro}
         <div class="contact-card contact-card-form">
           <p class="contact-kicker">CONSULTATION FORM</p>
-          <h3>フォームで、今の状況を送る。</h3>
-          <p>大学・学年、科目、希望時期、困りごとなどを入力します。講義資料や答案の添付は不要です。</p>
-          <div class="inquiry-example"><span>困りごとの書き方の例</span><p>統計学の検定で、どの公式を使うのか判断できません。授業の演習を一人で進められるようになりたいです。</p></div>
-          <a class="button button-navy contact-form-button" href="${site.consultationForm.url}" target="_blank" rel="noopener">科目と困りごとを相談する</a>
-          <p class="contact-assurance">フォーム送信だけで契約・支払いは確定しません。</p>
+          <h3>${isParentPage ? '保護者の方からも、相談できます。' : 'フォームで、今の状況を送る。'}</h3>
+          <p>${isParentPage ? 'ご自身が保護者であることを相談内容に添えてください。大学・科目などは分かる範囲で構いません。入力が難しい場合は下記メールでも相談できます。' : '大学・学年、科目、希望時期、困りごとなどを入力します。講義資料や答案の添付は不要です。'}</p>
+          <div class="inquiry-example"><span>困りごとの書き方の例</span><p>${isParentPage ? '保護者です。大学生の子どもが経済数学の授業で困っています。まず、支援内容と費用について確認したいです。' : entryExamples[page] || '統計学の検定で、どの公式を使うのか判断できません。授業の演習を一人で進められるようになりたいです。'}</p></div>
+          <a class="button button-navy contact-form-button" href="${site.consultationForm.url}" target="_blank" rel="noopener">${isParentPage ? '保護者として相談する' : '科目と困りごとを相談する'}</a>
+          <p class="contact-assurance">フォーム送信だけで契約・支払いは確定しません。</p>${isParentPage ? '\n          <p class="fineprint">成績や答案など、本人の個人情報は同意なく送らないでください。実際の受講はご本人の希望も確認して進めます。</p>' : ''}
           ${inquirySteps}
           <p class="inquiry-button-help">フォームでいただいた内容を確認し、事業用メールからご連絡します。</p>
           <div class="contact-alternatives">

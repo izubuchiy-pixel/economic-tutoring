@@ -1,14 +1,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
-import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { renderComponents } from './site-templates.mjs';
+import { siteFiles } from './site-files.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const context = { window: {} };
 vm.runInNewContext(fs.readFileSync(path.join(root, 'site-config.js'), 'utf8'), context);
 const site = context.window.ECONOMIC_TUTORING;
-const files = execFileSync('git', ['ls-files', '*.html'], { cwd:root, encoding:'utf8' }).trim().split('\n');
+const files = siteFiles(root);
 let changed=0;
 for (const file of files) {
   const absolute=path.join(root,file);
