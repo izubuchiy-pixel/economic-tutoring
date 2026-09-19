@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>微分はできるのに経済数学が解けない｜偏微分・最適化のつまずき｜economic_tutoring</title>
-  <meta name="description" content="経済学部の数学で、微分はできるのに利潤最大化・偏微分・ラグランジュ未定乗数法が解けない理由を、診断問題、直感、具体例、試験での判断順で解説します。">
+  <title>経済数学が分からないときの勉強順｜式変形・微分・最適化｜economic_tutoring</title>
+  <meta name="description" content="大学の経済数学についていけないとき、どこから復習する？式への代入・式変形・微分・偏微分から、利潤最大化と制約付き最適化まで。短い例題と答えで、自分に必要な前提と次の学習先を確認できる無料ガイドです。">
   <meta name="theme-color" content="#0b1f33">
   <link rel="canonical" href="https://economic-tutoring.pages.dev/guides/economics-math-basics">
   <meta property="og:type" content="article"><meta property="og:site_name" content="economic_tutoring"><meta property="og:locale" content="ja_JP">
-  <meta property="og:title" content="微分はできるのに経済数学が解けない｜偏微分・最適化のつまずき"><meta property="og:description" content="公式ではなく、選択変数・限界・偏微分・制約の接続から解き直します。">
+  <meta property="og:title" content="経済数学が分からないときの勉強順｜式変形・微分・最適化"><meta property="og:description" content="式変形の手前から、最適化で止まる人まで。例題と答えを使って、必要なところから学び直せます。">
   <meta property="og:url" content="https://economic-tutoring.pages.dev/guides/economics-math-basics"><meta property="og:image" content="https://economic-tutoring.pages.dev/og.png">
   <meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/styles.css?v=30"><link rel="stylesheet" href="/enhancements.css?v=28">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"微分はできるのに経済数学が解けない｜偏微分・最適化のつまずき","description":"経済学部で使う微分・偏微分・最適化・ラグランジュ未定乗数法のつまずきを具体例で解説する学習ガイド","datePublished":"2026-08-14","dateModified":"2026-08-14","author":{"@type":"EducationalOrganization","name":"economic_tutoring"},"publisher":{"@type":"EducationalOrganization","name":"economic_tutoring"},"mainEntityOfPage":"https://economic-tutoring.pages.dev/guides/economics-math-basics","inLanguage":"ja"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"経済数学が分からないときの勉強順｜式変形・微分・最適化","description":"式への代入・式変形・微分・偏微分から最適化まで、短い例題と解答で学び直す無料ガイド","datePublished":"2026-08-14","dateModified":"2026-09-20","author":{"@type":"EducationalOrganization","name":"economic_tutoring"},"publisher":{"@type":"EducationalOrganization","name":"economic_tutoring"},"mainEntityOfPage":"https://economic-tutoring.pages.dev/guides/economics-math-basics","inLanguage":"ja"}]}</script>
   <script src="/site-config.js?v=28"></script><script src="/script.js?v=34" defer></script>
   <link rel="stylesheet" href="/hp-refresh.css?v=5">
 </head>
-<body data-page="guides">
+<body data-page="guide-economics-math">
   <!-- site:header -->
     <a class="skip-link" href="#main">本文へ移動</a>
     <header class="site-header">
@@ -37,45 +37,89 @@
       <header class="guide-hero">
         <div class="shell guide-shell">
           <div class="breadcrumbs"><a href="/">トップ</a><span>／</span><a href="/subjects">対応科目</a><span>／</span><span>経済学部の数学</span></div>
-          <p class="eyebrow">ECONOMICS MATH — OPTIMIZATION</p>
-          <h1>微分はできるのに、<br><em>最適化で止まる理由。</em></h1>
-          <p class="guide-lead">経済数学で難しいのは、公式そのものより「誰が、何を選び、何を固定し、どの条件の中で最大化するか」を式へつなぐ部分です。利潤最大化から偏微分、制約付き最適化までを、同じ判断順で整理します。</p>
-          <div class="guide-meta"><span>対象：大学の経済数学・ミクロ経済学</span><span>読了目安：9分</span><span>更新：2026年8月14日</span></div>
+          <p class="eyebrow">ECONOMICS MATH — START WHERE YOU ARE</p>
+          <h1>経済数学が分からないとき、<br><em>どこから戻ればいい？</em></h1>
+          <p class="guide-lead">式を読むところで止まる人と、微分はできるのに最大化が解けない人では、戻る場所が違います。短い例題で「今できること」を確かめて、授業に必要な一段前からつなぎ直しましょう。</p>
+          <div class="guide-meta"><span>対象：大学の経済数学・ミクロ経済学</span><span>必要な箇所から読めます／登録不要</span><span>更新：2026年9月20日</span></div>
         </div>
       </header>
 
       <div class="shell guide-shell guide-body">
+        <section class="guide-section" id="start">
+          <p class="section-label">CHOOSE YOUR START</p>
+          <h2>いまの困りごとから、読む場所を選ぶ。</h2>
+          <div class="guide-check-grid">
+            <article><span>入口 A</span><h3>式の意味・計算から怪しい</h3><p>C(q)は何を表す？ 文字に数字を入れる、方程式を解くところから。</p><a href="#foundations">代入・式変形へ →</a></article>
+            <article><span>入口 B</span><h3>微分で何が分かるの？</h3><p>「増え方」を式で読む練習。公式と、経済学の「限界」をつなぎます。</p><a href="#derivative">微分の例題へ →</a></article>
+            <article><span>入口 C</span><h3>文字が2つになると止まる</h3><p>偏微分では、どの文字を動かし、どの文字を固定するかを確認します。</p><a href="#partial">偏微分の例題へ →</a></article>
+            <article><span>入口 D</span><h3>微分はできるのに解けない</h3><p>何を選び、どの範囲で最大にするのか。候補を求めた後の確認まで。</p><a href="#optimization">利潤最大化へ →</a></article>
+          </div>
+          <p class="guide-note">まだ習っていない内容は、できなくても「苦手」ではありません。大学・科目によって必要な範囲は異なります。まずは今の講義で扱っている箇所を選び、分かるところは飛ばしてください。</p>
+        </section>
+
+        <section class="guide-section guide-section-tint" id="foundations">
+          <p class="section-label">FOUNDATION — READ THE FORMULA</p>
+          <h2>まず「数字を入れる」と「文字の値を求める」を分ける。</h2>
+          <p>生産量を q、費用を C(q) とします。C(q) は「qを決めると費用が決まる」という書き方で、Cとqの掛け算ではありません。この例では q ≥ 0 とします。</p>
+          <div class="guide-steps">
+            <article><span>1</span><div><strong>代入：qが3なら、費用はいくら？</strong><p>C(q) = q² + 4 の q を3に置き換えると、C(3) = 3² + 4 = 13。3²は3×3です。</p></div></article>
+            <article><span>2</span><div><strong>方程式：10 − 2q = 0になるqは？</strong><p>両辺に2qを足して 10 = 2q。両辺を2で割って q = 5。片側だけでなく、両辺に同じ操作をします。</p></div></article>
+          </div>
+          <details><summary>確認問題：C(2)は？ 12 − 3q = 0になるqは？</summary><p>C(2) = 2² + 4 = 8。方程式は12 = 3qより q = 4。代入は決まったqから費用を計算し、方程式は条件に合うqを探しています。</p></details>
+          <p><a href="#derivative">ここが分かれば、次は微分へ →</a>　分数や指数の計算で止まったら、その計算を先に復習します。</p>
+        </section>
+
+        <section class="guide-section" id="derivative">
+          <p class="section-label">FOUNDATION — CHANGE AND SLOPE</p>
+          <h2>微分は、その地点での「増え方」を読む道具。</h2>
+          <p>C(q) = q² + 4 を微分すると C′(q) = 2q。q²の微分は2q、qによらず一定の4の微分は0です。C′(3) = 6 は、q = 3付近での費用の変化率（グラフの接線の傾き）を表します。</p>
+          <p>ここで注意したいのは、「1個増やすと必ず6増える」という意味ではないこと。実際に3から4へ増やすと、C(4) − C(3) = 20 − 13 = 7です。微分が表すのは、その地点でのごく小さい変化に対する増え方です。</p>
+          <div class="guide-formula" aria-label="利潤の導関数は10マイナス2q">π′(q) = 10 − 2q</div>
+          <p>利潤 π(q) = 10q − q² − 16 も、項ごとに微分します。10qは10、−q²は−2q、定数−16は0。こうして得た導関数が正なら、少し増産すると利潤が増えます。</p>
+          <details><summary>確認問題：π(q) = 8q − q² − 4 の導関数は？</summary><p>π′(q) = 8 − 2q。さらにq = 2なら π′(2) = 4 &gt; 0 なので、そこから少し増産すると利潤が増えます。微分後の式にqを代入する点を確認しましょう。</p></details>
+          <p><a href="#optimization">文字が1つの最大化へ進む →</a> ／ <a href="#partial">文字が2つあるなら、偏微分へ →</a></p>
+        </section>
+
+        <section class="guide-section guide-section-tint" id="partial">
+          <p class="section-label">FOUNDATION — HOLD ONE VARIABLE FIXED</p>
+          <h2>偏微分は、ほかの文字をいったん固定する。</h2>
+          <p>効用 U(x,y) = xy を、xで偏微分します。このときyは固定。例えばy = 3なら U(x,3) = 3xなので、xについての傾きは3です。yを文字のまま固定すれば、∂U/∂x = yとなります。</p>
+          <p>逆にyで偏微分するときは、xを固定するので ∂U/∂y = x。「どちらの文字で微分するか」を最初に指さして確認しましょう。</p>
+          <details><summary>確認問題：U(x,y) = x²y をxで偏微分すると？</summary><p>yを定数として扱い、x²だけを微分するので ∂U/∂x = 2xy。x = 3、y = 2での値は2×3×2 = 12です。</p></details>
+          <p><a href="#self-check">次の3問で、経済学の問題とのつながりを確認 →</a></p>
+        </section>
+
         <section class="guide-section">
           <p class="section-label">WHERE STUDENTS GET STUCK</p>
           <h2>計算の前にある「4つの接続」で止まりやすい。</h2>
           <p>微分公式を覚えていても、次の4点が曖昧だと経済学の問題として解けません。全部を高校数学からやり直すのではなく、止まった接続だけを戻ります。</p>
           <div class="guide-check-grid">
             <article><span>01</span><h3>選択変数</h3><p>企業が選ぶのは生産量か価格か。消費者が選ぶのは財の組合せか。最初に主役を決めます。</p></article>
-            <article><span>02</span><h3>限界の意味</h3><p>導関数は「もう1単位増やしたとき、目的がどちらへ動くか」。公式と経済語を往復します。</p></article>
+            <article><span>02</span><h3>限界の意味</h3><p>導関数は、その地点での変化率。少し増やすと目的がどちらへ動くかを、公式と経済語で読みます。</p></article>
             <article><span>03</span><h3>固定するもの</h3><p>偏微分では、他の数量や価格を一時的に固定します。何を固定したかで答えの意味が変わります。</p></article>
             <article><span>04</span><h3>制約</h3><p>予算や技術は、好きな点を選べないという境界です。目的関数の一部ではなく、選べる範囲を決めます。</p></article>
           </div>
         </section>
 
-        <section class="guide-section guide-section-tint">
-          <p class="section-label">QUICK DIAGNOSIS</p>
+        <section class="guide-section guide-section-tint" id="self-check">
+          <p class="section-label">SELF CHECK</p>
           <h2>3問で、戻る場所を確かめる。</h2>
           <div class="guide-question-list">
             <article><span>Q1</span><div><h3>微分計算</h3><p>π(q) = 10q − q² − 16 を q で微分すると？</p><details><summary>答えと診断</summary><p>π′(q) = 10 − 2q。ここで止まるなら、べき乗・定数・和の微分を先に確認します。</p></details></div></article>
             <article><span>Q2</span><div><h3>偏微分</h3><p>U(x,y) = xy を x で偏微分すると？ そのとき何を固定する？</p><details><summary>答えと診断</summary><p>∂U/∂x = y。yを定数として固定します。答えだけでなく「yを固定」と言えることが大切です。</p></details></div></article>
-            <article><span>Q3</span><div><h3>制約の役割</h3><p>max U(x,y) = xy、制約 2x + y = 12 の「2x + y = 12」は何を決める？</p><details><summary>答えと診断</summary><p>予算内で選べる(x,y)の組合せです。効用へ足す費用ではなく、実行可能な範囲を限定します。</p></details></div></article>
+            <article><span>Q3</span><div><h3>制約の役割</h3><p>x,y ≥ 0で U(x,y) = xy を最大化するとき、制約 2x + y = 12 は何を決める？</p><details><summary>答えと確認</summary><p>xの価格が2、yの価格が1で、予算12を使い切る組合せを決めます。「予算以内」なら2x + y ≤ 12と書きます。ここでは使い切る場合の最適化を扱います。</p></details></div></article>
           </div>
         </section>
 
-        <section class="guide-section">
+        <section class="guide-section" id="optimization">
           <p class="section-label">BRIDGE 1 — ONE VARIABLE</p>
           <h2>なぜ「微分して0」が最大化になるのか。</h2>
-          <p>企業の利潤を π(q) = 10q − q² − 16 とします。企業が選ぶのは生産量 q です。</p>
+          <p>収入が10q、費用がq² + 16の企業を考えます。利潤は「収入−費用」で π(q) = 10q − q² − 16。企業が選ぶのは生産量 q ≥ 0 です。</p>
           <div class="guide-formula" aria-label="利潤パイ括弧q括弧イコール10qマイナスq二乗マイナス16">π(q) = 10q − q² − 16</div>
           <div class="guide-flow" aria-label="限界利潤を使った最大化の判断">
             <article><span>q &lt; 5</span><strong>π′(q) &gt; 0</strong><p>少し増産すると利潤が増える。</p></article>
             <b aria-hidden="true">→</b>
-            <article><span>q = 5</span><strong>π′(q) = 0</strong><p>増減どちらでも改善しない候補。</p></article>
+            <article><span>q = 5</span><strong>π′(q) = 0</strong><p>ここが候補。前後の増減も確認。</p></article>
             <b aria-hidden="true">→</b>
             <article><span>q &gt; 5</span><strong>π′(q) &lt; 0</strong><p>さらに増産すると利潤が減る。</p></article>
           </div>
@@ -86,12 +130,13 @@
           </div>
           <div class="guide-answer-pair"><p><span>よくある答案</span>微分して0だから q = 5。</p><p><span>伝わる答案</span>選択変数はq。内点の一階条件からq=5を得て、二階微分が負なので利潤を最大化する。</p></div>
           <p class="guide-note">「微分＝0」は候補を出す条件です。q ≥ 0のような範囲があるときは端点も確認します。一階条件だけを書いて終わらないことが重要です。</p>
+          <details><summary>この例が、本当に最大になることを別の方法でも確認する</summary><p>平方完成すると π(q) = 9 − (q − 5)²。二乗は0以上なので利潤は9を超えず、q = 5で9になります。q = 0の利潤−16も含め、q ≥ 0の範囲全体で最大だと分かります。</p></details>
         </section>
 
-        <section class="guide-section guide-section-tint">
+        <section class="guide-section guide-section-tint" id="constrained">
           <p class="section-label">BRIDGE 2 — CONSTRAINT</p>
           <h2>ラグランジュ法は、制約と目的が接する点を探す。</h2>
-          <p>効用 U(x,y) = xy を、予算 2x + y = 12 の中で最大化します。xの価格は2、yの価格は1です。</p>
+          <p>効用 U(x,y) = xy を、x,y ≥ 0、予算を使い切る条件 2x + y = 12 のもとで最大化します。xの価格は2、yの価格は1です。</p>
           <div class="guide-formula guide-formula-stack" aria-label="ラグランジュ関数と一階条件">
             <span>ℒ = xy + λ(12 − 2x − y)</span>
             <span>∂ℒ/∂x = y − 2λ = 0</span>
@@ -99,11 +144,12 @@
             <span>∂ℒ/∂λ = 12 − 2x − y = 0</span>
           </div>
           <div class="guide-steps">
-            <article><span>1</span><div><strong>xとyの価値を同じ単位で比べる</strong><p>y = 2λ、x = λ なので y = 2x。価格が2倍のxは、限界効用も2倍でなければ追加購入する意味がありません。</p></div></article>
+            <article><span>1</span><div><strong>xとyの価値を同じ単位で比べる</strong><p>y = 2λ、x = λ なので y = 2x。両財を正の量だけ選ぶ最適点では、1円当たりの限界効用が MUx/2 = MUy/1 と等しくなります。</p></div></article>
             <article><span>2</span><div><strong>予算制約へ戻す</strong><p>2x + y = 12へ y = 2x を代入すると4x = 12。したがって x = 3、y = 6。</p></div></article>
             <article><span>3</span><div><strong>接点条件を読む</strong><p>限界代替率 MUx/MUy = y/x = 2 は、価格比 px/py = 2/1 = 2と一致します。</p></div></article>
           </div>
           <p class="guide-note">λを覚えることが目的ではありません。「制約を守ったままxを少し増やすにはyを減らす必要があり、それでも効用が改善するか」を同じ式で比較しています。</p>
+          <details><summary>候補だけで終わらず、最大値と端点も確認する</summary><p>y = 12 − 2xを代入すると、U = x(12 − 2x) = 18 − 2(x − 3)²。選べる範囲は0 ≤ x ≤ 6です。x = 3、y = 6で最大値18、両端のx = 0とx = 6では0になります。</p></details>
         </section>
 
         <section class="guide-section">
@@ -130,10 +176,21 @@
           </ol>
         </section>
 
+        <section class="guide-section" id="study-route">
+          <p class="section-label">YOUR NEXT STEP</p>
+          <h2>読んだ後は、授業の問題へ戻って確かめる。</h2>
+          <div class="guide-check-grid">
+            <article><span>まだ止まるなら</span><h3>最初に分からなくなった一行へ</h3><p>記号・計算なら<a href="#foundations">代入と式変形</a>、増え方なら<a href="#derivative">微分</a>、固定する文字なら<a href="#partial">偏微分</a>へ。解答を閉じて、確認問題をもう一度解いてみてください。</p></article>
+            <article><span>自力で解けたら</span><h3>授業範囲に合う次の問題へ</h3><p>消費者理論なら<a href="/guides/micro-marginal-rate-substitution">限界代替率と価格比</a>へ。別の単元なら<a href="/universities/">大学・科目別の学習案内</a>から、今の講義に近いテーマを探せます。</p></article>
+          </div>
+          <p>試験が近いときは、試験範囲と残りの日数を先に書き出し、「今の問題に必要な前提→例題1問→解答を見ずに類題」の順で範囲を絞ります。全単元を最初から読み通す必要はありません。</p>
+        </section>
+
         <section class="guide-section guide-personal-help">
           <p class="section-label">WHEN A TEXTBOOK STILL FEELS HARD</p>
           <h2>「微分が苦手」では、戻る範囲が広すぎます。</h2>
-          <p>実際には、式変形、選択変数、偏微分、制約、最大判定のどこか1点で止まっていることが多くあります。講義資料の該当範囲と途中式を確認すれば、全部を最初からやり直さずに開始地点を絞れます。</p>
+          <p>このガイドで分かれば、そのまま自習を進めてください。解説を読んでも途中式がつながらない、授業や試験までに間に合わない場合は、科目・期限・分からない箇所を分かる範囲でお知らせください。状況に合わせて対応可否をご案内します。</p>
+          <p>個別に問題へ取り組み、つまずきと進め方を整理する初回相談・体験は60分3,000円（税込）です。この無料ガイドの閲覧だけで、申し込みや契約は必要ありません。</p>
           <a class="button button-primary" data-consultation-link href="#contact">経済数学の相談内容をフォームで送る</a>
         </section>
 
@@ -149,7 +206,7 @@
         <aside class="guide-related">
           <p class="section-label">RELATED GUIDES</p>
           <h2>次に読む</h2>
-          <div><a href="/guides/epsilon-delta-definition"><strong>極限の定義をε-δ論法から確認する</strong><span>解析の土台へ戻る →</span></a><a href="/guides/micro-marginal-rate-substitution"><strong>偏微分を消費者の最適化で使う</strong><span>MRSと価格比をつなぐ →</span></a></div>
+          <div><a href="/guides/epsilon-delta-definition"><strong>授業で極限の厳密な定義を扱う方へ</strong><span>発展分岐：ε-δ論法を確認する →</span></a><a href="/guides/micro-marginal-rate-substitution"><strong>偏微分を消費者の最適化で使う</strong><span>MRSと価格比をつなぐ →</span></a></div>
         </aside>
       </div>
     </article>
@@ -168,12 +225,13 @@
             <ul><li>現在の授業と、止まっている地点を確認</li><li>実際の問題を使って、説明と練習</li><li>次に取り組む内容と、進め方を整理</li></ul>
             <p class="inquiry-trial-note">継続契約は必須ではありません。資料の共有方法は必要に応じて返信後にご案内します。</p>
           </div>
+          <div class="inquiry-example"><h3>ご家族に説明したいときは</h3><p>支援内容・費用・進め方をまとめたページを、そのまま送れます。成人の受講者の学習状況は、ご本人の同意なく保護者へ共有しません。</p><a href="/parents/#share">保護者への説明用ページを見る →</a></div>
         </div>
         <div class="contact-card contact-card-form">
           <p class="contact-kicker">CONSULTATION FORM</p>
           <h3>フォームで、今の状況を送る。</h3>
           <p>大学・学年、科目、希望時期、困りごとなどを入力します。講義資料や答案の添付は不要です。</p>
-          <div class="inquiry-example"><span>困りごとの書き方の例</span><p>統計学の検定で、どの公式を使うのか判断できません。授業の演習を一人で進められるようになりたいです。</p></div>
+          <div class="inquiry-example"><span>困りごとの書き方の例</span><p>経済数学で、微分の式は追えますが、なぜ利潤が最大になるのか説明できません。試験は○月ごろです。今の授業に必要な範囲から復習したいです。</p></div>
           <a class="button button-navy contact-form-button" href="https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform" target="_blank" rel="noopener">科目と困りごとを相談する</a>
           <p class="contact-assurance">フォーム送信だけで契約・支払いは確定しません。</p>
 
@@ -187,7 +245,7 @@
             <p>入力前に短く相談したい方は</p>
             <a href="https://www.instagram.com/economic_tutoring/" target="_blank" rel="noopener">Instagram DM</a>
             <span>または</span>
-            <a href="mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88">メール</a>
+            <a href="mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E7%B5%8C%E6%B8%88%E6%95%B0%E5%AD%A6%E3%81%AE%E5%AD%A6%E7%BF%92%E3%82%AC%E3%82%A4%E3%83%89">メール</a>
           </div>
         </div>
       </div>

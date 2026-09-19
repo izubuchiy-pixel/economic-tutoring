@@ -8,6 +8,9 @@ import {renderComponents} from './site-templates.mjs';
 import {siteFiles,entryPages} from './site-files.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const baseline=process.argv[2] || 'HEAD';
+// Explicit, page-scoped approval: never disable preservation for other guides.
+const guideUpdate=process.argv.includes('--allow-math-guide-update');
+const mathGuide='guides/economics-math-basics.html';
 const read=f=>fs.readFileSync(path.join(root,f),'utf8');
 const previous=f=>execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'});
 const context={window:{}};
@@ -18,7 +21,7 @@ const files=siteFiles(root);
 const pages=new Map(files.map(f=>[f,read(f)]));
 const norm=s=>s.replace(/[ \t]+$/gm,'').trim();
 const issues=[];
-let linkCount=0,jsonCount=0,guideCount=0,componentCount=0;
+let linkCount=0,jsonCount=0,guideCount=0,updatedGuideCount=0,componentCount=0;
 const check=(value,label)=>{ if(!value)issues.push(label); };
 function resolve(url,from) {
  const absolute=new URL(url,'https://economic-tutoring.pages.dev/'+from);
@@ -47,6 +50,13 @@ for(const [file,html] of pages) {
        check(after[0]?.name===name,file+': collection name mismatch');
        before[0].name=name;
      }
+     if(guideUpdate && file===mathGuide) {
+       const approved={headline:'経済数学が分からないときの勉強順｜式変形・微分・最適化',description:'式への代入・式変形・微分・偏微分から最適化まで、短い例題と解答で学び直す無料ガイド',dateModified:'2026-09-20'};
+       for(const [key,value] of Object.entries(approved)) {
+         check(after[0]?.['@graph']?.[0]?.[key]===value,file+': approved '+key+' mismatch');
+         before[0]['@graph'][0][key]=value;
+       }
+     }
      assert.deepEqual(after,before);
    } else check(json(html).length>0,file+': JSON-LD missing');
    jsonCount+=json(html).length;
@@ -65,8 +75,17 @@ for(const [file,html] of pages) {
    const article=s=>s.match(/<article class="guide-article">[\s\S]*?<\/article>\s*(?=<div data-site-contact|<!-- site:contact|<\/main>)/)?.[0];
    // The complete teaching article ends before the shared consultation area.
    const body=s=>s.slice(s.indexOf('<article class="guide-article">'),s.indexOf('</main>')).replace(/(?:<div data-site-contact><\/div>|<!-- site:contact -->[\s\S]*?<!-- \/site:contact -->)/g,'').trim();
-   check(norm(body(html))===norm(body(old)),file+': teaching article changed');
-   guideCount++;
+   if(guideUpdate && file===mathGuide) {
+     for(const id of ['start','foundations','derivative','partial','self-check','optimization','constrained','study-route']) check(ids.includes(id),file+': missing learning branch '+id);
+     check(html.includes('まだ習っていない内容'),file+': unlearned-content boundary missing');
+     check(html.includes('q ≥ 0') && html.includes('x,y ≥ 0'),file+': variable domain missing');
+     check(html.includes('その地点での変化率'),file+': derivative meaning missing');
+     check(html.includes('href="/parents/#share"'),file+': parent share path missing');
+     updatedGuideCount++;
+   } else {
+     check(norm(body(html))===norm(body(old)),file+': teaching article changed');
+     guideCount++;
+   }
  }
  for(const m of html.matchAll(/\b(?:href|src)="([^"]+)"/g)) {
    const url=m[1];
@@ -114,6 +133,6 @@ for(const f of entryPages) {
  }
 }
 check(pages.get('parents/index.html')?.includes('本人が同意した相手・情報・範囲に限って'),'parent consent boundary missing');
-const result={ok:issues.length===0,baseline,pages:files.length,staticComponents:componentCount,localLinksChecked:linkCount,jsonLdBlocks:jsonCount,preservedGuideArticles:guideCount,completeProducts:Object.keys(config.products).length,sitemapUrls:urls.length,issues,browserVisualQA:'Not run: not requested',checkedAt:new Date().toISOString()};
+const result={ok:issues.length===0,baseline,pages:files.length,staticComponents:componentCount,localLinksChecked:linkCount,jsonLdBlocks:jsonCount,preservedGuideArticles:guideCount,updatedGuideArticles:updatedGuideCount,completeProducts:Object.keys(config.products).length,sitemapUrls:urls.length,issues,browserVisualQA:'Not run: not requested',checkedAt:new Date().toISOString()};
 console.log(JSON.stringify(result,null,2));
 process.exitCode=issues.length?1:0;

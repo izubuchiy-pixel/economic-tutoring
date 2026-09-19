@@ -9,7 +9,9 @@ export function renderComponents(site, page) {
   
   const isInstagramPage = page === "instagram";
   const isParentPage = page === "parents";
+  const isMathGuide = page === "guide-economics-math";
   const entryExamples = {
+    'guide-economics-math': '経済数学で、微分の式は追えますが、なぜ利潤が最大になるのか説明できません。試験は○月ごろです。今の授業に必要な範囲から復習したいです。',
     ...Object.fromEntries(universityEntries.map(d => [universityEntryId(d), d.inquiry])),
     'university-sophia': '上智大学の経済数学解析で、微分の計算はできるのですが、最大だと確認するところが分かりません。現在の授業に合わせて復習したいです。',
     'university-kwansei': '関西学院大学の経済数学入門で、関数に代入することはできますが、微分の意味が分かりません。何から復習すべきか相談したいです。',
@@ -36,7 +38,7 @@ export function renderComponents(site, page) {
         </a>
         <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav"><span></span><span></span><span></span></button>
         <nav class="nav" id="global-nav" aria-label="メインナビゲーション">
-          ${navItems.map(([id, label, href]) => `<a href="${href}"${page === id ? ' aria-current="page"' : ""}>${label}</a>`).join("")}
+          ${navItems.map(([id, label, href]) => `<a href="${href}"${page === id || isMathGuide && id === 'guides' ? ' aria-current="page"' : ""}>${label}</a>`).join("")}
           <a class="nav-cta" href="${primaryContactHref}" target="_blank" rel="noopener">${primaryContactLabel}</a>
         </nav>
       </div>
@@ -55,7 +57,7 @@ export function renderComponents(site, page) {
       </div>
     </footer>`;
 
-  const inquirySource = isInstagramPage ? "Instagram LP" : isParentPage ? "保護者向けページ" : page.startsWith('university-') ? page : "公式サイト";
+  const inquirySource = isInstagramPage ? "Instagram LP" : isParentPage ? "保護者向けページ" : isMathGuide ? "経済数学の学習ガイド" : page.startsWith('university-') ? page : "公式サイト";
   const inquirySubject = encodeURIComponent("【サイト相談】初回相談・体験");
   const inquiryBody = encodeURIComponent(`大学名・学部：
 相談したい科目：
@@ -74,7 +76,7 @@ export function renderComponents(site, page) {
             <p class="inquiry-trial-price">60分 <strong data-price="trial">${priceText("trial")}</strong><span>（税込）</span></p>
             <ul><li>現在の授業と、止まっている地点を確認</li><li>実際の問題を使って、説明と練習</li><li>次に取り組む内容と、進め方を整理</li></ul>
             <p class="inquiry-trial-note">継続契約は必須ではありません。資料の共有方法は必要に応じて返信後にご案内します。</p>
-          </div>${page.startsWith('university-') || page === 'universities' ? `
+          </div>${page.startsWith('university-') || page === 'universities' || isMathGuide ? `
           <div class="inquiry-example"><h3>ご家族に説明したいときは</h3><p>支援内容・費用・進め方をまとめたページを、そのまま送れます。成人の受講者の学習状況は、ご本人の同意なく保護者へ共有しません。</p><a href="/parents/#share">保護者への説明用ページを見る →</a></div>` : ''}
         </div>`;
 
