@@ -30,3 +30,18 @@ for (const file of files) {
   if (html!==before) {fs.writeFileSync(absolute,html);changed++;}
 }
 console.log('Static shared components: '+files.length+' pages, '+changed+' updated.');
+
+// Keep the diagnostic text sitemap derived from the canonical XML URL list.
+// Google supports both formats; no content page or indexing directive changes.
+const xml = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
+const sitemapUrls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]);
+if (!sitemapUrls.length || new Set(sitemapUrls).size !== sitemapUrls.length ||
+    sitemapUrls.some(url => !url.startsWith('https://economic-tutoring.pages.dev/') || /[\s<&]/.test(url))) {
+  throw new Error('Cannot generate text sitemap from an empty, duplicated, or unsupported URL list');
+}
+const textSitemap = sitemapUrls.join('\n')+'\n';
+const textPath = path.join(root, 'sitemap.txt');
+if (!fs.existsSync(textPath) || fs.readFileSync(textPath, 'utf8') !== textSitemap) {
+  fs.writeFileSync(textPath, textSitemap);
+}
+console.log('Text sitemap: '+sitemapUrls.length+' URLs, synchronized with sitemap.xml.');

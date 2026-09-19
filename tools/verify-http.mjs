@@ -6,7 +6,7 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const base=new URL(process.argv[2]||'http://127.0.0.1:4173');
 const sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');
 const urls=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>new URL(m[1]).pathname);
-urls.push('/instagram/','/hp-refresh.css','/styles.css','/enhancements.css','/script.js','/site-config.js','/robots.txt','/sitemap.xml','/assets/showcase-home-desktop.png');
+urls.push('/instagram/','/hp-refresh.css','/styles.css','/enhancements.css','/script.js','/site-config.js','/robots.txt','/sitemap.xml','/sitemap.txt','/assets/showcase-home-desktop.png');
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 const results=[];
 for(let start=0;start<urls.length;start+=4) await Promise.all(urls.slice(start,start+4).map(async route=>{

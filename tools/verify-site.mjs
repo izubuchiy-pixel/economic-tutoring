@@ -97,6 +97,7 @@ const oldUrls=[...previous('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(
 for(const url of oldUrls) check(urls.includes(url),'old sitemap URL removed '+url);
 check(urls.length===18+entryPages.length,'sitemap count');
 check(urls.length===new Set(urls).size,'duplicate sitemap URL');
+check(read('sitemap.txt')===urls.join('\n')+'\n','text sitemap differs from XML URL list');
 for(const url of urls) check(pages.has(resolve(url,'index.html').file),'sitemap unresolved '+url);
 for(const f of entryPages) {
  const html=pages.get(f)||'';
