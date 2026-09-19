@@ -110,7 +110,7 @@
   </url>
   <url>
     <loc>https://economic-tutoring.pages.dev/universities/</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -154,4 +154,10 @@
   <url><loc>https://economic-tutoring.pages.dev/universities/kindai/economics-math/</loc><lastmod>2026-09-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://economic-tutoring.pages.dev/universities/konan/economics-math/</loc><lastmod>2026-09-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://economic-tutoring.pages.dev/universities/ryukoku/economics-math/</loc><lastmod>2026-09-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://economic-tutoring.pages.dev/universities/waseda/microeconomics/</loc><lastmod>2026-09-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://economic-tutoring.pages.dev/universities/waseda/macroeconomics/</loc><lastmod>2026-09-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://economic-tutoring.pages.dev/universities/keio/microeconomics/</loc><lastmod>2026-09-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://economic-tutoring.pages.dev/universities/keio/macroeconomics/</loc><lastmod>2026-09-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://economic-tutoring.pages.dev/universities/sophia/microeconomics/</loc><lastmod>2026-09-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://economic-tutoring.pages.dev/universities/sophia/macroeconomics/</loc><lastmod>2026-09-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

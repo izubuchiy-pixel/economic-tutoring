@@ -37,7 +37,20 @@ for(const [file,html] of pages) {
  if(old) check(canonical(html)===canonical(old),file+': canonical changed');
  else check(canonical(html).includes('href="https://economic-tutoring.pages.dev/'+file.replace(/index\.html$/,'')+'"'),file+': new canonical incorrect');
  const json=s=>[...s.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1]));
- try { if(old)assert.deepEqual(json(html),json(old));else check(json(html).length>0,file+': JSON-LD missing');jsonCount+=json(html).length; }
+ try {
+   if(old) {
+     const before=json(old),after=json(html);
+     // The approved subject expansion renames only this collection; all other
+     // structured-data fields and all other pages retain strict regression checks.
+     if(file==='universities/index.html') {
+       const name='大学・科目別の経済学・経済数学サポート';
+       check(after[0]?.name===name,file+': collection name mismatch');
+       before[0].name=name;
+     }
+     assert.deepEqual(after,before);
+   } else check(json(html).length>0,file+': JSON-LD missing');
+   jsonCount+=json(html).length;
+ }
  catch(error) {issues.push(file+': JSON-LD '+error.message);}
  const comp=renderComponents(config,html.match(/data-page="([^"]+)"/)?.[1]||'top');
  for(const kind of ['header','footer','contact']) {

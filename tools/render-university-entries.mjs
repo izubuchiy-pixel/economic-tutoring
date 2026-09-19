@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import {fileURLToPath} from 'node:url';
-import {universityEntries} from './university-entry-data.mjs';
+import {universityEntries,universityEntryPath,universityEntryId} from './university-entry-data.mjs';
 import {renderComponents} from './site-templates.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const context={window:{}};
@@ -11,8 +11,10 @@ const site=context.window.ECONOMIC_TUTORING;
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 const paras=items=>items.map(p=>`<p>${esc(p)}</p>`).join('\n');
 for(const d of universityEntries) {
- const url=`https://economic-tutoring.pages.dev/universities/${d.slug}/economics-math/`;
- const comp=renderComponents(site,`university-${d.slug}`);
+ const url=`https://economic-tutoring.pages.dev/${universityEntryPath(d)}`;
+ const pageId=universityEntryId(d);
+ const comp=renderComponents(site,pageId);
+ const related=d.subject ? `<section class="entry-section"><div class="shell"><h2>別の科目・前提へ戻りたいときは。</h2><nav class="entry-jumps" aria-label="関連する学習入口">${universityEntries.filter(other=>other.slug===d.slug&&other!==d).map(other=>`<a href="/${universityEntryPath(other)}">${esc(other.course)}</a>`).join('')}${d.slug==='sophia'?'<a href="/universities/sophia/economics-math/">上智大学の経済数学</a>':''}<a href="/universities/#economics-subjects">科目別の入口一覧</a></nav></div></section>\n` : '';
  const html=`<!doctype html>
 <html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -22,7 +24,7 @@ for(const d of universityEntries) {
 <link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/enhancements.css"><link rel="stylesheet" href="/hp-refresh.css?v=5"><link rel="stylesheet" href="/entry-pages.css?v=1">
 <script src="/site-config.js" defer></script><script src="/script.js?v=34" defer></script>
 <script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'WebPage',name:d.title,url,inLanguage:'ja',isPartOf:{'@type':'WebSite',name:site.brand,url:'https://economic-tutoring.pages.dev/'}})}</script>
-</head><body class="entry-page" data-page="university-${d.slug}">
+</head><body class="entry-page" data-page="${pageId}">
 <!-- site:header -->${comp.header}<!-- /site:header -->
 <main id="main">
 <section class="entry-hero"><div class="shell">
@@ -41,11 +43,11 @@ ${d.routes.map(([label,title,text,guide])=>`<article class="entry-card"><span cl
 <section class="entry-section" id="example"><div class="shell"><p class="entry-kicker">自作の確認問題と解説</p><h2>${esc(d.exampleTitle)}</h2><div class="entry-example"><p>${esc(d.question)}</p><p class="entry-equation">${d.equation}</p><p>${esc(d.prompt)}</p><details><summary>解き方と、考え方を読む</summary>${paras(d.answer)}</details></div><p class="entry-note">${esc(d.branch)}</p><p class="fineprint">例題・復習案の作成：economic_tutoring。大学の課題・過去問の転載ではなく、出題予想でもありません。</p></div></section>
 <section class="entry-section" id="prepare"><div class="shell"><h2>科目名と、いま止まっている場所から。</h2><ol class="entry-path"><li><h3>年度・学科・科目名を確認</h3><p>クラスや入学年度によって内容が違う場合があります。現在の単元、試験などの期限も、分かる範囲でお知らせください。</p></li><li><h3>説明しきれなくても、短く相談</h3><p>${esc(d.inquiry)}</p></li><li><h3>内容を確認して、支援方法を相談</h3><p>実際の資料を見て対応可否を確認し、必要な前提と優先順位、回数・日程を相談します。最初のフォームへの資料添付は不要です。必要な場合は返信後に共有方法を案内し、共有できる部分だけを扱います。学籍番号・他の学生の氏名等は隠してください。</p></li></ol><p><a href="/pricing">現行の料金・提供範囲</a> ／ <a href="/parents/">保護者へ送れる説明ページ</a></p></div></section>
 <section class="entry-section"><div class="shell entry-faq"><h2>相談前に知っておきたいこと</h2><details><summary>${esc(d.faq[0])}</summary><p>${esc(d.faq[1])}</p></details><details><summary>試験範囲の全部を、短期間で終えられますか？</summary><p>範囲・残り時間・現在の理解を確認して優先順位を提案します。必要回数や単位取得を事前に保証しません。履修・評価・卒業要件は大学にご確認ください。</p></details><details><summary>課題やレポートを代わりに完成させてもらえますか？</summary><p>提出物や試験答案の代行は行いません。考え方の説明や類題の練習を通じ、ご本人が取り組むための支援を行います。</p></details></div></section>
-<!-- site:contact -->${comp.contact}<!-- /site:contact -->
+${related}<!-- site:contact -->${comp.contact}<!-- /site:contact -->
 <section class="entry-section entry-sources" id="sources"><div class="shell"><h2>参照資料・確認範囲</h2><ul>${d.sources.map(([title,href])=>`<li><a href="${esc(href)}" target="_blank" rel="noopener">${esc(title)}</a></li>`).join('')}</ul><p>確認日：${esc(d.confirmedAt || '2026年9月19日〜20日')}。${esc(d.boundary)} 復習案・例題の編集：economic_tutoring。</p></div></section>
 </main><!-- site:footer -->${comp.footer}<!-- /site:footer --></body></html>
 `;
- const folder=path.join(root,'universities',d.slug,'economics-math');
+ const folder=path.join(root,universityEntryPath(d));
  fs.mkdirSync(folder,{recursive:true});
  fs.writeFileSync(path.join(folder,'index.html'),html);
 }
