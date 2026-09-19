@@ -33,6 +33,8 @@
 .entry-table th { background:#edf2f4; color:var(--navy); }
 .entry-table td:first-child { font-weight:700; min-width:10rem; }
 .entry-price { white-space:nowrap; }
+.entry-pricing-table tbody th { background:transparent; min-width:10rem; }
+.entry-pricing-table .entry-mobile-label { display:none; }
 .entry-example { padding:30px; border:1px solid #bfd1d5; background:#fff; border-radius:8px; }
 .entry-equation { font-size:clamp(20px,3vw,28px); font-family:Georgia,"Noto Serif JP",serif; color:var(--navy); margin:18px 0; overflow-wrap:anywhere; }
 .entry-example details { border-top:1px solid var(--hub-line); padding-top:18px; margin-top:20px; }
@@ -58,5 +60,15 @@
  .entry-grid.two { grid-template-columns:1fr; }
  .entry-card,.entry-overview,.entry-example,.entry-share { padding:22px; }
  .entry-table th,.entry-table td { padding:12px; font-size:15px; }
+ .entry-pricing-table,.entry-pricing-table tbody { display:block; }
+ .entry-pricing-table caption { display:block; text-align:left; margin-bottom:16px; }
+ .entry-pricing-table thead { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+ .entry-pricing-table tbody { display:grid; gap:16px; }
+ .entry-pricing-table tbody tr { display:block; padding:20px; background:#fff; border:1px solid var(--hub-line); border-radius:8px; }
+ .entry-pricing-table tbody th,.entry-pricing-table tbody td { display:block; min-width:0; padding:0; border:0; font-size:16px; }
+ .entry-pricing-table tbody th { font-size:18px; line-height:1.6; margin-bottom:16px; }
+ .entry-pricing-table tbody td+td { border-top:1px solid var(--hub-line); padding-top:16px; margin-top:16px; }
+ .entry-pricing-table .entry-mobile-label { display:block; font-size:13px; font-weight:700; color:var(--hub-muted); margin-bottom:6px; }
+ .entry-pricing-table .entry-price { font-size:22px; font-weight:700; color:var(--navy); }
  .entry-hero .button { width:100%; }
 }
