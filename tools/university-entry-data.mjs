@@ -1,6 +1,8 @@
+import {privateGroupEntries} from './university-entry-data-batch2.mjs';
 // Individually researched and authored entries, not a keyword/page generator.
 // Facts describe the cited curriculum only; examples are original, not exam questions.
 export const universityEntries = [
+  ...privateGroupEntries,
   {
     slug:'gakushuin', school:'学習院大学', course:'経済数学', group:'GMARCH',
     title:'学習院大学の経済数学｜予算制約・グラフから学び直す個別指導',
