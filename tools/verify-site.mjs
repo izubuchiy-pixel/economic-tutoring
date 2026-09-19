@@ -82,7 +82,7 @@ check(read('script.js').includes('event.key === "Escape"'),'Escape handling miss
 const urls=[...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
 const oldUrls=[...previous('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
 for(const url of oldUrls) check(urls.includes(url),'old sitemap URL removed '+url);
-check(urls.length===23,'sitemap count');
+check(urls.length===18+entryPages.length,'sitemap count');
 check(urls.length===new Set(urls).size,'duplicate sitemap URL');
 for(const url of urls) check(pages.has(resolve(url,'index.html').file),'sitemap unresolved '+url);
 for(const f of entryPages) {

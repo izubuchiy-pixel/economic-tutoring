@@ -11,6 +11,8 @@
 - 料金・サービス: https://economic-tutoring.pages.dev/pricing
 - 受講者専用学習環境・学習確認: https://economic-tutoring.pages.dev/web-learning
 - 学習ガイド一覧: https://economic-tutoring.pages.dev/guides/
+- 大学・科目別の入口（上智・GMARCH・関関同立の11大学）: https://economic-tutoring.pages.dev/universities/
+- 保護者向け・ご家族への説明: https://economic-tutoring.pages.dev/parents/
 - 経済学部の数学ガイド: https://economic-tutoring.pages.dev/guides/economics-math-basics
 - 大学統計学の勉強順ガイド: https://economic-tutoring.pages.dev/guides/university-statistics-study-order
 - 計量経済学・回帰分析ガイド: https://economic-tutoring.pages.dev/guides/econometrics-regression-basics
@@ -60,12 +62,15 @@
 公開前に次を実行します。
 
 ```sh
+node tools/render-university-entries.mjs
 node tools/render-static.mjs
 node tools/verify-site.mjs
 git diff --check
 ```
 
-生成対象はGitで追跡された20ページです。未追跡の作業用HTMLや素材フォルダには触れません。
+共通部品の生成対象はGit追跡済みHTMLと `tools/site-files.mjs` の明示的な入口ページのみです（現在33ページ）。未追跡の作業用HTMLや素材フォルダには触れません。追加8大学の個別原稿と出典は `tools/university-entry-data.mjs` で管理し、専用レンダラーはその8ページだけを生成します。上智・関西学院・立教と保護者ページの本文は直接編集します。
+
+大学名だけの置換で増やさず、公式情報の確認範囲、固有の復習案・解説付き例題を確認してから追加します。公開済みでも検索登録・順位・流入を確認済みとは扱いません。HP・SEO作業は本人依頼時だけで、投稿自動化に混ぜません。
 
 ## サイト構成
 

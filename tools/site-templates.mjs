@@ -1,3 +1,4 @@
+import {universityEntries} from './university-entry-data.mjs';
 // Build-time markup. Prices and service scope come only from site-config.js.
 export function renderComponents(site, page) {
   const list = (items) => `<ul class="check-list">${items.map((item) => `<li>${item}</li>`).join("")}</ul>`;
@@ -9,6 +10,7 @@ export function renderComponents(site, page) {
   const isInstagramPage = page === "instagram";
   const isParentPage = page === "parents";
   const entryExamples = {
+    ...Object.fromEntries(universityEntries.map(d => [`university-${d.slug}`, d.inquiry])),
     'university-sophia': '上智大学の経済数学解析で、微分の計算はできるのですが、最大だと確認するところが分かりません。現在の授業に合わせて復習したいです。',
     'university-kwansei': '関西学院大学の経済数学入門で、関数に代入することはできますが、微分の意味が分かりません。何から復習すべきか相談したいです。',
     'university-rikkyo': '立教大学の経済数学入門で、連立方程式と行列の関係が分かりません。いまの単元の前提から確認したいです。'
