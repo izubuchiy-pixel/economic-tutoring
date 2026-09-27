@@ -31,7 +31,7 @@ for(const d of universityEntries) {
  <p class="breadcrumb"><a href="/">ホーム</a> / <a href="/universities/">大学・科目別</a> / ${d.school}</p>
  <div class="entry-hero-grid"><div><p class="entry-kicker">${esc(d.school)}・${esc(d.course)}</p><h1>${esc(d.heading)}</h1><p class="entry-lead">${esc(d.lead)}</p>
  <div class="hero-actions"><a class="button button-navy" href="#contact">今の授業について相談する</a><a class="button button-outline" href="#example">解説付きの例題を読む</a></div>
- <p class="fineprint">オンライン個別指導。初回相談・体験：60分 <span data-price="trial">${new Intl.NumberFormat('ja-JP').format(site.products.trial.price)}円</span>（税込）。</p></div>
+ <p class="fineprint">オンライン個別指導。初回相談・体験：通常60分 <span data-price="trial">${new Intl.NumberFormat('ja-JP').format(site.products.trial.price)}円</span>（税込）。<!-- site:trial-inline -->${comp.campaignInline}<!-- /site:trial-inline --></p></div>
  <aside class="entry-overview"><h2>学び直しの出発点</h2><ol>${d.overview.map(t=>`<li>${esc(t)}</li>`).join('')}</ol><p>公式情報の確認範囲と、当サービス独自の復習案を分けて記載しています。</p></aside></div>
  <p class="entry-disclaimer">当サービスは${d.school}とは独立した民間の学習支援サービスです。大学の公式・公認・提携サービスではありません。掲載は同大学での指導実績や全科目への対応を示すものではありません。</p>
  <nav class="entry-jumps" aria-label="このページの内容"><a href="#course">科目情報と確認範囲</a><a href="#route">復習の順番</a><a href="#example">解説付き例題</a><a href="#prepare">相談方法</a></nav>

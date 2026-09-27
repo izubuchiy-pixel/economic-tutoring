@@ -6,6 +6,7 @@ export function renderComponents(site, page) {
   const product = (key) => site.products[key];
   const priceText = (key) => `${yen(product(key).price)}円`;
   const campaign = site.trialCampaign;
+  const campaignInline = campaign ? `<span data-campaign-inline> ${campaign.name}は条件付き0円（申込2026年9/28〜10/14・実施10/1〜20）。<a href="#autumn-trial">対象・条件を見る →</a></span>` : '';
   const campaignNotice = campaign ? `
           <aside class="trial-campaign" id="autumn-trial" aria-labelledby="trial-campaign-title">
             <p class="campaign-eyebrow" data-campaign-status>申込対象期間：${campaign.applicationLabel}</p>
@@ -16,7 +17,7 @@ export function renderComponents(site, page) {
             <dl class="campaign-terms"><div><dt>申込期間</dt><dd>${campaign.applicationLabel}</dd></div><div><dt>実施期間</dt><dd>${campaign.sessionLabel}</dd></div><div><dt>対象・上限</dt><dd>大学の経済学系科目で困っている新規の方。受講者1人1回・最大${campaign.maxParticipants}名。</dd></div></dl>
             <p class="campaign-note">継続契約は任意。体験だけでも利用できます。自動課金はありません。紹介・ペア特典など他特典との併用はできません。定員に達した場合は受付終了です。</p>
             <p class="campaign-note">申込みだけで適用・日程は確定しません。対応科目・空き状況・条件を確認して返信します。期間外・対象外は通常料金です。継続をご希望の場合、月4回・単位取得伴走は月額${priceText('support4')}（税込・原則1科目）のままです。</p>
-            <p class="campaign-apply-note" data-campaign-apply-note>申込時に、フォームの「現在困っていること」またはDMへ「秋学期無料体験希望」と添えてください。保護者からも相談できます。</p>
+            <p class="campaign-apply-note" data-campaign-apply-note>無料体験をご希望の方は、フォームの「希望する相談内容」で「初回相談・体験を希望」を選んでください。合言葉の手入力は不要です。DMの場合は「秋学期無料体験希望」とお知らせください。保護者からも相談できます。</p>
           </aside>` : '';
 
   
@@ -135,7 +136,7 @@ export function renderComponents(site, page) {
         <div class="contact-card contact-card-form">
           <p class="contact-kicker">CONSULTATION FORM</p>
           <h3>${isParentPage ? '保護者の方からも、相談できます。' : 'フォームで、今の状況を送る。'}</h3>
-          <p>${isParentPage ? 'ご自身が保護者であることを相談内容に添えてください。大学・科目などは分かる範囲で構いません。入力が難しい場合は下記メールでも相談できます。' : '大学・学年、科目、希望時期、困りごとなどを入力します。講義資料や答案の添付は不要です。'}</p>
+          <p>${isParentPage ? 'フォームの「ご相談者」で「保護者」を選んでください。大学・期限などは「不明」「未定」でも構いません。科目が分からない場合は「その他」を選べます。入力が難しい場合は下記メールでも相談できます。' : '大学・学年、科目、希望時期、困りごとなどを入力します。講義資料や答案の添付は不要です。'}</p>
           <div class="inquiry-example"><span>困りごとの書き方の例</span><p>${isParentPage ? '保護者です。大学生の子どもが経済数学の授業で困っています。まず、支援内容と費用について確認したいです。' : entryExamples[page] || '統計学の検定で、どの公式を使うのか判断できません。授業の演習を一人で進められるようになりたいです。'}</p></div>
           <a class="button button-navy contact-form-button" href="${site.consultationForm.url}" target="_blank" rel="noopener">${isParentPage ? '保護者として相談する' : '科目と困りごとを相談する'}</a>
           <p class="contact-assurance">フォーム送信だけで契約・支払いは確定しません。</p>${isParentPage ? '\n          <p class="fineprint">成績や答案など、本人の個人情報は同意なく送らないでください。実際の受講はご本人の希望も確認して進めます。</p>' : ''}
@@ -170,5 +171,5 @@ export function renderComponents(site, page) {
   };
 
 
-  return { header, footer, contact, detailRow };
+  return { header, footer, contact, detailRow, campaignInline };
 }

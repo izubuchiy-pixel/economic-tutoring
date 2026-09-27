@@ -15,7 +15,7 @@ window.ECONOMIC_TUTORING = {
   },
   trialCampaign: {
     id: "autumn-2026",
-    name: "秋学期スタート応援・無料体験",
+    name: "秋学期スタートキャンペーン",
     applicationStartsAt: "2026-09-28T00:00:00+09:00",
     applicationEndsAt: "2026-10-15T00:00:00+09:00",
     sessionStart: "2026-10-01",

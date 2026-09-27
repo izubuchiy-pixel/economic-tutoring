@@ -34,8 +34,9 @@ for(let i=0;i<=600;i++) {
 assert.equal(utility(0),0);
 assert.equal(utility(6),0);
 for(const section of ['prepare','learning-example','cost','progress','faq','share','contact']) assert.ok(parents.includes(`id="${section}"`));
-for(const boundary of ['説明するための架空例','本人が同意した相手・情報・範囲に限って','無料の個別診断として募集していません','全プランに保護者向け定期報告が付くサービスではありません']) assert.ok(parents.includes(boundary),boundary);
+for(const boundary of ['説明するための架空例','本人が同意した相手・情報・範囲に限って','恒常的な無料個別診断サービスではありません','全プランに保護者向け定期報告が付くサービスではありません']) assert.ok(parents.includes(boundary),boundary);
 assert.ok(parents.includes('href="/guides/economics-math-basics"'));
 assert.ok(math.includes('href="/parents/#share"'));
-assert.ok(math.includes('初回相談・体験は60分3,000円'));
+assert.ok(math.includes('初回相談・体験は通常60分3,000円'));
+assert.ok(math.includes('秋学期スタートキャンペーンは条件付き0円'));
 console.log(JSON.stringify({ok:true,exampleChecks:checks.length,identities:'profit and utility checked algebraically in page and numerically here',parentSections:7,policyBoundaries:4}));

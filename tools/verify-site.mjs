@@ -109,7 +109,7 @@ for(const f of ['site-config.js','robots.txt','_redirects']) {
    vm.runInNewContext(previous(f),oldContext);
    const before=JSON.parse(JSON.stringify(oldContext.window.ECONOMIC_TUTORING));
    const after=JSON.parse(JSON.stringify(config));
-   before.trialCampaign={id:'autumn-2026',name:'秋学期スタート応援・無料体験',applicationStartsAt:'2026-09-28T00:00:00+09:00',applicationEndsAt:'2026-10-15T00:00:00+09:00',sessionStart:'2026-10-01',sessionDeadline:'2026-10-20',sessionLabel:'2026年10月1日〜20日（日本時間）',applicationLabel:'2026年9月28日〜10月14日（日本時間）',price:0,maxParticipants:6};
+   before.trialCampaign={id:'autumn-2026',name:'秋学期スタートキャンペーン',applicationStartsAt:'2026-09-28T00:00:00+09:00',applicationEndsAt:'2026-10-15T00:00:00+09:00',sessionStart:'2026-10-01',sessionDeadline:'2026-10-20',sessionLabel:'2026年10月1日〜20日（日本時間）',applicationLabel:'2026年9月28日〜10月14日（日本時間）',price:0,maxParticipants:6};
    before.cta.primary='初回相談・体験の条件を確認して申し込む';
    try {assert.deepEqual(after,before);} catch(e) {issues.push('site-config.js: unapproved campaign/product change '+e.message);}
    continue;

@@ -18,12 +18,13 @@
     });
     if (ended) {
       document.querySelectorAll('[data-campaign-banner]').forEach(el => { el.hidden = true; });
+      document.querySelectorAll('[data-campaign-inline]').forEach(el => { el.hidden = true; });
       document.querySelectorAll('[data-campaign-apply-note]').forEach(el => {
         el.textContent = '新規のキャンペーン受付は終了しました。期間内に適用を確認した方の体験は10/20まで0円です。新規の初回相談・体験は通常60分3,000円（税込）です。';
       });
     } else if (!before) {
       document.querySelectorAll('[data-campaign-apply-note]').forEach(el => {
-        el.textContent = '申込時に、フォームの「現在困っていること」またはDMへ「秋学期無料体験希望」と添えてください。保護者からも相談できます。';
+        el.textContent = '無料体験をご希望の方は、フォームの「希望する相談内容」で「初回相談・体験を希望」を選んでください。合言葉の手入力は不要です。DMの場合は「秋学期無料体験希望」とお知らせください。保護者からも相談できます。';
       });
     }
   }

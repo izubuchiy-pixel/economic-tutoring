@@ -16,8 +16,8 @@ for(let start=0;start<urls.length;start+=4) await Promise.all(urls.slice(start,s
  const url=new URL(route,base);
  // Versioned assets use the same version as the deployed HTML.
  if(route==='/hp-refresh.css')url.search='?v=6';
- if(route==='/script.js')url.search='?v=36';
- if(route==='/site-config.js')url.search='?v=30';
+ if(route==='/script.js')url.search='?v=37';
+ if(route==='/site-config.js')url.search='?v=31';
  try {
    const res=await fetch(url,{signal:AbortSignal.timeout(20000),headers:{'Cache-Control':'no-cache'}});
    const bytes=Buffer.from(await res.arrayBuffer());
