@@ -13,10 +13,10 @@ export function renderComponents(site, page) {
             <p class="campaign-lead">秋学期の最初の「分からない」を、一緒に整理しませんか。</p>
             <p class="campaign-price">初回60分 <strong>${campaign.price}円</strong><span>通常${priceText('trial')}（税込）</span></p>
             <p>困りごとの整理だけでなく、授業に合わせた問題の説明・練習まで。最後に、復習の優先順位と次に取り組む内容を整理します。</p>
-            <dl class="campaign-terms"><div><dt>申込期間</dt><dd>${campaign.applicationLabel}</dd></div><div><dt>実施期限</dt><dd>2026年10月20日まで</dd></div><div><dt>対象・上限</dt><dd>大学の経済学系科目で困っている新規の方。受講者1人1回・最大${campaign.maxParticipants}名。</dd></div></dl>
+            <dl class="campaign-terms"><div><dt>申込期間</dt><dd>${campaign.applicationLabel}</dd></div><div><dt>実施期間</dt><dd>${campaign.sessionLabel}</dd></div><div><dt>対象・上限</dt><dd>大学の経済学系科目で困っている新規の方。受講者1人1回・最大${campaign.maxParticipants}名。</dd></div></dl>
             <p class="campaign-note">継続契約は任意。体験だけでも利用できます。自動課金はありません。紹介・ペア特典など他特典との併用はできません。定員に達した場合は受付終了です。</p>
             <p class="campaign-note">申込みだけで適用・日程は確定しません。対応科目・空き状況・条件を確認して返信します。期間外・対象外は通常料金です。継続をご希望の場合、月4回・単位取得伴走は月額${priceText('support4')}（税込・原則1科目）のままです。</p>
-            <p class="campaign-apply-note" data-campaign-apply-note>10/1からの申込時に、フォームの「現在困っていること」またはDMへ「秋学期無料体験希望」と添えてください。保護者からも相談できます。</p>
+            <p class="campaign-apply-note" data-campaign-apply-note>申込時に、フォームの「現在困っていること」またはDMへ「秋学期無料体験希望」と添えてください。保護者からも相談できます。</p>
           </aside>` : '';
 
   
@@ -56,7 +56,7 @@ export function renderComponents(site, page) {
         </nav>
       </div>
     </header>${campaign ? `
-    <div class="campaign-banner" data-campaign-banner><a href="/#autumn-trial">2026年10/1〜14申込対象｜初回60分の無料体験 <span>条件を見る →</span></a></div>` : ''}`;
+    <div class="campaign-banner" data-campaign-banner><a href="/#autumn-trial">2026年9/28〜10/14申込対象｜初回60分の無料体験 <span>条件を見る →</span></a></div>` : ''}`;
 
   const footer = `
     <footer class="site-footer">
@@ -160,7 +160,7 @@ export function renderComponents(site, page) {
       <summary><span><small>${item.label}</small><strong>${item.name}</strong></span><b>${price}<em>${item.unit}</em></b></summary>
       <div class="hub-plan-detail-body">
         <p>${item.summary}</p>
-        ${key === 'trial' && campaign ? '<p class="hub-plan-price-note">表示は通常料金です。2026年10/1〜14申込み・10/20まで実施の期間限定無料体験は、対象・上限などの条件があります。<a href="#autumn-trial">条件を見る →</a></p>' : ''}
+        ${key === 'trial' && campaign ? '<p class="hub-plan-price-note">表示は通常料金です。2026年9/28〜10/14申込み・10/1〜20実施の期間限定無料体験は、対象・上限などの条件があります。<a href="#autumn-trial">条件を見る →</a></p>' : ''}
         ${item.priceNote ? `<p class="hub-plan-price-note">${item.priceNote}</p>` : ""}
         ${item.lessons || item.subjects ? `<div class="hub-details-meta">${item.lessons ? `<b>${item.lessons}</b>` : ""}${item.subjects ? `<b>${item.subjects}</b>` : ""}</div>` : ""}
         <div class="hub-plan-columns"><div><h4>含まれる内容</h4>${list(item.includes)}</div>${item.excludes?.length ? `<div><h4>確認事項</h4>${list(item.excludes)}</div>` : ""}</div>

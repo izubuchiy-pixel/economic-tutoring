@@ -14,7 +14,7 @@
     const before = now < Date.parse(campaign.applicationStartsAt);
     const ended = now >= Date.parse(campaign.applicationEndsAt);
     document.querySelectorAll('[data-campaign-status]').forEach(el => {
-      el.textContent = ended ? '2026年10月14日で申込期間は終了しました' : before ? '10/1受付開始予定｜' + campaign.applicationLabel : '申込対象期間：' + campaign.applicationLabel + '（空き状況は個別確認）';
+      el.textContent = ended ? '2026年10月14日で申込期間は終了しました' : before ? '9/28受付開始予定｜' + campaign.applicationLabel : '申込対象期間：' + campaign.applicationLabel + '（空き状況は個別確認）';
     });
     if (ended) {
       document.querySelectorAll('[data-campaign-banner]').forEach(el => { el.hidden = true; });
