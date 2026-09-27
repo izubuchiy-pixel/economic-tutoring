@@ -10,8 +10,18 @@ window.ECONOMIC_TUTORING = {
     label: "初回相談・体験をフォームから申し込む"
   },
   cta: {
-    primary: "60分3,000円で初回相談・体験を申し込む",
+    primary: "初回相談・体験の条件を確認して申し込む",
     short: "初回相談・体験"
+  },
+  trialCampaign: {
+    id: "autumn-2026",
+    name: "秋学期スタート応援・無料体験",
+    applicationStartsAt: "2026-10-01T00:00:00+09:00",
+    applicationEndsAt: "2026-10-15T00:00:00+09:00",
+    sessionDeadline: "2026-10-20",
+    applicationLabel: "2026年10月1日〜14日（日本時間）",
+    price: 0,
+    maxParticipants: 6
   },
   basicWeb: {
     name: "受講者専用学習環境",

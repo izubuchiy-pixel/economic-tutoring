@@ -7,6 +7,26 @@
   const product = (key) => site.products[key];
   const priceText = (key) => `${yen(product(key).price)}円`;
   const consultationHref = site.consultationForm.url;
+  // Dates are explicitly qualified in static HTML too; never turn normal prices into zero.
+  const campaign = site.trialCampaign;
+  if (campaign) {
+    const now = Date.now();
+    const before = now < Date.parse(campaign.applicationStartsAt);
+    const ended = now >= Date.parse(campaign.applicationEndsAt);
+    document.querySelectorAll('[data-campaign-status]').forEach(el => {
+      el.textContent = ended ? '2026年10月14日で申込期間は終了しました' : before ? '10/1受付開始予定｜' + campaign.applicationLabel : '申込対象期間：' + campaign.applicationLabel + '（空き状況は個別確認）';
+    });
+    if (ended) {
+      document.querySelectorAll('[data-campaign-banner]').forEach(el => { el.hidden = true; });
+      document.querySelectorAll('[data-campaign-apply-note]').forEach(el => {
+        el.textContent = '新規のキャンペーン受付は終了しました。期間内に適用を確認した方の体験は10/20まで0円です。新規の初回相談・体験は通常60分3,000円（税込）です。';
+      });
+    } else if (!before) {
+      document.querySelectorAll('[data-campaign-apply-note]').forEach(el => {
+        el.textContent = '申込時に、フォームの「現在困っていること」またはDMへ「秋学期無料体験希望」と添えてください。保護者からも相談できます。';
+      });
+    }
+  }
   document.querySelectorAll("[data-direct-consultation], [data-consultation-link]").forEach((link) => {
     link.href = consultationHref;
     link.target = "_blank";

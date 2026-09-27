@@ -104,6 +104,16 @@ for(const key of Object.keys(config.products)) {
  for(const t of [...item.includes,...(item.excludes||[])]) check(pricing.includes(t),'pricing: missing scope '+key+' '+t);
 }
 for(const f of ['site-config.js','robots.txt','_redirects']) {
+ if(f==='site-config.js' && process.argv.includes('--allow-autumn-2026-campaign')) {
+   const oldContext={window:{}};
+   vm.runInNewContext(previous(f),oldContext);
+   const before=JSON.parse(JSON.stringify(oldContext.window.ECONOMIC_TUTORING));
+   const after=JSON.parse(JSON.stringify(config));
+   before.trialCampaign={id:'autumn-2026',name:'秋学期スタート応援・無料体験',applicationStartsAt:'2026-10-01T00:00:00+09:00',applicationEndsAt:'2026-10-15T00:00:00+09:00',sessionDeadline:'2026-10-20',applicationLabel:'2026年10月1日〜14日（日本時間）',price:0,maxParticipants:6};
+   before.cta.primary='初回相談・体験の条件を確認して申し込む';
+   try {assert.deepEqual(after,before);} catch(e) {issues.push('site-config.js: unapproved campaign/product change '+e.message);}
+   continue;
+ }
  if(fs.existsSync(path.join(root,f))) check(read(f)===previous(f),f+': changed');
 }
 check(pages.get('instagram/index.html').includes('noindex,follow'),'Instagram indexing changed');

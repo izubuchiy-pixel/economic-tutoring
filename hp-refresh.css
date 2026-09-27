@@ -312,6 +312,23 @@ body { background:#fff; font-size:16px; line-height:1.85; letter-spacing:.015em;
   .hub-mobile-cta.is-contact-visible,.menu-open .hub-mobile-cta { visibility:hidden; pointer-events:none; }
   .legal-title h1 { font-size:28px; }
 }
+.campaign-banner { background:#edf4f0; color:#123f35; text-align:center; padding:12px 20px; border-bottom:1px solid #d3e4da; font-size:14px; line-height:1.7; }
+.campaign-banner a { color:inherit; text-decoration:none; font-weight:700; }
+.campaign-banner a:hover { text-decoration:underline; }
+.campaign-banner span { display:inline-block; }
+.trial-campaign { margin-top:28px; padding:26px; background:#f3f8f5; border:1px solid #c7dbcf; border-radius:18px; scroll-margin-top:100px; }
+.trial-campaign h3 { font-size:24px; line-height:1.5; color:#123f35; margin:8px 0 16px; }
+.trial-campaign .campaign-eyebrow { font-size:13px; color:#205849; font-weight:700; }
+.trial-campaign .campaign-price { display:flex; align-items:baseline; flex-wrap:wrap; gap:8px; margin:20px 0; }
+.campaign-price strong { font-size:38px; color:#123f35; }
+.campaign-price span { font-size:13px; }
+.campaign-terms { margin:20px 0; }
+.campaign-terms > div { padding:12px 0; border-top:1px solid #d3e4da; }
+.campaign-terms dt { font-size:13px; font-weight:700; color:#205849; }
+.campaign-terms dd { margin:4px 0 0; line-height:1.7; }
+.trial-campaign .campaign-note { font-size:13px; line-height:1.9; }
+.trial-campaign .campaign-apply-note { font-size:14px; font-weight:700; line-height:1.8; }
+@media (max-width:600px) { .trial-campaign { padding:20px; } .trial-campaign h3 { font-size:22px; } }
 @media (prefers-reduced-motion:reduce) {
   *,*::before,*::after { scroll-behavior:auto !important; transition:none !important; animation:none !important; }
 }
