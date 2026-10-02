@@ -25,6 +25,7 @@ export function renderComponents(site, page) {
   const isParentPage = page === "parents";
   const isMathGuide = page === "guide-economics-math";
   const entryExamples = {
+    'university-keio-math': '慶應経済学部で数学概論Ⅱを履修しています。偏微分で、どの文字を定数として扱うのか分かりません。授業の進度に合わせて、1変数の微分から確認したいです。',
     'guide-economics-math': '経済数学で、微分の式は追えますが、なぜ利潤が最大になるのか説明できません。試験は○月ごろです。今の授業に必要な範囲から復習したいです。',
     ...Object.fromEntries(universityEntries.map(d => [universityEntryId(d), d.inquiry])),
     'university-sophia': '上智大学の経済数学解析で、微分の計算はできるのですが、最大だと確認するところが分かりません。現在の授業に合わせて復習したいです。',

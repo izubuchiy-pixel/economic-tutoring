@@ -41,6 +41,7 @@ https://economic-tutoring.pages.dev/universities/waseda/microeconomics/
 https://economic-tutoring.pages.dev/universities/waseda/macroeconomics/
 https://economic-tutoring.pages.dev/universities/keio/microeconomics/
 https://economic-tutoring.pages.dev/universities/keio/macroeconomics/
+https://economic-tutoring.pages.dev/universities/keio/economics-math/
 https://economic-tutoring.pages.dev/universities/sophia/microeconomics/
 https://economic-tutoring.pages.dev/universities/sophia/macroeconomics/
 https://economic-tutoring.pages.dev/universities/kwansei-gakuin/microeconomics/

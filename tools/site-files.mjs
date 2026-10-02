@@ -10,6 +10,7 @@ export const entryPages = [
   'universities/sophia/economics-math/index.html',
   'universities/kwansei-gakuin/economics-math/index.html',
   'universities/rikkyo/economics-math/index.html',
+  'universities/keio/economics-math/index.html',
   ...universityEntries.map(d => universityEntryPath(d) + 'index.html')
 ];
 export function siteFiles(root) {
