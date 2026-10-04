@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
+import {siteFiles} from './site-files.mjs';
+import {fileURLToPath} from 'node:url';
 const root=new URL('../',import.meta.url);
 const ctx={window:{}};
 vm.runInNewContext(fs.readFileSync(new URL('site-config.js',root),'utf8'),ctx);
@@ -57,4 +59,11 @@ for(const file of ['index.html','parents/index.html','universities/keio/economic
  for(const text of ['data-campaign-offer','data-standard-offer hidden','入会金 0円','授業料・各プランの料金は別途','通常3,000円（税込）','空き状況・適用は個別確認']) assert.ok(html.includes(text),file+': '+text);
  assert.equal((html.match(/data-campaign-offer/g)||[]).length,1,file);
 }
-console.log('PASS: campaign dates (JST), static terms, normal prices, selection instructions, hero offers, CTA links, and expiry behavior.');
+for(const file of siteFiles(fileURLToPath(root))) {
+ const html=fs.readFileSync(new URL(file,root),'utf8');
+ if(!html.includes('<!-- site:contact -->')) continue;
+ for(const text of ['初回相談・体験60分','つまずいているテーマを一つ','実際の授業のように説明・練習','今後受講するかどうか','継続契約は必須ではありません']) assert.ok(html.includes(text),file+': consultation/trial flow missing '+text);
+}
+const home=fs.readFileSync(new URL('index.html',root),'utf8');
+for(const text of ['初回相談・体験で行うこと','相談・授業体験・振り返りを合わせて60分','体験後に、受講を検討する','途中の疑問も相談しながら']) assert.ok(home.includes(text),text);
+console.log('PASS: campaign dates (JST), static terms, normal prices, selection instructions, hero offers, CTA links, expiry behavior, and consultation + one-theme trial flow.');
