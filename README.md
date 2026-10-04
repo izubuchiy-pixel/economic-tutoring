@@ -82,6 +82,14 @@ git diff --check
 
 ## Cloudflare Pages
 
+### 初回体験の案内（2026-10-04）
+
+- トップ・保護者・慶應経済数学の `site:trial-feature` は共通テンプレートから生成します。キャンペーン期間・価格・人数は `site-config.js` の既存条件を参照し、入会金0円とは区別します。
+- 共通バナーは同じページの条件欄へ案内します。条件欄のない法務・404ページだけホームの条件欄へ移動します。Instagram専用LPは既存のDM優先経路を保持します。
+- `script.js` は受付期限後、冒頭の無料体験カード・バナーを非表示にし、通常60分3,000円と通常の相談ボタンへ切り替えます。JavaScriptなしでも静的な申込・実施日と対象条件を明記しています。実際の残席は自動把握せず、架空の残席を表示しません。
+- `node tools/verify-autumn-campaign.mjs` で受付開始・終了の境界、通常料金、冒頭カードとボタンの切替を確認します。公開前後は `node tools/verify-http.mjs <base URL>` で配信内容と保存版を照合します。
+- トップの10分／35分／15分は初回体験の目安であり、全範囲の診断や成果保証ではありません。実績・講師情報は確認できるもののみ掲載します。
+
 - Production branch: `main`
 - Framework preset: `None`
 - Build command: `exit 0`

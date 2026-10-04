@@ -23,11 +23,19 @@ for(const [iso,expected,hidden] of [
  ['2026-11-01T00:00:00+09:00','申込期間は終了',true]
 ]) {
  const status={textContent:''},banner={hidden:false},inline={hidden:false},note={textContent:''};
- const selectors={'[data-campaign-status]':[status],'[data-campaign-banner]':[banner],'[data-campaign-inline]':[inline],'[data-campaign-apply-note]':[note]};
+ const offer={hidden:false},standard={hidden:true},cta={textContent:'期間限定・無料体験の条件を見る',href:'#autumn-trial'},action={textContent:'条件を確認して、体験を申し込む'};
+ const selectors={'[data-campaign-status]':[status],'[data-campaign-banner]':[banner],'[data-campaign-inline]':[inline],'[data-campaign-apply-note]':[note],'[data-campaign-offer]':[offer],'[data-standard-offer]':[standard],'[data-trial-cta]':[cta],'[data-campaign-action]':[action]};
  vm.runInNewContext(logic,{site,Date:{now:()=>Date.parse(iso),parse:Date.parse},document:{querySelectorAll:s=>selectors[s]||[]}});
  assert.ok(status.textContent.includes(expected),iso);
  assert.equal(banner.hidden,hidden,iso);
  assert.equal(inline.hidden,hidden,iso);
+ assert.equal(offer.hidden,hidden,iso);
+ assert.equal(standard.hidden,!hidden,iso);
+ assert.equal(cta.href,hidden?'#contact':'#autumn-trial',iso);
+ if(hidden) {
+   assert.ok(!cta.textContent.includes('無料'),iso);
+   assert.ok(action.textContent.includes('通常の初回相談・体験'),iso);
+ }
  if(hidden) assert.ok(note.textContent.includes('通常60分3,000円'));
  else if(Date.parse(iso)>=Date.parse(site.trialCampaign.applicationStartsAt)) assert.ok(note.textContent.includes('合言葉の手入力は不要'));
 }
@@ -44,4 +52,9 @@ for(const file of ['universities/sophia/economics-math/index.html','universities
  assert.ok(!/初回相談・体験(?:：|は)60分/.test(html),file);
  assert.ok(!html.includes('フォームの「現在困っていること」またはDMへ'),file);
 }
-console.log('PASS: campaign dates (JST), static terms, normal prices, selection instructions, inline notices, and expiry behavior.');
+for(const file of ['index.html','parents/index.html','universities/keio/economics-math/index.html']) {
+ const html=fs.readFileSync(new URL(file,root),'utf8');
+ for(const text of ['data-campaign-offer','data-standard-offer hidden','入会金 0円','授業料・各プランの料金は別途','通常3,000円（税込）','空き状況・適用は個別確認']) assert.ok(html.includes(text),file+': '+text);
+ assert.equal((html.match(/data-campaign-offer/g)||[]).length,1,file);
+}
+console.log('PASS: campaign dates (JST), static terms, normal prices, selection instructions, hero offers, CTA links, and expiry behavior.');

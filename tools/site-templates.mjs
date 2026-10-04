@@ -6,6 +6,36 @@ export function renderComponents(site, page) {
   const product = (key) => site.products[key];
   const priceText = (key) => `${yen(product(key).price)}円`;
   const campaign = site.trialCampaign;
+  const isInstagramPage = page === "instagram";
+  const isParentPage = page === "parents";
+  const isMathGuide = page === "guide-economics-math";
+  const campaignLink = isInstagramPage ? site.instagram.url : site.consultationForm.url;
+  const trialFeature = `
+          <aside class="trial-feature${page === 'top' ? '' : ' trial-feature-wide'}" aria-label="初回体験と入会金のご案内">
+            <div class="trial-feature-main">
+              ${campaign ? `<div data-campaign-offer>
+                <p class="offer-eyebrow">${campaign.name}</p>
+                <h2>まずは、授業に合わせた<br>60分の個別指導を。</h2>
+                <p class="offer-price"><span>初回体験</span><strong>${campaign.price}<small>円</small></strong><span>通常${priceText('trial')}（税込）</span></p>
+                <p class="offer-dates">申込：${campaign.applicationLabel}<br>実施：${campaign.sessionLabel}</p>
+                <p class="offer-conditions">大学の経済学系科目で困っている新規の方／1人1回・最大${campaign.maxParticipants}名。空き状況・適用は個別確認。定員で受付終了、他特典との併用不可。</p>
+                <a class="button button-trial" href="#autumn-trial">無料体験の条件・申込方法を見る <span aria-hidden="true">→</span></a>
+              </div>` : ''}
+              <div data-standard-offer${campaign ? ' hidden' : ''}>
+                <p class="offer-eyebrow">初回相談・体験</p>
+                <h2>まずは、授業に合わせた<br>60分の個別指導を。</h2>
+                <p class="offer-standard-price">通常60分 <strong>${priceText('trial')}</strong>（税込）</p>
+                <a class="button button-trial" href="#contact">初回相談・体験について相談する →</a>
+              </div>
+            </div>
+            <div class="trial-feature-support">
+              <p class="offer-benefit">授業の困りごとを確認し、問題の説明・練習から、次の復習まで一緒に整理します。</p>
+              <div class="admission-note"><span>いつでも</span><strong>入会金 0円</strong><small>授業料・各プランの料金は別途</small></div>
+              <p class="offer-reassurance">体験だけの利用もOK。継続契約は任意です。<br>フォーム送信だけで契約・支払いは確定しません。</p>
+              ${isParentPage ? '<p class="offer-reassurance">保護者から内容・費用の相談もできます。<br>実際の受講は、学生ご本人の希望を確認して進めます。</p>' : ''}
+              <a class="text-link" href="/pricing">継続する場合の料金・支援範囲 →</a>
+            </div>
+          </aside>`;
   const campaignInline = campaign ? `<span data-campaign-inline> ${campaign.name}は条件付き0円（申込2026年9/28〜10/14・実施10/1〜20）。<a href="#autumn-trial">対象・条件を見る →</a></span>` : '';
   const campaignNotice = campaign ? `
           <aside class="trial-campaign" id="autumn-trial" aria-labelledby="trial-campaign-title">
@@ -18,12 +48,10 @@ export function renderComponents(site, page) {
             <p class="campaign-note">継続契約は任意。体験だけでも利用できます。自動課金はありません。紹介・ペア特典など他特典との併用はできません。定員に達した場合は受付終了です。</p>
             <p class="campaign-note">申込みだけで適用・日程は確定しません。対応科目・空き状況・条件を確認して返信します。期間外・対象外は通常料金です。継続をご希望の場合、月4回・単位取得伴走は月額${priceText('support4')}（税込・原則1科目）のままです。</p>
             <p class="campaign-apply-note" data-campaign-apply-note>無料体験をご希望の方は、フォームの「希望する相談内容」で「初回相談・体験を希望」を選んでください。合言葉の手入力は不要です。DMの場合は「秋学期無料体験希望」とお知らせください。保護者からも相談できます。</p>
+            <a class="button button-trial" data-campaign-action href="${campaignLink}" target="_blank" rel="noopener">${isInstagramPage ? '条件を確認して、Instagramで相談する' : '条件を確認して、体験を申し込む'}</a>
+            <p class="campaign-note">${isInstagramPage ? 'プロフィールの「メッセージ」から送信してください。' : 'Googleフォームが開きます。資料の添付は不要です。'}入会金はキャンペーン期間にかかわらず0円です。</p>
           </aside>` : '';
 
-  
-  const isInstagramPage = page === "instagram";
-  const isParentPage = page === "parents";
-  const isMathGuide = page === "guide-economics-math";
   const entryExamples = {
     'university-keio-math': '慶應経済学部で数学概論Ⅱを履修しています。偏微分で、どの文字を定数として扱うのか分かりません。授業の進度に合わせて、1変数の微分から確認したいです。',
     'guide-economics-math': '経済数学で、微分の式は追えますが、なぜ利潤が最大になるのか説明できません。試験は○月ごろです。今の授業に必要な範囲から復習したいです。',
@@ -58,7 +86,7 @@ export function renderComponents(site, page) {
         </nav>
       </div>
     </header>${campaign ? `
-    <div class="campaign-banner" data-campaign-banner><a href="/#autumn-trial">2026年9/28〜10/14申込対象｜初回60分の無料体験 <span>条件を見る →</span></a></div>` : ''}`;
+    <div class="campaign-banner" data-campaign-banner><a href="${['legal','error'].includes(page) ? '/#autumn-trial' : '#autumn-trial'}"><span class="banner-label">秋学期スタートキャンペーン</span> <strong>初回60分 0円</strong><span>2026年9/28〜10/14申込対象・条件あり →</span></a></div>` : ''}`;
 
   const footer = `
     <footer class="site-footer">
@@ -85,14 +113,14 @@ export function renderComponents(site, page) {
         <div class="inquiry-intro">
           <p class="section-label">相談の入口</p>
           <h2>プランは未定でも、<br>相談できます。</h2>
-          <p>「どこが分からないか」を、きれいに説明できなくても大丈夫。科目と、いま止まっているところを分かる範囲でお知らせください。</p>
+          <p>「どこが分からないか」を、きれいに説明できなくても大丈夫。科目と、いま止まっているところを分かる範囲でお知らせください。</p>${campaignNotice}
           <div class="inquiry-trial">
             <p class="inquiry-trial-label">内容・日程・条件を確認してから</p>
             <h3>初回相談・体験</h3>
             <p class="inquiry-trial-price">通常60分 <strong data-price="trial">${priceText("trial")}</strong><span>（税込）</span></p>
             <ul><li>現在の授業と、止まっている地点を確認</li><li>実際の問題を使って、説明と練習</li><li>次に取り組む内容と、進め方を整理</li></ul>
             <p class="inquiry-trial-note">継続契約は必須ではありません。資料の共有方法は必要に応じて返信後にご案内します。</p>
-          </div>${campaignNotice}${page.startsWith('university-') || page === 'universities' || isMathGuide ? `
+          </div>${page.startsWith('university-') || page === 'universities' || isMathGuide ? `
           <div class="inquiry-example"><h3>ご家族に説明したいときは</h3><p>支援内容・費用・進め方をまとめたページを、そのまま送れます。成人の受講者の学習状況は、ご本人の同意なく保護者へ共有しません。</p><a href="/parents/#share">保護者への説明用ページを見る →</a></div>` : ''}
         </div>`;
 
@@ -172,5 +200,5 @@ export function renderComponents(site, page) {
   };
 
 
-  return { header, footer, contact, detailRow, campaignInline };
+  return { header, footer, contact, detailRow, campaignInline, 'trial-feature': trialFeature };
 }

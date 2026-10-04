@@ -17,6 +17,15 @@
       el.textContent = ended ? '2026年10月14日で申込期間は終了しました' : before ? '9/28受付開始予定｜' + campaign.applicationLabel : '申込対象期間：' + campaign.applicationLabel + '（空き状況は個別確認）';
     });
     if (ended) {
+      document.querySelectorAll('[data-campaign-offer]').forEach(el => { el.hidden = true; });
+      document.querySelectorAll('[data-standard-offer]').forEach(el => { el.hidden = false; });
+      document.querySelectorAll('[data-trial-cta]').forEach(el => {
+        el.textContent = '初回相談・体験について相談する';
+        el.href = '#contact';
+      });
+      document.querySelectorAll('[data-campaign-action]').forEach(el => {
+        el.textContent = '通常の初回相談・体験について相談する';
+      });
       document.querySelectorAll('[data-campaign-banner]').forEach(el => { el.hidden = true; });
       document.querySelectorAll('[data-campaign-inline]').forEach(el => { el.hidden = true; });
       document.querySelectorAll('[data-campaign-apply-note]').forEach(el => {
