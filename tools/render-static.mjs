@@ -25,7 +25,7 @@ for (const file of files) {
   html=html.replace(/<div class="hub-plan-details reveal" data-plan-details="([^"]+)">[\s\S]*?<\/div><!-- \/site:plans -->/g, (_,keys)=>'<div class="hub-plan-details reveal" data-plan-details="'+keys+'">'+keys.split(',').map(components.detailRow).join('')+'</div><!-- /site:plans -->');
   html=html.replace(/<div class="hub-plan-details reveal" data-plan-details="([^"]+)"><\/div>/g, (_,keys)=>'<div class="hub-plan-details reveal" data-plan-details="'+keys+'">'+keys.split(',').map(components.detailRow).join('')+'</div><!-- /site:plans -->');
   if (!html.includes('/hp-refresh.css')) html=html.replace('</head>','  <link rel="stylesheet" href="/hp-refresh.css?v=5">\n</head>');
-  html=html.replace(/hp-refresh\.css\?v=\d+/g,'hp-refresh.css?v=7').replace(/script\.js\?v=\d+/g,'script.js?v=39').replace(/site-config\.js\?v=\d+/g,'site-config.js?v=31');
+  html=html.replace(/hp-refresh\.css\?v=\d+/g,'hp-refresh.css?v=8').replace(/script\.js\?v=\d+/g,'script.js?v=40').replace(/site-config\.js\?v=\d+/g,'site-config.js?v=31');
   html=html.replace(/(<\w+[^>]*data-price="([^"]+)"[^>]*>)[^<]*(<\/\w+>)/g, (_,open,key,close) => open+new Intl.NumberFormat('ja-JP').format(site.products[key].price)+'円'+close);
   html=html.replace(/[ \t]+$/gm,'');
   if (html!==before) {fs.writeFileSync(absolute,html);changed++;}

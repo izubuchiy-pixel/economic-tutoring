@@ -1,0 +1,35 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {fileURLToPath} from 'node:url';
+import {siteFiles} from './site-files.mjs';
+import {renderComponents} from './site-templates.mjs';
+const root=new URL('../',import.meta.url);
+const read=f=>fs.readFileSync(new URL(f,root),'utf8');
+const ctx={window:{}};
+vm.runInNewContext(read('site-config.js'),ctx);
+const site=ctx.window.ECONOMIC_TUTORING;
+const files=siteFiles(fileURLToPath(root));
+for(const file of files) {
+  const html=read(file),page=html.match(/data-page="([^"]+)"/)?.[1];
+  const nav=html.match(/<nav class="nav"[\s\S]*?<\/nav>/)?.[0];
+  assert.ok(nav?.includes('href="/universities/"'),file+': university navigation');
+  assert.ok(nav?.includes('href="/parents/"'),file+': parent navigation');
+  const section=page?.startsWith('guide-')?'guides':page?.startsWith('university-')?'universities':null;
+  if(section) assert.ok(nav.includes(`href="/${section}/" aria-current="location"`),file+': section indicator');
+  assert.ok((nav.match(/aria-current=/g)||[]).length<=1,file+': only one current section');
+  if(!html.includes('<!-- site:contact -->')) continue;
+  const contact=html.match(/<!-- site:contact -->([\s\S]*?)<!-- \/site:contact -->/)[1];
+  assert.equal((contact.match(/class="inquiry-trial"/g)||[]).length,1,file+': no repeated normal trial');
+  assert.ok(contact.includes('data-standard-trial hidden'),file+': conditional normal pricing');
+  assert.ok(contact.includes('資料の共有方法は返信後'),file+': material-sharing instructions');
+}
+const ig=renderComponents(site,'instagram').contact;
+assert.ok(ig.includes('DMで「秋学期無料体験希望」'), 'Instagram keeps DM-first instructions');
+assert.ok(ig.includes('data-campaign-action href="'+site.instagram.url+'"'));
+const noCampaign=renderComponents({...site,trialCampaign:null},'top').contact;
+assert.ok(!noCampaign.includes('data-standard-trial hidden'),'normal-only fallback visible');
+assert.ok(!noCampaign.includes('上記キャンペーン'),'no nonexistent campaign reference');
+assert.ok(read('hp-refresh.css').includes('[data-standard-trial][hidden]'),'hidden override across stylesheets');
+assert.ok(read('script.js').includes('window.innerWidth > 1120'),'menu breakpoint aligned');
+console.log(JSON.stringify({ok:true,pages:files.length,checks:['university/parent navigation','active section','single consultation card','Instagram DM preserved','normal-only fallback','menu breakpoint']},null,2));

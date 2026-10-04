@@ -10,6 +10,13 @@ export function renderComponents(site, page) {
   const isParentPage = page === "parents";
   const isMathGuide = page === "guide-economics-math";
   const campaignLink = isInstagramPage ? site.instagram.url : site.consultationForm.url;
+  const trialOutline = `<ol class="trial-outline" aria-label="相談・体験の内容"><li><strong>相談</strong><span>つまずいているテーマを一つ選びます。</span></li><li><strong>授業体験</strong><span>実際の授業のように説明・練習し、途中の疑問も確認します。</span></li><li><strong>振り返り</strong><span>今後受講するかどうかを、体験してから検討できます。</span></li></ol>`;
+  const standardTrial = `<div class="inquiry-trial" data-standard-trial${campaign ? ' hidden' : ''}>
+            <p class="inquiry-trial-price">初回相談・体験60分 <strong data-price="trial">${priceText('trial')}</strong><span>（税込）</span></p>
+            ${trialOutline}
+            <p class="inquiry-trial-note">相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。</p>
+            <a class="text-link" href="/pricing#single">継続する場合の料金・支援範囲 →</a>
+          </div>`;
   const trialFeature = `
           <aside class="trial-feature${page === 'top' ? '' : ' trial-feature-wide'}" aria-label="初回相談・体験と入会金のご案内">
             <div class="trial-feature-main">
@@ -29,7 +36,7 @@ export function renderComponents(site, page) {
               </div>
             </div>
             <div class="trial-feature-support">
-              <p class="offer-benefit">いまの授業や勉強の悩みを相談しながら、つまずいているテーマを一つ選びます。実際の授業のように説明・練習を進め、教え方や進め方を体験してから、今後受講するかどうかをご検討いただけます。</p>
+              <p class="offer-benefit">悩みを相談し、一つのテーマで説明・練習を体験。教え方や進め方を確かめてから、受講を検討できます。</p>
               <div class="admission-note"><span>いつでも</span><strong>入会金 0円</strong><small>授業料・各プランの料金は別途</small></div>
               <p class="offer-reassurance">初回相談・体験だけの利用もOK。継続契約は任意です。<br>フォーム送信だけで契約・支払いは確定しません。</p>
               ${isParentPage ? '<p class="offer-reassurance">保護者から内容・費用の相談もできます。<br>実際の受講は、学生ご本人の希望を確認して進めます。</p>' : ''}
@@ -40,16 +47,18 @@ export function renderComponents(site, page) {
   const campaignNotice = campaign ? `
           <aside class="trial-campaign" id="autumn-trial" aria-labelledby="trial-campaign-title">
             <p class="campaign-eyebrow" data-campaign-status>申込対象期間：${campaign.applicationLabel}</p>
-            <h3 id="trial-campaign-title">${campaign.name}</h3>
-            <p class="campaign-lead">秋学期の最初の「分からない」を、一緒に整理しませんか。</p>
+            <h3 id="trial-campaign-title" data-campaign-title>${campaign.name}</h3>
+            <div data-campaign-current>
             <p class="campaign-price">初回相談・体験60分 <strong>${campaign.price}円</strong><span>通常${priceText('trial')}（税込）</span></p>
-            <p>授業や勉強の悩みを相談しながら、つまずいているテーマを一つ選び、実際の授業のように説明・練習を進めます。最後に復習する内容を整理し、教え方や進め方を体験したうえで、今後受講するかどうかをご検討いただけます。</p>
+            ${trialOutline}
+            <p class="campaign-note">相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。</p>
             <dl class="campaign-terms"><div><dt>申込期間</dt><dd>${campaign.applicationLabel}</dd></div><div><dt>実施期間</dt><dd>${campaign.sessionLabel}</dd></div><div><dt>対象・上限</dt><dd>大学の経済学系科目で困っている新規の方。受講者1人1回・最大${campaign.maxParticipants}名。</dd></div></dl>
-            <p class="campaign-note">継続契約は任意。体験だけでも利用できます。自動課金はありません。紹介・ペア特典など他特典との併用はできません。定員に達した場合は受付終了です。</p>
-            <p class="campaign-note">申込みだけで適用・日程は確定しません。対応科目・空き状況・条件を確認して返信します。期間外・対象外は通常料金です。継続をご希望の場合、月4回・単位取得伴走は月額${priceText('support4')}（税込・原則1科目）のままです。</p>
-            <p class="campaign-apply-note" data-campaign-apply-note>無料の初回相談・体験をご希望の方は、フォームの「希望する相談内容」で「初回相談・体験を希望」を選んでください。合言葉の手入力は不要です。DMの場合は「秋学期無料体験希望」とお知らせください。保護者からも相談できます。</p>
+            <p class="campaign-note">自動課金はありません。紹介・ペア特典など他特典との併用はできません。定員で受付終了。申込みだけで適用・日程は確定せず、対応科目と空き状況を確認して返信します。期間外・対象外は通常料金です。</p>
+            <p class="campaign-apply-note" data-campaign-apply-note>${isInstagramPage ? 'DMで「秋学期無料体験希望」とお知らせください。' : 'フォームの「希望する相談内容」で「初回相談・体験を希望」を選んでください。合言葉の手入力は不要です。'}</p>
             <a class="button button-trial" data-campaign-action href="${campaignLink}" target="_blank" rel="noopener">${isInstagramPage ? '条件を確認して、Instagramで相談する' : '条件を確認して、相談・体験を申し込む'}</a>
             <p class="campaign-note">${isInstagramPage ? 'プロフィールの「メッセージ」から送信してください。' : 'Googleフォームが開きます。資料の添付は不要です。'}入会金はキャンペーン期間にかかわらず0円です。</p>
+            </div>
+            ${standardTrial}
           </aside>` : '';
 
   const entryExamples = {
@@ -64,6 +73,8 @@ export function renderComponents(site, page) {
     ["top", "ホーム", "/"],
     ["pricing", "料金・サービス", "/pricing"],
     ["subjects", "対応科目", "/subjects"],
+    ["universities", "大学別", "/universities/"],
+    ["parents", "保護者の方へ", "/parents/"],
     ["web", "学習環境", "/web-learning"],
     ["guides", "学習ガイド", "/guides/"]
   ];
@@ -81,7 +92,7 @@ export function renderComponents(site, page) {
         </a>
         <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav"><span></span><span></span><span></span></button>
         <nav class="nav" id="global-nav" aria-label="メインナビゲーション">
-          ${navItems.map(([id, label, href]) => `<a href="${href}"${page === id || isMathGuide && id === 'guides' ? ' aria-current="page"' : ""}>${label}</a>`).join("")}
+          ${navItems.map(([id, label, href]) => `<a href="${href}"${page === id ? ' aria-current="page"' : page.startsWith('guide-') && id === 'guides' || page.startsWith('university-') && id === 'universities' ? ' aria-current="location"' : ""}>${label}</a>`).join("")}
           <a class="nav-cta" href="${primaryContactHref}" target="_blank" rel="noopener">${primaryContactLabel}</a>
         </nav>
       </div>
@@ -113,14 +124,8 @@ export function renderComponents(site, page) {
         <div class="inquiry-intro">
           <p class="section-label">相談の入口</p>
           <h2>プランは未定でも、<br>相談できます。</h2>
-          <p>「どこが分からないか」を、きれいに説明できなくても大丈夫。科目と、いま止まっているところを分かる範囲でお知らせください。</p>${campaignNotice}
-          <div class="inquiry-trial">
-            <p class="inquiry-trial-label">内容・日程・条件を確認してから</p>
-            <h3>初回相談・体験</h3>
-            <p class="inquiry-trial-price">通常60分 <strong data-price="trial">${priceText("trial")}</strong><span>（税込）</span></p>
-            <ul><li>授業や勉強の悩みを相談し、扱うテーマを一つ選ぶ</li><li>そのテーマを実際の授業のように説明・練習し、分からないところを一緒に確認</li><li>復習する内容を整理し、今後受講するかどうかを検討</li></ul>
-            <p class="inquiry-trial-note">教え方や進め方を体験してから判断できます。継続契約は必須ではありません。資料の共有方法は必要に応じて返信後にご案内します。</p>
-          </div>${page.startsWith('university-') || page === 'universities' || isMathGuide ? `
+          <p>科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。</p>${campaignNotice || standardTrial}
+          ${page.startsWith('university-') || page === 'universities' || isMathGuide ? `
           <div class="inquiry-example"><h3>ご家族に説明したいときは</h3><p>支援内容・費用・進め方をまとめたページを、そのまま送れます。成人の受講者の学習状況は、ご本人の同意なく保護者へ共有しません。</p><a href="/parents/#share">保護者への説明用ページを見る →</a></div>` : ''}
         </div>`;
 
@@ -128,7 +133,7 @@ export function renderComponents(site, page) {
           <ol class="inquiry-steps" aria-label="問い合わせから初回相談・体験まで">
             <li><span>01</span><div><strong>状況を送る</strong><p>科目・時期・困りごと。プランは未定でも構いません。</p></div></li>
             <li><span>02</span><div><strong>対応可否と日程を確認</strong><p>内容を確認して返信し、必要な支援と条件をご案内します。</p></div></li>
-            <li><span>03</span><div><strong>合意後に、初回相談・体験</strong><p>通常60分${priceText("trial")}（税込）。上記キャンペーンの適用確認が取れた方は0円。送信だけで契約・支払いは確定しません。</p></div></li>
+            <li><span>03</span><div><strong>合意後に、初回相談・体験</strong><p>対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。</p></div></li>
           </ol>`;
 
   const instagramContact = `
@@ -166,7 +171,7 @@ export function renderComponents(site, page) {
           <p class="contact-kicker">CONSULTATION FORM</p>
           <h3>${isParentPage ? '保護者の方からも、相談できます。' : 'フォームで、今の状況を送る。'}</h3>
           <p>${isParentPage ? 'フォームの「ご相談者」で「保護者」を選んでください。大学・期限などは「不明」「未定」でも構いません。科目が分からない場合は「その他」を選べます。入力が難しい場合は下記メールでも相談できます。' : '大学・学年、科目、希望時期、困りごとなどを入力します。講義資料や答案の添付は不要です。'}</p>
-          <div class="inquiry-example"><span>困りごとの書き方の例</span><p>${isParentPage ? '保護者です。大学生の子どもが経済数学の授業で困っています。まず、支援内容と費用について確認したいです。' : entryExamples[page] || '統計学の検定で、どの公式を使うのか判断できません。授業の演習を一人で進められるようになりたいです。'}</p></div>
+          <details class="inquiry-example inquiry-writing-example"><summary>困りごとの書き方の例を見る</summary><p>${isParentPage ? '保護者です。大学生の子どもが経済数学の授業で困っています。まず、支援内容と費用について確認したいです。' : entryExamples[page] || '統計学の検定で、どの公式を使うのか判断できません。授業の演習を一人で進められるようになりたいです。'}</p></details>
           <a class="button button-navy contact-form-button" href="${site.consultationForm.url}" target="_blank" rel="noopener">${isParentPage ? '保護者として相談する' : '科目と困りごとを相談する'}</a>
           <p class="contact-assurance">フォーム送信だけで契約・支払いは確定しません。</p>${isParentPage ? '\n          <p class="fineprint">成績や答案など、本人の個人情報は同意なく送らないでください。実際の受講はご本人の希望も確認して進めます。</p>' : ''}
           ${inquirySteps}

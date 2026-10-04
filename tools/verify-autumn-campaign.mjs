@@ -17,22 +17,26 @@ const logic=script.slice(script.indexOf('  const campaign = site.trialCampaign;'
 assert.ok(logic.length>500);
 for(const [iso,expected,hidden] of [
  ['2026-09-27T23:59:59+09:00','9/28受付開始予定',false],
- ['2026-09-28T00:00:00+09:00','申込対象期間',false],
- ['2026-09-30T23:59:59+09:00','申込対象期間',false],
- ['2026-10-01T00:00:00+09:00','申込対象期間',false],
- ['2026-10-14T23:59:59+09:00','申込対象期間',false],
+ ['2026-09-28T00:00:00+09:00','申込受付中',false],
+ ['2026-09-30T23:59:59+09:00','申込受付中',false],
+ ['2026-10-01T00:00:00+09:00','申込受付中',false],
+ ['2026-10-14T23:59:59+09:00','申込受付中',false],
  ['2026-10-15T00:00:00+09:00','申込期間は終了',true],
  ['2026-11-01T00:00:00+09:00','申込期間は終了',true]
 ]) {
- const status={textContent:''},banner={hidden:false},inline={hidden:false},note={textContent:''};
+ const status={textContent:''},banner={hidden:false},inline={hidden:false},note={textContent:'合言葉の手入力は不要です。'};
+ const current={hidden:false},normalTrial={hidden:true},title={textContent:site.trialCampaign.name};
  const offer={hidden:false},standard={hidden:true},cta={textContent:'期間限定・無料体験の条件を見る',href:'#autumn-trial'},action={textContent:'条件を確認して、体験を申し込む'};
- const selectors={'[data-campaign-status]':[status],'[data-campaign-banner]':[banner],'[data-campaign-inline]':[inline],'[data-campaign-apply-note]':[note],'[data-campaign-offer]':[offer],'[data-standard-offer]':[standard],'[data-trial-cta]':[cta],'[data-campaign-action]':[action]};
+ const selectors={'[data-campaign-status]':[status],'[data-campaign-banner]':[banner],'[data-campaign-inline]':[inline],'[data-campaign-apply-note]':[note],'[data-campaign-offer]':[offer],'[data-standard-offer]':[standard],'[data-trial-cta]':[cta],'[data-campaign-action]':[action],'[data-campaign-current]':[current],'[data-standard-trial]':[normalTrial],'[data-campaign-title]':[title]};
  vm.runInNewContext(logic,{site,Date:{now:()=>Date.parse(iso),parse:Date.parse},document:{querySelectorAll:s=>selectors[s]||[]}});
  assert.ok(status.textContent.includes(expected),iso);
  assert.equal(banner.hidden,hidden,iso);
  assert.equal(inline.hidden,hidden,iso);
  assert.equal(offer.hidden,hidden,iso);
  assert.equal(standard.hidden,!hidden,iso);
+ assert.equal(current.hidden,hidden,iso+': shared zero-yen card');
+ assert.equal(normalTrial.hidden,!hidden,iso+': normal consultation');
+ assert.equal(title.textContent,hidden?'初回相談・体験':site.trialCampaign.name,iso);
  assert.equal(cta.href,hidden?'#contact':'#autumn-trial',iso);
  if(hidden) {
    assert.ok(!cta.textContent.includes('無料'),iso);
@@ -62,6 +66,8 @@ for(const file of ['index.html','parents/index.html','universities/keio/economic
 for(const file of siteFiles(fileURLToPath(root))) {
  const html=fs.readFileSync(new URL(file,root),'utf8');
  if(!html.includes('<!-- site:contact -->')) continue;
+ assert.equal((html.match(/data-campaign-current/g)||[]).length,1,file+': one campaign');
+ assert.equal((html.match(/data-standard-trial hidden/g)||[]).length,1,file+': normal trial initially hidden');
  for(const text of ['初回相談・体験60分','つまずいているテーマを一つ','実際の授業のように説明・練習','今後受講するかどうか','継続契約は必須ではありません']) assert.ok(html.includes(text),file+': consultation/trial flow missing '+text);
 }
 const home=fs.readFileSync(new URL('index.html',root),'utf8');

@@ -14,11 +14,14 @@
     const before = now < Date.parse(campaign.applicationStartsAt);
     const ended = now >= Date.parse(campaign.applicationEndsAt);
     document.querySelectorAll('[data-campaign-status]').forEach(el => {
-      el.textContent = ended ? '2026年10月14日で申込期間は終了しました' : before ? '9/28受付開始予定｜' + campaign.applicationLabel : '申込対象期間：' + campaign.applicationLabel + '（空き状況は個別確認）';
+      el.textContent = ended ? '2026年10月14日で申込期間は終了しました' : before ? '9/28受付開始予定｜' + campaign.applicationLabel : '申込受付中・空き状況は個別確認';
     });
     if (ended) {
       document.querySelectorAll('[data-campaign-offer]').forEach(el => { el.hidden = true; });
       document.querySelectorAll('[data-standard-offer]').forEach(el => { el.hidden = false; });
+      document.querySelectorAll('[data-campaign-current]').forEach(el => { el.hidden = true; });
+      document.querySelectorAll('[data-standard-trial]').forEach(el => { el.hidden = false; });
+      document.querySelectorAll('[data-campaign-title]').forEach(el => { el.textContent = '初回相談・体験'; });
       document.querySelectorAll('[data-trial-cta]').forEach(el => {
         el.textContent = '初回相談・体験について相談する';
         el.href = '#contact';
@@ -30,10 +33,6 @@
       document.querySelectorAll('[data-campaign-inline]').forEach(el => { el.hidden = true; });
       document.querySelectorAll('[data-campaign-apply-note]').forEach(el => {
         el.textContent = '新規のキャンペーン受付は終了しました。期間内に適用を確認した方の体験は10/20まで0円です。新規の初回相談・体験は通常60分3,000円（税込）です。';
-      });
-    } else if (!before) {
-      document.querySelectorAll('[data-campaign-apply-note]').forEach(el => {
-        el.textContent = '無料の初回相談・体験をご希望の方は、フォームの「希望する相談内容」で「初回相談・体験を希望」を選んでください。合言葉の手入力は不要です。DMの場合は「秋学期無料体験希望」とお知らせください。保護者からも相談できます。';
       });
     }
   }
@@ -124,7 +123,7 @@
   };
   openAnchorDetails();
   window.addEventListener("hashchange", openAnchorDetails);
-  window.addEventListener("resize", () => { if (window.innerWidth > 900) closeMenu(); });
+  window.addEventListener("resize", () => { if (window.innerWidth > 1120) closeMenu(); });
 
   async function copyText(text) {
     try { await navigator.clipboard.writeText(text); return true; }
