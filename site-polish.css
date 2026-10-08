@@ -1,0 +1,166 @@
+/* Shared presentation, 2026-10-09. Content, prices and campaign logic stay intact. */
+:root {
+  --et-radius:12px;
+  --et-border:#d8e2df;
+  --et-tint:#f3f7f5;
+  --et-green:#235b51;
+  --et-heading:clamp(26px,2.6vw,34px);
+  --et-title:clamp(30px,3.25vw,42px);
+}
+
+/* A consistent editorial rhythm across service and university entrances. */
+.hub-page .section,.entry-section { padding-block:72px; }
+.section-ivory { background:var(--et-tint); }
+.home-hero,.hub-page-hero,.entry-hero,.guide-hero {
+  background:linear-gradient(125deg,#fff 35%,#f1f6f3);
+  border-bottom:1px solid var(--et-border);
+}
+.hub-page-hero,.entry-hero { padding-block:32px 52px; }
+.home-hero { padding-top:44px; }
+.hub-page-title,.entry-hero h1,.ai-hero .hub-page-title {
+  color:var(--hub-ink);
+  font-size:var(--et-title);
+  line-height:1.5;
+  letter-spacing:-.025em;
+}
+.home-hero h1 { font-size:clamp(32px,3.25vw,44px); line-height:1.5; }
+.hub-kicker,.section-label,.entry-kicker,.eyebrow,.contact-kicker {
+  color:#6b572d;
+  font-size:12px;
+  font-weight:750;
+  line-height:1.6;
+  letter-spacing:.07em;
+  margin-bottom:14px;
+}
+.entry-lead,.hub-hero-lead { max-width:44rem; font-size:16px; line-height:1.9; }
+.home-lead { max-width:32rem; line-height:1.9; }
+.section-heading h2,.section-heading-compact h2,.hub-intro h2,
+.hub-split-copy h2,.entry-section h2,.contact h2 {
+  font-size:var(--et-heading);
+  font-weight:750;
+  line-height:1.55;
+  letter-spacing:-.015em;
+}
+.section-heading,.section-heading-compact { margin-bottom:32px; }
+.entry-section > .shell > p { max-width:48rem; }
+.entry-hero-grid { gap:44px; }
+.entry-overview { border-radius:0 var(--et-radius) var(--et-radius) 0; background:#eaf1ed; }
+.breadcrumbs { margin-bottom:24px; }
+
+/* Shared card geometry; explanatory math and existing article structure are untouched. */
+.service-card,.hub-guide,.learning-start-card,.entry-card,.entry-example,
+.hub-hero-aside,.trial-feature,.trial-campaign,.trial-flow-grid li,
+.ai-download-card,.ai-prompt-box,.ai-question-grid article,
+.inquiry-contact .contact-card,.hub-callout {
+  border-radius:var(--et-radius);
+}
+.service-card,.hub-guide,.entry-card,.ai-download-card,.ai-question-grid article {
+  border-color:var(--et-border);
+  box-shadow:0 3px 12px #153c2a03;
+}
+.hub-guide,.learning-start-card { display:flex; flex-direction:column; }
+.hub-guide b,.learning-start-card b { margin-top:auto; padding-top:20px; }
+.hub-guide h3,.learning-start-card h3,.entry-card h3 { line-height:1.6; }
+.hub-guide:hover,.learning-start-card:hover {
+  border-color:#779f91;
+  background:#f7faf8;
+}
+.subject-links a { border-radius:10px; }
+.hub-visual img { border-radius:var(--et-radius); }
+.ai-prompt-box { border:1px solid var(--et-border); background:var(--et-tint); }
+.ai-download-card { box-shadow:0 8px 24px #153c2a06; }
+.ai-question-grid article { padding:26px; }
+.learning-start-grid { gap:20px; }
+
+/* Wayfinding buttons: readable tap targets and the same treatment on every entrance. */
+.button { border-radius:8px; }
+.page-jump,.entry-jumps { gap:10px; }
+.page-jump a,.entry-jumps a {
+  display:inline-flex;
+  align-items:center;
+  min-height:44px;
+  padding:9px 14px;
+  border:1px solid #cbd9d2;
+  border-radius:8px;
+  background:#fff;
+  color:var(--hub-ink);
+  font-size:14px;
+  line-height:1.6;
+  text-decoration:none;
+}
+.page-jump a:hover,.entry-jumps a:hover { border-color:#779f91; background:#eaf2ed; }
+.entry-next { color:var(--et-green); }
+
+/* The campaign remains the primary action; the adjacent input guide is secondary. */
+.inquiry-contact { background:#edf3ef; }
+.contact-card-form .contact-form-button {
+  color:var(--hub-ink);
+  background:#fff;
+  border:1px solid #8da99c;
+}
+.contact-card-form .contact-form-button:hover { background:#edf4ef; border-color:#35685c; }
+.contact-grid { align-items:start; gap:44px; }
+[data-plan-details="support4,support8,testAddon"] > .hub-plan-detail:last-child {
+  margin-top:18px;
+  padding-inline:22px;
+  border:1px solid var(--et-border);
+  border-radius:var(--et-radius);
+  background:var(--et-tint);
+}
+[data-plan-details="support4,support8,testAddon"] > .hub-plan-detail:last-child summary strong { font-size:19px; }
+
+/* Fix the dark-on-dark callout, including secondary link and button states. */
+.hub-callout .text-link { color:#f4dca8; text-decoration-color:#d9bd82; }
+.hub-callout .text-link:hover { color:#fff; }
+.hub-callout .button-navy { background:#f0d39a; border-color:#f0d39a; color:#152d3c; }
+.hub-callout .button-navy:hover { background:#f8e1b5; border-color:#f8e1b5; }
+.hub-callout :focus-visible { outline-color:#f0d39a; }
+.hub-band .section-label { color:#e3c98f; }
+
+/* The same twelve destinations, grouped by purpose rather than one flat list. */
+.site-footer { padding-block:56px 28px; }
+.footer-grid { grid-template-columns:minmax(220px,.75fr) minmax(0,1.6fr); gap:32px 64px; }
+.footer-brand p { max-width:24rem; }
+.footer-nav { grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px; }
+.footer-nav-group { display:flex; flex-direction:column; gap:10px; min-width:0; }
+.footer-nav-group h2 {
+  margin:0 0 6px;
+  color:#f3dca7;
+  font-size:13px;
+  font-weight:700;
+  line-height:1.7;
+  letter-spacing:.06em;
+}
+.footer-nav-group a { display:block; line-height:1.8; text-underline-offset:4px; }
+.footer-nav-group a:hover { color:#fff; text-decoration:underline; }
+.site-footer :focus-visible { outline-color:#f3dca7; }
+.legal-main > .shell { max-width:920px; }
+.legal-content { padding:36px; border-radius:var(--et-radius); }
+.legal-section + .legal-section { margin-top:32px; padding-top:32px; }
+
+@media (max-width:900px) {
+  .home-hero-grid { gap:32px; }
+  .footer-grid { grid-template-columns:1fr; gap:32px; }
+  .footer-nav { gap:28px; }
+  .entry-hero-grid { gap:28px; }
+}
+@media (max-width:600px) {
+  :root { --et-heading:26px; --et-title:29px; }
+  .hub-page .section,.entry-section { padding-block:48px; }
+  .home-hero { padding-top:32px; }
+  .hub-page-hero,.entry-hero,.ai-hero { padding-block:26px 36px; }
+  .home-hero h1 { font-size:clamp(27px,7.5vw,35px); line-height:1.55; }
+  .ai-hero .hub-page-title { font-size:29px; margin-block:0; }
+  .hub-kicker,.section-label,.entry-kicker { margin-bottom:12px; }
+  .section-heading,.section-heading-compact { margin-bottom:26px; }
+  .entry-hero-grid { gap:24px; }
+  .entry-overview { padding:22px; }
+  .ai-question-grid article { padding:22px; }
+  .contact-grid { gap:28px; }
+  .page-jump a,.entry-jumps a { font-size:13px; padding:9px 12px; }
+  [data-plan-details="support4,support8,testAddon"] > .hub-plan-detail:last-child { padding-inline:16px; }
+  .footer-nav { grid-template-columns:repeat(2,minmax(0,1fr)); gap:28px 20px; }
+  .footer-nav-group:last-child { grid-column:1 / -1; padding-top:22px; border-top:1px solid #355260; }
+  .site-footer { padding-block:40px 24px; }
+  .legal-content { padding:24px 20px; }
+}
