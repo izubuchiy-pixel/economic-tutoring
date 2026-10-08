@@ -1,0 +1,19 @@
+/* Scoped to the home-page teaching sample; no product or global layout changes. */
+.proof-preview { min-width:0; margin:0; padding:30px; background:#fff; border:1px solid var(--hub-line); border-radius:10px; }
+.proof-kicker { margin:0 0 12px; color:var(--gold-dark); font-size:12px; font-weight:800; }
+.proof-preview h3 { margin:0 0 18px; color:var(--hub-ink); font-size:clamp(24px,3vw,32px); line-height:1.45; }
+.proof-preview p { margin:0 0 16px; }
+.proof-preview .proof-equation { padding:16px; background:var(--hub-soft); color:var(--hub-ink); font-size:20px; font-weight:700; line-height:1.8; overflow-wrap:anywhere; }
+.proof-steps { margin:0 0 20px; padding:0; list-style:none; counter-reset:proof; }
+.proof-steps li { position:relative; padding:12px 0 12px 36px; border-bottom:1px solid var(--hub-line); counter-increment:proof; }
+.proof-steps li::before { content:counter(proof,decimal-leading-zero); position:absolute; left:0; color:var(--gold-dark); font-size:12px; font-weight:800; }
+.proof-steps strong,.proof-steps span { display:block; }
+.proof-steps span { color:var(--hub-muted); font-size:14px; }
+.proof-details { border-top:1px solid var(--hub-line); font-size:15px; }
+.proof-details summary,.proof-answer summary { padding:14px 0; cursor:pointer; color:var(--hub-ink); font-weight:700; }
+.proof-details > div { padding:4px 0 10px; }
+.proof-preview .proof-lines { padding:12px; font-size:16px; }
+.proof-lines > span { display:block; }
+.proof-answer { margin-top:12px; padding:0 14px; background:var(--hub-soft); border-left:3px solid #b79c66; }
+.proof-answer p { font-size:14px; }
+@media (max-width:600px) { .proof-preview { padding:22px 18px; } .proof-preview .proof-lines { font-size:14px; } }

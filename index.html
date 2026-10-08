@@ -18,6 +18,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://economic-tutoring.pages.dev/#organization","name":"economic_tutoring","url":"https://economic-tutoring.pages.dev/","description":"大学生向け経済学系専門科目のオンライン個別指導・伴走・学習確認","email":"economic.tutoring.office@gmail.com","sameAs":["https://www.instagram.com/economic_tutoring/"]},{"@type":"WebSite","@id":"https://economic-tutoring.pages.dev/#website","url":"https://economic-tutoring.pages.dev/","name":"economic_tutoring","inLanguage":"ja"},{"@type":"Service","@id":"https://economic-tutoring.pages.dev/#service","name":"大学生向け経済学系専門科目のオンライン個別指導・学習確認","provider":{"@id":"https://economic-tutoring.pages.dev/#organization"},"areaServed":{"@type":"Country","name":"日本"},"audience":{"@type":"EducationalAudience","educationalRole":"student"},"serviceType":["単発オンライン個別指導","大学の授業・定期試験・再履修に対応する月額伴走","授業なしの月4回・学習確認コース"],"url":"https://economic-tutoring.pages.dev/"}]}</script>
   <script src="/site-config.js?v=31"></script><script src="/script.js?v=40" defer></script>
   <link rel="stylesheet" href="/entry-navigation.css?v=1">
+  <link rel="stylesheet" href="/proof-example.css?v=1">
 </head>
 <body data-page="top" class="hub-page">
   <!-- site:header -->
@@ -84,7 +85,7 @@
       <div class="shell">
         <div class="section-heading-compact"><p class="section-label">こんな困りごとから</p><h2>困っているところから、<br>一緒に整理します。</h2></div>
         <div class="pain-grid">
-          <article><h3>経済数学・微積で、<br>授業の式が追えない。</h3><p>まず「式への代入」「微分の計算」「結果の意味」のどこで止まるかを確認。必要な一段前から、授業の内容へつなぎ直します。</p><a class="entry-next" href="/guides/economics-math-basics#start">無料ガイドで、戻る場所を確かめる →</a></article>
+          <article><h3>経済数学・微積で、<br>授業の式が追えない。</h3><p>式変形・計算だけでなく、定義や証明の「なぜ」も確認。必要な前提から、いまの授業へつなぎ直します。</p><a class="entry-next" href="/guides/economics-math-basics#start">計算の前提を無料ガイドで確かめる →</a></article>
           <article><h3>解説を見れば分かるのに、<br>一人では解けない。</h3><p>解説を閉じて、最初に何を決めるかを言葉にしてみます。途中式と判断の理由を分けて、説明が必要な地点を整理します。</p><a class="entry-next" href="#teaching-example">ETの説明・確認の進め方を見る →</a></article>
           <article><h3>いまの授業では、<br>何から復習すればいい？</h3><p>授業名・今の単元・試験範囲を並べて確認。公開授業情報と学習の入口を参考に、ご本人の講義資料に合わせて優先順を相談します。</p><a class="entry-next" href="/universities/">大学・科目から近い案内を探す →</a></article>
         </div>
@@ -107,17 +108,26 @@
 
     <section class="section section-ivory" id="teaching-example">
       <div class="shell hub-split">
-        <div class="hub-split-copy"><p class="section-label">説明のイメージ</p><h2>「この式は何を言っている？」<br>を、具体的な言葉に。</h2><p>公式を見せるだけでなく、記号と意味をつなげます。理解を確かめるときは、数字を変えて自分で計算し、その変化を説明してみます。</p><p>ここにある式は、説明方法を示すための自作例です。実際の指導では、ご本人の授業と理解状況に合わせて扱う問題を選びます。</p><a class="text-link" href="/guides/">登録不要の学習ガイドで、説明を読んでみる →</a></div>
-        <figure class="lesson-preview">
-          <figcaption>説明の一例 ／ ミクロ経済学・需要関数</figcaption>
-          <div class="lesson-sheet">
-            <p>「式は読める。でも、意味が分からない」</p>
-            <strong class="lesson-equation">Q = 100 <mark>− 2</mark>P</strong>
-            <p>Q：需要量　P：価格（他の条件は一定）</p>
-            <div class="lesson-translation"><strong>価格が1上がると、<br>需要量は2減る。</strong><p>この式では、P = 20ならQ = 60。<br>P = 21にするとQ = 58。<br>記号を、具体的な変化に置き換えます。</p></div>
-          </div>
-          <ol class="lesson-path" aria-label="説明の順番"><li>式を読む</li><li>意味をつかむ</li><li>自分で確かめる</li></ol>
-        </figure>
+        <div class="hub-split-copy"><p class="section-label">説明のイメージ</p><h2>公式の先にある、<br>「なぜ？」を一緒に。</h2><p>「計算はできる。でも証明が読めない」。定義の意味、定理を使う条件、式変形の理由を分けて確認します。内容を薄めず、理解できる前提からつなぎます。</p><p>説明を聞いたあとには、類題を解いたり理由を説明したり。ご本人が自分で使えるかまで確かめます。</p><p class="fineprint">ここにある内容は指導方法を示す自作例です。教科書・課題の転載や実際の受講者の記録ではありません。未習の内容は飛ばして構いません。個別の対応可否は授業資料を確認して判断します。</p><a class="text-link" href="/guides/">計算や式の意味から確認する無料ガイド →</a></div>
+        <article class="proof-preview" id="proof-example" aria-labelledby="proof-title">
+          <p class="proof-kicker">自作の授業例 ／ 積の微分</p>
+          <h3 id="proof-title">なぜ、途中で<br>「足して引く」の？</h3>
+          <p>一般に、積の微分は、微分したもの同士の積ではありません。両方が変わるときの変化を、二つに分けます。</p>
+          <p class="proof-equation">(uv)′ = u′v + uv′</p>
+          <ol class="proof-steps"><li><strong>前提を確かめる</strong><span>uとvは同じ開区間で微分可能。′はxでの微分です。</span></li><li><strong>変化を二つに分ける</strong><span>同じ項を足して引くと、uの差とvの差が現れます。</span></li><li><strong>自分の言葉で確かめる</strong><span>「どちらの変化を取り出したか」を説明してみます。</span></li></ol>
+          <details class="proof-details"><summary>式の一手と、微分の定義をつなぐ</summary><div>
+            <p>xとx+hが区間内にあるh ≠ 0を取り、A = u(x)、B = v(x)、A<sub>h</sub> = u(x+h)、B<sub>h</sub> = v(x+h)と置きます。下の式は省略記号で書いた、積の変化です。</p>
+            <p class="proof-equation proof-lines"><span>A<sub>h</sub>B<sub>h</sub> − AB</span><span>= A<sub>h</sub>B<sub>h</sub> − AB<sub>h</sub> + AB<sub>h</sub> − AB</span><span>= (A<sub>h</sub> − A)B<sub>h</sub> + A(B<sub>h</sub> − B)</span></p>
+            <p>AB<sub>h</sub>を足して引いても値は変わりません。目的は、微分の定義で使う「関数の差」をそれぞれ取り出すことです。</p>
+            <p class="proof-equation proof-lines"><span>(A<sub>h</sub>B<sub>h</sub> − AB) / h</span><span>= [(A<sub>h</sub> − A) / h] B<sub>h</sub></span><span>　+ A [(B<sub>h</sub> − B) / h]</span></p>
+            <p>h → 0で二つの差商はu′(x)、v′(x)へ。vは微分可能なので連続で、B<sub>h</sub> → Bです。したがって積の微分はu′(x)v(x) + u(x)v′(x)となります。</p>
+            <p><strong>確認：</strong>なぜAB<sub>h</sub>を選ぶと、二つの微分につながるのでしょう？ 最後の二つの差商を指しながら説明してみてください。</p>
+          </div></details>
+          <details class="proof-details"><summary>別の例を、自分で確かめる</summary><div>
+            <p>H(x) = x²(x − 1)を、積の微分で微分してください。二つの項がそれぞれ何の変化を表すかも説明してみましょう。</p>
+            <details class="proof-answer"><summary>取り組んだあとに、解答・理由を見る</summary><p>H′(x) = 2x(x − 1) + x² = 3x² − 2x。第一項はx²の変化を、第二項はx − 1の変化を取り出したものです。先にH(x) = x³ − x²と展開して微分しても一致します。x = 1ではH′(1) = 1で、微分同士を掛けた2とは異なります。</p><p>一問の正誤だけで理解度や必要回数は決めません。説明の様子も踏まえて、次の練習を選びます。</p></details>
+          </div></details>
+        </article>
       </div>
     </section>
 
@@ -126,7 +136,7 @@
         <div class="hub-split-copy">
           <p class="section-label">指導の進め方</p><h2>あなたの講義資料を、<br>学び直しの出発点に。</h2>
           <p>同じ「ミクロ経済学」でも、教材や記号、試験形式は違います。一般的な解説を聞くだけでなく、いまの授業につながる練習を進めます。</p>
-          <ol class="hub-editorial-list"><li><strong>授業と範囲を確認する</strong>講義資料・指定教材・試験時期を確認します。</li><li><strong>止まった地点を見つける</strong>概念、公式の条件、計算、結果の読み方を分けて確認します。</li><li><strong>説明のあと、自分で確かめる</strong>本人が途中式を書き、考え方を説明する練習へ進みます。</li></ol>
+          <ol class="hub-editorial-list"><li><strong>授業と範囲を確認する</strong>講義資料・指定教材・試験時期を確認します。</li><li><strong>止まった地点を見つける</strong>定義の意味、定理の条件、計算、証明の筋道を分けて確認します。</li><li><strong>説明のあと、自分で確かめる</strong>本人が途中式を書き、考え方を説明する練習へ進みます。</li></ol>
           <a class="text-link" href="/web-learning">継続学習を支える仕組みを見る →</a>
         </div>
         <figure class="hub-visual"><img src="/assets/showcase-home-desktop.png" alt="今日の優先行動と次回授業を一覧できる受講者専用学習環境の公開サンプル" loading="lazy" width="1440" height="1100"><figcaption>月額伴走の学習環境・公開サンプル。画面はすべて架空データです。単発授業には専用環境を含みません。</figcaption></figure>

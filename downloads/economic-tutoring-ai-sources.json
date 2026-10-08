@@ -1,14 +1,14 @@
 {
   "status": "GENERATED_PUBLIC_INFORMATION_SNAPSHOT",
-  "generated_at_jst": "2026-10-09T05:08:15.809830+09:00",
-  "source_base_commit": "f89ae4ada624fbbe5635ecd801a6a5a20947ba2a",
+  "generated_at_jst": "2026-10-09T05:55:43.550020+09:00",
+  "source_base_commit": "ada53ae3734858cae758c301bea2946eab4ee0eb",
   "page_count": 51,
   "guide_count": 9,
   "product_count": 7,
   "config_sha256": "04e211ceade3fe129b2c3ded788eef38d530cc4611aafa8bb95fe9b5507c6934",
   "pack_file": "economic-tutoring-ai-information.txt",
-  "pack_sha256": "8255da934d01dad121d52a30b09f1df4685418eb61d62c0efcd1f6b439c6f867",
-  "pack_bytes": 644319,
+  "pack_sha256": "e0f0e16e740aefaebd45d044b7af665111df56454dc480d8019cf47c9240af21",
+  "pack_bytes": 648737,
   "sns_changed": false,
   "excluded_pages": [
     "404.html (error navigation)",
@@ -104,8 +104,8 @@
       "file": "index.html",
       "url": "https://economic-tutoring.pages.dev/",
       "title": "大学の経済学・統計学専門オンライン個別指導｜economic_tutoring",
-      "html_sha256": "fe91652a112aeeda92eaccc33d52115eab1bf7f0b3d9e682c33eda4707b8ac30",
-      "text_sha256": "a880f3ccf348f09c91597a0e9585ae16660831a5be897b7bfe7fd7b5d9d1b0eb"
+      "html_sha256": "97030e25ca83c5a7154e90975180fcf84ec47de8fe0fe92d87be19a14182756a",
+      "text_sha256": "a896a6ac1bd494c3eebeec3228184d12e2ea6a756952abef60ff8fc8ccf4542e"
     },
     {
       "file": "instagram/index.html",
@@ -139,8 +139,8 @@
       "file": "subjects.html",
       "url": "https://economic-tutoring.pages.dev/subjects",
       "title": "大学のミクロ・マクロ・統計・計量・経済数学｜対応科目｜economic_tutoring",
-      "html_sha256": "cacee6b847ec2a2b93cf1769bebc165d1ca8a88cbd17a1aa15286715a14416fa",
-      "text_sha256": "93ad5b14b1eb39547a34e561d55da17c6caed7c21376be24511ba83023971170"
+      "html_sha256": "a9ed71e9ff859a7de7b088e232546a9694d5046e327a39a139ae4e587718d550",
+      "text_sha256": "951ebd502dd282b8201ecf6adf49ca210fcafe1451ffcf81fdc04fbd16ba752c"
     },
     {
       "file": "terms.html",
@@ -209,8 +209,8 @@
       "file": "universities/keio/economics-math/index.html",
       "url": "https://economic-tutoring.pages.dev/universities/keio/economics-math/",
       "title": "慶應経済の数学概論・微分積分｜授業に合わせた経済数学サポート",
-      "html_sha256": "471e73201b2837adafd50e8bd15876fc6b15e2c9ffe4c2a85643e99cf4d0cbe8",
-      "text_sha256": "d3f996c5c219701cece076f23904d026d9e9121894b72a30661027fd39db56e0"
+      "html_sha256": "d281d57a9975c247cfb43faedc581ec57ada2165546b8e249aca478ad714b827",
+      "text_sha256": "418fd32c6a039c3a48ddf55472b2210052e83a484d8ae5d0aababef9db89b5a7"
     },
     {
       "file": "universities/keio/macroeconomics/index.html",
