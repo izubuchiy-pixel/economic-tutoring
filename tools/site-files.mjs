@@ -5,6 +5,7 @@ import {universityEntries,universityEntryPath} from './university-entry-data.mjs
 // Only these authored entry pages may join tracked HTML in the static build.
 // Do not pick up unrelated untracked drafts or social asset folders.
 export const entryPages = [
+  'ai/index.html',
   'parents/index.html',
   'universities/index.html',
   'universities/sophia/economics-math/index.html',

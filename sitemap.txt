@@ -48,3 +48,4 @@ https://economic-tutoring.pages.dev/universities/kwansei-gakuin/microeconomics/
 https://economic-tutoring.pages.dev/universities/kwansei-gakuin/macroeconomics/
 https://economic-tutoring.pages.dev/universities/rikkyo/microeconomics/
 https://economic-tutoring.pages.dev/universities/rikkyo/macroeconomics/
+https://economic-tutoring.pages.dev/ai/

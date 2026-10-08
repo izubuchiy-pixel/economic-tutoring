@@ -1,0 +1,384 @@
+{
+  "status": "GENERATED_PUBLIC_INFORMATION_SNAPSHOT",
+  "generated_at_jst": "2026-10-09T05:08:15.809830+09:00",
+  "source_base_commit": "f89ae4ada624fbbe5635ecd801a6a5a20947ba2a",
+  "page_count": 51,
+  "guide_count": 9,
+  "product_count": 7,
+  "config_sha256": "04e211ceade3fe129b2c3ded788eef38d530cc4611aafa8bb95fe9b5507c6934",
+  "pack_file": "economic-tutoring-ai-information.txt",
+  "pack_sha256": "8255da934d01dad121d52a30b09f1df4685418eb61d62c0efcd1f6b439c6f867",
+  "pack_bytes": 644319,
+  "sns_changed": false,
+  "excluded_pages": [
+    "404.html (error navigation)",
+    "ai/index.html (download instructions)"
+  ],
+  "scope": "Official public HTML main text, body links, public service configuration, owner-confirmed lesson clarifications",
+  "limitations": [
+    "No live remaining-capacity or booking data",
+    "No off-site note/SNS archive ingestion",
+    "No authenticated student content",
+    "Images/diagrams limited to alternate text",
+    "AI ingestion capacity varies"
+  ],
+  "pages": [
+    {
+      "file": "economics-tutor.html",
+      "url": "https://economic-tutoring.pages.dev/economics-tutor",
+      "title": "大学生の経済学塾・オンライン家庭教師｜授業・単位対策｜economic_tutoring",
+      "html_sha256": "0f45c99dbfbd6a5a5117a7351cdc1a572e79c98c05b97ec74f5928d0fe13bc85",
+      "text_sha256": "a7e482afd6e1bc535798de327e9b0688c9d818203ce6a5a483fa9b91f385cc56"
+    },
+    {
+      "file": "guides/econometrics-regression-basics.html",
+      "url": "https://economic-tutoring.pages.dev/guides/econometrics-regression-basics",
+      "title": "回帰係数を因果と読めない理由｜計量経済学のつまずき｜economic_tutoring",
+      "html_sha256": "90a5ccaddbf97a33de1d2f93c4d552c440deaf8e2c0225453687438ad9360869",
+      "text_sha256": "9877edad2e34e5ab85c883f51683f063926f61ab3dc52a364ea6850ae022efc1"
+    },
+    {
+      "file": "guides/economics-math-basics.html",
+      "url": "https://economic-tutoring.pages.dev/guides/economics-math-basics",
+      "title": "経済数学が分からないときの勉強順｜式変形・微分・最適化｜economic_tutoring",
+      "html_sha256": "16d8d84d25bd502a7b2b86f9c009fd2fb535ce946c15961770669068b04e4172",
+      "text_sha256": "3d277dc6ce81da3f86fb7b700799597dafd67a64ca21475ec829fe5d82a07fc8"
+    },
+    {
+      "file": "guides/epsilon-delta-definition.html",
+      "url": "https://economic-tutoring.pages.dev/guides/epsilon-delta-definition",
+      "title": "ε-δ論法がわからない｜極限の定義と証明の作り方｜economic_tutoring",
+      "html_sha256": "7dded349bfcff13198a258ae77b723512072ab6d72c2f5eb3c9049c40d64e7a1",
+      "text_sha256": "0475b6a74047d5eb91b6ca18b3bc56161328d589ae754ef48ae936d7b7c6be50"
+    },
+    {
+      "file": "guides/game-theory-nash-equilibrium.html",
+      "url": "https://economic-tutoring.pages.dev/guides/game-theory-nash-equilibrium",
+      "title": "ナッシュ均衡の求め方｜最適反応と混合戦略のつまずき｜economic_tutoring",
+      "html_sha256": "97f4bbe397f9653baac25dfa8e66f7471b9d5c30d1a44dba25c41428ea677f7a",
+      "text_sha256": "cab52c5313758479dd6634efb93f462412d35040f5b3c55809cdc0cbb94c5c7a"
+    },
+    {
+      "file": "guides/index.html",
+      "url": "https://economic-tutoring.pages.dev/guides/",
+      "title": "大学の経済学・統計学 学習ガイド｜economic_tutoring",
+      "html_sha256": "730a861d72024ddcb2f884a769a1ce8bc784f2e43f6a01a8921db4f451858c5f",
+      "text_sha256": "ca35b309f9f41cd8c3f8dd8e2d1b5bf97608e25deb55939b60f39f1686c1bb49"
+    },
+    {
+      "file": "guides/macro-is-lm-shifts.html",
+      "url": "https://economic-tutoring.pages.dev/guides/macro-is-lm-shifts",
+      "title": "IS-LM分析がわからない｜曲線上の移動とシフトの違い｜economic_tutoringIS曲線とLM曲線の交点",
+      "html_sha256": "c4dd194c70b1b275b5ca62dc02b1a257a5d7bb1b7c8cf1a63c79f3340b0eaff8",
+      "text_sha256": "c5f58f32e72b2c27430c517b69d9e38d45789e0c27cad6bee69bd03ba376f409"
+    },
+    {
+      "file": "guides/macro-solow-steady-state.html",
+      "url": "https://economic-tutoring.pages.dev/guides/macro-solow-steady-state",
+      "title": "ソローモデルの定常状態がわからない｜貯蓄率と成長率｜economic_tutoringソローモデルの定常状態",
+      "html_sha256": "ac230b619f7a5b01e5934a73626ff3cdbc4a5cf62bf4e84febeea6b48851f45d",
+      "text_sha256": "eaae95b43482ccfc9c6fa8ae88f693822eb1eed3086a44d46dfdeff6ea29fa2e"
+    },
+    {
+      "file": "guides/matrix-linear-equations.html",
+      "url": "https://economic-tutoring.pages.dev/guides/matrix-linear-equations",
+      "title": "行列と連立方程式がわからない｜逆行列・行列式の意味｜economic_tutoring",
+      "html_sha256": "2054bb9d8909588d4959d7eabfec1b89096e871f99123d66e5ef273f336a547d",
+      "text_sha256": "ac338e85dbac97965f8e4f5f906c1e9f6b4cba5383a6e6aa84e4996cd7005fe7"
+    },
+    {
+      "file": "guides/micro-marginal-rate-substitution.html",
+      "url": "https://economic-tutoring.pages.dev/guides/micro-marginal-rate-substitution",
+      "title": "限界代替率MRSがわからない｜接点条件と価格比｜economic_tutoring無差別曲線と予算線の接点",
+      "html_sha256": "b4205a42c57e7fe40fc0af70f8a7fa6712698e1389ffeb3b5c1dd4baf333be91",
+      "text_sha256": "b69a507f4d022f32b57283ab6b76ffa17879049435b0febfd7b3a4010df03b9c"
+    },
+    {
+      "file": "guides/university-statistics-study-order.html",
+      "url": "https://economic-tutoring.pages.dev/guides/university-statistics-study-order",
+      "title": "標準偏差と標準誤差の違い｜大学統計学がわからないとき｜economic_tutoring",
+      "html_sha256": "efa777f8d480e27cefd3285018288afc6255ce2fa738276cce0b216c6f11884f",
+      "text_sha256": "e3b32192af9678933795ebb285081472e6ef190dabbe4d1444bdbda2af385b5d"
+    },
+    {
+      "file": "index.html",
+      "url": "https://economic-tutoring.pages.dev/",
+      "title": "大学の経済学・統計学専門オンライン個別指導｜economic_tutoring",
+      "html_sha256": "fe91652a112aeeda92eaccc33d52115eab1bf7f0b3d9e682c33eda4707b8ac30",
+      "text_sha256": "a880f3ccf348f09c91597a0e9585ae16660831a5be897b7bfe7fd7b5d9d1b0eb"
+    },
+    {
+      "file": "instagram/index.html",
+      "url": "https://economic-tutoring.pages.dev/instagram/",
+      "title": "Instagramからご覧の方へ｜economic_tutoring",
+      "html_sha256": "e988d88f48fa55f561e66ce94b228b8e30c18c4fbf9b8497862fe1e57169cbca",
+      "text_sha256": "8caec6349a58926fc67edb76eb5030df6e70b16e41acc20535a5fa4fbda961b6"
+    },
+    {
+      "file": "parents/index.html",
+      "url": "https://economic-tutoring.pages.dev/parents/",
+      "title": "大学の経済学・数学で困るお子さまの保護者へ｜economic_tutoring",
+      "html_sha256": "5a163be351f3db4eda0483c3767db8f09b507e05f59e8dfb422a7c1615162b9b",
+      "text_sha256": "19e4850b2338b5a16ffa64c708a839727b57e678d0ca24ae7633831f21692784"
+    },
+    {
+      "file": "pricing.html",
+      "url": "https://economic-tutoring.pages.dev/pricing",
+      "title": "料金・サービス｜単発・伴走・学習確認｜economic_tutoring",
+      "html_sha256": "eb0b1cd33992a9d907f2e45c33a9b88a06c58f5e354feb6e12a760f7dcec2ff1",
+      "text_sha256": "47f07a3a39354171313baec24dda26cbb1563f6b17bbb8bb2982a2b3967a75ab"
+    },
+    {
+      "file": "privacy.html",
+      "url": "https://economic-tutoring.pages.dev/privacy",
+      "title": "プライバシーポリシー｜economic_tutoring",
+      "html_sha256": "4db6ab7618ae27499de1746fd35d2bef482cd61431fc9d86359d3d70748a0efc",
+      "text_sha256": "3cc7bb7ebb24ef7e351131f037265e683ca7a5154f5f01c01af7b3f638e4d4ea"
+    },
+    {
+      "file": "subjects.html",
+      "url": "https://economic-tutoring.pages.dev/subjects",
+      "title": "大学のミクロ・マクロ・統計・計量・経済数学｜対応科目｜economic_tutoring",
+      "html_sha256": "cacee6b847ec2a2b93cf1769bebc165d1ca8a88cbd17a1aa15286715a14416fa",
+      "text_sha256": "93ad5b14b1eb39547a34e561d55da17c6caed7c21376be24511ba83023971170"
+    },
+    {
+      "file": "terms.html",
+      "url": "https://economic-tutoring.pages.dev/terms",
+      "title": "利用案内・受講規約｜economic_tutoring",
+      "html_sha256": "8ab42f7a24d9c39fafec2fc88f36766b973846005fe2f360de9d6d69fdde8880",
+      "text_sha256": "6b371743533fd95675586f2dd7fdb6698137b8e1bb87945520a8e0c8d687de92"
+    },
+    {
+      "file": "tokusho.html",
+      "url": "https://economic-tutoring.pages.dev/tokusho",
+      "title": "特定商取引法に基づく表記｜economic_tutoring",
+      "html_sha256": "2da20ad83e38797000a1615f882e8c4581f6c57a2073c4c46cff12eb95b2e998",
+      "text_sha256": "26d92aa93d6ccdb468724e32a181aa3445607e7291c82fa3bfc740d75318742d"
+    },
+    {
+      "file": "universities/aoyama-gakuin/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/aoyama-gakuin/economics-math/",
+      "title": "青山学院大学の入門経済数学｜関数・微分の学び直しと個別指導",
+      "html_sha256": "e711a3ece9f73e1d04feaa9d401e0c894387e520c78caf1509fd891f0f4b462a",
+      "text_sha256": "22b4c7971340f3eb6dbde3f0173e248c462024b65170a71bba98745bba51f3c9"
+    },
+    {
+      "file": "universities/chuo/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/chuo/economics-math/",
+      "title": "中央大学の基礎数学・経済数学｜微分と利潤最大化の学び直し",
+      "html_sha256": "70c3b724d82877cb212b4364594abe47c8cd0c348820c1d368a161d659072eee",
+      "text_sha256": "7660a45ed7c2bfd52cc922ae471e8bbbff1f63eda9c2657c8b08a824bd10a755"
+    },
+    {
+      "file": "universities/doshisha/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/doshisha/economics-math/",
+      "title": "同志社大学の経済数学Ⅰ・Ⅱ｜偏微分の前提から学び直す個別指導",
+      "html_sha256": "a2dbbc669c55fda32004c640b05530f4764d94a7ebc19dd9ce97ac48abf6a758",
+      "text_sha256": "06000cf3547bcbd1ed581e71815a2cbdf1172f97ce0e15ea51fb89606304e6cf"
+    },
+    {
+      "file": "universities/gakushuin/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/gakushuin/economics-math/",
+      "title": "学習院大学の経済数学｜予算制約・グラフから学び直す個別指導",
+      "html_sha256": "331181932845649957680b58e030a2eb3514b273f6a5e4fb86d58486d31813dd",
+      "text_sha256": "93fda6c212b547b9764a74e821534fefe7cc1b729bd79e3fc3c960ab1cbc1945"
+    },
+    {
+      "file": "universities/hosei/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/hosei/economics-math/",
+      "title": "法政大学のビジネス数学入門B｜微分・確率の学び直しと個別指導",
+      "html_sha256": "5523b509a1ab312d33242fb9e2151631fe74186e32fc5a32e728f6754e92f67f",
+      "text_sha256": "7be803ad9cb9c0779c7cda2268beb8833d70aae70cd3d83d12874517a0374a04"
+    },
+    {
+      "file": "universities/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/",
+      "title": "大学別の経済学・経済数学サポート｜早慶・上智ほか21大学",
+      "html_sha256": "e362573c92513a9137eacd11ec42ed687e7f26d5f7006f9d5f56a8b0fa38c658",
+      "text_sha256": "5f4f3389a454a14a37e0365aac2ae49fe546abf4cf9e2d1949a9213d7533b815"
+    },
+    {
+      "file": "universities/kansai/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/kansai/economics-math/",
+      "title": "関西大学の経済数学｜経済ツール入門からの復習と個別指導",
+      "html_sha256": "ca0402235de09c74615140b05db12a9f3a4afa0aa009986c5a2ea7ab180987ab",
+      "text_sha256": "2b60acaaf70219cc0bdbe2d25bf14840b5da764c972e0d042b66a1d4815ef5a1"
+    },
+    {
+      "file": "universities/keio/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/keio/economics-math/",
+      "title": "慶應経済の数学概論・微分積分｜授業に合わせた経済数学サポート",
+      "html_sha256": "471e73201b2837adafd50e8bd15876fc6b15e2c9ffe4c2a85643e99cf4d0cbe8",
+      "text_sha256": "d3f996c5c219701cece076f23904d026d9e9121894b72a30661027fd39db56e0"
+    },
+    {
+      "file": "universities/keio/macroeconomics/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/keio/macroeconomics/",
+      "title": "慶應義塾大学のマクロ経済学｜乗数効果・国民所得の個別指導",
+      "html_sha256": "fe4b49dce253c1d84da13ae96ac0c139bd006ed46b07edc39e643a89fc0fb1fe",
+      "text_sha256": "39f84ee7668c0deb31840c6243910df6eba9bbe7e5fc276171d04b9a5aebd290"
+    },
+    {
+      "file": "universities/keio/microeconomics/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/keio/microeconomics/",
+      "title": "慶應義塾大学のミクロ経済学｜消費者の選択・効用最大化の個別指導",
+      "html_sha256": "4071d4b2bd028e9a4c0ad6b732e33a0670295de8fed1fbe56cfe0b21014b7c44",
+      "text_sha256": "2229c2f20cc0f51bf142d5197b9b60b09a917016632634403e388deac82826f1"
+    },
+    {
+      "file": "universities/kindai/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/kindai/economics-math/",
+      "title": "近畿大学の経済数学Ⅰ・Ⅱ｜微分・積分と費用関数の学び直し",
+      "html_sha256": "6a5dd009b5b5a55ed00fa3abc31846dbb0a82b7fa98650686b15531aa1f0de87",
+      "text_sha256": "bb0d4685138a6b1a94bed71d0f6b2f199e08b14165fa274d8dc32765170d0d9c"
+    },
+    {
+      "file": "universities/komazawa/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/komazawa/economics-math/",
+      "title": "駒澤大学の経済数学｜Σ・平均・ばらつきの学び直しと個別指導",
+      "html_sha256": "4c42d382977624a0d2781bfa4b003de537c3bd872e33c952a63c5011e3bb8a3b",
+      "text_sha256": "07e8ce3e017d387628f18de591ffebf177b666ea66c357ed6102beec2b40b019"
+    },
+    {
+      "file": "universities/konan/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/konan/economics-math/",
+      "title": "甲南大学の数学入門・経済数学｜連立方程式・行列の学び直し",
+      "html_sha256": "49df1f0b4157f222f19a47246e1dfef88d19fb3174ae0568af5398682db29dae",
+      "text_sha256": "b78cdcc4aafe248985634e1ddf6a9d5bde58cee3b7767bb27f0649f5eb8a6ae0"
+    },
+    {
+      "file": "universities/kwansei-gakuin/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/kwansei-gakuin/economics-math/",
+      "title": "関西学院大学の経済数学入門についていけない方へ｜economic_tutoring",
+      "html_sha256": "3920692f6d9f0e234ec10fe37de345008088b39be34364b57ffb169bbc5f940d",
+      "text_sha256": "f7988ffb9aa1af5858d5e08255d2d2aebf3babe6eb703051b2528fe2760f80eb"
+    },
+    {
+      "file": "universities/kwansei-gakuin/macroeconomics/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/kwansei-gakuin/macroeconomics/",
+      "title": "関西学院大学のマクロ経済学｜名目GDP・実質GDPを学び直す個別指導",
+      "html_sha256": "ed595605e2cbeea2ddc480647591279c956585faad5a835de532974083bbcf64",
+      "text_sha256": "991523a00948fa54f984e18d922e7becd17c4dec963d993fa06d6aa8582bb101"
+    },
+    {
+      "file": "universities/kwansei-gakuin/microeconomics/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/kwansei-gakuin/microeconomics/",
+      "title": "関西学院大学のミクロ経済学｜独占・限界収入を学び直す個別指導",
+      "html_sha256": "0350e1d2ae43106c756703b2452d9d77b83ae46eeab5ca4181ae6aa280f169bc",
+      "text_sha256": "762f4f066399cc8d3e76d06582ebf0659b813fd3e01dca4e60b27501617e2c3e"
+    },
+    {
+      "file": "universities/kyoto-sangyo/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/kyoto-sangyo/economics-math/",
+      "title": "京都産業大学の経済数学入門｜一次関数・損益分岐の学び直し",
+      "html_sha256": "1df005af879ea5fe63cae91664c93fa8493cc6a60c3197b7472a874ae7009a4a",
+      "text_sha256": "c7b9e65f5c49d83213cbb02caf1dcd7a5723d04399f1b4fc053526c071cfeba4"
+    },
+    {
+      "file": "universities/meiji/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/meiji/economics-math/",
+      "title": "明治大学の数量経済分析｜割合・指数・数学の学び直しと個別指導",
+      "html_sha256": "cccf6a7c08dccdbef3b050d9c88f21ec179b2683201240197d18a5f5c34adfde",
+      "text_sha256": "c94691ace1b2519c4b121dd1175c1e52995bad6c60f01501f6d2b150cfbe485c"
+    },
+    {
+      "file": "universities/nihon/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/nihon/economics-math/",
+      "title": "日本大学経済学部の数学・基礎ミクロ｜割合と弾力性の学び直し",
+      "html_sha256": "ffee12dd80d42ad2bd76c722eec0ee60cc9d079247c73b5f7f627e1f3335f930",
+      "text_sha256": "d79d0b44da07c4b8fca81f17c3d8a1cf7169d331c2a4f804172d41644037bb2c"
+    },
+    {
+      "file": "universities/rikkyo/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/rikkyo/economics-math/",
+      "title": "立教大学の経済数学入門｜行列・微分の学び直しと個別指導",
+      "html_sha256": "2faea409c9669c64ab894fd69fda02e2bb6ef64ca43cb3a3ce6c045f1c960b0c",
+      "text_sha256": "6d26f0ab555611f63366efb76a709d8c1ec28d900ece88f3c5eff87106e039a3"
+    },
+    {
+      "file": "universities/rikkyo/macroeconomics/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/rikkyo/macroeconomics/",
+      "title": "立教大学のマクロ経済学｜失業率・労働力人口を学び直す個別指導",
+      "html_sha256": "c5edf5a5bcd5dc7b78d64003b07037ff592ddcc32f0691348310a0fc1f8769e6",
+      "text_sha256": "19fdff54d2ba9c4be6e6144bb2ab020075ae55f3e478965c2027a9a14392ccde"
+    },
+    {
+      "file": "universities/rikkyo/microeconomics/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/rikkyo/microeconomics/",
+      "title": "立教大学のミクロ経済学｜外部性・市場の失敗を学び直す個別指導",
+      "html_sha256": "fe545ac6e7cd0ef57ae37f7e7c6df38e86014512c85654d8bd12de895f15fee8",
+      "text_sha256": "2c9083aa8970f4909d71e53a0fec26a9401ca7a58aa289212d7dd5b727da8e27"
+    },
+    {
+      "file": "universities/ritsumeikan/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/ritsumeikan/economics-math/",
+      "title": "立命館大学の経済数学｜高校数学の前提からの復習と個別指導",
+      "html_sha256": "2794c6f8048c3eab362fd2d050f77bedec929292e2b3a0e89e55131a528dde73",
+      "text_sha256": "0f036f2654f6fb98513cced03a4995ca727996182bf373bbd2b242878a6b69f8"
+    },
+    {
+      "file": "universities/ryukoku/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/ryukoku/economics-math/",
+      "title": "龍谷大学の経済数学｜平均費用・限界費用の違いから学び直す",
+      "html_sha256": "b64449397cc973165236241cf96f2b8d929d4a91fb00ca3f54ddf289df92ac8b",
+      "text_sha256": "8c148912357ffa604a6662c09e753b9693340674bfcf06a53439a37e6fe0297f"
+    },
+    {
+      "file": "universities/senshu/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/senshu/economics-math/",
+      "title": "専修大学のミクロ経済学入門｜需要供給の計算・グラフの学び直し",
+      "html_sha256": "ceb28f8cfff8c98d7977df26fe18ff5b7e4a8db7b5f778d3574c5e7fd8184e84",
+      "text_sha256": "13c95dfe8ce8658d6fac1f570609799a658a6005d5550fd4591b9a85a48ba4d3"
+    },
+    {
+      "file": "universities/sophia/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/sophia/economics-math/",
+      "title": "上智大学の経済数学・経済数学解析が分からない方へ｜economic_tutoring",
+      "html_sha256": "497757718f801d75f09ca399d4ec687fb4b904d3e94e1b552d0bed4fbb63edcf",
+      "text_sha256": "7f8ee365117a608ea2070e739fa433b6f602e9163de8f3b9091ec69ae42ee2b2"
+    },
+    {
+      "file": "universities/sophia/macroeconomics/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/sophia/macroeconomics/",
+      "title": "上智大学のマクロ経済学｜IS-LM・金融政策の学び直しと個別指導",
+      "html_sha256": "c348a5cde8983da75148e9233c64ea22d726e01a6c0b2915325c84501aec3ad8",
+      "text_sha256": "9eddf4a26fc46db8a5abd18a54b14925ee0083fed6cd28e9d51b914813ab77a2"
+    },
+    {
+      "file": "universities/sophia/microeconomics/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/sophia/microeconomics/",
+      "title": "上智大学のミクロ経済学｜税の負担・需要供給から学び直す個別指導",
+      "html_sha256": "c3892c7cdef308a0c33a5e349cf52a68a8ae5ac6dd46d6ee8823b4b0677789fc",
+      "text_sha256": "2f3dfd007116e69463b68346286d1b21ba067f123dbed859937ef4fd3c800383"
+    },
+    {
+      "file": "universities/toyo/economics-math/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/toyo/economics-math/",
+      "title": "東洋大学の経済学の数学入門｜金利・現在価値から学び直す",
+      "html_sha256": "1329a343106fa3e249bf91a2298c249517d82540e971b4cdbe2cb1c2383949c3",
+      "text_sha256": "dc7ec39ced545e0731add11af0ae7f4d7b25fc3e272209c691a2718be500abe6"
+    },
+    {
+      "file": "universities/waseda/macroeconomics/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/waseda/macroeconomics/",
+      "title": "早稲田大学のマクロ経済学｜GDP・付加価値から学び直す個別指導",
+      "html_sha256": "445eb1acf49a8d59be9b8616940bb686b3690827c3b4f218c5f91dd142b08bbc",
+      "text_sha256": "c926c212c2169e221a0293215f7298a04dff7e3cf0f5a1f92f19742072102d89"
+    },
+    {
+      "file": "universities/waseda/microeconomics/index.html",
+      "url": "https://economic-tutoring.pages.dev/universities/waseda/microeconomics/",
+      "title": "早稲田大学のミクロ経済学｜需要曲線・市場均衡から学び直す個別指導",
+      "html_sha256": "c022247d8103a3c62463fa51a5e4692094a50dcd21e011bb6d72d06faa2e90fb",
+      "text_sha256": "746c997405caeb38074cf350a3bc46c295088e7dc6bdd74b66f81b9f8990522b"
+    },
+    {
+      "file": "web-learning.html",
+      "url": "https://economic-tutoring.pages.dev/web-learning",
+      "title": "受講者専用学習環境・月4回・学習確認コース｜economic_tutoring",
+      "html_sha256": "13afb41eff1a8d131af269157dc8e7dcf10645b3b27b2bbd9aaad2cbd48f09df",
+      "text_sha256": "d3256a1ba2c4705a420b7d83294563fffc99206d8e55836aa58e54c25df134b6"
+    }
+  ]
+}
