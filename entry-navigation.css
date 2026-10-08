@@ -1,0 +1,18 @@
+/* Scoped to the three entry pages; existing article and campaign styles stay intact. */
+.entry-next { display:block; margin-top:18px; padding:8px 0; color:#235b58; font-size:15px; font-weight:750; line-height:1.7; text-decoration:underline; text-underline-offset:4px; }
+.entry-note { margin:22px 0 0; color:#53626b; font-size:14px; line-height:1.9; }
+.entry-note a { color:#235b58; text-decoration:underline; text-underline-offset:4px; }
+.learning-start-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+.learning-start-card { display:block; min-width:0; padding:24px; border:1px solid #d8e3df; border-radius:8px; background:#f6f9f7; color:#0b1f33; }
+.learning-start-card:hover { border-color:#47746d; background:#eff5f1; }
+.learning-start-card > span { color:#53626b; font-size:13px; font-weight:700; }
+.learning-start-card h3 { margin:10px 0; font-size:21px; line-height:1.6; }
+.learning-start-card p { margin:0; color:#53626b; font-size:15px; line-height:1.8; }
+.learning-start-card b { display:block; margin-top:16px; color:#235b58; font-size:14px; text-decoration:underline; text-underline-offset:4px; }
+.subject-learning-path { margin-top:20px; padding:4px 18px; border-left:3px solid #9bb5ad; background:#f6f9f7; }
+.subject-learning-path .entry-next { margin:6px 0; }
+@media (max-width:640px) {
+  .learning-start-grid { grid-template-columns:1fr; }
+  .learning-start-card { padding:20px; }
+  .learning-start-card h3 { font-size:19px; }
+}

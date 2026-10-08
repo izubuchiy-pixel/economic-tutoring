@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/styles.css?v=30"><link rel="stylesheet" href="/enhancements.css?v=28"><link rel="stylesheet" href="/hp-refresh.css?v=8">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"大学の経済学・統計学 学習ガイド","url":"https://economic-tutoring.pages.dev/guides/","isPartOf":{"@type":"WebSite","name":"economic_tutoring","url":"https://economic-tutoring.pages.dev/"}}</script>
   <script src="/site-config.js?v=31"></script><script src="/script.js?v=40" defer></script>
+  <link rel="stylesheet" href="/entry-navigation.css?v=1">
 </head>
 <body data-page="guides" class="hub-page">
   <!-- site:header -->
@@ -31,13 +32,26 @@
     </header>
     <div class="campaign-banner" data-campaign-banner><a href="#autumn-trial"><span class="banner-label">秋学期スタートキャンペーン</span> <strong>初回相談・体験60分 0円</strong><span>2026年9/28〜10/14申込対象・条件あり →</span></a></div><!-- /site:header -->
   <main id="main">
-    <section class="hub-page-hero"><div class="shell"><div class="breadcrumbs"><a href="/">トップ</a><span>／</span><span>学習ガイド</span></div><p class="hub-kicker">LEARNING GUIDES</p><h1 class="hub-page-title">授業のつまずきをほどく、<br><em>9つの学習ガイド。</em></h1><p class="hub-hero-lead">公式だけを並べず、直感・条件・計算・結果の解釈を同じ例の中でつなぎます。科目から近いガイドを選んでください。</p></div></section>
+    <section class="hub-page-hero"><div class="shell"><div class="breadcrumbs"><a href="/">トップ</a><span>／</span><span>学習ガイド</span></div><p class="hub-kicker">LEARNING GUIDES</p><h1 class="hub-page-title">授業のつまずきをほどく、<br><em>9つの学習ガイド。</em></h1><p class="hub-hero-lead">公式だけを並べず、直感・条件・計算・結果の解釈を同じ例の中でつなぎます。登録不要・無料で、例題の答えと理由まで読めます。</p><nav class="page-jump" aria-label="ガイドの探し方"><a href="#learning-start">困りごとから選ぶ</a><a href="#math-statistics">数学・統計・計量</a><a href="#micro-macro">ミクロ・マクロ</a></nav></div></section>
 
-    <section class="section section-white">
+    <section class="section section-white" id="learning-start" aria-labelledby="learning-start-title">
+      <div class="shell">
+        <div class="section-heading-compact"><p class="section-label">読む場所に迷ったら</p><h2 id="learning-start-title">困っている箇所から、<br>読む場所を選ぶ。</h2><p>全部を順番に読む必要はありません。いまの授業で扱っている内容に近い入口を選んでください。</p></div>
+        <div class="learning-start-grid">
+          <a class="learning-start-card" href="/guides/economics-math-basics#foundations"><span>式変形・微分の手前で止まる</span><h3>式へ数字を入れるところから</h3><p>代入・式変形の短い例を確認し、分かれば微分へ進みます。</p><b>経済数学の前提を確かめる →</b></a>
+          <a class="learning-start-card" href="/guides/economics-math-basics#self-check"><span>微分はできるのに、最大化が解けない</span><h3>「計算」と「判断」を分ける</h3><p>何を変数にし、何を最大にするか。3問と解説で確認します。</p><b>最適化の前提を確かめる →</b></a>
+          <a class="learning-start-card" href="/guides/university-statistics-study-order"><span>統計の公式を、どこで使うか迷う</span><h3>ばらつきと、推定の不確かさ</h3><p>標準偏差・標準誤差を分け、信頼区間・検定へつなぎます。</p><b>統計の違いを整理する →</b></a>
+          <a class="learning-start-card" href="/guides/macro-is-lm-shifts"><span>図は覚えたのに、政策の問題で止まる</span><h3>曲線上の移動とシフトを分ける</h3><p>IS-LMの条件を確認し、同じ例の図と式で政策の効果を追います。</p><b>IS-LMを図と式で読む →</b></a>
+        </div>
+        <p class="entry-note">未習の内容が解けないことを、苦手と決める必要はありません。ほかのテーマは、下の科目別一覧から選べます。</p>
+      </div>
+    </section>
+
+    <section class="section section-ivory" id="math-statistics">
       <div class="shell"><div class="hub-intro reveal"><h2>経済数学・統計・<br>計量経済学</h2><p>数式の操作だけでなく、何を表し、どの条件で使えるかまで確認します。</p></div><div class="hub-guide-grid reveal"><a class="hub-guide" href="/guides/economics-math-basics"><span>経済数学</span><h3>経済数学が分からないとき、どこから戻る？</h3><p>式変形・微分・偏微分から、最適化までの学び直し。</p><b>読む →</b></a><a class="hub-guide" href="/guides/matrix-linear-equations"><span>線形代数</span><h3>逆行列の前に、何を確認する？</h3><p>行列式・解の一意性・経済モデルでの用途を整理。</p><b>読む →</b></a><a class="hub-guide" href="/guides/epsilon-delta-definition"><span>数学・解析</span><h3>ε-δ論法は、どの順番で読めばいい？</h3><p>量化記号からδの作り方まで一行ずつ確認。</p><b>読む →</b></a><a class="hub-guide" href="/guides/university-statistics-study-order"><span>統計学</span><h3>標準偏差と標準誤差は、何が違う？</h3><p>信頼区間・p値・仮説検定まで同じ例でつなぎます。</p><b>読む →</b></a><a class="hub-guide" href="/guides/econometrics-regression-basics"><span>計量経済学</span><h3>回帰係数を、因果と読めない理由</h3><p>係数・残差・標準誤差・欠落変数を分けます。</p><b>読む →</b></a></div></div>
     </section>
 
-    <section class="section section-ivory">
+    <section class="section section-white" id="micro-macro">
       <div class="shell"><div class="hub-intro reveal"><h2>ミクロ・<br>マクロ経済学</h2><p>図と式を別々に覚えず、均衡や最適化の判断までつなぎます。</p></div><div class="hub-guide-grid reveal"><a class="hub-guide" href="/guides/micro-marginal-rate-substitution"><span>ミクロ経済学</span><h3>MRSと価格比は、なぜ等しくなる？</h3><p>限界効用、予算制約、内点解と端点解を確認。</p><b>読む →</b></a><a class="hub-guide" href="/guides/game-theory-nash-equilibrium"><span>ゲーム理論</span><h3>ナッシュ均衡は、最大利得のマスではない</h3><p>最適反応、支配戦略、複数均衡、混合戦略。</p><b>読む →</b></a><a class="hub-guide" href="/guides/macro-is-lm-shifts"><span>マクロ経済学</span><h3>IS-LMの移動とシフトを、どう見分ける？</h3><p>財市場・貨幣市場と政策効果を図と式で追います。</p><b>読む →</b></a><a class="hub-guide" href="/guides/macro-solow-steady-state"><span>マクロ経済学・経済成長</span><h3>貯蓄率が上がると、成長率も上がる？</h3><p>定常状態の水準効果と長期成長率を分けます。</p><b>読む →</b></a></div></div>
     </section>
 
@@ -108,6 +122,6 @@
         <small>© 2026 economic_tutoring</small>
       </div>
     </footer><!-- /site:footer -->
-  <a class="hub-mobile-cta" data-direct-consultation href="https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform" target="_blank" rel="noopener">初回相談・体験 <b>60分 3,000円</b></a>
+  <a class="hub-mobile-cta" href="#autumn-trial">初回相談・体験 <b>料金・適用条件を見る →</b></a>
 </body>
 </html>

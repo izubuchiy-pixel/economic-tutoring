@@ -4,6 +4,8 @@
 
 ## 公開URL
 
+2026-10-09の入口整理：トップの困りごとから無料解説・大学別案内へ接続し、対応科目の経済数学から「式変形／微分／最大化」を直接選べるようにしました。学習ガイド一覧には4つの困りごと別入口と科目別ジャンプを追加。教材9本の本文・大学情報・料金・キャンペーン・フォームは維持しています。追加の表示は `entry-navigation.css` を3ページだけで読み込みます。公開前は `node tools/verify-entry-navigation.mjs` で元の素材の保持とリンク先を検査します。
+
 - トップ: https://economic-tutoring.pages.dev/
 - 経済学塾・オンライン家庭教師: https://economic-tutoring.pages.dev/economics-tutor
 - 対応科目: https://economic-tutoring.pages.dev/subjects
