@@ -1,14 +1,14 @@
 {
   "status": "GENERATED_PUBLIC_INFORMATION_SNAPSHOT",
-  "generated_at_jst": "2026-10-10T06:25:22.435308+09:00",
-  "source_base_commit": "a219b79fd8164cde7f5f8cb11981231e155ff847",
+  "generated_at_jst": "2026-10-10T06:41:09.903061+09:00",
+  "source_base_commit": "8823a008514ab3980a466dad546054556a51e046",
   "page_count": 51,
   "guide_count": 9,
   "product_count": 7,
   "config_sha256": "04e211ceade3fe129b2c3ded788eef38d530cc4611aafa8bb95fe9b5507c6934",
   "pack_file": "economic-tutoring-ai-information.txt",
-  "pack_sha256": "3718c1a529944b5e38204f4b764a5cf6dda903d9ec609bd0177eb431080f0122",
-  "pack_bytes": 946151,
+  "pack_sha256": "bbe750fc354d0d38e149f9fa96ad3e847d32dc66adf12233f70557f1d8fd99ff",
+  "pack_bytes": 946070,
   "sns_changed": false,
   "excluded_pages": [
     "404.html (error navigation)",
@@ -195,8 +195,8 @@
       "file": "universities/index.html",
       "url": "https://economic-tutoring.pages.dev/universities/",
       "title": "大学別の経済学・経済数学サポート｜早慶・上智ほか21大学",
-      "html_sha256": "aa3bf10875cbd4971701d5266e387bf90428d0cf524d666e9e2f110d7751b9e5",
-      "text_sha256": "d8f4835c12970310c3eff4fa52eda98e8bdb9554e656d3130acadef441f87d0b"
+      "html_sha256": "eb359c0c78e095eeb4896b12d92e5553c84f4159558826029afb18de1b0a74df",
+      "text_sha256": "daeb95d3b8842aad406c53ec5ef72183724ae5cc40549aad29a0ea22688fdcb0"
     },
     {
       "file": "universities/kansai/economics-math/index.html",

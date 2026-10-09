@@ -1,5 +1,5 @@
 Economic Tutoring｜自分のAIに渡す公開情報パック
-作成日時：2026-10-10T06:25:22+09:00（日本時間）
+作成日時：2026-10-10T06:41:09+09:00（日本時間）
 対象：公式HPで公開しているサービス情報・教材本文・大学別案内・利用条件と、今回運営者が確認した授業案内。
 公式の公開案内を、ご自身のAIで確認するための資料です。料金・サービスの変更ではありません。
 
@@ -7623,11 +7623,11 @@ GDP、失業率、乗数効果、IS-LM。数字の意味とモデルの前提を
 各大学の数学・ミクロ・マクロ・統計など、基礎からつながる主な授業を公式資料で確認しました。大学名の下で科目一覧を開くと、正式科目名・年次・必修／選択を確認できます。詳しい根拠と確認範囲、独自の例題は各案内ページへ。
 
 同じ大学でも学科・入学年度・担当者で内容や要件は異なります。科目数を揃えるための追加はしていません。大学群は探しやすさのための分類で、大学との提携や対応実績の表示ではありません。
-早慶・2大学GMARCH・6大学関関同立・4大学日東駒専・4大学産近甲龍・4大学上智大学
+早慶上智・3大学GMARCH・6大学関関同立・4大学日東駒専・4大学産近甲龍・4大学
 
-早慶
+早慶上智
 
-早稲田・慶應義塾
+早稲田・慶應義塾・上智
 
 早稲田大学
 主な授業と学習の入口
@@ -7696,6 +7696,46 @@ GDP、失業率、乗数効果、IS-LM。数字の意味とモデルの前提を
 ・経済数学Ⅰ・Ⅱ・Ⅲ 2年／専門教育の選択必修群（各科目が全員必修ではない）
 
 ・計量経済学概論 2年／専門教育の選択必修群（全員必修ではない）
+
+必修・選択と確認範囲を見る →
+
+上智大学
+主な授業と学習の入口
+
+計算はできるのに、最適化で手が止まる。式の意味・変数・条件を整理し、微分を経済学の問題へつなげます。
+
+科目名・クラスを確認し、これまでの上智大学経済数学の指導経験も生かして個別に進め方を考えます。
+経済数学の案内へ →
+
+・ミクロ経済学
+税を納める人と、価格の変化を負担する人は同じ？買い手と売り手の価格を分け、式の意味を理解します。
+ミクロの案内へ →
+
+・マクロ経済学
+金融政策でどの式が変わるのか。IS-LMのシフトと、均衡点の移動を計算から確かめます。
+マクロの案内へ →
+
+主な授業の公式情報
+
+経済学部 経済学科／2026年度履修要覧（学部科目編）
+
+8つの科目群を見る
+
+・INTRODUCTION TO ECONOMICS 1年次・春／A群の必修（2単位）。
+
+・ミクロ経済学A 1年次・春（別途再履修クラスあり）／A群の必修（2単位）。
+
+・ミクロ経済学B・C Bは1年次・秋（春の再履修クラスあり）、Cは2〜4年次・春／B群の選択必修科目。B・Cの各科目を全員必修とは扱わない。
+
+・マクロ経済学A・B Aは1年次・秋、Bは2年次・春（別途再履修クラスあり）／いずれもA群の必修（各2単位）。
+
+・経済数学解析Ⅰ・Ⅱ 1年次／Ⅰは春、Ⅱは秋／B群の選択必修科目（各2単位）。
+
+・統計学Ⅰ・Ⅱ 2026開講の髙橋担当クラスは1〜4年次／Ⅰは春、Ⅱは秋／B群の選択必修科目（各2単位）。一部クラスの休講を科目全体の休講とは扱わない。
+
+・データ分析演習 原則1年次・秋。上級学年の履修条件は科目表の注記を確認。／B群の選択必修科目（2単位）。指定クラス・対象者の条件がある。
+
+・計量経済学Ⅰ・Ⅱ 2〜4年次／Ⅰは春、Ⅱは秋／B群の選択必修科目（各2単位）。前提条件あり。ⅡはⅠの単位修得が必要で、共通の前提条件は入学年度により異なる。
 
 必修・選択と確認範囲を見る →
 
@@ -8243,52 +8283,6 @@ GMARCH
 
 必修・選択と確認範囲を見る →
 
-SOPHIA UNIVERSITY
-
-上智大学
-
-上智大学
-主な授業と学習の入口
-
-計算はできるのに、最適化で手が止まる。式の意味・変数・条件を整理し、微分を経済学の問題へつなげます。
-
-科目名・クラスを確認し、これまでの上智大学経済数学の指導経験も生かして個別に進め方を考えます。
-経済数学の案内へ →
-
-主な授業の公式情報
-
-経済学部 経済学科／2026年度履修要覧（学部科目編）
-
-8つの科目群を見る
-
-・INTRODUCTION TO ECONOMICS 1年次・春／A群の必修（2単位）。
-
-・ミクロ経済学A 1年次・春（別途再履修クラスあり）／A群の必修（2単位）。
-
-・ミクロ経済学B・C Bは1年次・秋（春の再履修クラスあり）、Cは2〜4年次・春／B群の選択必修科目。B・Cの各科目を全員必修とは扱わない。
-
-・マクロ経済学A・B Aは1年次・秋、Bは2年次・春（別途再履修クラスあり）／いずれもA群の必修（各2単位）。
-
-・経済数学解析Ⅰ・Ⅱ 1年次／Ⅰは春、Ⅱは秋／B群の選択必修科目（各2単位）。
-
-・統計学Ⅰ・Ⅱ 2026開講の髙橋担当クラスは1〜4年次／Ⅰは春、Ⅱは秋／B群の選択必修科目（各2単位）。一部クラスの休講を科目全体の休講とは扱わない。
-
-・データ分析演習 原則1年次・秋。上級学年の履修条件は科目表の注記を確認。／B群の選択必修科目（2単位）。指定クラス・対象者の条件がある。
-
-・計量経済学Ⅰ・Ⅱ 2〜4年次／Ⅰは春、Ⅱは秋／B群の選択必修科目（各2単位）。前提条件あり。ⅡはⅠの単位修得が必要で、共通の前提条件は入学年度により異なる。
-
-必修・選択と確認範囲を見る →
-
-ミクロ経済学
-
-税を納める人と、価格の変化を負担する人は同じ？買い手と売り手の価格を分け、式の意味を理解します。
-ミクロの案内へ →
-
-マクロ経済学
-
-金融政策でどの式が変わるのか。IS-LMのシフトと、均衡点の移動を計算から確かめます。
-マクロの案内へ →
-
 まだ大学名がない場合も、科目から探せます。
 
 経済数学を自分で復習したい
@@ -8449,8 +8443,6 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/universities/#sankinkoryu
 
-・https://economic-tutoring.pages.dev/universities/#sophia
-
 ・https://economic-tutoring.pages.dev/universities/waseda/microeconomics/#curriculum-1
 
 ・https://economic-tutoring.pages.dev/universities/waseda/microeconomics/#curriculum-2
@@ -8490,6 +8482,26 @@ Instagram DM またはメール
 ・https://economic-tutoring.pages.dev/universities/keio/economics-math/#curriculum-9
 
 ・https://economic-tutoring.pages.dev/universities/keio/economics-math/#curriculum
+
+・https://economic-tutoring.pages.dev/universities/sophia/economics-math/
+
+・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-1
+
+・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-2
+
+・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-3
+
+・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-4
+
+・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-5
+
+・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-6
+
+・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-7
+
+・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-8
+
+・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum
 
 ・https://economic-tutoring.pages.dev/universities/gakushuin/economics-math/
 
@@ -8828,26 +8840,6 @@ Instagram DM またはメール
 ・https://economic-tutoring.pages.dev/universities/ryukoku/economics-math/#curriculum-8
 
 ・https://economic-tutoring.pages.dev/universities/ryukoku/economics-math/#curriculum
-
-・https://economic-tutoring.pages.dev/universities/sophia/economics-math/
-
-・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-1
-
-・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-2
-
-・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-3
-
-・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-4
-
-・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-5
-
-・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-6
-
-・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-7
-
-・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum-8
-
-・https://economic-tutoring.pages.dev/universities/sophia/economics-math/#curriculum
 
 ・https://economic-tutoring.pages.dev/subjects
 

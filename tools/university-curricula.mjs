@@ -8,6 +8,32 @@ const data=()=>JSON.parse(fs.readFileSync(path.join(root,'tools/university-curri
 const wrap=(kind,html)=>`<!-- curriculum:${kind} -->${html}<!-- /curriculum:${kind} -->`;
 const strip=html=>html.replace(/<!-- curriculum:([a-z-]+) -->[\s\S]*?<!-- \/curriculum:\1 -->/g,'');
 
+// Owner-requested directory grouping. Preserve Sophia's descriptions, links,
+// course list and old deep link while showing one card per university.
+export function groupSophiaWithSokei(input) {
+ let html=input.replace('<a href="#sokei">早慶・2大学</a>','<a href="#sokei">早慶上智・3大学</a>')
+   .replace('<a href="#sophia">上智大学</a>','')
+   .replace('<p class="entry-kicker">早慶</p><h2>早稲田・慶應義塾</h2>',
+     '<p class="entry-kicker">早慶上智</p><h2>早稲田・慶應義塾・上智</h2>')
+   .replace('<h2>早稲田・慶應義塾・上智</h2><div class="entry-grid two">',
+     '<h2>早稲田・慶應義塾・上智</h2><div class="entry-grid">');
+ const standalone=html.match(/<section class="entry-section" id="sophia">[\s\S]*?<\/section>/);
+ if(!standalone)return html;
+ const cards=standalone[0].match(/<article class="entry-card">[\s\S]*?<\/article>/g);
+ if(cards?.length!==3)throw new Error('Sophia directory cards changed; review grouping before moving');
+ const subjectLinks=cards.slice(1).map(card=>card
+   .replace('<article class="entry-card"><h3>','<li><strong>')
+   .replace('</h3>','</strong>')
+   .replace('</article>','</li>')).join('');
+ const sophia=cards[0].replace('<article class="entry-card">',
+   '<article class="entry-card"><span id="sophia" aria-hidden="true"></span>')
+   .replace('</article>',`<ul>${subjectLinks}</ul></article>`);
+ const sokei=html.match(/<section class="entry-section" id="sokei">[\s\S]*?<\/section>/);
+ if(!sokei)throw new Error('Sokei directory section missing');
+ html=html.replace(sokei[0],sokei[0].replace(/(\s*<\/div><\/div><\/section>)$/,`\n      ${sophia}$1`));
+ return html.replace(standalone[0]+'\n    ','');
+}
+
 export function curriculumSection(university,confirmedAt) {
  const u=university;
  const sourceById=new Map(u.sources.map(source=>[source.id,source]));
@@ -41,6 +67,7 @@ export function enhanceUniversityPage(file,input) {
  let html=strip(input);
  if(!html.includes('/university-curricula.css'))html=html.replace('</head>','  <link rel="stylesheet" href="/university-curricula.css?v=1">\n</head>');
  if(file==='universities/index.html') {
+   html=groupSophiaWithSokei(html);
    const boundary=html.indexOf('<section class="entry-section" id="sokei">');
    if(boundary<0)throw new Error('University directory group boundary missing');
    const found=new Set();
