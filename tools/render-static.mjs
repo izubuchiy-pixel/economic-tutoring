@@ -4,6 +4,7 @@ import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 import { renderComponents } from './site-templates.mjs';
 import { siteFiles } from './site-files.mjs';
+import { enhanceUniversityPage } from './university-curricula.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const context = { window: {} };
 vm.runInNewContext(fs.readFileSync(path.join(root, 'site-config.js'), 'utf8'), context);
@@ -30,6 +31,7 @@ for (const file of files) {
   if (!html.includes('/site-polish.css')) html=html.replace('</head>','  <link rel="stylesheet" href="/site-polish.css?v=1">\n</head>');
   html=html.replace(/(<\w+[^>]*data-price="([^"]+)"[^>]*>)[^<]*(<\/\w+>)/g, (_,open,key,close) => open+new Intl.NumberFormat('ja-JP').format(site.products[key].price)+'円'+close);
   html=html.replace(/[ \t]+$/gm,'');
+  html=enhanceUniversityPage(file,html);
   if (html!==before) {fs.writeFileSync(absolute,html);changed++;}
 }
 console.log('Static shared components: '+files.length+' pages, '+changed+' updated.');

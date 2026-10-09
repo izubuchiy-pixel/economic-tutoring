@@ -9,6 +9,7 @@ const urls=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>new URL(m[1]).pa
 urls.push('/instagram/','/hp-refresh.css','/site-polish.css','/entry-navigation.css','/styles.css','/enhancements.css','/script.js','/site-config.js','/robots.txt','/sitemap.xml','/sitemap.txt','/assets/showcase-home-desktop.png');
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 const results=[];
+urls.push('/university-curricula.css','/downloads/economic-tutoring-ai-information.txt','/downloads/economic-tutoring-ai-sources.json');
 for(let start=0;start<urls.length;start+=4) await Promise.all(urls.slice(start,start+4).map(async route=>{
  let file=route.slice(1);
  if(!file||file.endsWith('/'))file+='index.html';

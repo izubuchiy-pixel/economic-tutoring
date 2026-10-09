@@ -1,0 +1,2347 @@
+{
+  "schemaVersion": 1,
+  "confirmedAt": "2026年10月10日",
+  "universities": [
+    {
+      "slug": "waseda",
+      "school": "早稲田大学",
+      "faculty": "政治経済学部 経済学科（日本語プログラム）",
+      "yearLabel": "2026年度入学者用学部要項・2026年度学科目配当表",
+      "scopeNote": "政治学科・国際政治経済学科・英語学位プログラムの要件と混同しない。必修区分は2026年度入学者用要項の経済学科欄に限定。公式PDFの本文は読取確認できたが、直ダウンロードは403、ブラウザ表示は不可でPDF目視照合のみ未完了。以下は公式本文による確認で、担当者別シラバスの授業内容は未照合。",
+      "sources": [
+        {
+          "id": "waseda-guide-index",
+          "title": "政治経済学部 学部要項",
+          "url": "https://www.waseda.jp/fpse/pse/students/guide/",
+          "year": "2026年度",
+          "evidence": "2026年度入学者用学部要項への公式導線。卒業所要単位は自身の入学年度の要項を参照するよう案内。"
+        },
+        {
+          "id": "waseda-guide-2026",
+          "title": "2026年度入学者用 政治経済学部 学部要項",
+          "url": "https://www.waseda.jp/fpse/pse/assets/uploads/2026/03/8e4bbb1081f67d241b21608a7f320dfc.pdf",
+          "year": "2026年度入学者",
+          "evidence": "PDF39ページ（経済学科の必要単位数・履修手引き）で入門ミクロ・マクロ、ミクロⅠ・マクロⅠ、統計リテラシーα・βと統計学Ⅱ、ゲーム理論入門、経済数学入門の必修を確認。Ⅱのミクロ・マクロと公共哲学（経済）の3科目から2科目以上が選択必修。初年度〜2年度前半の必修群、2年度後から中上級選択と説明。本文読取確認／PDF目視は未完了。"
+        },
+        {
+          "id": "waseda-course-list-2026",
+          "title": "2026年度 学科目配当表",
+          "url": "https://www.waseda.jp/fpse/pse/assets/uploads/2026/03/0eb324dd18ceef4a3d9c37824afa2cac.pdf",
+          "year": "2026年度",
+          "evidence": "分析手法・方法論の中級・基礎科目に計量経済学Ⅰ・Ⅱを掲載。37ページの開講一覧でⅠは春、Ⅱは秋の日本語授業を確認。本文読取確認／PDF目視は未完了。"
+        },
+        {
+          "id": "waseda-course-update-2026",
+          "title": "2026年度 学科目配当表からの変更点（2019年度以降入学者用）",
+          "url": "https://www.waseda.jp/fpse/pse/assets/uploads/2026/08/AY2026_Update_Course_List_Entering-2019.pdf",
+          "year": "2026年度／2026-09-14更新",
+          "evidence": "公開されている変更一覧を確認。下記の基礎8群に関する変更は同一覧では確認されなかった。担当別シラバスの代わりではない。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "ミクロ経済学入門",
+          "stage": "入門科目／初年度〜2年度前半の基礎群",
+          "requirement": "経済学科の必修（2単位）。ミクロ経済学Ⅰの履修には本科目の単位取得が必要。",
+          "topics": null,
+          "verification": "正式科目名・必修・前提条件を要項本文で確認。担当別シラバス内容未照合、PDF目視未完了。",
+          "sourceIds": [
+            "waseda-guide-2026"
+          ],
+          "studyFocus": "文章、グラフ、式の対応を確認し、授業で使う前提から解き直す。"
+        },
+        {
+          "name": "マクロ経済学入門",
+          "stage": "入門科目／初年度〜2年度前半の基礎群",
+          "requirement": "経済学科の必修（2単位）。マクロ経済学Ⅰの履修には本科目の単位取得が必要。",
+          "topics": null,
+          "verification": "正式科目名・必修・前提条件を要項本文で確認。担当別シラバス内容未照合、PDF目視未完了。",
+          "sourceIds": [
+            "waseda-guide-2026"
+          ],
+          "studyFocus": "変数の意味とモデルの仮定を整理し、式変形を言葉で説明できるようにする。"
+        },
+        {
+          "name": "ミクロ経済学Ⅰ・Ⅱ",
+          "stage": "中級・基礎科目",
+          "requirement": "Ⅰは経済学科の必修。Ⅱはマクロ経済学Ⅱ・公共哲学（経済）と合わせた3科目から2科目以上の選択必修。Ⅱ単独を全員必修とは扱わない。",
+          "topics": null,
+          "verification": "正式科目名・ⅠとⅡで異なる要件を要項本文で確認。担当別シラバス内容未照合、PDF目視未完了。",
+          "sourceIds": [
+            "waseda-guide-2026"
+          ],
+          "studyFocus": "現在の授業資料に沿い、式の導出と条件を説明する練習から演習へつなぐ。"
+        },
+        {
+          "name": "マクロ経済学Ⅰ・Ⅱ",
+          "stage": "中級・基礎科目",
+          "requirement": "Ⅰは経済学科の必修。Ⅱはミクロ経済学Ⅱ・公共哲学（経済）と合わせた3科目から2科目以上の選択必修。Ⅱ単独を全員必修とは扱わない。",
+          "topics": null,
+          "verification": "正式科目名・ⅠとⅡで異なる要件を要項本文で確認。担当別シラバス内容未照合、PDF目視未完了。",
+          "sourceIds": [
+            "waseda-guide-2026"
+          ],
+          "studyFocus": "モデルの関係式と均衡条件を一つずつ読み、計算結果を経済的に説明する。"
+        },
+        {
+          "name": "経済数学入門",
+          "stage": "入門科目／初年度",
+          "requirement": "経済学科の必修（2単位）。数学選択者は春。数学選択者以外は春にGECの数学基礎プラスα（金利編）・β（金利編）を履修し、秋に経済数学入門を履修する。",
+          "topics": null,
+          "verification": "正式科目名・必修・数学選択別の経路を要項本文で確認。担当別シラバス内容未照合、PDF目視未完了。",
+          "sourceIds": [
+            "waseda-guide-2026"
+          ],
+          "studyFocus": "高校数学の前提と大学の記号を確認し、授業の定義・計算・説明をつなぐ。"
+        },
+        {
+          "name": "統計リテラシーα・β／統計学Ⅱ",
+          "stage": "分析手法・方法論科目／必修の基礎群",
+          "requirement": "α・βは各1単位、統計学Ⅱは2単位で、計4単位が経済学科の必修。α・βはGEC実施。個別の配当学年は本調査では確定していない。",
+          "topics": null,
+          "verification": "正式科目名・提供部門・必修を要項本文で確認。担当別シラバス内容未照合、PDF目視未完了。",
+          "sourceIds": [
+            "waseda-guide-2026"
+          ],
+          "studyFocus": "統計の記号と数値の意味を確かめ、式・図・データの読み取りを結びつける。"
+        },
+        {
+          "name": "ゲーム理論入門",
+          "stage": "分析手法・方法論科目／入門",
+          "requirement": "経済学科の必修（2単位）。個別の配当学年は本調査では確定していない。",
+          "topics": null,
+          "verification": "正式科目名・必修を要項本文で確認。担当別シラバス内容未照合、PDF目視未完了。",
+          "sourceIds": [
+            "waseda-guide-2026"
+          ],
+          "studyFocus": "登場する主体と選択肢を整理し、授業で使う図表や式の読み方を確認する。"
+        },
+        {
+          "name": "計量経済学Ⅰ・Ⅱ",
+          "stage": "分析手法・方法論科目／中級・基礎。2026年度Ⅰは春、Ⅱは秋。",
+          "requirement": "中級・基礎科目として開講を確認。経済学科の個別必修とは確認していない。履修条件・配当学年の詳細は本人の入学年度の要項とシラバスで確認する。",
+          "topics": null,
+          "verification": "正式科目名・2026開講・公式の中級区分を確認。個別要件と担当別シラバス内容未照合、PDF目視未完了。",
+          "sourceIds": [
+            "waseda-course-list-2026",
+            "waseda-course-update-2026"
+          ],
+          "studyFocus": "式中の変数と推定結果の意味を確認し、授業の分析を説明できる形へ整理する。"
+        }
+      ]
+    },
+    {
+      "slug": "keio",
+      "school": "慶應義塾大学",
+      "faculty": "経済学部・日吉（日本語課程のタイプA／B）",
+      "yearLabel": "2026年度履修案内",
+      "scopeNote": "商学部・通信教育課程・PEARLの一覧ではありません。A／Bの違いは履修タイプによるもので、文系出身からタイプを決めつけるものではありません。必修以外の科目を全員が受講するとは限りません。",
+      "sources": [
+        {
+          "id": "curriculum",
+          "title": "2026年度 経済学部履修案内（日吉・第1／2学年）",
+          "url": "https://www.students.keio.ac.jp/hy/class/registration/files/h_kei.pdf",
+          "year": "2026年度",
+          "evidence": "冊子33〜34頁の科目表、30頁の選択必修群、37頁の数学系科目との接続を確認。"
+        },
+        {
+          "id": "math1",
+          "title": "2026年度 数学概論Ⅰ・石川昌治（登録番号45939）",
+          "url": "https://gslbs.keio.jp/pub-syllabus/detail?entno=45939&lang=jp&ttblyr=2026",
+          "year": "2026年度春学期",
+          "evidence": "個別担当の公開シラバスで授業計画・到達目標を確認。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "数学概論Ⅰ・Ⅱ",
+          "stage": "1年・春／秋",
+          "requirement": "B：選択／A：履修不可",
+          "topics": "数学概論Ⅰの石川昌治担当では、文字式・関数・数列の復習から極限・微分・増減へ進みます。これはⅠの当該担当の確認範囲で、Ⅱや他担当へ一般化していません。",
+          "verification": "科目区分＋Ⅰの個別シラバス確認",
+          "sourceIds": [
+            "curriculum",
+            "math1"
+          ],
+          "studyFocus": "式変形や関数の読み取りで止まるなら、その前提を確認してから現在の微分の説明へ戻ります。"
+        },
+        {
+          "name": "微分積分入門",
+          "stage": "1年・春",
+          "requirement": "A／B：選択",
+          "topics": null,
+          "verification": "履修案内で科目・区分確認",
+          "sourceIds": [
+            "curriculum"
+          ],
+          "studyFocus": "秋の微分積分につながる前提を、本人の授業資料と理解度から確認します。"
+        },
+        {
+          "name": "微分積分",
+          "stage": "1年・秋",
+          "requirement": "A：必修／B：選択",
+          "topics": null,
+          "verification": "履修案内で科目・区分確認",
+          "sourceIds": [
+            "curriculum"
+          ],
+          "studyFocus": "計算だけでなく定義・定理の仮定・証明の各行を確認します。このページの水澤担当の案内も参照できます。"
+        },
+        {
+          "name": "線形代数・線形代数続論",
+          "stage": "1年・春／秋",
+          "requirement": "線形代数：A必修・B選択／続論：A・B選択",
+          "topics": null,
+          "verification": "履修案内で科目・区分確認",
+          "sourceIds": [
+            "curriculum"
+          ],
+          "studyFocus": "行列や連立方程式について、計算手順と何を表しているかを分けて確認します。"
+        },
+        {
+          "name": "統計学Ⅰ・Ⅱ",
+          "stage": "1年・春／秋",
+          "requirement": "A／B：必修（履修クラス指定あり）",
+          "topics": null,
+          "verification": "履修案内で科目・区分確認",
+          "sourceIds": [
+            "curriculum"
+          ],
+          "studyFocus": "記号・データ・確率の関係を、現在の単元に合わせて整理します。"
+        },
+        {
+          "name": "マクロ経済学初級Ⅰ・Ⅱ",
+          "stage": "1年・春／秋",
+          "requirement": "A／B：必修",
+          "topics": null,
+          "verification": "履修案内で科目・区分確認",
+          "sourceIds": [
+            "curriculum"
+          ],
+          "studyFocus": "式やグラフが表す経済全体の関係を、変数の意味から説明できるようにします。"
+        },
+        {
+          "name": "ミクロ経済学初級Ⅰ・Ⅱ／ミクロ経済学入門Ⅰ・Ⅱ",
+          "stage": "2年・春／秋",
+          "requirement": "A：初級が必修／B：入門が必修",
+          "topics": null,
+          "verification": "履修案内でタイプ別の必修確認",
+          "sourceIds": [
+            "curriculum"
+          ],
+          "studyFocus": "本人の履修タイプと科目を確認し、グラフ・式・最適化の前提をつなぎます。Bが初級へ振り替える場合は大学指定の手続き・前提条件を確認してください。"
+        },
+        {
+          "name": "経済数学Ⅰ・Ⅱ・Ⅲ",
+          "stage": "2年",
+          "requirement": "専門教育の選択必修群（各科目が全員必修ではない）",
+          "topics": null,
+          "verification": "履修案内で科目群・接続確認",
+          "sourceIds": [
+            "curriculum"
+          ],
+          "studyFocus": "Ⅰから初級ミクロ、Ⅱから中級ミクロへの接続を意識し、現在使っている数学を復習します。"
+        },
+        {
+          "name": "計量経済学概論",
+          "stage": "2年",
+          "requirement": "専門教育の選択必修群（全員必修ではない）",
+          "topics": null,
+          "verification": "履修案内で科目・区分確認",
+          "sourceIds": [
+            "curriculum"
+          ],
+          "studyFocus": "統計の前提と、分析結果の経済的な読み方を授業資料に沿って確認します。"
+        }
+      ]
+    },
+    {
+      "slug": "gakushuin",
+      "school": "学習院大学",
+      "faculty": "経済学部 経済学科",
+      "yearLabel": "現行公式カリキュラム案内（資料年度表示なし）",
+      "scopeNote": "経営学科とは分離。公式学科案内が明示する専門基礎科目を対象とする。学科全体は1年次から基礎を学ぶ構成だが、科目ごとの配当年次・2026年度の担当別内容は未照合。",
+      "sources": [
+        {
+          "id": "gakushuin-curriculum",
+          "title": "経済学科 カリキュラム",
+          "url": "https://www.univ.gakushuin.ac.jp/eco/about/economics/curriculum/",
+          "year": "年度表示なし・2026-10-10確認",
+          "evidence": "専門基礎科目の必修4科目と選択必修科目一覧を確認。経済数学は選択必修、基礎ミクロ・基礎マクロ・統計学入門・経済情報入門は必修として掲載。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "基礎ミクロ経済学",
+          "stage": "専門基礎科目／個別配当年次未照合",
+          "requirement": "経済学科の必修",
+          "topics": null,
+          "verification": "公式科目一覧確認済み。担当別シラバスの授業内容は未照合。",
+          "sourceIds": [
+            "gakushuin-curriculum"
+          ],
+          "studyFocus": "履修中の講義資料に沿い、図の読み取りと式が表す経済的な意味を結び直す。"
+        },
+        {
+          "name": "基礎マクロ経済学",
+          "stage": "専門基礎科目／個別配当年次未照合",
+          "requirement": "経済学科の必修",
+          "topics": null,
+          "verification": "公式科目一覧確認済み。担当別内容未照合。",
+          "sourceIds": [
+            "gakushuin-curriculum"
+          ],
+          "studyFocus": "登場する変数とモデルの仮定を整理してから、講義で扱う式・図を説明できるようにする。"
+        },
+        {
+          "name": "統計学入門",
+          "stage": "専門基礎科目／個別配当年次未照合",
+          "requirement": "経済学科の必修",
+          "topics": null,
+          "verification": "公式科目一覧確認済み。担当別内容未照合。",
+          "sourceIds": [
+            "gakushuin-curriculum"
+          ],
+          "studyFocus": "授業資料の用語・記号を具体的な数値に置き換え、計算と解釈を一緒に確認する。"
+        },
+        {
+          "name": "経済情報入門",
+          "stage": "専門基礎科目／個別配当年次未照合",
+          "requirement": "経済学科の必修",
+          "topics": null,
+          "verification": "公式科目一覧確認済み。担当別内容未照合。",
+          "sourceIds": [
+            "gakushuin-curriculum"
+          ],
+          "studyFocus": "実際の課題・講義資料で必要な操作や数値の読み方を確認し、本人が進めるための手順を整理する。"
+        },
+        {
+          "name": "経済数学",
+          "stage": "専門基礎科目／個別配当年次未照合",
+          "requirement": "経済学科の選択必修科目。単独で全員必修とはしていない。",
+          "topics": null,
+          "verification": "公式科目一覧確認済み。担当別内容未照合。",
+          "sourceIds": [
+            "gakushuin-curriculum"
+          ],
+          "studyFocus": "実際に使う数学の前提を確認し、公式の暗記だけでなく式変形の理由を説明する練習を行う。"
+        }
+      ]
+    },
+    {
+      "slug": "meiji",
+      "school": "明治大学",
+      "faculty": "政治経済学部 経済学科",
+      "yearLabel": "2026年度シラバス／2026年度以降入学者用カリキュラム",
+      "scopeNote": "2022～2025年度以前の入学者用表と混同しない。内容を示した数量経済分析・統計学・計量経済学は2026年度の掲載担当クラス例であり、同名全クラスの共通内容と断定しない。",
+      "sources": [
+        {
+          "id": "meiji-index",
+          "title": "授業計画（シラバス）・授業科目概要・授業科目表",
+          "url": "https://www.meiji.ac.jp/seikei/student/syllabus.html",
+          "year": "2026年度",
+          "evidence": "2026年度シラバスと入学年度別科目表への公式リンクを確認。"
+        },
+        {
+          "id": "meiji-table",
+          "title": "授業科目表（2026年度以降入学者）",
+          "url": "https://www.meiji.ac.jp/seikei/student/6t5h7p00000ejc6i-att/2026_curriculum.pdf",
+          "year": "2026年度以降入学者",
+          "evidence": "PDFを視覚確認。経済学科の1年次必修にミクロ経済学Ⅰ・Ⅱ、マクロ経済学Ⅰ・Ⅱ。数量経済分析と統計学は基本科目、計量経済学は応用科目に掲載。"
+        },
+        {
+          "id": "meiji-syllabus",
+          "title": "2026年度 政治経済学部 授業科目概要",
+          "url": "https://www.meiji.ac.jp/seikei/student/6t5h7p00000ejc6i-att/qfki0t00000hwlhx.pdf",
+          "year": "2026年度",
+          "evidence": "印刷ページ236（統計学・関根篤史）、237（数量経済分析・齋藤雅己／八木尚志）、295（計量経済学・小林和司）の記述と該当ページ画像を確認。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "ミクロ経済学Ⅰ・Ⅱ",
+          "stage": "1年次",
+          "requirement": "2026年度以降入学・経済学科の必修",
+          "topics": null,
+          "verification": "科目表の科目名・必修・年次を確認。個別の授業内容はここでは未照合。",
+          "sourceIds": [
+            "meiji-table"
+          ],
+          "studyFocus": "担当授業の図・式をもとに、前提と結論のつながりを自分の言葉で説明する。"
+        },
+        {
+          "name": "マクロ経済学Ⅰ・Ⅱ",
+          "stage": "1年次",
+          "requirement": "2026年度以降入学・経済学科の必修",
+          "topics": null,
+          "verification": "科目表の科目名・必修・年次を確認。個別内容未照合。",
+          "sourceIds": [
+            "meiji-table"
+          ],
+          "studyFocus": "変数・関係式・仮定を整理し、講義のモデルを図と式の両方から確認する。"
+        },
+        {
+          "name": "数量経済分析",
+          "stage": "1年次（2026年度掲載クラス）",
+          "requirement": "経済学科の基本科目。単独必修とはしていない。",
+          "topics": "齋藤雅己担当例：グラフ・方程式、指数・対数、微分・積分、線形代数と経済への適用。八木尚志担当例は経済数量・行列など構成が異なる。",
+          "verification": "2026年度授業科目概要の担当別内容を確認。内容の例示は担当範囲付き。",
+          "sourceIds": [
+            "meiji-table",
+            "meiji-syllabus"
+          ],
+          "studyFocus": "実際の担当資料に合わせ、数学の操作が経済分析で何を求めているのかを結び付ける。"
+        },
+        {
+          "name": "統計学",
+          "stage": "1年次（関根篤史担当例）",
+          "requirement": "経済学科の基本科目。単独必修とはしていない。",
+          "topics": "関根篤史担当例：データの記述、確率・分布、推定、検定、相関・回帰。Excelによる分析結果の解釈も扱う。",
+          "verification": "2026年度授業科目概要・印刷ページ236のクラス例を確認。",
+          "sourceIds": [
+            "meiji-table",
+            "meiji-syllabus"
+          ],
+          "studyFocus": "計算式・分析結果・日本語での説明を対応させ、授業の演習を本人が解き直す。"
+        },
+        {
+          "name": "計量経済学",
+          "stage": "3年次（小林和司担当例）",
+          "requirement": "経済学科の応用科目。単独必修とはしていない。",
+          "topics": "小林和司担当例：統計・数学の基礎、計量経済分析の実際、経済時系列分析。",
+          "verification": "2026年度授業科目概要・印刷ページ295のクラス例を確認。",
+          "sourceIds": [
+            "meiji-table",
+            "meiji-syllabus"
+          ],
+          "studyFocus": "講義で用いるモデルと計算の前提を確かめ、結果からどこまで言えるのかを説明する。"
+        }
+      ]
+    },
+    {
+      "slug": "aoyama-gakuin",
+      "school": "青山学院大学",
+      "faculty": "経済学部 経済学科／現代経済デザイン学科（分離して記載）",
+      "yearLabel": "2026年度科目ナンバリング表",
+      "scopeNote": "科目ナンバリング表の正式名と配置年次を確認。これは必修・選択の確定資料ではないため個別必修区分は未確認。同学部でも経済学科と現代経済デザイン学科で名称・配当が異なる。古いコースモデルにある名称を2026年度へ流用しない。",
+      "sources": [
+        {
+          "id": "aoyama-numbering",
+          "title": "2026年度 経済学部 科目ナンバリングコード表",
+          "url": "https://jimweb.jm.aoyama.ac.jp/aopo-info/numbering/2026/2026_02_E.pdf",
+          "year": "2026年度",
+          "evidence": "PDF1ページの経済学科EE、3ページの現代経済デザイン学科EDを視覚確認。経済学科はミクロ経済学・マクロ経済学、現代経済デザイン学科はミクロ経済学講義・演習など名称が異なる。"
+        },
+        {
+          "id": "aoyama-curriculum",
+          "title": "経済学部 カリキュラム",
+          "url": "https://www.aoyama.ac.jp/faculty/economics/de/curriculum.html",
+          "year": "現行案内・2026年度授業要覧へのリンクあり",
+          "evidence": "経済学科と現代経済デザイン学科の教育課程と2026年度授業要覧の公式案内を確認。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "ミクロ経済学（経済学科）",
+          "stage": "1年配置",
+          "requirement": "個別の必修・選択区分未確認",
+          "topics": null,
+          "verification": "2026年度番号表EE・AB101を確認。個別シラバス内容未照合。",
+          "sourceIds": [
+            "aoyama-numbering"
+          ],
+          "studyFocus": "担当講義の図と式から、行動の仮定と結果を整理する。"
+        },
+        {
+          "name": "マクロ経済学（経済学科）",
+          "stage": "1年配置",
+          "requirement": "個別の必修・選択区分未確認",
+          "topics": null,
+          "verification": "2026年度番号表EE・AB111を確認。個別内容未照合。",
+          "sourceIds": [
+            "aoyama-numbering"
+          ],
+          "studyFocus": "担当授業に登場する変数・式・図を対応させ、モデルの前提を確認する。"
+        },
+        {
+          "name": "経済数学入門Ⅰ・Ⅱ／経済数学Ⅰ・Ⅱ（経済学科）",
+          "stage": "入門Ⅰ・Ⅱは1年、経済数学Ⅰ・Ⅱは2年配置",
+          "requirement": "個別の必修・選択区分未確認",
+          "topics": null,
+          "verification": "EE・AC101/AC102、BC201/BC202を確認。科目群の名称・配置のみ。",
+          "sourceIds": [
+            "aoyama-numbering"
+          ],
+          "studyFocus": "履修している段階の資料を確認し、不足する数学の前提から式変形の理由へ戻る。"
+        },
+        {
+          "name": "統計学概論Ⅰ・Ⅱ／数理統計Ⅰ・Ⅱ（経済学科）",
+          "stage": "概論Ⅰ・Ⅱは1年、数理統計Ⅰ・Ⅱは2年配置",
+          "requirement": "個別の必修・選択区分未確認",
+          "topics": null,
+          "verification": "EE・AC111/AC112、BC205/BC206を確認。科目群の名称・配置のみ。",
+          "sourceIds": [
+            "aoyama-numbering"
+          ],
+          "studyFocus": "実際の授業資料の記号と具体例を対応させ、計算と結果の解釈を確認する。"
+        },
+        {
+          "name": "計量経済学Ⅰ・Ⅱ（経済学科）",
+          "stage": "2年配置",
+          "requirement": "個別の必修・選択区分未確認",
+          "topics": null,
+          "verification": "EE・BC203/BC204を確認。個別シラバス内容未照合。",
+          "sourceIds": [
+            "aoyama-numbering"
+          ],
+          "studyFocus": "担当授業の推定式・データ・結果の読み方を整理し、必要な数学・統計の前提を補う。"
+        },
+        {
+          "name": "ミクロ経済学講義／ミクロ経済学演習（現代経済デザイン学科）",
+          "stage": "1年配置",
+          "requirement": "個別の必修・選択区分未確認",
+          "topics": null,
+          "verification": "ED・BB101/BB102を確認。経済学科の科目名と混同しない。内容未照合。",
+          "sourceIds": [
+            "aoyama-numbering"
+          ],
+          "studyFocus": "講義と演習の対応箇所を実資料で確認し、説明を聞いた後に本人が類題へ取り組む。"
+        },
+        {
+          "name": "入門経済数学Ⅰ・Ⅱ（現代経済デザイン学科）",
+          "stage": "Ⅰは1年、Ⅱは2年配置",
+          "requirement": "個別の必修・選択区分未確認",
+          "topics": null,
+          "verification": "ED・BF111/BF211を確認。経済学科の経済数学入門と区別。内容未照合。",
+          "sourceIds": [
+            "aoyama-numbering"
+          ],
+          "studyFocus": "履修段階に合う授業資料から、記号・式変形・経済での意味のつながりを確認する。"
+        },
+        {
+          "name": "入門統計学Ⅰ・Ⅱ／データ解析（現代経済デザイン学科）",
+          "stage": "入門統計学Ⅰは1年、Ⅱとデータ解析は2年配置",
+          "requirement": "個別の必修・選択区分未確認",
+          "topics": null,
+          "verification": "ED・BF112/BF212/BF202を確認。名称・配置のみ、個別内容未照合。",
+          "sourceIds": [
+            "aoyama-numbering"
+          ],
+          "studyFocus": "担当授業のデータや演習を用い、数値の計算だけでなく結果が示すことを言葉で説明する。"
+        }
+      ]
+    },
+    {
+      "slug": "rikkyo",
+      "school": "立教大学",
+      "faculty": "経済学部 経済学科",
+      "yearLabel": "現行公式カリキュラム・マップ／2026年度シラバス",
+      "scopeNote": "経済政策学科・会計ファイナンス学科は対象外。マップには資料年度表示がなく、2026年度個別シラバスまで内容を確認したのはBX052の入門クラス。配当年次の詳細は本人の入学年度別R Guideで最終確認する。",
+      "sources": [
+        {
+          "id": "rikkyo-map",
+          "title": "経済学科 カリキュラム・マップ",
+          "url": "https://www.rikkyo.ac.jp/about/disclosure/educational_policy/qo9edr000000ebml-att/economics_department_01.pdf",
+          "year": "資料年度表示なし・2026-10-10確認",
+          "evidence": "現行URLのPDF1～2ページを視覚確認。入門必修、初級ミクロ・マクロは2～4年の基本選択（2年推奨）、数学・統計・データ入門は共通選択科目1、計量は共通選択科目2。"
+        },
+        {
+          "id": "rikkyo-bx052",
+          "title": "2026年度 ミクロ・マクロ経済学入門 BX052",
+          "url": "https://sy.rikkyo.ac.jp/web/preview.php?kodo_2=BX052&nendo=2026",
+          "year": "2026年度・2024年度以降入学経済学科クラス",
+          "evidence": "小平武史担当。2024年度以降入学経済学科クラス、自動登録、2年の初級科目への橋渡しと明記。需要供給からGDP・失業・物価の授業計画を確認。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "ミクロ・マクロ経済学入門",
+          "stage": "1年次",
+          "requirement": "経済学科の必修。BX052は2024年度以降入学者クラス。",
+          "topics": "2026年度BX052例：需要・供給、消費者・生産者の意思決定、市場効率性・外部性・不完全情報、GDPの決定、失業、物価。",
+          "verification": "2026年度個別シラバスと現行マップを照合。担当別クラス例。",
+          "sourceIds": [
+            "rikkyo-map",
+            "rikkyo-bx052"
+          ],
+          "studyFocus": "身近な例と講義の図を対応させ、2年次の初級科目につながる前提を確認する。"
+        },
+        {
+          "name": "初級ミクロ経済学１・２",
+          "stage": "2～4年次（2年次推奨）",
+          "requirement": "経済学科の基本選択科目",
+          "topics": null,
+          "verification": "現行マップの区分・年次を確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "rikkyo-map"
+          ],
+          "studyFocus": "入門で理解した考え方を、現在の講義の式・図と結び直して演習する。"
+        },
+        {
+          "name": "初級マクロ経済学１・２",
+          "stage": "2～4年次（2年次推奨）",
+          "requirement": "経済学科の基本選択科目",
+          "topics": null,
+          "verification": "現行マップ確認。担当別内容未照合。",
+          "sourceIds": [
+            "rikkyo-map"
+          ],
+          "studyFocus": "変数の定義とモデルの前提を確認し、授業資料の式・図を自分の言葉で説明する。"
+        },
+        {
+          "name": "経済数学入門",
+          "stage": "1～4年次（1年次推奨）",
+          "requirement": "経済学科の共通選択科目1",
+          "topics": null,
+          "verification": "現行マップ確認。担当別内容未照合。",
+          "sourceIds": [
+            "rikkyo-map"
+          ],
+          "studyFocus": "現実の講義で用いる記号や式変形を確認し、数学の前提から理解をつなぎ直す。"
+        },
+        {
+          "name": "統計学１・２",
+          "stage": "1～4年次（1年次推奨）",
+          "requirement": "経済学科の共通選択科目1",
+          "topics": null,
+          "verification": "現行マップ確認。担当別内容未照合。",
+          "sourceIds": [
+            "rikkyo-map"
+          ],
+          "studyFocus": "用語・数式・具体例を対応させ、計算した量の意味を説明する。"
+        },
+        {
+          "name": "データ分析入門１・２",
+          "stage": "1～4年次（1年次推奨）",
+          "requirement": "経済学科の共通選択科目1",
+          "topics": null,
+          "verification": "現行マップ確認。担当別内容未照合。",
+          "sourceIds": [
+            "rikkyo-map"
+          ],
+          "studyFocus": "本人の講義資料・データで操作と解釈を分けて確認し、授業演習を自力で進める準備をする。"
+        },
+        {
+          "name": "計量経済学１・２",
+          "stage": "2～4年次",
+          "requirement": "経済学科の共通選択科目2",
+          "topics": null,
+          "verification": "現行マップ確認。担当別内容未照合。",
+          "sourceIds": [
+            "rikkyo-map"
+          ],
+          "studyFocus": "担当授業の式と結果を読み、必要な数学・統計の前提を補いながら分析の意味を確認する。"
+        }
+      ]
+    },
+    {
+      "slug": "chuo",
+      "school": "中央大学",
+      "faculty": "経済学部（共通導入科目・経済学科の科目を区別）",
+      "yearLabel": "現行公式カリキュラム案内（資料年度表示なし）",
+      "scopeNote": "全学科の共通専門基礎と経済学科の専門科目を区別。経済学科の科目を国際経済学科・公共環境経済学科等へ一律に当てはめない。個別の配当年次と2026年度の担当内容は履修要項・シラバスで最終確認する。",
+      "sources": [
+        {
+          "id": "chuo-curriculum",
+          "title": "経済学部 カリキュラム",
+          "url": "https://www.chuo-u.ac.jp/academics/faculties/economics/guide/curriculum/",
+          "year": "年度表示なし・2026-10-10確認",
+          "evidence": "共通導入科目の基礎数学、共通基礎ミクロ・マクロの2科目8単位必修、経済学科の中級理論3科目から1科目4単位選択必修、経済総合科目群を確認。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "基礎数学A1・B1・A2・B2",
+          "stage": "共通導入科目・1年次（現行公式表）",
+          "requirement": "導入科目として掲載。個別必修指定は確認していない。",
+          "topics": null,
+          "verification": "公式科目表を確認。個別シラバス内容未照合。",
+          "sourceIds": [
+            "chuo-curriculum"
+          ],
+          "studyFocus": "受講クラスと範囲を確認し、数学の記号・計算の前提・式変形の理由を整理する。"
+        },
+        {
+          "name": "基礎ミクロ経済学",
+          "stage": "共通専門基礎科目・1年次（現行公式表）",
+          "requirement": "基礎マクロ経済学と合わせて2科目8単位必修",
+          "topics": null,
+          "verification": "公式科目表の必修表記を確認。個別内容未照合。",
+          "sourceIds": [
+            "chuo-curriculum"
+          ],
+          "studyFocus": "実際の講義の図・式を用い、経済的な意味と計算を結び付ける。"
+        },
+        {
+          "name": "基礎マクロ経済学",
+          "stage": "共通専門基礎科目・1年次（現行公式表）",
+          "requirement": "基礎ミクロ経済学と合わせて2科目8単位必修",
+          "topics": null,
+          "verification": "公式科目表の必修表記を確認。個別内容未照合。",
+          "sourceIds": [
+            "chuo-curriculum"
+          ],
+          "studyFocus": "変数・仮定・関係式を明確にして、講義のモデルを説明できるようにする。"
+        },
+        {
+          "name": "中級ミクロ経済学／中級マクロ経済学",
+          "stage": "経済学科・学科基本科目／個別配当年次未照合",
+          "requirement": "独占資本主義論を含む3科目から1科目4単位選択必修。中級ミクロと中級マクロの両方が必修ではない。",
+          "topics": null,
+          "verification": "公式科目表の選択必修群を確認。担当別内容未照合。",
+          "sourceIds": [
+            "chuo-curriculum"
+          ],
+          "studyFocus": "選んだ科目の資料に合わせ、基礎理論の前提から中級の式・論理へ接続する。"
+        },
+        {
+          "name": "統計学",
+          "stage": "経済学科・経済総合クラスター科目／1年次（現行公式表）",
+          "requirement": "クラスター科目の12単位選択必修枠として掲載。単独必修とはしていない。",
+          "topics": null,
+          "verification": "公式科目表確認。担当別内容未照合。",
+          "sourceIds": [
+            "chuo-curriculum"
+          ],
+          "studyFocus": "実際の演習の用語・数式・数値を対応させ、計算結果の意味を言葉にする。"
+        },
+        {
+          "name": "経済数学",
+          "stage": "経済学科・経済総合クラスター科目／2年次（現行公式表）",
+          "requirement": "クラスター科目の12単位選択必修枠として掲載。単独必修とはしていない。",
+          "topics": null,
+          "verification": "公式科目表確認。担当別内容未照合。",
+          "sourceIds": [
+            "chuo-curriculum"
+          ],
+          "studyFocus": "授業で必要となる数学を、経済の意味と式変形の理由から確認する。"
+        },
+        {
+          "name": "計量経済学",
+          "stage": "経済学科・経済総合クラスター科目／3年次（現行公式表）",
+          "requirement": "クラスター科目の12単位選択必修枠として掲載。単独必修とはしていない。",
+          "topics": null,
+          "verification": "公式科目表確認。担当別内容未照合。",
+          "sourceIds": [
+            "chuo-curriculum"
+          ],
+          "studyFocus": "講義の推定式・データ・結果を整理し、必要な数学・統計を復習しながら解釈を確認する。"
+        }
+      ]
+    },
+    {
+      "slug": "hosei",
+      "school": "法政大学",
+      "faculty": "経済学部 経済学科（ビジネス数学入門Bの例は学部開講）",
+      "yearLabel": "2025年度以降入学者用科目表／2026年度シラバス",
+      "scopeNote": "2016～2024年度入学者用科目表と区別する。選択必修区分の個々の科目が全員必修という意味ではない。2026年度の具体的内容を確認したのはビジネス数学入門B・明城聡担当K6672。",
+      "sources": [
+        {
+          "id": "hosei-map-index",
+          "title": "経済学部 カリキュラムマップ・ツリー",
+          "url": "https://www.hosei.ac.jp/keizai/shokai/carriculum_map_tree/",
+          "year": "2025年度以降入学者用の案内",
+          "evidence": "学科別・入学年度別の公式科目表とツリーを案内していることを確認。"
+        },
+        {
+          "id": "hosei-table",
+          "title": "専門教育科目（2025年度以降入学者）経済学科",
+          "url": "https://www.hosei.ac.jp/application/files/4817/5126/7911/2025_keizai.pdf",
+          "year": "2025年度以降入学者",
+          "evidence": "PDFを視覚確認。1年の経済学入門A・Bは必修。ビジネス数学入門・統計学等は選択必修。ミクロ・マクロ・計量A・Bは2年の選択必修枠に掲載。"
+        },
+        {
+          "id": "hosei-k6672",
+          "title": "2026年度 ビジネス数学入門B（K6672）",
+          "url": "https://syllabus.hosei.ac.jp/web/preview.php?gakubueng=AC&nendo=2026&no_id=2605489&radd=&t_mode=sp",
+          "year": "2026年度",
+          "evidence": "明城聡担当、配当1～4年。数列・級数、微分と最大化、確率・条件付き確率、期待値・分散の計画を確認。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "経済学入門A・B",
+          "stage": "1年配置",
+          "requirement": "2025年度以降入学・経済学科の必修",
+          "topics": null,
+          "verification": "公式科目表確認。担当別内容未照合。",
+          "sourceIds": [
+            "hosei-table"
+          ],
+          "studyFocus": "担当授業の用語・図・式を整理し、入門から後続の専門科目へつなぐ。"
+        },
+        {
+          "name": "現代経済学A・B",
+          "stage": "1年配置",
+          "requirement": "経済学科の選択必修区分。全員が各科目を必ず履修するとはしていない。",
+          "topics": null,
+          "verification": "2025年度以降の正式名を確認。旧課程の名称と区別。内容未照合。",
+          "sourceIds": [
+            "hosei-table"
+          ],
+          "studyFocus": "講義資料に沿い、理論の前提と経済的な意味を図・式から確認する。"
+        },
+        {
+          "name": "ビジネス数学入門A・B",
+          "stage": "科目表は1年配置／確認した2026年度Bクラスの配当は1～4年",
+          "requirement": "経済学科の選択必修区分",
+          "topics": "B・K6672例：数列・級数、微分・最大化と企業行動、確率・条件付き確率、確率分布・期待値・分散。Aの具体的内容は未照合。",
+          "verification": "2026年度Bの担当別シラバスと科目表を照合。A全体へ内容を拡張しない。",
+          "sourceIds": [
+            "hosei-table",
+            "hosei-k6672"
+          ],
+          "studyFocus": "数列・微分・確率の各操作を経済の意味とつなぎ、授業の練習問題を本人が解き直す。"
+        },
+        {
+          "name": "統計学A・B",
+          "stage": "1年配置",
+          "requirement": "経済学科の選択必修区分",
+          "topics": null,
+          "verification": "公式科目表確認。担当別内容未照合。",
+          "sourceIds": [
+            "hosei-table"
+          ],
+          "studyFocus": "授業で使う記号・計算結果・解釈を具体例に置き換えて確認する。"
+        },
+        {
+          "name": "ミクロ経済学A・B",
+          "stage": "2年配置",
+          "requirement": "経済学科の選択必修区分",
+          "topics": null,
+          "verification": "公式科目表確認。担当別内容未照合。",
+          "sourceIds": [
+            "hosei-table"
+          ],
+          "studyFocus": "入門と数学の前提を確認し、担当講義の式・図を自分で説明する練習を行う。"
+        },
+        {
+          "name": "マクロ経済学A・B",
+          "stage": "2年配置",
+          "requirement": "経済学科の選択必修区分",
+          "topics": null,
+          "verification": "公式科目表確認。担当別内容未照合。",
+          "sourceIds": [
+            "hosei-table"
+          ],
+          "studyFocus": "変数・仮定・式の関係を整理し、モデルの変化を図と式で追う。"
+        },
+        {
+          "name": "計量経済学A・B",
+          "stage": "2年配置",
+          "requirement": "経済学科の選択必修区分",
+          "topics": null,
+          "verification": "公式科目表確認。担当別内容未照合。",
+          "sourceIds": [
+            "hosei-table"
+          ],
+          "studyFocus": "授業の分析モデルと計算の前提を整理し、結果の読み方を確認する。"
+        }
+      ]
+    },
+    {
+      "slug": "kansai",
+      "school": "関西大学",
+      "faculty": "経済学部",
+      "yearLabel": "2026年度大学要覧・現行学部案内",
+      "scopeNote": "経済学部の専門教育科目。科目名と配当年次は2026大学要覧p.70で確認。導入・基本という区分と個別科目の配当年次は別に扱う。必修表示を確認したのはミクロ／マクロ入門Ⅰ・Ⅱ。個別シラバス、担当クラス、履修条件は未照合。",
+      "sources": [
+        {
+          "id": "kansai-catalog-2026",
+          "title": "関西大学 大学要覧2026 経済学部 授業科目一覧 p.70",
+          "url": "https://www.kansai-u.ac.jp/kancan/course/book/2026/faculty/seo/0070.html",
+          "year": "2026年度",
+          "evidence": "導入・基本科目の正式名、科目番号、配当年次を掲載。経済数学Ⅰ・Ⅱは基本科目だが1年配当、経済統計学と計量経済学入門は2年配当。"
+        },
+        {
+          "id": "kansai-curriculum",
+          "title": "関西大学 経済学部 カリキュラム",
+          "url": "https://www.kansai-u.ac.jp/Fc_eco/faculty/curriculum/",
+          "year": "現行掲載・年度明記なし",
+          "evidence": "導入・基本・展開・実践の構造と、ミクロ／マクロ経済学入門Ⅰ・Ⅱの8単位を必修とする説明を確認。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "ミクロ経済学入門Ⅰ・Ⅱ",
+          "stage": "1年配当／導入科目",
+          "requirement": "Ⅰ・Ⅱとも必修（学部案内）",
+          "topics": null,
+          "verification": "科目名・配当年次・必修を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kansai-catalog-2026",
+            "kansai-curriculum"
+          ],
+          "studyFocus": "授業で用いる需要・供給図と式を対応させ、自分で説明する。"
+        },
+        {
+          "name": "マクロ経済学入門Ⅰ・Ⅱ",
+          "stage": "1年配当／導入科目",
+          "requirement": "Ⅰ・Ⅱとも必修（学部案内）",
+          "topics": null,
+          "verification": "科目名・配当年次・必修を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kansai-catalog-2026",
+            "kansai-curriculum"
+          ],
+          "studyFocus": "授業のモデルごとに変数・前提・因果関係を整理する。"
+        },
+        {
+          "name": "統計学Ⅰ・Ⅱ",
+          "stage": "1年配当／導入科目",
+          "requirement": "導入科目／個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "科目名・配当年次を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kansai-catalog-2026"
+          ],
+          "studyFocus": "授業で扱う指標の意味と計算を小さなデータで確かめる。"
+        },
+        {
+          "name": "経済数学Ⅰ・Ⅱ",
+          "stage": "1年配当／基本科目",
+          "requirement": "基本科目／個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "科目名・配当年次を確認。基本科目だから2年とは断定しない。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kansai-catalog-2026"
+          ],
+          "studyFocus": "授業資料で使われる関数・微分等の前提から確認する。"
+        },
+        {
+          "name": "ミクロ経済学Ⅰ・Ⅱ",
+          "stage": "2年配当／基本科目",
+          "requirement": "基本科目／個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "科目名・配当年次を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kansai-catalog-2026"
+          ],
+          "studyFocus": "入門で学んだ図と、現在の授業の式・条件をつなぐ。"
+        },
+        {
+          "name": "マクロ経済学Ⅰ・Ⅱ",
+          "stage": "2年配当／基本科目",
+          "requirement": "基本科目／個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "科目名・配当年次を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kansai-catalog-2026"
+          ],
+          "studyFocus": "連立した式を解く操作と経済的な解釈を分けて練習する。"
+        },
+        {
+          "name": "経済統計学Ⅰ・Ⅱ",
+          "stage": "2年配当／基本科目",
+          "requirement": "基本科目／個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "科目名・配当年次を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kansai-catalog-2026"
+          ],
+          "studyFocus": "授業の経済データ・統計表が何を測っているか読み解く。"
+        },
+        {
+          "name": "計量経済学入門Ⅰ・Ⅱ",
+          "stage": "2年配当／基本科目",
+          "requirement": "基本科目／個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "科目名・配当年次を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kansai-catalog-2026"
+          ],
+          "studyFocus": "回帰式の各項と推定結果の読み方を授業資料に合わせて確認する。"
+        }
+      ]
+    },
+    {
+      "slug": "kwansei-gakuin",
+      "school": "関西学院大学",
+      "faculty": "経済学部",
+      "yearLabel": "2021年度以降入学生の現行方針／2026年度経済数学入門の開講一覧",
+      "scopeNote": "学部公式は学科・コース制度の区分がないと説明。現行授業紹介の名称と2026年度経済数学入門の開講を確認したが、専門科目の級別・個別配当年次・クラス別シラバスは未照合。ミクロ等は授業紹介の科目名であり、全クラスの正式登録名称・全員必修と断定しない。",
+      "sources": [
+        {
+          "id": "kwansei-policy",
+          "title": "関西学院大学 経済学部 カリキュラム・ポリシー",
+          "url": "https://www.kwansei.ac.jp/s_economics/curriculum_policy/",
+          "year": "2021年度以降入学生",
+          "evidence": "初年次の少人数の経済学入門を学部生全員が履修する説明と、数学・情報処理を基盤とする段階的な学修方針を確認。"
+        },
+        {
+          "id": "kwansei-curriculum",
+          "title": "関西学院大学 経済学部 カリキュラム",
+          "url": "https://www.kwansei.ac.jp/s_economics/about/curriculum/",
+          "year": "現行掲載・年度明記なし",
+          "evidence": "1年の基礎から2年以降の専門へ進む構造、経済数学・情報処理、100〜450の難度別科目選択、学科・コース区分なしを確認。"
+        },
+        {
+          "id": "kwansei-courses",
+          "title": "関西学院大学 経済学部 主な授業の紹介",
+          "url": "https://www.kwansei.ac.jp/s_economics/about/course.html",
+          "year": "現行掲載・年度明記なし",
+          "evidence": "ミクロ経済学、マクロ経済学、計量経済学、財政学、金融論の授業紹介を確認。個別年度のシラバスではない。"
+        },
+        {
+          "id": "kwansei-math-list-2026",
+          "title": "関西学院大学 公式シラバス情報照会 経済数学入門 開講一覧",
+          "url": "https://syllabus.kwansei.ac.jp/uniasv2/UnSSOLoginControlFree?REQ_ACTION_DO=%2FAGA030PLS01Action.do%3FREQ_FUNCTION_JUMP_START_FLG%3D1&REQ_PRFR_FUNC_ID=AGA030&SLB_LINK_DISP_FLG=689&TCH_NO=230002",
+          "year": "2026年度",
+          "evidence": "公式検索結果の一覧に2026年度・経済学部・【100】経済数学入門（クラス1・10）・春学期を確認。一覧ページの再取得はタイムアウトし、詳細本文は未取得。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "経済学入門",
+          "stage": "初年次（学部方針）",
+          "requirement": "学部生全員が履修（2021年度以降入学生の方針）",
+          "topics": null,
+          "verification": "方針上の科目名・初年次・全員履修を確認。2026クラス別シラバス本文未照合。",
+          "sourceIds": [
+            "kwansei-policy"
+          ],
+          "studyFocus": "授業に出てくる経済用語を身近な例と対応させる。"
+        },
+        {
+          "name": "【100】経済数学入門",
+          "stage": "基礎レベル100／2026春学期開講例。個別配当年次未照合",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026公式シラバスの検索結果一覧で科目名・学部・年度を確認。本文未取得。",
+          "sourceIds": [
+            "kwansei-math-list-2026",
+            "kwansei-curriculum"
+          ],
+          "studyFocus": "授業資料にある数学記号・関数・計算の前提を順に確認する。"
+        },
+        {
+          "name": "ミクロ経済学",
+          "stage": "授業紹介に掲載／級別・個別配当年次未照合",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "学部の授業紹介で名称を確認。級別登録名称と個別シラバス本文未照合。",
+          "sourceIds": [
+            "kwansei-courses"
+          ],
+          "studyFocus": "現在の授業の図・式・文章の対応を説明できるようにする。"
+        },
+        {
+          "name": "マクロ経済学",
+          "stage": "授業紹介に掲載／級別・個別配当年次未照合",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "学部の授業紹介で名称を確認。級別登録名称と個別シラバス本文未照合。",
+          "sourceIds": [
+            "kwansei-courses"
+          ],
+          "studyFocus": "モデルの前提を固定し、変数の動きと理由を整理する。"
+        },
+        {
+          "name": "計量経済学",
+          "stage": "授業紹介に掲載／個別配当年次未照合",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "学部の授業紹介で名称を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kwansei-courses"
+          ],
+          "studyFocus": "授業で必要な確率・推定の前提を確かめ、結果の意味を言葉にする。"
+        },
+        {
+          "name": "財政学",
+          "stage": "授業紹介に掲載／個別配当年次未照合",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "学部の授業紹介で名称を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kwansei-courses"
+          ],
+          "studyFocus": "授業の政策比較に必要なミクロの図・条件を補強する。"
+        },
+        {
+          "name": "金融論",
+          "stage": "授業紹介に掲載／個別配当年次未照合",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "学部の授業紹介で名称を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kwansei-courses"
+          ],
+          "studyFocus": "授業資料で使われる利子・金融用語と計算を対応させる。"
+        }
+      ]
+    },
+    {
+      "slug": "doshisha",
+      "school": "同志社大学",
+      "faculty": "経済学部",
+      "yearLabel": "現行カリキュラム・2026年度新入生案内",
+      "scopeNote": "公式の履修系統と2026年度新入生向けクラス指定案内を照合。クラス指定があることと、卒業要件上の必修であることは区別した。基幹科目の個別配当年次・必修選択・担当クラスは未照合。",
+      "sources": [
+        {
+          "id": "doshisha-curriculum",
+          "title": "同志社大学 経済学部 カリキュラム",
+          "url": "https://www.econ.doshisha.ac.jp/econ/about/faculty/study/curriculum.html",
+          "year": "現行掲載・年度明記なし",
+          "evidence": "1年春の導入、1年秋・2年春の基礎、および基幹科目の正式名を確認。経済数学Ⅰ・Ⅱ、統計Ⅰ・Ⅱ、初級ミクロ／マクロⅠ・Ⅱを段階別に配置。"
+        },
+        {
+          "id": "doshisha-freshman-2026",
+          "title": "同志社大学 経済学部 新入生入学準備ページ・2026年度クラス指定案内",
+          "url": "https://www.econ.doshisha.ac.jp/econ/examination/freshman.html",
+          "year": "2026年度入学生",
+          "evidence": "導入科目と初級ミクロⅠ・初級マクロⅠ・経済数学Ⅰ・統計Ⅰ等の登録クラスを学生IDで指定する説明を確認。必修との同一視はしない。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "経済理論入門",
+          "stage": "1年次第1セメスター／導入科目",
+          "requirement": "2026新入生は登録クラス指定あり／卒業要件上の必修区分未照合",
+          "topics": null,
+          "verification": "名称・履修系統・2026クラス指定を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "doshisha-curriculum",
+            "doshisha-freshman-2026"
+          ],
+          "studyFocus": "授業の基本概念を図や身近な例で自分の言葉にする。"
+        },
+        {
+          "name": "初級ミクロ経済学Ⅰ・Ⅱ",
+          "stage": "Ⅰ＝1年次第2セメスター、Ⅱ＝2年次第3セメスター／基礎科目",
+          "requirement": "Ⅰは2026クラス指定あり／Ⅰ・Ⅱの必修選択区分未照合",
+          "topics": null,
+          "verification": "名称・履修系統を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "doshisha-curriculum",
+            "doshisha-freshman-2026"
+          ],
+          "studyFocus": "履修中の図・式とその前提を対応させる。"
+        },
+        {
+          "name": "初級マクロ経済学Ⅰ・Ⅱ",
+          "stage": "Ⅰ＝1年次第2セメスター、Ⅱ＝2年次第3セメスター／基礎科目",
+          "requirement": "Ⅰは2026クラス指定あり／Ⅰ・Ⅱの必修選択区分未照合",
+          "topics": null,
+          "verification": "名称・履修系統を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "doshisha-curriculum",
+            "doshisha-freshman-2026"
+          ],
+          "studyFocus": "授業のモデルを変数・前提・因果に分けて整理する。"
+        },
+        {
+          "name": "経済数学Ⅰ・Ⅱ",
+          "stage": "Ⅰ＝1年次第2セメスター、Ⅱ＝2年次第3セメスター／基礎科目",
+          "requirement": "Ⅰは2026クラス指定あり／Ⅰ・Ⅱの必修選択区分未照合",
+          "topics": null,
+          "verification": "名称・履修系統を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "doshisha-curriculum",
+            "doshisha-freshman-2026"
+          ],
+          "studyFocus": "実際の授業で必要な関数・微分等を前提から補強する。"
+        },
+        {
+          "name": "統計Ⅰ・Ⅱ",
+          "stage": "Ⅰ＝1年次第2セメスター、Ⅱ＝2年次第3セメスター／基礎科目",
+          "requirement": "Ⅰは2026クラス指定あり／Ⅰ・Ⅱの必修選択区分未照合",
+          "topics": null,
+          "verification": "名称・履修系統を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "doshisha-curriculum",
+            "doshisha-freshman-2026"
+          ],
+          "studyFocus": "小さなデータで公式の意味と計算を説明する。"
+        },
+        {
+          "name": "中級ミクロ経済学1・2",
+          "stage": "基幹科目／個別の配当年次未照合",
+          "requirement": "基幹科目／個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "カリキュラムの科目一覧で名称を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "doshisha-curriculum"
+          ],
+          "studyFocus": "初級から発展した条件・式変形を授業資料で確認する。"
+        },
+        {
+          "name": "中級マクロ経済学1・2",
+          "stage": "基幹科目／個別の配当年次未照合",
+          "requirement": "基幹科目／個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "カリキュラムの科目一覧で名称を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "doshisha-curriculum"
+          ],
+          "studyFocus": "授業の動学・均衡の式を扱う場合、その数学的前提から確認する。"
+        },
+        {
+          "name": "計量経済学1・2",
+          "stage": "基幹科目／個別の配当年次未照合",
+          "requirement": "基幹科目／個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "カリキュラムの科目一覧で名称を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "doshisha-curriculum"
+          ],
+          "studyFocus": "統計の前提と、現在の授業の推定・解釈をつなぐ。"
+        }
+      ]
+    },
+    {
+      "slug": "ritsumeikan",
+      "school": "立命館大学",
+      "faculty": "経済学部（経済学科・経済専攻／国際専攻）",
+      "yearLabel": "経済学部パンフレット2026・現行学部案内",
+      "scopeNote": "経済専攻と国際専攻の違いを保持。2026パンフレットの学修構造と1回生の学びを視覚確認した。基礎ミクロを一律1回生科目とせず、本文の2回生から履修可能という説明を採用。専攻・入学年度・クラス別の厳密な履修要件とシラバス本文は未照合。",
+      "sources": [
+        {
+          "id": "ritsumeikan-brochure-2026",
+          "title": "立命館大学 経済学部パンフレット2026",
+          "url": "https://www.ritsumei.ac.jp/ec/admission.whyeconomics2026.pdf",
+          "year": "2026",
+          "evidence": "PDFの印刷ページ4〜7を描画して確認。入門・コア・ツールの科目名、1回生の基礎マクロ／社会経済学初級α、2回生からの基礎ミクロ／初級βを確認。"
+        },
+        {
+          "id": "ritsumeikan-learn",
+          "title": "立命館大学 経済学部 学び",
+          "url": "https://www.ritsumei.ac.jp/ec/feature/learn/",
+          "year": "現行掲載・年度明記なし",
+          "evidence": "経済専攻と国際専攻の教育の違いを確認。専攻別の履修条件は個別要項で確認が必要。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "経済学入門",
+          "stage": "1回生春学期／入門科目",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026パンフレットの科目名・学修配置を視覚確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ritsumeikan-brochure-2026"
+          ],
+          "studyFocus": "実際の授業で導入される用語を例・図と対応させる。"
+        },
+        {
+          "name": "基礎マクロ経済学",
+          "stage": "1回生の学びとして紹介／コア科目",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026パンフレットの配置と本文を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ritsumeikan-brochure-2026"
+          ],
+          "studyFocus": "モデルの変数と前提を固定し、変化の理由を説明する。"
+        },
+        {
+          "name": "基礎ミクロ経済学",
+          "stage": "2回生から履修可能との本文説明／コア科目",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "パンフレット本文に基づく。学生紹介の表現だけで1回生全員履修と断定しない。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ritsumeikan-brochure-2026"
+          ],
+          "studyFocus": "授業の図・式・最適化条件を、必要な数学からつなぐ。"
+        },
+        {
+          "name": "分析ツール／経済数学Ⅰ（ツール科目の掲載名称）",
+          "stage": "1〜2回生のツール科目として配置",
+          "requirement": "専攻別の対応関係・個別の必修選択条件未照合",
+          "topics": null,
+          "verification": "2026学修図の掲載名称を確認。スラッシュ表記を単一科目や全員同一履修と解釈しない。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ritsumeikan-brochure-2026",
+            "ritsumeikan-learn"
+          ],
+          "studyFocus": "履修している方の授業資料を確認し、数学的前提を補強する。"
+        },
+        {
+          "name": "基礎統計学",
+          "stage": "1〜2回生のツール科目として配置／1回生の学びにも紹介",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026パンフレットの科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ritsumeikan-brochure-2026"
+          ],
+          "studyFocus": "統計指標の意味と読み方を授業で使うデータで確かめる。"
+        },
+        {
+          "name": "情報処理演習",
+          "stage": "1〜2回生のツール科目として配置／1回生の学びにも紹介",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026パンフレットの科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ritsumeikan-brochure-2026"
+          ],
+          "studyFocus": "授業で使う表・グラフの作成と数値の解釈を確認する。"
+        },
+        {
+          "name": "社会経済学初級α・β",
+          "stage": "α＝1回生の学び、β＝2回生から履修可能との説明／コア科目",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026パンフレットの科目名と本文を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ritsumeikan-brochure-2026"
+          ],
+          "studyFocus": "授業の概念・議論の前提を区別し、文章で説明する。"
+        }
+      ]
+    },
+    {
+      "slug": "nihon",
+      "school": "日本大学",
+      "faculty": "経済学部 経済学科",
+      "yearLabel": "2026年度（令和8年度）学部要覧・履修系統図",
+      "scopeNote": "経済学科（国際コースを除く）を対象に2026年度要覧を確認。ミクロA/BとマクロA/Bはそれぞれ両方を連続履修する科目ではなく、いずれかを選ぶ規定がある。系統図に載っていても未開講科目があるという公式注記があるため、個別開講は時間割・担当シラバスで確認する。",
+      "sources": [
+        {
+          "id": "nihon-current",
+          "title": "経済学部 カリキュラム（2022年度以降入学者）",
+          "url": "https://www.eco.nihon-u.ac.jp/academics/faculty/curriculum/",
+          "year": "2022年度以降入学者・現行HP",
+          "evidence": "1年の基礎ミクロ・基礎マクロから専門科目へ進む構成と、産業経営学科の基礎マクロ非必修注記を確認。現行HPの履修系統図リンクは2024年度要覧へ接続。"
+        },
+        {
+          "id": "nihon-manual-2026",
+          "title": "2026年度 学部要覧・経済学科の履修の仕方",
+          "url": "https://www.eco.nihon-u.ac.jp/dp/gakubuyouran2026/html_details/kamoku-3.html",
+          "year": "2026年度",
+          "evidence": "専門必修は基礎ミクロ・基礎マクロ2科目8単位。プログラム24単位。ミクロA/B、マクロA/Bは各基礎科目の修得が先修条件で、AかBのどちらかを選ぶ規定を確認。"
+        },
+        {
+          "id": "nihon-map-common",
+          "title": "2026年度 履修系統図・経済学科共通",
+          "url": "https://www.eco.nihon-u.ac.jp/dp/gakubuyouran2026/html_details/kamoku-7_keitozuD.html",
+          "year": "2026年度",
+          "evidence": "2026年度要覧に紐づく公式図D_keizai_kyotu.pngを視覚確認。経済学科の基礎ミクロ・基礎マクロに必修印、後続のミクロ・マクロA/Bの配置を確認。"
+        },
+        {
+          "id": "nihon-map-theory",
+          "title": "2026年度 履修系統図・理論・政策プログラム",
+          "url": "https://www.eco.nihon-u.ac.jp/dp/gakubuyouran2026/image/risyu_fig/D/D_riron_seisaku.png",
+          "year": "2026年度",
+          "evidence": "公式図を視覚確認。1年の基礎統計・経済数学、2年の統計学・計量経済学・中級経済数学などを確認。個々の全員必修は示していない。"
+        },
+        {
+          "id": "nihon-map-notice",
+          "title": "2026年度 履修系統図と科目ナンバリング",
+          "url": "https://www.eco.nihon-u.ac.jp/dp/gakubuyouran2026/html_details/kamoku-7.html",
+          "year": "2026年度",
+          "evidence": "図は専門分野間の対応関係と順次性を示す。図に記載されても未開講の科目があるため開講状況は時間割で確認する、と明記。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "基礎ミクロ経済学",
+          "stage": "1年次（2026年度系統図）",
+          "requirement": "経済学科の必修。基礎マクロと合わせて2科目8単位。",
+          "topics": null,
+          "verification": "2026年度要覧と共通図を照合。担当別内容未照合。",
+          "sourceIds": [
+            "nihon-manual-2026",
+            "nihon-map-common"
+          ],
+          "studyFocus": "担当講義の図と式を使い、意思決定の仮定と結果を説明する。"
+        },
+        {
+          "name": "基礎マクロ経済学",
+          "stage": "1年次（2026年度系統図）",
+          "requirement": "経済学科の必修。基礎ミクロと合わせて2科目8単位。",
+          "topics": null,
+          "verification": "2026年度要覧と共通図を照合。他学科へ一般化しない。担当別内容未照合。",
+          "sourceIds": [
+            "nihon-manual-2026",
+            "nihon-map-common"
+          ],
+          "studyFocus": "講義で使う変数とモデルの前提を整理し、式・図から経済的な意味を確認する。"
+        },
+        {
+          "name": "経済数学Ⅰ・Ⅱ",
+          "stage": "1年配置（2026年度系統図）",
+          "requirement": "理論・政策プログラム関連科目。個別必修指定は未確認。",
+          "topics": null,
+          "verification": "2026年度公式図の名称・配置確認。個別開講・担当内容未照合。",
+          "sourceIds": [
+            "nihon-map-theory",
+            "nihon-map-notice"
+          ],
+          "studyFocus": "現在の授業資料で必要な数学を確認し、記号・計算の前提・式変形の理由へ戻る。"
+        },
+        {
+          "name": "基礎統計Ⅰ・Ⅱ",
+          "stage": "1年配置（2026年度系統図）",
+          "requirement": "理論・政策プログラム関連科目。個別必修指定は未確認。",
+          "topics": null,
+          "verification": "2026年度図確認。個別開講・担当内容未照合。",
+          "sourceIds": [
+            "nihon-map-theory",
+            "nihon-map-notice"
+          ],
+          "studyFocus": "担当授業の数式と具体例を対応させ、求めた数値の意味を説明する。"
+        },
+        {
+          "name": "ミクロ経済学A／ミクロ経済学B",
+          "stage": "2年配置（2026年度系統図）",
+          "requirement": "基礎ミクロ経済学の修得が先修条件。履修する場合はAとBのどちらかを選ぶ。全員必修とはしていない。",
+          "topics": null,
+          "verification": "2026年度要覧の選択・先修規定と図を確認。担当別内容未照合。",
+          "sourceIds": [
+            "nihon-manual-2026",
+            "nihon-map-common",
+            "nihon-map-theory"
+          ],
+          "studyFocus": "選んだ担当授業に合わせ、基礎ミクロの前提から現在の式・図・演習へ理解をつなぐ。"
+        },
+        {
+          "name": "マクロ経済学A／マクロ経済学B",
+          "stage": "2年配置（2026年度系統図）",
+          "requirement": "基礎マクロ経済学の修得が先修条件。履修する場合はAとBのどちらかを選ぶ。全員必修とはしていない。",
+          "topics": null,
+          "verification": "2026年度要覧の選択・先修規定と図を確認。担当別内容未照合。",
+          "sourceIds": [
+            "nihon-manual-2026",
+            "nihon-map-common",
+            "nihon-map-theory"
+          ],
+          "studyFocus": "選んだ授業の資料で基礎モデルとの差を整理し、仮定と結果を説明する。"
+        },
+        {
+          "name": "統計学Ⅰ・Ⅱ",
+          "stage": "2年配置（2026年度系統図）",
+          "requirement": "理論・政策プログラム関連科目。個別必修指定は未確認。",
+          "topics": null,
+          "verification": "2026年度図確認。個別開講・担当内容未照合。",
+          "sourceIds": [
+            "nihon-map-theory",
+            "nihon-map-notice"
+          ],
+          "studyFocus": "担当授業の記号・計算・結果の解釈を一緒に確認する。"
+        },
+        {
+          "name": "計量経済学Ⅰ・Ⅱ",
+          "stage": "2年配置（2026年度系統図）",
+          "requirement": "理論・政策プログラム関連科目。個別必修指定は未確認。",
+          "topics": null,
+          "verification": "2026年度図確認。個別開講・担当内容未照合。",
+          "sourceIds": [
+            "nihon-map-theory",
+            "nihon-map-notice"
+          ],
+          "studyFocus": "講義の分析式・データ・結果を読み、必要な数学・統計の前提を補って解釈する。"
+        }
+      ]
+    },
+    {
+      "slug": "toyo",
+      "school": "東洋大学",
+      "faculty": "経済学部 第1部 経済学科",
+      "yearLabel": "2025年度以降入学生用 授業科目一覧",
+      "scopeNote": "公式の第1部経済学科科目表を対象とし、国際経済学科・総合政策学科・第2部へ必修や配当を一般化しない。選択科目Aの個別授業は全員必修ではない。2026の担当別開講・シラバス内容は未照合のため、科目表の標準配当と年度の実開講を区別する。",
+      "sources": [
+        {
+          "id": "toyo-curriculum-deco",
+          "title": "2025年度以降入学生用 経済学部第1部経済学科 授業科目一覧",
+          "url": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/undergraduate/eco/curriculum/eco-deco-curriculum.pdf",
+          "year": "2025年度以降入学生用",
+          "evidence": "PDF1ページを目視照合。経済学入門A・Bは1年、ミクロ・マクロは2年の必修。経済数学Ⅰ・統計学Ⅰ等は1年、Ⅱは2年、計量経済学A・Bは3・4年欄に掲載。選択科目Aと必修科目の枠を区別。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "経済学入門A・B",
+          "stage": "1年次配当",
+          "requirement": "経済の必修科目（各2単位）。",
+          "topics": null,
+          "verification": "正式名・配当・必修を公式科目表で目視確認。年度別開講と担当別シラバス内容未照合。",
+          "sourceIds": [
+            "toyo-curriculum-deco"
+          ],
+          "studyFocus": "授業の用語と図を整理し、次のミクロ・マクロへ必要な前提を確かめる。"
+        },
+        {
+          "name": "ミクロ経済学",
+          "stage": "2年次配当",
+          "requirement": "経済の必修科目（4単位）。",
+          "topics": null,
+          "verification": "正式名・配当・必修を公式科目表で目視確認。年度別開講と担当別シラバス内容未照合。",
+          "sourceIds": [
+            "toyo-curriculum-deco"
+          ],
+          "studyFocus": "式・グラフ・文章を対応させ、授業の条件と計算の意味を確認する。"
+        },
+        {
+          "name": "マクロ経済学",
+          "stage": "2年次配当",
+          "requirement": "経済の必修科目（4単位）。",
+          "topics": null,
+          "verification": "正式名・配当・必修を公式科目表で目視確認。年度別開講と担当別シラバス内容未照合。",
+          "sourceIds": [
+            "toyo-curriculum-deco"
+          ],
+          "studyFocus": "モデルの変数と仮定を整理し、式変形の結果を図や言葉で読み取る。"
+        },
+        {
+          "name": "経済数学ⅠA・ⅠB",
+          "stage": "1年次配当／経済理論・政策の基礎",
+          "requirement": "選択科目A（各2単位）。個別の必修科目ではない。",
+          "topics": null,
+          "verification": "正式名・配当・選択区分を公式科目表で目視確認。年度別開講と担当別シラバス内容未照合。",
+          "sourceIds": [
+            "toyo-curriculum-deco"
+          ],
+          "studyFocus": "高校数学の前提から、授業に登場する数式や記号の読み方を確認する。"
+        },
+        {
+          "name": "経済数学ⅡA・ⅡB",
+          "stage": "2年次配当／経済理論・政策の基礎",
+          "requirement": "選択科目A（各2単位）。個別の必修科目ではない。",
+          "topics": null,
+          "verification": "正式名・配当・選択区分を公式科目表で目視確認。年度別開講と担当別シラバス内容未照合。",
+          "sourceIds": [
+            "toyo-curriculum-deco"
+          ],
+          "studyFocus": "Ⅰの前提を確認し、授業で求められる計算・導出・説明をつなぐ。"
+        },
+        {
+          "name": "統計学ⅠA・ⅠB／ⅡA・ⅡB",
+          "stage": "Ⅰは1年次、Ⅱは2年次配当／経済統計の基礎",
+          "requirement": "選択科目A（各2単位）。個別の必修科目ではない。",
+          "topics": null,
+          "verification": "正式名・配当・選択区分を公式科目表で目視確認。年度別開講と担当別シラバス内容未照合。",
+          "sourceIds": [
+            "toyo-curriculum-deco"
+          ],
+          "studyFocus": "数値と記号の意味を確認し、授業の統計計算とデータの読み取りを結びつける。"
+        },
+        {
+          "name": "統計情報処理ⅠA・ⅠB／ⅡA・ⅡB",
+          "stage": "Ⅰは1年次、Ⅱは2年次配当／経済統計の基礎",
+          "requirement": "選択科目A（各1単位）。個別の必修科目ではない。",
+          "topics": null,
+          "verification": "正式名・配当・選択区分を公式科目表で目視確認。使用ソフトを含む年度別シラバス内容未照合。",
+          "sourceIds": [
+            "toyo-curriculum-deco"
+          ],
+          "studyFocus": "授業資料を使い、操作の手順と出力の意味を一緒に確認する。"
+        },
+        {
+          "name": "計量経済学A・B",
+          "stage": "Aは3年次、Bは4年次欄に掲載／経済統計の理論と応用",
+          "requirement": "選択科目A（各2単位）。3・4年次配当科目枠。個別の履修条件は未照合。",
+          "topics": null,
+          "verification": "正式名・配当欄・選択区分を公式科目表で目視確認。年度別開講と担当別シラバス内容未照合。",
+          "sourceIds": [
+            "toyo-curriculum-deco"
+          ],
+          "studyFocus": "数学・統計の前提を確認し、分析で何を示したいのかと結果の読み方を整理する。"
+        }
+      ]
+    },
+    {
+      "slug": "komazawa",
+      "school": "駒澤大学",
+      "faculty": "経済学部 経済学科",
+      "yearLabel": "2026年度開講科目の公式カリキュラム図",
+      "scopeNote": "経済学科に限定し、商学科・現代応用経済学科と混同しない。公式ページでは2027年度入学生用SCOPEに掲載した2026年度開講科目の図として提供している。未来の全年度開講保証ではない。図の年次範囲・必修/選択は確認したが、入学年度別履修要項・担当別シラバスの内容は未照合。",
+      "sources": [
+        {
+          "id": "komazawa-curriculum-page",
+          "title": "経済学科 カリキュラム",
+          "url": "https://www.komazawa-u.ac.jp/academics/faculty/economics/economics/curriculum.html",
+          "year": "2026年度カリキュラム",
+          "evidence": "公式カリキュラム図への導線。SCOPEの2027年度入学生用案内掲載の2026年度開講科目で、年度により変更する場合があると注記。"
+        },
+        {
+          "id": "komazawa-curriculum-2026",
+          "title": "経済学部 経済学科 2026年度開講科目 カリキュラム図",
+          "url": "https://www.komazawa-u.ac.jp/academics/files/13_2026curriculum_keizai.pdf",
+          "year": "2026年度開講科目",
+          "evidence": "PDF1ページ（冊子71ページ）を目視照合。必修はミクロ経済学と経済理論・資本の原理a/b。マクロ経済学・経済学入門a/b・経済数学a/bは選択。計量経済学a/b、経済統計a/b、応用ミクロ・マクロa/bは2〜4年の選択枠に掲載。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "経済学入門a・b",
+          "stage": "1年次の選択枠に掲載",
+          "requirement": "選択科目。必修ではない。",
+          "topics": null,
+          "verification": "正式名・図の年次欄・選択区分を目視確認。個別履修条件と担当別シラバス内容未照合。",
+          "sourceIds": [
+            "komazawa-curriculum-2026"
+          ],
+          "studyFocus": "授業の基本概念を整理し、グラフと式の説明につなげる。"
+        },
+        {
+          "name": "ミクロ経済学",
+          "stage": "1年次の必修枠に掲載",
+          "requirement": "必修科目。",
+          "topics": null,
+          "verification": "正式名・図の年次欄・必修区分を目視確認。個別履修条件と担当別シラバス内容未照合。",
+          "sourceIds": [
+            "komazawa-curriculum-2026"
+          ],
+          "studyFocus": "文章・式・グラフを対応させ、授業で使う条件と計算の意味を確認する。"
+        },
+        {
+          "name": "マクロ経済学",
+          "stage": "1年次の選択枠に掲載",
+          "requirement": "選択科目。ミクロと同じ必修区分とは扱わない。",
+          "topics": null,
+          "verification": "正式名・図の年次欄・選択区分を目視確認。個別履修条件と担当別シラバス内容未照合。",
+          "sourceIds": [
+            "komazawa-curriculum-2026"
+          ],
+          "studyFocus": "モデルの変数と仮定を整理し、式変形の結果を言葉や図で確かめる。"
+        },
+        {
+          "name": "経済理論・資本の原理a・b",
+          "stage": "1〜4年次にまたがる必修枠に掲載",
+          "requirement": "必修科目。具体的な履修時期は入学年度の履修要項で確認する。",
+          "topics": null,
+          "verification": "正式名・図の年次範囲・必修区分を目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "komazawa-curriculum-2026"
+          ],
+          "studyFocus": "用語の定義と説明の筋道を確認し、授業の理論を自分の言葉で整理する。"
+        },
+        {
+          "name": "経済数学a・b",
+          "stage": "1〜4年次にまたがる選択枠に掲載",
+          "requirement": "選択科目。個別の配当・履修条件の詳細は未照合。",
+          "topics": null,
+          "verification": "正式名・図の年次範囲・選択区分を目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "komazawa-curriculum-2026"
+          ],
+          "studyFocus": "必要な高校数学と記号の読み方を確かめ、授業の計算と定義をつなぐ。"
+        },
+        {
+          "name": "経済統計a・b",
+          "stage": "2〜4年次の選択枠に掲載",
+          "requirement": "選択科目。個別の履修条件は未照合。",
+          "topics": null,
+          "verification": "正式名・図の年次範囲・選択区分を目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "komazawa-curriculum-2026"
+          ],
+          "studyFocus": "統計の数値や記号の意味を確かめ、授業のデータと式を結びつける。"
+        },
+        {
+          "name": "計量経済学a・b",
+          "stage": "2〜4年次の選択枠に掲載",
+          "requirement": "選択科目。個別の履修条件は未照合。",
+          "topics": null,
+          "verification": "正式名・図の年次範囲・選択区分を目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "komazawa-curriculum-2026"
+          ],
+          "studyFocus": "数学・統計の前提と分析の目的を確認し、授業の結果を説明できる形にする。"
+        },
+        {
+          "name": "応用ミクロ経済学a・b／応用マクロ経済学a・b",
+          "stage": "2〜4年次の選択枠に掲載",
+          "requirement": "選択科目。個別の履修条件は未照合。",
+          "topics": null,
+          "verification": "正式名・図の年次範囲・選択区分を目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "komazawa-curriculum-2026"
+          ],
+          "studyFocus": "基礎の考え方を確認してから、授業のモデル・導出・応用問題を読み直す。"
+        }
+      ]
+    },
+    {
+      "slug": "senshu",
+      "school": "専修大学",
+      "faculty": "経済学部 現代経済学科",
+      "yearLabel": "2026年度入学生用 経済学部学修ガイドブック（新カリキュラム）",
+      "scopeNote": "現代経済学科・2026年度入学生の新カリキュラムに限定する。2020〜2025年度入学生、生活環境経済学科、国際経済学科へ一般化しない。必修は修得必須、必履修は所定年次の履修必須であり両者を区別する。基礎・基幹・発展では群の修得要件を個別科目の全員必修と扱わない。科目一覧・説明を目視確認したが担当別シラバス内容は未照合。",
+      "sources": [
+        {
+          "id": "senshu-guide-index",
+          "title": "各種履修ガイドブック",
+          "url": "https://www.senshu-u.ac.jp/campuslife/course/guidebook.html",
+          "year": "2026年度",
+          "evidence": "経済学部の2026年度入学生用ガイドブック（新カリキュラム）と2020〜2025年度入学生用ガイドを分けて公開。"
+        },
+        {
+          "id": "senshu-guide-2026",
+          "title": "2026年度入学生用 経済学部 学修ガイドブック",
+          "url": "https://www.senshu-u.ac.jp/albums/abm.php?d=1827&f=abm00076159.pdf&n=E%E7%B5%8C%E6%B8%88%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF_%E6%A0%A1%E4%BA%86_1.pdf",
+          "year": "2026年度入学生用",
+          "evidence": "PDF47ページの現代経済学科一覧、95ページ（冊子88ページ）の説明を目視確認。入門ミクロ・マクロは必修。数学基礎・統計学基礎は両方必履修で卒業までどちらか1科目2単位修得。2年基礎は6科目から4科目8単位。基幹は2・3年配当、発展は3年以降。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "ミクロ経済学入門",
+          "stage": "1年次配当／導入科目",
+          "requirement": "必修科目（2単位）。導入の4必修科目8単位の一つ。",
+          "topics": null,
+          "verification": "正式名・配当・必修を2026ガイドの科目一覧と説明で目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "senshu-guide-2026"
+          ],
+          "studyFocus": "図・式・言葉の対応を確認し、次の基礎科目へ必要な前提を整理する。"
+        },
+        {
+          "name": "マクロ経済学入門",
+          "stage": "1年次配当／導入科目",
+          "requirement": "必修科目（2単位）。導入の4必修科目8単位の一つ。",
+          "topics": null,
+          "verification": "正式名・配当・必修を2026ガイドの科目一覧と説明で目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "senshu-guide-2026"
+          ],
+          "studyFocus": "授業の変数・仮定を整理し、モデルの式を言葉と図で説明する。"
+        },
+        {
+          "name": "経済数学基礎／統計学基礎",
+          "stage": "原則1年次配当／導入科目（2年次以降も履修可）",
+          "requirement": "両方とも必履修科目（各2単位）。所定年次に両方の履修が必要だが、卒業までに両方の単位修得が必須という意味ではなく、いずれか1科目2単位の修得が必要。",
+          "topics": null,
+          "verification": "正式名・配当・必履修と修得要件の違いを2026ガイドで目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "senshu-guide-2026"
+          ],
+          "studyFocus": "高校数学と統計の前提を確認し、授業の記号・計算・解釈をつなぐ。"
+        },
+        {
+          "name": "ミクロ経済学1・2",
+          "stage": "原則2年次配当／基礎科目（3年次以降も履修可）",
+          "requirement": "基礎科目6科目から少なくとも4科目8単位を修得する群の一部。個々の1・2を全員必修とは扱わない。",
+          "topics": null,
+          "verification": "正式名・配当・基礎群の修得要件を2026ガイドで目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "senshu-guide-2026"
+          ],
+          "studyFocus": "入門の前提を確かめ、現在の授業で使う導出と演習を説明しながら進める。"
+        },
+        {
+          "name": "マクロ経済学1・2",
+          "stage": "原則2年次配当／基礎科目（3年次以降も履修可）",
+          "requirement": "基礎科目6科目から少なくとも4科目8単位を修得する群の一部。個々の1・2を全員必修とは扱わない。",
+          "topics": null,
+          "verification": "正式名・配当・基礎群の修得要件を2026ガイドで目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "senshu-guide-2026"
+          ],
+          "studyFocus": "モデルの関係式を整理し、計算の途中式と経済的な意味を結びつける。"
+        },
+        {
+          "name": "統計学1・2",
+          "stage": "原則2年次配当／基礎科目（3年次以降も履修可）",
+          "requirement": "基礎科目6科目から少なくとも4科目8単位を修得する群の一部。個々の1・2を全員必修とは扱わない。",
+          "topics": null,
+          "verification": "正式名・配当・基礎群の修得要件を2026ガイドで目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "senshu-guide-2026"
+          ],
+          "studyFocus": "記号と数値の意味を確かめ、授業の統計計算と解釈を往復して練習する。"
+        },
+        {
+          "name": "経済数学1・2",
+          "stage": "2年次欄に掲載／基幹科目（基幹群は2・3年次配当、4年次以降も履修可）",
+          "requirement": "基幹科目の理論系。理論系1科目2単位、実証・現状分析系4科目8単位を含む合計16単位の群要件。個々の経済数学1・2の修得が全員必須とは扱わない。",
+          "topics": null,
+          "verification": "正式名・配当欄・基幹群の修得要件を2026ガイドで目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "senshu-guide-2026"
+          ],
+          "studyFocus": "基礎科目の前提から、授業の式・定義・導出を理解できる順序に整理する。"
+        },
+        {
+          "name": "計量経済学1・2",
+          "stage": "3年次から履修可能／発展科目の理論系",
+          "requirement": "発展科目群の選択。群の卒業修得要件や選択プログラムがあるが、計量経済学1・2の個別修得を全員必須とは扱わない。",
+          "topics": null,
+          "verification": "正式名・発展区分・年次を2026ガイドで目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "senshu-guide-2026"
+          ],
+          "studyFocus": "数学と統計の前提を確認し、授業の分析の目的・式・結果をまとめて説明する。"
+        }
+      ]
+    },
+    {
+      "slug": "kyoto-sangyo",
+      "school": "京都産業大学",
+      "faculty": "経済学部経済学科",
+      "yearLabel": "2026年度専門教育科目時間割表・現行学部案内",
+      "scopeNote": "科目名と対象年次は2026公式時間割2ページを視覚確認。『自動』は自動登録を意味し、必修とは同一視しない。2020年度以降入学生の経済学入門Ⅰ・Ⅱの条件は時間割末尾で確認し、Ⅰの必修表示とⅡの『履修のみ必須』を区別した。個別担当者・学期の内容とシラバス本文は未照合。",
+      "sources": [
+        {
+          "id": "ksu-timetable-2026",
+          "title": "京都産業大学 2026年度 経済学部 専門教育科目時間割表",
+          "url": "https://www.kyoto-su.ac.jp/support/lesson/syllabus/pdf/01_ec.pdf",
+          "year": "2026年度",
+          "evidence": "正式科目名・対象年次を確認。経済数学Ａ・Ｂは1年、ミクロ／マクロ・統計Ａ・Ｂは2年、計量Ａ・Ｂは3年対象。末尾に必修・自動登録の凡例と経済学入門の入学年度別条件あり。"
+        },
+        {
+          "id": "ksu-faculty",
+          "title": "京都産業大学 経済学部",
+          "url": "https://www.kyoto-su.ac.jp/faculty/ec/",
+          "year": "現行掲載・年度明記なし",
+          "evidence": "経済学科、1年の導入・数学と2年以降の専門という説明を確認。"
+        },
+        {
+          "id": "ksu-data",
+          "title": "京都産業大学 経済学部 データサイエンスプログラム",
+          "url": "https://www.kyoto-su.ac.jp/faculty/ec/data_new/",
+          "year": "現行掲載・年度明記なし（学生紹介は取材時点）",
+          "evidence": "データ処理セミナーとデータ分析セミナーの公式概要を確認。ただし個別授業シラバスではない。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "経済学入門Ⅰ・Ⅱ",
+          "stage": "1年対象／Ⅰ春・Ⅱ秋の開講例",
+          "requirement": "2020年度以降入学生のみ履修可。Ⅰは必修表示、Ⅱは『履修のみ必須科目』との注意事項",
+          "topics": null,
+          "verification": "2026時間割の名称・対象・末尾の条件を視覚確認。履修必須と単位修得必修を同一視しない。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ksu-timetable-2026"
+          ],
+          "studyFocus": "授業で出てくる経済用語を図と身近な例で説明する。"
+        },
+        {
+          "name": "経済数学入門",
+          "stage": "1年対象",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026時間割の科目名・対象を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ksu-timetable-2026",
+            "ksu-faculty"
+          ],
+          "studyFocus": "授業で使う記号・関数・計算を高校範囲との接続から確認する。"
+        },
+        {
+          "name": "経済数学Ａ・Ｂ",
+          "stage": "1年対象／Ａ春・Ｂ秋の開講例",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026時間割の正式名・対象を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ksu-timetable-2026"
+          ],
+          "studyFocus": "現在の授業で必要な微分等の意味と計算をつなぐ。"
+        },
+        {
+          "name": "ミクロ経済学Ａ・Ｂ",
+          "stage": "2年対象／Ａ春・Ｂ秋の開講例",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026時間割の正式名・対象を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ksu-timetable-2026"
+          ],
+          "studyFocus": "授業の図・式・条件を相互に説明できるようにする。"
+        },
+        {
+          "name": "マクロ経済学Ａ・Ｂ",
+          "stage": "2年対象／Ａ春・Ｂ秋の開講例",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026時間割の正式名・対象を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ksu-timetable-2026"
+          ],
+          "studyFocus": "モデルの変数・前提と式変形を分けて整理する。"
+        },
+        {
+          "name": "統計学Ａ・Ｂ",
+          "stage": "2年対象／Ａ春・Ｂ秋の開講例",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026時間割2ページ目の正式名・対象を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ksu-timetable-2026"
+          ],
+          "studyFocus": "授業で用いる指標・確率の意味と計算を小さな例で確かめる。"
+        },
+        {
+          "name": "データ処理セミナー・データ分析セミナー（段階別科目群）",
+          "stage": "処理＝1年秋、分析＝2年春の対象・開講例",
+          "requirement": "処理には自動登録の表示／必修選択区分は未照合",
+          "topics": null,
+          "verification": "2026時間割の名称・対象と公式プログラム概要を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ksu-timetable-2026",
+            "ksu-data"
+          ],
+          "studyFocus": "授業で作成した表・グラフを読み、分析の意味を説明する。"
+        },
+        {
+          "name": "計量経済学Ａ・Ｂ",
+          "stage": "3年対象／Ａ春・Ｂ秋の開講例",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026時間割の正式名・対象を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ksu-timetable-2026"
+          ],
+          "studyFocus": "統計の前提と授業の推定結果・解釈をつなぐ。"
+        }
+      ]
+    },
+    {
+      "slug": "kindai",
+      "school": "近畿大学",
+      "faculty": "経済学部経済学科",
+      "yearLabel": "2026年度カリキュラム",
+      "scopeNote": "経済学科のみを対象とし、国際経済学科・総合経済政策学科の科目を混在させない。2026カリキュラム表とツリーを照合。学部共通・学科共通・コース科目という分類だけから全員必修と断定しない。2027以降の変更可能性が公式ページに明記されている。",
+      "sources": [
+        {
+          "id": "kindai-curriculum-2026",
+          "title": "近畿大学 経済学部 経済学科 カリキュラム",
+          "url": "https://www.kindai.ac.jp/economics/department/economics/curriculum/",
+          "year": "2026年度（ページ末尾に明記）",
+          "evidence": "1〜4年の科目表と学部共通・学科共通・コース科目の区分を確認。2027年度以降変更の可能性を明記。"
+        },
+        {
+          "id": "kindai-tree-2026",
+          "title": "近畿大学 経済学科 カリキュラムツリー",
+          "url": "https://www.kindai.ac.jp/economics/files/department/economics/curriculum/dep_economics_tree.pdf",
+          "year": "2026年度",
+          "evidence": "PDFを描画し、統計・ミクロ・マクロの1年配置と、計量・経済数学等の2年配置を確認。共通科目を必修とは解釈しない。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "ミクロ経済学Ⅰ・Ⅱ",
+          "stage": "1年／Ⅰは学部共通・Ⅱは学科共通科目",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026表・ツリーで科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kindai-curriculum-2026",
+            "kindai-tree-2026"
+          ],
+          "studyFocus": "履修中の需要・供給等の図と式を説明する。"
+        },
+        {
+          "name": "マクロ経済学Ⅰ・Ⅱ",
+          "stage": "1年／Ⅰは学部共通・Ⅱは学科共通科目",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026表・ツリーで科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kindai-curriculum-2026",
+            "kindai-tree-2026"
+          ],
+          "studyFocus": "授業のモデルを変数・前提・因果に分ける。"
+        },
+        {
+          "name": "統計学Ⅰ・Ⅱ",
+          "stage": "1年／学部共通科目",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026表・ツリーで科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kindai-curriculum-2026",
+            "kindai-tree-2026"
+          ],
+          "studyFocus": "授業の指標を小さなデータで計算し、意味を説明する。"
+        },
+        {
+          "name": "計量経済学Ⅰ・Ⅱ",
+          "stage": "2年／学部共通科目",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026表・ツリーで科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kindai-curriculum-2026",
+            "kindai-tree-2026"
+          ],
+          "studyFocus": "統計の前提と授業の回帰式・結果解釈をつなぐ。"
+        },
+        {
+          "name": "経済数学Ⅰ・Ⅱ",
+          "stage": "2年／コース科目欄に掲載",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026表・ツリーで科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kindai-curriculum-2026",
+            "kindai-tree-2026"
+          ],
+          "studyFocus": "実際の授業の数学を、前提・意味・計算に分けて補強する。"
+        },
+        {
+          "name": "財政学Ⅰ・Ⅱ",
+          "stage": "2年／学科共通科目",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026カリキュラム表で科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kindai-curriculum-2026"
+          ],
+          "studyFocus": "授業の政策比較に使う図・指標と前提を整理する。"
+        },
+        {
+          "name": "金融論Ⅰ・Ⅱ",
+          "stage": "2年／学科共通科目",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026カリキュラム表で科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kindai-curriculum-2026"
+          ],
+          "studyFocus": "授業で扱う金融用語と利子等の計算の意味を整理する。"
+        },
+        {
+          "name": "ゲーム理論",
+          "stage": "2年／コース科目欄に掲載",
+          "requirement": "個別の必修・選択条件未照合",
+          "topics": null,
+          "verification": "2026カリキュラム表で科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "kindai-curriculum-2026"
+          ],
+          "studyFocus": "授業の利得表・戦略・均衡条件を小さな例で説明する。"
+        }
+      ]
+    },
+    {
+      "slug": "konan",
+      "school": "甲南大学",
+      "faculty": "経済学部経済学科",
+      "yearLabel": "2026年度参考・一部抜粋のカリキュラム図",
+      "scopeNote": "公式図は2026年度参考・一部抜粋であり、全開講科目表ではない。黒四角の必修表示と白四角のその他科目を視覚確認。白四角を詳細な履修要件未確認のまま単純に選択科目と断定しない。個別シラバス本文は未照合。",
+      "sources": [
+        {
+          "id": "konan-study-2026",
+          "title": "甲南大学 経済学部 4年間の学び カリキュラム図",
+          "url": "https://www.konan-u.ac.jp/faculty/economics/eco/pdf/study.pdf",
+          "year": "2026年度参考・一部抜粋",
+          "evidence": "PDFを描画して1年の必修表示（経済入門Ⅰ・Ⅱ、入門ミクロ、入門マクロ）と数学入門・統計入門、2年の経済数学・中級理論・統計、3年の計量経済Ⅰ・Ⅱを確認。"
+        },
+        {
+          "id": "konan-curriculum",
+          "title": "甲南大学 経済学部経済学科 4年間の学び",
+          "url": "https://www.konan-u.ac.jp/faculty/economics/eco/curriculum.html",
+          "year": "現行掲載・年度明記なし",
+          "evidence": "1年の基礎、2年の中級、3年の専門、4年の卒業研究という構造を確認。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "経済入門Ⅰ・Ⅱ",
+          "stage": "1年／基礎科目",
+          "requirement": "必修表示あり（2026参考図）",
+          "topics": null,
+          "verification": "公式図の名称・配置・黒四角を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "konan-study-2026"
+          ],
+          "studyFocus": "授業の経済用語を例と図で自分の言葉にする。"
+        },
+        {
+          "name": "入門ミクロ経済学・中級ミクロ経済学（段階別科目群）",
+          "stage": "入門＝1年基礎科目／中級＝2年Ａ群科目",
+          "requirement": "入門は必修表示あり。中級は必修表示なし／詳細条件未照合",
+          "topics": null,
+          "verification": "公式図の各科目名・配置・必修表示を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "konan-study-2026"
+          ],
+          "studyFocus": "入門の図から中級の式・条件へ、履修中の内容に合わせてつなぐ。"
+        },
+        {
+          "name": "入門マクロ経済学・中級マクロ経済学（段階別科目群）",
+          "stage": "入門＝1年基礎科目／中級＝2年Ａ群科目",
+          "requirement": "入門は必修表示あり。中級は必修表示なし／詳細条件未照合",
+          "topics": null,
+          "verification": "公式図の各科目名・配置・必修表示を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "konan-study-2026"
+          ],
+          "studyFocus": "履修中のモデルについて前提・変数・式の意味を整理する。"
+        },
+        {
+          "name": "数学入門",
+          "stage": "1年／基礎科目",
+          "requirement": "必修表示なし／詳細な必修選択条件未照合",
+          "topics": null,
+          "verification": "公式図の科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "konan-study-2026"
+          ],
+          "studyFocus": "授業で使う数学記号と関数・計算の前提を確認する。"
+        },
+        {
+          "name": "統計入門",
+          "stage": "1年／基礎科目",
+          "requirement": "必修表示なし／詳細な必修選択条件未照合",
+          "topics": null,
+          "verification": "公式図の科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "konan-study-2026"
+          ],
+          "studyFocus": "小さなデータで授業の指標・計算・読み方を確かめる。"
+        },
+        {
+          "name": "経済数学",
+          "stage": "2年／共通科目",
+          "requirement": "必修表示なし／詳細な必修選択条件未照合",
+          "topics": null,
+          "verification": "公式図の科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "konan-study-2026"
+          ],
+          "studyFocus": "経済の式に使う数学を、意味と計算の両面から補強する。"
+        },
+        {
+          "name": "中級統計学",
+          "stage": "2年／Ａ群科目",
+          "requirement": "必修表示なし／詳細な必修選択条件未照合",
+          "topics": null,
+          "verification": "公式図の科目名・配置を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "konan-study-2026"
+          ],
+          "studyFocus": "統計入門との接続を確かめ、授業の式の前提と意味を説明する。"
+        },
+        {
+          "name": "計量経済Ⅰ・Ⅱ",
+          "stage": "3年／Ａ群科目",
+          "requirement": "必修表示なし／詳細な必修選択条件未照合",
+          "topics": null,
+          "verification": "公式図の正式表記は計量経済Ⅰ・Ⅱ。科目名・配置を確認、個別シラバス本文未照合。",
+          "sourceIds": [
+            "konan-study-2026"
+          ],
+          "studyFocus": "授業の推定式と結果の解釈を、統計の前提から確認する。"
+        }
+      ]
+    },
+    {
+      "slug": "ryukoku",
+      "school": "龍谷大学",
+      "faculty": "経済学部（現代経済学科・国際経済学科）",
+      "yearLabel": "2026年度入学生 履修要項Webサイト",
+      "scopeNote": "基礎科目は両学科の学部専攻科目として掲載。計量経済学Ａ・Ｂは現代経済学科の経済データサイエンスプログラムに所属し、国際経済学科の選択科目表にも掲載されている。『全員履修科目』とプログラム修了条件を区別し、後者を全学部生の卒業必修にしない。配当セメスターから年次を併記した。",
+      "sources": [
+        {
+          "id": "ryukoku-rishu-2026",
+          "title": "龍谷大学 履修要項Webサイト 経済学部専攻科目の教育目的および履修方法",
+          "url": "https://rishu.ryukoku.ac.jp/curriculum/faculty-econ/s03/",
+          "year": "2026年度入学生",
+          "evidence": "基礎科目の配当セメスター・名称・全員履修表示、現代経済学科の経済データサイエンス科目、および国際経済学科の選択科目表への計量Ａ・Ｂの掲載を確認。計量Ａは4、Ｂは5セメスター。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "ミクロ経済学入門Ⅰ・Ⅱ",
+          "stage": "Ⅰ＝第1、Ⅱ＝第2セメスター（1年）／経済学の基礎Ⅰ",
+          "requirement": "Ⅰのみ全員履修科目と明記。Ⅱは全員履修表示なし／詳細条件未照合",
+          "topics": null,
+          "verification": "2026履修要項の名称・配当・全員履修表示を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ryukoku-rishu-2026"
+          ],
+          "studyFocus": "授業の図・式・説明を対応させ、自分の言葉で理解を確認する。"
+        },
+        {
+          "name": "マクロ経済学入門Ⅰ・Ⅱ",
+          "stage": "Ⅰ＝第1、Ⅱ＝第2セメスター（1年）／経済学の基礎Ⅰ",
+          "requirement": "Ⅰのみ全員履修科目と明記。Ⅱは全員履修表示なし／詳細条件未照合",
+          "topics": null,
+          "verification": "2026履修要項の名称・配当・全員履修表示を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ryukoku-rishu-2026"
+          ],
+          "studyFocus": "授業のモデルの前提と、変数が動く理由を整理する。"
+        },
+        {
+          "name": "統計学入門",
+          "stage": "第2セメスター（1年）／経済学の基礎Ⅰ",
+          "requirement": "全員履修科目と明記",
+          "topics": null,
+          "verification": "2026履修要項の名称・配当・全員履修表示を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ryukoku-rishu-2026"
+          ],
+          "studyFocus": "指標の意味・計算・データの読み方を小さな例で確かめる。"
+        },
+        {
+          "name": "経済数学",
+          "stage": "第2セメスター（1年）／経済学の基礎Ⅱ",
+          "requirement": "全員履修表示なし／個別の必修選択条件未照合",
+          "topics": null,
+          "verification": "2026履修要項の名称・配当を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ryukoku-rishu-2026"
+          ],
+          "studyFocus": "授業資料に必要な数学を、前提と意味から補強する。"
+        },
+        {
+          "name": "統計学",
+          "stage": "第3セメスター（2年）／経済学の基礎Ⅱ",
+          "requirement": "全員履修表示なし。経済データサイエンスプログラムの条件を卒業必修とは同一視しない",
+          "topics": null,
+          "verification": "2026履修要項の名称・配当を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ryukoku-rishu-2026"
+          ],
+          "studyFocus": "統計学入門との接続を確かめ、授業の式・仮定を説明する。"
+        },
+        {
+          "name": "ミクロ経済学Ａ・Ｂ",
+          "stage": "第3セメスター（2年）／経済学の基礎Ⅱ",
+          "requirement": "全員履修表示なし。経済理論プログラムの条件を卒業必修とは同一視しない",
+          "topics": null,
+          "verification": "2026履修要項の名称・配当を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ryukoku-rishu-2026"
+          ],
+          "studyFocus": "入門から発展した式と条件を、現在の授業資料で確認する。"
+        },
+        {
+          "name": "マクロ経済学",
+          "stage": "第3セメスター（2年）／経済学の基礎Ⅱ",
+          "requirement": "全員履修表示なし。経済理論プログラムの条件を卒業必修とは同一視しない",
+          "topics": null,
+          "verification": "2026履修要項の名称・配当を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ryukoku-rishu-2026"
+          ],
+          "studyFocus": "入門と現在のモデルの違いを前提・変数・式で整理する。"
+        },
+        {
+          "name": "計量経済学Ａ・Ｂ",
+          "stage": "Ａ＝第4セメスター（2年）、Ｂ＝第5セメスター（3年）",
+          "requirement": "現代経済学科のプログラム科目。国際経済学科の選択科目表にも掲載／全学部生必修とはしない。詳細条件未照合",
+          "topics": null,
+          "verification": "2026履修要項の名称・配当・所属プログラムと国際経済学科の選択科目表を確認。個別シラバス本文未照合。",
+          "sourceIds": [
+            "ryukoku-rishu-2026"
+          ],
+          "studyFocus": "授業の回帰式・推定結果を統計の前提とつなげて解釈する。"
+        }
+      ]
+    },
+    {
+      "slug": "sophia",
+      "school": "上智大学",
+      "faculty": "経済学部 経済学科",
+      "yearLabel": "2026年度履修要覧（学部科目編）",
+      "scopeNote": "経済学科の科目表に限定し、経営学科・SPSFの要件へ一般化しない。A群は必修、B群は選択必修30単位の群であり、B群の個々の科目が全員必修という意味ではない。配当・卒業要件・計量の前提条件は入学年度で差がある。2026科目表を目視照合したが、担当別シラバスの授業内容は未照合。",
+      "sources": [
+        {
+          "id": "sophia-curriculum",
+          "title": "経済学科 カリキュラム",
+          "url": "https://fe.sophia.ac.jp/department/economics/curriculum",
+          "year": "現行公開ページ（年度表記なし）",
+          "evidence": "1・2年次の必修としてINTRODUCTION TO ECONOMICS、ミクロ経済学A、マクロ経済学A・Bを案内。専門選択とゼミを経済学科の経路として説明。"
+        },
+        {
+          "id": "sophia-guide-2026",
+          "title": "2026年度 履修要覧 学部科目編 経済学部",
+          "url": "https://piloti.sophia.ac.jp/assets/uploads/2026/03/b64b684a4ff8b1697f889eb826cae6d2.pdf",
+          "year": "2026年度",
+          "evidence": "PDF13〜14ページの経済学科授業科目表を目視確認。A群8単位、B群選択必修30単位、正式名と配当・春秋を確認。統計学Ⅰ・Ⅱは竹内担当の一部クラスが休講でも髙橋担当クラスは開講。計量の前提条件は2025年次生以降と2024年次生以前で異なる。"
+        }
+      ],
+      "courses": [
+        {
+          "name": "INTRODUCTION TO ECONOMICS",
+          "stage": "1年次・春",
+          "requirement": "A群の必修（2単位）。",
+          "topics": null,
+          "verification": "正式名・配当・必修を2026授業科目表で目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "sophia-guide-2026",
+            "sophia-curriculum"
+          ],
+          "studyFocus": "授業の基本概念を自分の言葉で説明し、図や式の意味と結びつける。"
+        },
+        {
+          "name": "ミクロ経済学A",
+          "stage": "1年次・春（別途再履修クラスあり）",
+          "requirement": "A群の必修（2単位）。",
+          "topics": null,
+          "verification": "正式名・配当・必修を2026授業科目表で目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "sophia-guide-2026",
+            "sophia-curriculum"
+          ],
+          "studyFocus": "グラフと式を読み直し、現在の授業で使う条件と計算の意味を確認する。"
+        },
+        {
+          "name": "ミクロ経済学B・C",
+          "stage": "Bは1年次・秋（春の再履修クラスあり）、Cは2〜4年次・春",
+          "requirement": "B群の選択必修科目。B・Cの各科目を全員必修とは扱わない。",
+          "topics": null,
+          "verification": "正式名・配当・選択必修群を2026授業科目表で目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "sophia-guide-2026"
+          ],
+          "studyFocus": "入門で使った考え方から、授業の導出・条件・演習へ段階的につなぐ。"
+        },
+        {
+          "name": "マクロ経済学A・B",
+          "stage": "Aは1年次・秋、Bは2年次・春（別途再履修クラスあり）",
+          "requirement": "いずれもA群の必修（各2単位）。",
+          "topics": null,
+          "verification": "正式名・配当・必修を2026授業科目表で目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "sophia-guide-2026",
+            "sophia-curriculum"
+          ],
+          "studyFocus": "モデルの変数と仮定を整理し、式を動かした結果を言葉や図で説明する。"
+        },
+        {
+          "name": "経済数学解析Ⅰ・Ⅱ",
+          "stage": "1年次／Ⅰは春、Ⅱは秋",
+          "requirement": "B群の選択必修科目（各2単位）。",
+          "topics": null,
+          "verification": "正式名・配当・選択必修群を2026授業科目表で目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "sophia-guide-2026"
+          ],
+          "studyFocus": "高校数学の計算と大学の定義をつなぎ、授業資料に沿って式変形の理由を説明する。"
+        },
+        {
+          "name": "統計学Ⅰ・Ⅱ",
+          "stage": "2026開講の髙橋担当クラスは1〜4年次／Ⅰは春、Ⅱは秋",
+          "requirement": "B群の選択必修科目（各2単位）。一部クラスの休講を科目全体の休講とは扱わない。",
+          "topics": null,
+          "verification": "正式名・配当・開講クラス・選択必修群を2026授業科目表で目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "sophia-guide-2026"
+          ],
+          "studyFocus": "確率・統計の記号と数値の意味を確かめ、授業の計算とデータ解釈を結びつける。"
+        },
+        {
+          "name": "データ分析演習",
+          "stage": "原則1年次・秋。上級学年の履修条件は科目表の注記を確認。",
+          "requirement": "B群の選択必修科目（2単位）。指定クラス・対象者の条件がある。",
+          "topics": null,
+          "verification": "正式名・配当・選択必修群を2026授業科目表で目視確認。具体的な使用ソフト・課題・担当別シラバス内容は未照合。",
+          "sourceIds": [
+            "sophia-guide-2026"
+          ],
+          "studyFocus": "分析の手順だけでなく、何を確かめる分析なのかと結果の意味を整理する。"
+        },
+        {
+          "name": "計量経済学Ⅰ・Ⅱ",
+          "stage": "2〜4年次／Ⅰは春、Ⅱは秋",
+          "requirement": "B群の選択必修科目（各2単位）。前提条件あり。ⅡはⅠの単位修得が必要で、共通の前提条件は入学年度により異なる。",
+          "topics": null,
+          "verification": "正式名・配当・選択必修群・前提条件の存在を2026要覧で目視確認。担当別シラバス内容未照合。",
+          "sourceIds": [
+            "sophia-guide-2026"
+          ],
+          "studyFocus": "数学・統計の前提を確認し、授業の式と分析結果の読み方を一緒に整理する。"
+        }
+      ]
+    }
+  ]
+}

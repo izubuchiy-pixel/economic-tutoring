@@ -64,6 +64,13 @@
 
 ## 共通管理
 
+### 大学別の主な授業情報（2026年10月10日）
+
+- `tools/university-curricula.json` に21大学・158科目群の正式名称、対象学科・年度、配当、必修／選択、確認範囲、公式出典を保持します。連続・関連科目は科目群としてまとめており、158件の独立ページを作成した意味ではありません。
+- `tools/university-curricula.mjs` が既存30大学別ページと一覧へ追加表示します。担当別シラバス本文を確認した6科目群の内容例と、未確認の152科目群を区別し、ET独自の復習案も分離します。学科全科目の網羅・開講・対応保証は行いません。
+- `node tools/render-static.mjs` で更新を反映し、AI情報を `python3 -B tools/build-ai-information.py` で同期します。`node tools/verify-university-curricula.mjs a219b79` で既存例題・料金・商品等の保全と生成再実行の一致を検証します。
+- 調査の原データと別担当監査は上位ワークスペースの `outputs/hp-university-curricula/2026-10-10/` に保存しています。年度・担当の変更時は新しい公式根拠を確認してから更新します。停止中のSNS定時運用の再開許可ではありません。
+
 `site-config.js` で次を一元管理しています。
 
 - ブランド名、Instagram、メール、CTA
