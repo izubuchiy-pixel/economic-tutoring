@@ -9,7 +9,7 @@ const urls=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>new URL(m[1]).pa
 urls.push('/instagram/','/hp-refresh.css','/site-polish.css','/entry-navigation.css','/styles.css','/enhancements.css','/script.js','/site-config.js','/robots.txt','/sitemap.xml','/sitemap.txt','/assets/showcase-home-desktop.png');
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 const results=[];
-urls.push('/university-curricula.css','/downloads/economic-tutoring-ai-information.txt','/downloads/economic-tutoring-ai-sources.json');
+urls.push('/university-curricula.css','/university-finder.css','/university-finder.js','/downloads/economic-tutoring-ai-information.txt','/downloads/economic-tutoring-ai-sources.json');
 for(let start=0;start<urls.length;start+=4) await Promise.all(urls.slice(start,start+4).map(async route=>{
  let file=route.slice(1);
  if(!file||file.endsWith('/'))file+='index.html';
@@ -21,6 +21,8 @@ for(let start=0;start<urls.length;start+=4) await Promise.all(urls.slice(start,s
  if(route==='/entry-navigation.css')url.search='?v=1';
  if(route==='/script.js')url.search='?v=40';
  if(route==='/site-config.js')url.search='?v=31';
+ if(route==='/university-curricula.css')url.search='?v=2';
+ if(route==='/university-finder.css'||route==='/university-finder.js')url.search='?v=1';
  try {
    const res=await fetch(url,{signal:AbortSignal.timeout(20000),headers:{'Cache-Control':'no-cache'}});
    const bytes=Buffer.from(await res.arrayBuffer());

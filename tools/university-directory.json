@@ -1,0 +1,183 @@
+{
+  "sourceCommit": "0c5b2e8c80bd1f3a0468caa74e57edb11f89039c",
+  "purpose": "Preserve existing directory introductions and supplementary descriptions while rendering compact cards. Official course evidence stays in university-curricula.json.",
+  "entries": [
+    {
+      "slug": "waseda",
+      "introduction": "2026年度の公式科目配当表を参照。ミクロは需要曲線、マクロはGDPの意味から、入門とその先をつなぎます。",
+      "hrefs": [
+        "/universities/waseda/microeconomics/",
+        "/universities/waseda/macroeconomics/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "keio",
+      "introduction": "数学概論Ⅰ・Ⅱ、微分積分は2026年度の公開シラバスを参照。授業の単元から必要な基礎を選び、演習へ戻る道筋を整理します。",
+      "hrefs": [
+        "/universities/keio/economics-math/",
+        "/universities/keio/microeconomics/",
+        "/universities/keio/macroeconomics/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "sophia",
+      "introduction": "計算はできるのに、最適化で手が止まる。式の意味・変数・条件を整理し、微分を経済学の問題へつなげます。",
+      "hrefs": [
+        "/universities/sophia/economics-math/",
+        "/universities/sophia/microeconomics/",
+        "/universities/sophia/macroeconomics/"
+      ],
+      "supplement": "<p>科目名・クラスを確認し、これまでの上智大学経済数学の指導経験も生かして個別に進め方を考えます。</p><ul><li><strong>ミクロ経済学</strong><p>税を納める人と、価格の変化を負担する人は同じ？買い手と売り手の価格を分け、式の意味を理解します。</p></li><li><strong>マクロ経済学</strong><p>金融政策でどの式が変わるのか。IS-LMのシフトと、均衡点の移動を計算から確かめます。</p></li></ul>"
+    },
+    {
+      "slug": "gakushuin",
+      "introduction": "式とグラフの関係を、予算制約から確認。何が買えるかと、何を選ぶかを分けます。",
+      "hrefs": [
+        "/universities/gakushuin/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "meiji",
+      "introduction": "名目・実質・指数の意味から。2026年度授業概要を参照し、基準をそろえる復習を案内します。",
+      "hrefs": [
+        "/universities/meiji/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "aoyama-gakuin",
+      "introduction": "現代経済デザイン学科の科目情報を参照。平均変化率と微分係数の違いを確かめます。",
+      "hrefs": [
+        "/universities/aoyama-gakuin/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "rikkyo",
+      "introduction": "2026年度の公開シラバスを参照。行列の前提、外部性、失業率を別々の例題で確認します。ミクロ・マクロは経済学科クラスBX052を参照しています。",
+      "hrefs": [
+        "/universities/rikkyo/economics-math/",
+        "/universities/rikkyo/microeconomics/",
+        "/universities/rikkyo/macroeconomics/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "chuo",
+      "introduction": "微分の前に、目的の式を作る。売上最大と利潤最大が違う理由から復習します。",
+      "hrefs": [
+        "/universities/chuo/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "hosei",
+      "introduction": "2026年度K6672のシラバスを参照。微分・確率の前提を分け、期待値の意味を確認します。",
+      "hrefs": [
+        "/universities/hosei/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "kansai",
+      "introduction": "需要と供給の交点を、方程式で求める。導入の道具から専門の学習への接続を考えます。",
+      "hrefs": [
+        "/universities/kansai/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "kwansei-gakuin",
+      "introduction": "経済学部の公式科目案内を参照。関数の前提から、独占企業の価格、名目・実質GDPへつなげます。個別クラスの資料で学習順を確認します。",
+      "hrefs": [
+        "/universities/kwansei-gakuin/economics-math/",
+        "/universities/kwansei-gakuin/microeconomics/",
+        "/universities/kwansei-gakuin/macroeconomics/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "doshisha",
+      "introduction": "偏微分で固定する変数とは。公開履修系統図を参照し、一変数の微分からつなぎます。",
+      "hrefs": [
+        "/universities/doshisha/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "ritsumeikan",
+      "introduction": "高校数学のどこへ戻るかを、現在の単元から。割合・指数の例題から確認できます。",
+      "hrefs": [
+        "/universities/ritsumeikan/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "nihon",
+      "introduction": "経済学部の共通カリキュラムを参照。変化量と変化率、需要の傾きと弾力性を分けます。",
+      "hrefs": [
+        "/universities/nihon/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "toyo",
+      "introduction": "2026年度の授業1件を参照。金利と現在価値を、割合・指数・逆算から理解します。",
+      "hrefs": [
+        "/universities/toyo/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "komazawa",
+      "introduction": "Σを具体的な足し算に戻すところから。平均とばらつき、分散の定義の違いを確認します。",
+      "hrefs": [
+        "/universities/komazawa/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "senshu",
+      "introduction": "現代経済学科の2026年度授業を参照。市場均衡と価格上限の問題で、式の使い方を整理します。",
+      "hrefs": [
+        "/universities/senshu/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "kyoto-sangyo",
+      "introduction": "単価・数量・固定費から一次関数を作る。損益ゼロの数量と、黒字になる数量を分けます。",
+      "hrefs": [
+        "/universities/kyoto-sangyo/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "kindai",
+      "introduction": "積分しただけでは総費用は決まらない。経済学科の科目資料を参照し、積分定数と条件を考えます。",
+      "hrefs": [
+        "/universities/kindai/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "konan",
+      "introduction": "2026年度参考カリキュラムを参照。連立方程式で解が一つに決まらない理由から、行列へつなぎます。",
+      "hrefs": [
+        "/universities/konan/economics-math/"
+      ],
+      "supplement": ""
+    },
+    {
+      "slug": "ryukoku",
+      "introduction": "平均費用は割り算、限界費用は微分。「1個あたり」と「追加したとき」の違いを確かめます。",
+      "hrefs": [
+        "/universities/ryukoku/economics-math/"
+      ],
+      "supplement": ""
+    }
+  ]
+}

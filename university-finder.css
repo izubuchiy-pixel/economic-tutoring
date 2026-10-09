@@ -1,0 +1,55 @@
+/* Scoped directory enhancement: the complete HTML directory is the no-script fallback. */
+[data-university-finder][hidden],
+[data-university-group][hidden],
+article[data-university][hidden],
+[data-course-entry][hidden],
+[data-finder-empty][hidden],
+.university-finder-course-count[hidden],
+.entry-jumps a[hidden] { display:none !important; }
+
+[data-university-finder] { margin:28px 0 0; padding:24px; border:1px solid #cadad6; border-radius:10px; background:#f3f7f5; }
+.university-finder-controls { display:grid; grid-template-columns:minmax(0,1.7fr) minmax(12rem,1fr) auto; gap:16px; align-items:end; }
+.university-finder-field { min-width:0; }
+[data-university-finder] label { display:block; margin-bottom:8px; color:var(--navy,#0b1f33); font-size:15px; font-weight:700; }
+[data-university-finder] :is(input[type="search"],select) { display:block; width:100%; min-height:48px; margin:0; border:1px solid #819c95; border-radius:6px; padding:10px 12px; background:#fff; color:var(--hub-ink,#152d3c); font:inherit; font-size:16px; line-height:1.5; }
+[data-university-finder] input[type="search"] { appearance:none; -webkit-appearance:none; }
+[data-university-finder] input::placeholder { color:#61726c; opacity:1; }
+[data-finder-reset] { min-height:48px; border:1px solid #819c95; border-radius:6px; padding:10px 16px; background:#fff; color:var(--navy,#0b1f33); font:inherit; font-size:14px; line-height:1.5; cursor:pointer; }
+[data-finder-reset]:hover { background:#e7efeb; border-color:#416e60; }
+[data-university-finder] :is(input,select,button):focus-visible { outline:3px solid #286c9d; outline-offset:3px; }
+.university-finder-help { margin:14px 0 0; color:var(--hub-muted,#526571); font-size:14px; line-height:1.8; }
+.university-finder-results { margin-top:16px; border-top:1px solid #cadad6; padding-top:14px; }
+[data-finder-status] { display:block; color:#25473c; font-size:14px; font-weight:600; line-height:1.8; }
+[data-finder-empty] { margin:14px 0 0; color:var(--hub-ink,#152d3c); font-size:15px; line-height:1.8; }
+
+/* Short, consistently ordered university cards. The guide links are never filtered. */
+[data-university-group].entry-section { padding:40px 0; }
+[data-university-group] .entry-grid { align-items:start; }
+.university-directory-card { padding:24px; }
+.university-directory-card h3 { font-size:21px; line-height:1.6; }
+.university-entry-links { display:grid; gap:4px; list-style:none; margin:14px 0 18px; padding:0 !important; }
+.university-entry-links li { margin:0; }
+.university-entry-links a { display:block; min-height:44px; padding:8px 0; color:#1a6039; font-size:15px; line-height:1.8; text-decoration:underline; text-underline-offset:4px; }
+.university-entry-links a:hover { color:#0b1f33; }
+.university-context { margin:14px 0 0; }
+.university-context summary { color:var(--hub-muted,#526571); cursor:pointer; font-size:14px; font-weight:600; line-height:1.8; }
+.university-context p { margin:12px 0 0; color:var(--hub-muted,#526571); font-size:14px; line-height:1.8; }
+.university-context summary:focus-visible { outline:3px solid #286c9d; outline-offset:3px; }
+.university-directory-card .curriculum-directory { margin-top:18px; padding-top:16px; }
+.university-directory-card .curriculum-directory details { margin:10px 0; }
+.university-directory-card .curriculum-directory summary { font-size:15px; line-height:1.8; }
+.university-directory-card .curriculum-directory .fineprint { margin-top:12px; }
+.university-finder-course-count { display:block; color:#52645a; font-size:13px; font-weight:400; }
+
+@media (max-width:900px) {
+  .university-finder-controls { grid-template-columns:minmax(0,1.4fr) minmax(0,1fr); }
+  [data-finder-reset] { grid-column:1 / -1; justify-self:start; }
+  [data-university-group] .entry-grid { grid-template-columns:1fr; }
+}
+@media (max-width:620px) {
+  [data-university-finder] { padding:20px; }
+  .university-finder-controls { grid-template-columns:1fr; gap:14px; }
+  [data-finder-reset] { width:100%; }
+  [data-university-group].entry-section { padding:30px 0; }
+  .university-directory-card { padding:22px; }
+}
