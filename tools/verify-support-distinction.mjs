@@ -164,7 +164,8 @@ for (const file of protectedFiles) check(fs.existsSync(path.join(root, file)) &&
 const trackedNow = git('ls-files').toString('utf8').trim().split('\n');
 check(trackedNow.every(file => baselineFiles.includes(file) || file === 'tools/verify-support-distinction.mjs'), 'unapproved new tracked deployment file');
 check(read('tools/render-static.mjs') === old('tools/render-static.mjs').replaceAll('site-config.js?v=31', 'site-config.js?v=32'), 'renderer: changed beyond cache version replacement');
-check(hash(readBytes('tools/build-ai-information.py')) === reviewedBuilder, 'builder: changed beyond reviewed explanatory prose');
+const builderApproved = hash(readBytes('tools/build-ai-information.py')) === reviewedBuilder;
+check(builderApproved, 'builder: changed beyond reviewed explanatory prose');
 const maskJapaneseBlocks = source => source.replace(/((?:f|r|u|b)?)("""|''')([\s\S]*?)\2/g, (whole, prefix, quote, body) => {
   if (!/[ぁ-んァ-ン一-龥]/.test(body)) return whole;
   const expressions = [...body.matchAll(/\{[^{}\n]*\}/g)].map(match => match[0]);
@@ -188,11 +189,19 @@ try {
   check(hash(readBytes('site-config.js')) === meta.config_sha256, 'AI: stale configuration hash');
   const prefix = pack.split('\n第3部｜公式HPの公開本文・関連リンク\n')[0].replace(/^作成日時：[^\n]+/m, '作成日時：[snapshot]');
   check(hash(prefix) === reviewedPackPrefix, 'AI: reviewed service/owner-clarification text changed; new conditions or guarantees not authorized');
+  // Import only the exact reviewed exporter, with its write-producing main()
+  // never called. An altered builder must not be executed by a read-only gate.
+  if (!builderApproved) throw new Error('unreviewed exporter will not be executed');
   const exported = JSON.parse(execFileSync('python3', ['-B', '-c',
     `import json,runpy,sys\nfrom pathlib import Path\nfrom urllib.parse import urljoin\nm=runpy.run_path('tools/build-ai-information.py',run_name='readonly_review')\nresult=[]\nfor file in json.load(sys.stdin):\n p=m['PublicText'](); p.feed(Path(file).read_text(encoding='utf-8')); p.close()\n result.append({'file':file,'text':p.result(),'title':''.join(p.title_parts).strip(),'url':p.canonical,'links':list(dict.fromkeys(urljoin(p.canonical,h) for h in p.links))})\nprint(json.dumps(result,ensure_ascii=False))`],
     {cwd:root, input:JSON.stringify(meta.pages.map(p => p.file)), encoding:'utf8', maxBuffer:5*1024*1024,
       env:{...process.env,PYTHONDONTWRITEBYTECODE:'1'}}));
   let currentHashes = 0;
+  const publicPartHeader = '\n第3部｜公式HPの公開本文・関連リンク\n';
+  const expectedPublicParts = [publicPartHeader + '目次（51ページ）\n'];
+  for (const [index,page] of meta.pages.entries()) {
+    expectedPublicParts.push(`${String(index+1).padStart(2,'0')}. ${page.title}\n    ${page.url}\n`);
+  }
   for (const [index, page] of meta.pages.entries()) {
     const current = exported[index];
     const matches = pages.has(page.file) && hash(readBytes(page.file)) === page.html_sha256;
@@ -201,10 +210,13 @@ try {
     check(hash(current.text) === page.text_sha256 && current.title === page.title && current.url === page.url, `AI: current public text/title/canonical mismatch ${page.file}`);
     const fullEntry = `\n${'='.repeat(50)}\n資料 ${String(index+1).padStart(2,'0')}｜${page.title}\n公式URL：${page.url}\n本文\n${current.text}\n\n本文内のリンク（同一ページ内へのリンクを含む）\n\n${current.links.map(link => '・'+link+'\n').join('\n')}`;
     check(pack.includes(fullEntry), `AI: exported full body/links differ from current HTML ${page.file}`);
+    expectedPublicParts.push(`\n${'='.repeat(50)}\n資料 ${String(index+1).padStart(2,'0')}｜${page.title}\n公式URL：${page.url}\n本文\n${current.text}\n\n本文内のリンク（同一ページ内へのリンクを含む）\n`);
+    expectedPublicParts.push(...current.links.map(link => '・'+link+'\n'));
     if (!['index.html','pricing.html','web-learning.html'].includes(page.file)) {
       check(page.text_sha256 === beforeMeta.pages.find(p => p.file === page.file)?.text_sha256, `AI: unapproved public body change ${page.file}`);
     }
   }
+  check(pack.indexOf(publicPartHeader) >= 0 && pack.slice(pack.indexOf(publicPartHeader)) === expectedPublicParts.join('\n'), 'AI: extra, missing, reordered or modified text beyond exact 51 public pages/links');
   const generatedDate = meta.generated_at_jst.slice(0,10);
   const displayed = pages.get('ai/index.html').match(/<time datetime="([^"]+)" data-ai-updated>([^<]+)<\/time>/);
   check(displayed?.[1] === generatedDate && displayed?.[2] === `${Number(generatedDate.slice(0,4))}年${Number(generatedDate.slice(5,7))}月${Number(generatedDate.slice(8,10))}日`, 'AI: displayed update date not synchronized');
@@ -263,7 +275,7 @@ if (ok && args.includes('--public')) {
         const response = await fetch(url,{headers:{'Cache-Control':'no-cache'},signal:AbortSignal.timeout(20000)});
         const bytes = Buffer.from(await response.arrayBuffer());
         results.push({file,route:url.pathname+url.search,status:response.status,matches:bytes.equals(readBytes(file)),bytes:bytes.length,sha256:hash(bytes)});
-      } catch (error) {results.push({file,route,error:error.message,matches:false});}
+      } catch (error) {results.push({file,route:url.pathname+url.search,error:error.message,matches:false});}
     }));
   }
   const publicOk = results.every(item => item.status === 200 && item.matches);
