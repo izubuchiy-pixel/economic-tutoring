@@ -1,14 +1,14 @@
 {
   "status": "GENERATED_PUBLIC_INFORMATION_SNAPSHOT",
-  "generated_at_jst": "2026-10-10T07:02:51.125081+09:00",
-  "source_base_commit": "0c5b2e8c80bd1f3a0468caa74e57edb11f89039c",
+  "generated_at_jst": "2026-10-10T23:10:30.307960+09:00",
+  "source_base_commit": "737edeb7532969fd43faca23721052cc01f796e4",
   "page_count": 51,
   "guide_count": 9,
   "product_count": 7,
-  "config_sha256": "04e211ceade3fe129b2c3ded788eef38d530cc4611aafa8bb95fe9b5507c6934",
+  "config_sha256": "7d52e7bff49132e286c8cddab38cbf3b88a25e960157505e657779e58ea7d22d",
   "pack_file": "economic-tutoring-ai-information.txt",
-  "pack_sha256": "121aba2e0335c6b841c1c7686048ec1921b68eada8f3b7929b7da7bb56f8a63e",
-  "pack_bytes": 1039136,
+  "pack_sha256": "bfffa0f1ecc28e016e872cd85c693e03b2d9ed2c632979c38da5fdc801da75b5",
+  "pack_bytes": 1043575,
   "sns_changed": false,
   "excluded_pages": [
     "404.html (error navigation)",
@@ -27,133 +27,133 @@
       "file": "economics-tutor.html",
       "url": "https://economic-tutoring.pages.dev/economics-tutor",
       "title": "大学生の経済学塾・オンライン家庭教師｜授業・単位対策｜economic_tutoring",
-      "html_sha256": "760523d55d659f90fb5d8b1be256788ceb75546194732546986a7cbbecca0978",
+      "html_sha256": "3a2416d014b99aaeac8a01984cf75ba954b261ab8b987a4507f17607394314b3",
       "text_sha256": "a7e482afd6e1bc535798de327e9b0688c9d818203ce6a5a483fa9b91f385cc56"
     },
     {
       "file": "guides/econometrics-regression-basics.html",
       "url": "https://economic-tutoring.pages.dev/guides/econometrics-regression-basics",
       "title": "回帰係数を因果と読めない理由｜計量経済学のつまずき｜economic_tutoring",
-      "html_sha256": "625fb830890e1487def77c04397d5e6ce1e485c1a93f6cb90004f9543925a0c8",
+      "html_sha256": "9bd7720dd5d1dddd60243713ff3e5a9fcd67d284786fd8fc4f4c2eac058bd24b",
       "text_sha256": "9877edad2e34e5ab85c883f51683f063926f61ab3dc52a364ea6850ae022efc1"
     },
     {
       "file": "guides/economics-math-basics.html",
       "url": "https://economic-tutoring.pages.dev/guides/economics-math-basics",
       "title": "経済数学が分からないときの勉強順｜式変形・微分・最適化｜economic_tutoring",
-      "html_sha256": "ee971afe60f8386e9e4f85631ff572859139e211b8ac938acb259bddc53b067b",
+      "html_sha256": "706eda2522f69ec16896a5916c70dbe68eae934761fdbf581d954affa143e816",
       "text_sha256": "3d277dc6ce81da3f86fb7b700799597dafd67a64ca21475ec829fe5d82a07fc8"
     },
     {
       "file": "guides/epsilon-delta-definition.html",
       "url": "https://economic-tutoring.pages.dev/guides/epsilon-delta-definition",
       "title": "ε-δ論法がわからない｜極限の定義と証明の作り方｜economic_tutoring",
-      "html_sha256": "4226554c56b11c75a332a38e3f8240224424cecc52104297ff6cc975c877a442",
+      "html_sha256": "ff1e030731b8455de54bbbfca942d2f85c4a60eb8f5b56f88c9da131fcb46603",
       "text_sha256": "0475b6a74047d5eb91b6ca18b3bc56161328d589ae754ef48ae936d7b7c6be50"
     },
     {
       "file": "guides/game-theory-nash-equilibrium.html",
       "url": "https://economic-tutoring.pages.dev/guides/game-theory-nash-equilibrium",
       "title": "ナッシュ均衡の求め方｜最適反応と混合戦略のつまずき｜economic_tutoring",
-      "html_sha256": "1523bc0a62f5d0b22ca6298ac12350a01d29dc9ac429f02495301d5210cd753a",
+      "html_sha256": "9d15c843fa073d7738714b867022767af51c05c504f155039f0ce2ab1b3f76f2",
       "text_sha256": "cab52c5313758479dd6634efb93f462412d35040f5b3c55809cdc0cbb94c5c7a"
     },
     {
       "file": "guides/index.html",
       "url": "https://economic-tutoring.pages.dev/guides/",
       "title": "大学の経済学・統計学 学習ガイド｜economic_tutoring",
-      "html_sha256": "d71c6bda01196af77ffb7f7291ee2536b22a11fc8b950f26bbc59cf7c245de1f",
+      "html_sha256": "75b6abc0bb2143d3d3339b9385080ae4374b4feae99d49f53dfb888f9b7d7d31",
       "text_sha256": "ca35b309f9f41cd8c3f8dd8e2d1b5bf97608e25deb55939b60f39f1686c1bb49"
     },
     {
       "file": "guides/macro-is-lm-shifts.html",
       "url": "https://economic-tutoring.pages.dev/guides/macro-is-lm-shifts",
       "title": "IS-LM分析がわからない｜曲線上の移動とシフトの違い｜economic_tutoringIS曲線とLM曲線の交点",
-      "html_sha256": "17319845bea1353e669ccf263b402128555b6f400bc6a13a676139d56b41b9a3",
+      "html_sha256": "1b5302b22be5f5ac654369a07f928e86a54dad45a5a4f22956f0a8bdaf5db707",
       "text_sha256": "c5f58f32e72b2c27430c517b69d9e38d45789e0c27cad6bee69bd03ba376f409"
     },
     {
       "file": "guides/macro-solow-steady-state.html",
       "url": "https://economic-tutoring.pages.dev/guides/macro-solow-steady-state",
       "title": "ソローモデルの定常状態がわからない｜貯蓄率と成長率｜economic_tutoringソローモデルの定常状態",
-      "html_sha256": "9a33487485bb3fd58fd7bac7151f602c78eca563053fa7f50b0fa78c0d350d7b",
+      "html_sha256": "7deaf3147affde37676412bba234bbb9430ea6096afa98718cecdbbe426edf4b",
       "text_sha256": "eaae95b43482ccfc9c6fa8ae88f693822eb1eed3086a44d46dfdeff6ea29fa2e"
     },
     {
       "file": "guides/matrix-linear-equations.html",
       "url": "https://economic-tutoring.pages.dev/guides/matrix-linear-equations",
       "title": "行列と連立方程式がわからない｜逆行列・行列式の意味｜economic_tutoring",
-      "html_sha256": "d9aa338cbc5b619a74a3259ec54e15360549bee428cf1177fae766c991c7e86d",
+      "html_sha256": "ea5e01ca519e7bdbaeb4e5cea846656e2dc763dcb6ba131e5ffe91ec5633e04a",
       "text_sha256": "ac338e85dbac97965f8e4f5f906c1e9f6b4cba5383a6e6aa84e4996cd7005fe7"
     },
     {
       "file": "guides/micro-marginal-rate-substitution.html",
       "url": "https://economic-tutoring.pages.dev/guides/micro-marginal-rate-substitution",
       "title": "限界代替率MRSがわからない｜接点条件と価格比｜economic_tutoring無差別曲線と予算線の接点",
-      "html_sha256": "95181982ffe700a4030d650efd2026636874cc4dd8543acffb5d5ce7dc52697f",
+      "html_sha256": "bf9142c4948bd7b9aa5790e3d4a9003f0ed6de4fe8bd9aa53328f1ac5420539c",
       "text_sha256": "b69a507f4d022f32b57283ab6b76ffa17879049435b0febfd7b3a4010df03b9c"
     },
     {
       "file": "guides/university-statistics-study-order.html",
       "url": "https://economic-tutoring.pages.dev/guides/university-statistics-study-order",
       "title": "標準偏差と標準誤差の違い｜大学統計学がわからないとき｜economic_tutoring",
-      "html_sha256": "b71a65b56815d0daa0b9992e167b6171d600c0a114080851452b18cf2b58f9d0",
+      "html_sha256": "14a5122f0af6ad29c06aea26c3eb085ef2194a14a43b4d9e7cde7878851a887c",
       "text_sha256": "e3b32192af9678933795ebb285081472e6ef190dabbe4d1444bdbda2af385b5d"
     },
     {
       "file": "index.html",
       "url": "https://economic-tutoring.pages.dev/",
       "title": "大学の経済学・統計学専門オンライン個別指導｜economic_tutoring",
-      "html_sha256": "26a5c849e5229228be77403c6a30a17d8b50ef69baa58a4371f607220ec300b0",
-      "text_sha256": "a896a6ac1bd494c3eebeec3228184d12e2ea6a756952abef60ff8fc8ccf4542e"
+      "html_sha256": "dca3ee3d8f85bfd24e87d3eafb8f8633618d107c64535c8271926b9562450172",
+      "text_sha256": "21d94d079adb7aec3404cff372ad376e326732b52ff26a6e1b3f8c28b885aa43"
     },
     {
       "file": "instagram/index.html",
       "url": "https://economic-tutoring.pages.dev/instagram/",
       "title": "Instagramからご覧の方へ｜economic_tutoring",
-      "html_sha256": "b4b315e4dfcb6e7a9541f5b16567cad1a98e267607004ecc8fb922e224f9b482",
+      "html_sha256": "ac47abd97571345d9fd24e961749a8ed049e9172918e3b448482657d69dffe81",
       "text_sha256": "8caec6349a58926fc67edb76eb5030df6e70b16e41acc20535a5fa4fbda961b6"
     },
     {
       "file": "parents/index.html",
       "url": "https://economic-tutoring.pages.dev/parents/",
       "title": "大学の経済学・数学で困るお子さまの保護者へ｜economic_tutoring",
-      "html_sha256": "9f316c569d6d794b94ffed2c9eafd7cf7716e708f9045b47369d47aca8fcbc4c",
+      "html_sha256": "9c2601105200376aeb4db09b2d33d4ca5d6be4bf15f318d32b75dd8dfcddf6fc",
       "text_sha256": "19e4850b2338b5a16ffa64c708a839727b57e678d0ca24ae7633831f21692784"
     },
     {
       "file": "pricing.html",
       "url": "https://economic-tutoring.pages.dev/pricing",
       "title": "料金・サービス｜単発・伴走・学習確認｜economic_tutoring",
-      "html_sha256": "d853793e9fd36860220128e4a3b18382cd2f38ae351dc236a834c2420307bb8f",
-      "text_sha256": "47f07a3a39354171313baec24dda26cbb1563f6b17bbb8bb2982a2b3967a75ab"
+      "html_sha256": "c488ecd39f2a8c45efe7dec529e4e0542de4dd283ea820c4bb479dc0f6dd71fb",
+      "text_sha256": "39e01b521233da9ac1f81c42f395aec21dd813b88d9ce70aae245667463d326d"
     },
     {
       "file": "privacy.html",
       "url": "https://economic-tutoring.pages.dev/privacy",
       "title": "プライバシーポリシー｜economic_tutoring",
-      "html_sha256": "74791a5a7a61152bab723504365a68027218c2d1d0dd9503af57960d01dc93db",
+      "html_sha256": "9790cbbbc0df0bdd9781af26049a2dd09a6dab19f64ba624111fa0810cfc9628",
       "text_sha256": "3cc7bb7ebb24ef7e351131f037265e683ca7a5154f5f01c01af7b3f638e4d4ea"
     },
     {
       "file": "subjects.html",
       "url": "https://economic-tutoring.pages.dev/subjects",
       "title": "大学のミクロ・マクロ・統計・計量・経済数学｜対応科目｜economic_tutoring",
-      "html_sha256": "9123de4b09fc7c5b8920f7bf733268e6b168b386362ecbfc4e2cfb5bd59f204e",
+      "html_sha256": "c722240abf547d89a43af02b491e5a6469d9d8ec344ade32639917d28da3e0eb",
       "text_sha256": "951ebd502dd282b8201ecf6adf49ca210fcafe1451ffcf81fdc04fbd16ba752c"
     },
     {
       "file": "terms.html",
       "url": "https://economic-tutoring.pages.dev/terms",
       "title": "利用案内・受講規約｜economic_tutoring",
-      "html_sha256": "6a3bfd93edb79e546ae3c4ee13cd8db2cecd2a0b391a02d5ba2aa32eb2fbbf35",
+      "html_sha256": "97c503e63ce5c9ec24cdc17206b847340043da56432e60882275b47f443913d0",
       "text_sha256": "6b371743533fd95675586f2dd7fdb6698137b8e1bb87945520a8e0c8d687de92"
     },
     {
       "file": "tokusho.html",
       "url": "https://economic-tutoring.pages.dev/tokusho",
       "title": "特定商取引法に基づく表記｜economic_tutoring",
-      "html_sha256": "88c34432ddd6f69b676b7e69e073d4c5a29c262d5273405e076a69cbaa8c16fe",
+      "html_sha256": "12f650f4fd8db00676c5d05c7e01b8c524b962bb9efb2c15ec34fe79da9c73eb",
       "text_sha256": "26d92aa93d6ccdb468724e32a181aa3445607e7291c82fa3bfc740d75318742d"
     },
     {
@@ -377,8 +377,8 @@
       "file": "web-learning.html",
       "url": "https://economic-tutoring.pages.dev/web-learning",
       "title": "受講者専用学習環境・月4回・学習確認コース｜economic_tutoring",
-      "html_sha256": "c6897d534c39f18f44648e10350ff604aa6f53f2da5bca51288fe3607561ed62",
-      "text_sha256": "d3256a1ba2c4705a420b7d83294563fffc99206d8e55836aa58e54c25df134b6"
+      "html_sha256": "3b2b1e283a2e4aa178fff2ed9551aff6177d45cb0ba2d8ba93ac57daa53df470",
+      "text_sha256": "4cc8dc68fb70f9cc392115f3a9a27c31099e05c7705a80cd03f3f936d593a499"
     }
   ]
 }
