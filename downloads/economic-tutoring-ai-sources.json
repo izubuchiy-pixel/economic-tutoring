@@ -1,14 +1,14 @@
 {
   "status": "GENERATED_PUBLIC_INFORMATION_SNAPSHOT",
-  "generated_at_jst": "2026-10-15T18:36:14.518950+09:00",
-  "source_base_commit": "f9aa4df258265001e19602beb3f5f47c54ce97e5",
+  "generated_at_jst": "2026-10-15T21:37:47.635117+09:00",
+  "source_base_commit": "a7e2ba4868f4a9bd1bef042f334de37d568748b2",
   "page_count": 51,
   "guide_count": 9,
   "product_count": 7,
   "config_sha256": "864b9133c033097978b0adc62d1d12967b004da8e2240f18d1137d9893041c9c",
   "pack_file": "economic-tutoring-ai-information.txt",
-  "pack_sha256": "aa2a68d625598a41a15266b307ccb6b5a1c35cc256e19dda9ccd02054d8c056c",
-  "pack_bytes": 960800,
+  "pack_sha256": "48314733a2a348a3cf90ed6e3fe6144bab60cd6e7b9feb5660b909e2c7dd8301",
+  "pack_bytes": 960713,
   "sns_changed": false,
   "excluded_pages": [
     "404.html (error navigation)",
@@ -111,8 +111,8 @@
       "file": "instagram/index.html",
       "url": "https://economic-tutoring.pages.dev/instagram/",
       "title": "Instagramからご覧の方へ｜economic_tutoring",
-      "html_sha256": "b459f62a56366534728e005e0c5a6ea4736f4906d9339eb989bf15b98744f165",
-      "text_sha256": "4759df31634125b8666fea73731626b903636c9d662ffd172a76ca11429eed57"
+      "html_sha256": "cf3c03a45ebc5dc296507d3c856c50f742c2f72db4fe5d038cb9a09e067eb987",
+      "text_sha256": "464e2a0eb81f262bc86c31d9f64467e908d9ac8dd0709f8a8cf80eb77ff1b155"
     },
     {
       "file": "parents/index.html",

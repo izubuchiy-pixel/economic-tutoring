@@ -80,8 +80,7 @@ export function renderComponents(site, page) {
     ["guides", "学習ガイド", "/guides/"]
   ];
   const consultationHref = site.consultationForm.url;
-  const primaryContactHref = isInstagramPage ? site.instagram.url : consultationHref;
-  const primaryContactLabel = isInstagramPage ? "Instagramで相談" : "相談する";
+  const primaryContactHref = isInstagramPage ? "#contact" : consultationHref;
 
   const header = `
     <a class="skip-link" href="#main">本文へ移動</a>
@@ -94,7 +93,7 @@ export function renderComponents(site, page) {
         <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav"><span></span><span></span><span></span></button>
         <nav class="nav" id="global-nav" aria-label="メインナビゲーション">
           ${navItems.map(([id, label, href]) => `<a href="${href}"${page === id ? ' aria-current="page"' : page.startsWith('guide-') && id === 'guides' || page.startsWith('university-') && id === 'universities' ? ' aria-current="location"' : ""}>${label}</a>`).join("")}
-          <a class="nav-cta" href="${primaryContactHref}" target="_blank" rel="noopener">${primaryContactLabel}</a>
+          <a class="nav-cta" href="${primaryContactHref}"${isInstagramPage ? '' : ' target="_blank" rel="noopener"'}>相談する</a>
         </nav>
       </div>
     </header>${campaign ? `
@@ -157,12 +156,12 @@ export function renderComponents(site, page) {
 大学・学年（分かる範囲で）：
 試験などの時期（未定でも可）：</div><button class="button button-outline" type="button" data-copy-template>ひな形をコピー</button></details>
           <p class="copy-status" aria-live="polite"></p>
-          <a class="button button-gold" href="${site.instagram.url}" target="_blank" rel="noopener">Instagramのプロフィールへ</a>
+          <a class="button button-gold" href="${site.instagram.url}" target="_blank" rel="noopener">Instagramのプロフィールを開く</a>
           <p class="inquiry-button-help">プロフィールの「メッセージ」から送信してください。</p>
           ${inquirySteps}
           <div class="instagram-form-option">
             <p><strong>DM以外をご希望の方は、フォームでも。</strong><span>項目に沿って相談内容を送れます。資料の添付は不要です。</span></p>
-            <a class="button button-navy contact-form-button" href="${site.consultationForm.url}" target="_blank" rel="noopener">科目と困りごとを相談する</a>
+            <a class="button button-navy contact-form-button" href="${site.consultationForm.url}" target="_blank" rel="noopener">フォームから相談する</a>
             <p class="contact-assurance">講義資料や答案の添付は不要です。送信だけで契約・支払いは確定しません。</p>
           </div>
           <div class="email-row"><a href="mailto:${site.email}?subject=${inquirySubject}&body=${inquiryBody}">${site.email}</a><button type="button" data-copy-email>コピー</button></div>

@@ -1,5 +1,5 @@
 Economic Tutoring｜自分のAIに渡す公開情報パック
-作成日時：2026-10-15T18:36:14+09:00（日本時間）
+作成日時：2026-10-15T21:37:47+09:00（日本時間）
 対象：公式HPで公開しているサービス情報・教材本文・大学別案内・利用条件と、今回運営者が確認した授業案内。
 公式の公開案内を、ご自身のAIで確認するための資料です。料金・サービスの変更ではありません。
 
@@ -3754,10 +3754,10 @@ Instagramからご覧の大学生・保護者へ
 
 経済学・経済数学・統計学・計量経済学を、実際の講義資料に合わせて支援します。必要なのが一度の解説なのか、試験までの伴走なのか、授業なしの継続確認なのかを最初に整理します。
 
-Instagramのプロフィールへ支援方法を比べる
+科目と困りごとを相談する支援方法を比べる
 
-プロフィールの「メッセージ」から、科目と困りごとを送れます。プランは未定で大丈夫です。
-相談文の例と、送信後の流れを見る  ↓
+プランは未定で大丈夫。相談文の例と、DMの送り方をご案内します。
+
 最初のメッセージは、短くて大丈夫
 「何が分からないか」を、
 うまく言えなくても。
@@ -3895,7 +3895,7 @@ INSTAGRAM
 相談したい科目： いま困っていること： 大学・学年（分かる範囲で）： 試験などの時期（未定でも可）：
 ひな形をコピー
 
-Instagramのプロフィールへ
+Instagramのプロフィールを開く
 プロフィールの「メッセージ」から送信してください。
 
 ・ 01
@@ -3911,18 +3911,16 @@ Instagramのプロフィールへ
 対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
 
 DM以外をご希望の方は、フォームでも。 項目に沿って相談内容を送れます。資料の添付は不要です。
-科目と困りごとを相談する
+フォームから相談する
 講義資料や答案の添付は不要です。送信だけで契約・支払いは確定しません。
 
 economic.tutoring.office@gmail.comコピー
 
 本文内のリンク（同一ページ内へのリンクを含む）
 
-・https://www.instagram.com/economic_tutoring/
+・https://economic-tutoring.pages.dev/instagram/#contact
 
 ・https://economic-tutoring.pages.dev/instagram/#choose
-
-・https://economic-tutoring.pages.dev/instagram/#contact
 
 ・https://economic-tutoring.pages.dev/pricing#single
 
@@ -3933,6 +3931,8 @@ economic.tutoring.office@gmail.comコピー
 ・https://economic-tutoring.pages.dev/web-learning
 
 ・https://economic-tutoring.pages.dev/pricing#faq
+
+・https://www.instagram.com/economic_tutoring/
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
