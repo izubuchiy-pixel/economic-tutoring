@@ -108,7 +108,6 @@ console.log(JSON.stringify({files:siteFiles(process.cwd()),config:context.window
     commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=SITE, text=True).strip()
     cfg = data['config']
     now = datetime.now(ZoneInfo('Asia/Tokyo'))
-    campaign = cfg['trialCampaign']
     products = cfg['products']
     assert len(products) == 7
     assert len(data['files']) >= 52
@@ -152,8 +151,8 @@ AIが添付ファイルを読めるか、全文を扱えるかは利用先・設
 ・公開情報「一式」とは上記の範囲です。非公開の運用資料、顧客情報、フォーム回答、認証情報、個別契約・予約在庫・残席は含みません。他事業の情報も含みません。
 ・外部note記事、SNS投稿全履歴、ログイン後の受講者専用環境は取り込んでいません。本文中の外部リンクは案内先であり、その内容を読んだ証拠ではありません。
 ・HTMLの本文をテキスト化しています。画像・図は代替テキストの範囲のみ。見た目、動画・音声、動的画面の全内容は再現しません。見出し・表・数式はテキスト表記です。
-・本文には通常料金への表示切替用内容を含む箇所があります。キャンペーンと通常条件を混同せず、第1部の期間・適用条件を参照してください。
-・この資料は作成時点のスナップショットです。申込み時は公式の料金・条件と運営者の返信を再確認。日付を過ぎた0円キャンペーンを恒常特典として案内しないでください。
+・初回相談・体験は60分3,000円（税込）です。内容・対応可否・日程・契約条件は個別に確認します。
+・この資料は作成時点のスナップショットです。申込み時は公式の料金・条件と運営者の返信を再確認してください。
 
 第1部｜料金・支援範囲・正式条件
 公式トップ：https://economic-tutoring.pages.dev/
@@ -170,20 +169,7 @@ AIが添付ファイルを読めるか、全文を扱えるかは利用先・設
                 parts.append(f"{label}：{p[field]}\n")
         parts.append('含まれる内容：\n' + ''.join('・' + item + '\n' for item in p['includes']))
         parts.append('含まれない内容・注意条件：\n' + ''.join('・' + item + '\n' for item in p['excludes']))
-    start = datetime.fromisoformat(campaign['applicationStartsAt'])
-    end = datetime.fromisoformat(campaign['applicationEndsAt'])
-    status = '申込対象期間内（残席・適用・日程は未確認）' if start <= now < end else '申込対象期間外（新規申込みへの0円適用を案内しない）'
     parts.append(f'''
-【期間限定：{campaign['name']}】
-申込対象期間：{campaign['applicationLabel']}
-体験実施期間：{campaign['sessionLabel']}
-対象料金：初回相談・体験60分 {campaign['price']:,}円（通常{products['trial']['price']:,}円）。
-対象・上限：大学の経済学系科目で困っている新規の方。受講者1人1回・最大{campaign['maxParticipants']}名。定員で受付終了。
-作成日時点の暦上の状態：{status}
-実際の残席、受付継続、本人の対象科目への対応、日程はこの資料では確認できません。
-申込みだけで適用・日程は確定せず、対応科目と空き状況を確認して返信します。期間外・対象外は通常料金。自動課金なし。紹介・ペア特典など他特典との併用不可。継続契約は必須ではありません。
-フォームの「希望する相談内容」で「初回相談・体験を希望」を選択。合言葉の手入力は不要です。
-
 【紹介・ペア特典】
 月額伴走の受講開始が対象。既存月額受講者の紹介で新規の方が月額開始する場合、または新規2人が7日以内に月額開始する場合、双方の確認小テストオプション1科目を最初の連続3か月無料。繰越・換金・移行・重複・他特典との併用なし。月額伴走の休止・解約後は終了。詳細は料金ページで確認。
 
@@ -246,8 +232,9 @@ HPの積の微分は指導方法を示す自作例です。実際の教科書・
     # No internal paths or customer records are exported. Exact critical conditions stay present.
     assert '/Users/' not in content
     for marker in ['29,800円', '54,800円', '12,800円', '22,800円', '7〜14日',
-                   '2026年9月28日〜10月14日', '資料 51', '∂U/∂x = y', 'C(3) = 3² + 4 = 13']:
+                   '3,000円／60分', '資料 51', '∂U/∂x = y', 'C(3) = 3² + 4 = 13']:
         assert marker in content, marker
+    assert not re.search(r'秋学期スタートキャンペーン|無料体験|autumn-trial|2026年9月28日〜10月14日', content)
     assert not any(p['file'].startswith('social-assets') or ' 2.html' in p['file'] for p in pages)
     OUT.mkdir(exist_ok=True)
     pack = OUT / 'economic-tutoring-ai-information.txt'

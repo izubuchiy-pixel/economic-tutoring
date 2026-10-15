@@ -11,7 +11,8 @@ export function renderComponents(site, page) {
   const isMathGuide = page === "guide-economics-math";
   const campaignLink = isInstagramPage ? site.instagram.url : site.consultationForm.url;
   const trialOutline = `<ol class="trial-outline" aria-label="相談・体験の内容"><li><strong>相談</strong><span>つまずいているテーマを一つ選びます。</span></li><li><strong>授業体験</strong><span>実際の授業のように説明・練習し、途中の疑問も確認します。</span></li><li><strong>振り返り</strong><span>今後受講するかどうかを、体験してから検討できます。</span></li></ol>`;
-  const standardTrial = `<div class="inquiry-trial" data-standard-trial${campaign ? ' hidden' : ''}>
+  // Preserve historical post links without retaining the ended offer itself.
+  const standardTrial = `<div class="inquiry-trial"${campaign ? '' : ' id="autumn-trial"'} data-standard-trial${campaign ? ' hidden' : ''}>
             <p class="inquiry-trial-price">初回相談・体験60分 <strong data-price="trial">${priceText('trial')}</strong><span>（税込）</span></p>
             ${trialOutline}
             <p class="inquiry-trial-note">相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。</p>
