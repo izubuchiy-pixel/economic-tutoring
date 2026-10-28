@@ -9,6 +9,8 @@ export function renderComponents(site, page) {
   const isInstagramPage = page === "instagram";
   const isParentPage = page === "parents";
   const isMathGuide = page === "guide-economics-math";
+  // Audience expansion is supplemental: keep every university/guide landing page intact.
+  const hasLearnerScope = ['top', 'subjects', 'pricing', 'ai-information'].includes(page);
   const campaignLink = isInstagramPage ? site.instagram.url : site.consultationForm.url;
   const trialOutline = `<ol class="trial-outline" aria-label="相談・体験の内容"><li><strong>相談</strong><span>つまずいているテーマを一つ選びます。</span></li><li><strong>授業体験</strong><span>実際の授業のように説明・練習し、途中の疑問も確認します。</span></li><li><strong>振り返り</strong><span>今後受講するかどうかを、体験してから検討できます。</span></li></ol>`;
   // Preserve historical post links without retaining the ended offer itself.
@@ -80,7 +82,8 @@ export function renderComponents(site, page) {
     ["guides", "学習ガイド", "/guides/"]
   ];
   const consultationHref = site.consultationForm.url;
-  const primaryContactHref = isInstagramPage ? "#contact" : consultationHref;
+  const contactIsOnPage = isInstagramPage || hasLearnerScope;
+  const primaryContactHref = contactIsOnPage ? "#contact" : consultationHref;
 
   const header = `
     <a class="skip-link" href="#main">本文へ移動</a>
@@ -93,7 +96,7 @@ export function renderComponents(site, page) {
         <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav"><span></span><span></span><span></span></button>
         <nav class="nav" id="global-nav" aria-label="メインナビゲーション">
           ${navItems.map(([id, label, href]) => `<a href="${href}"${page === id ? ' aria-current="page"' : page.startsWith('guide-') && id === 'guides' || page.startsWith('university-') && id === 'universities' ? ' aria-current="location"' : ""}>${label}</a>`).join("")}
-          <a class="nav-cta" href="${primaryContactHref}"${isInstagramPage ? '' : ' target="_blank" rel="noopener"'}>相談する</a>
+          <a class="nav-cta" href="${primaryContactHref}"${contactIsOnPage ? '' : ' target="_blank" rel="noopener"'}>相談する</a>
         </nav>
       </div>
     </header>${campaign ? `
@@ -120,7 +123,12 @@ export function renderComponents(site, page) {
 
   const inquirySource = isInstagramPage ? "Instagram LP" : isParentPage ? "保護者向けページ" : isMathGuide ? "経済数学の学習ガイド" : page.startsWith('university-') ? page : "公式サイト";
   const inquirySubject = encodeURIComponent("【サイト相談】初回相談・体験");
-  const inquiryBody = encodeURIComponent(`大学名・学部：
+  const inquiryBody = encodeURIComponent(hasLearnerScope ? `学習の目的：
+相談したい科目・教材名（版・該当箇所も分かれば）：
+現在困っていること：
+試験・学習の期限（未定でも可）：
+大学・学部・学年（在学中の方のみ、分かる範囲で）：
+相談経路：${inquirySource}` : `大学名・学部：
 相談したい科目：
 試験・課題の時期：
 現在困っていること：
@@ -175,8 +183,9 @@ export function renderComponents(site, page) {
         ${consultationIntro}
         <div class="contact-card contact-card-form">
           <p class="contact-kicker">CONSULTATION FORM</p>
-          <h3>${isParentPage ? '保護者の方からも、相談できます。' : 'フォームで、今の状況を送る。'}</h3>
-          <p>${isParentPage ? 'フォームの「ご相談者」で「保護者」を選んでください。大学・期限などは「不明」「未定」でも構いません。科目が分からない場合は「その他」を選べます。入力が難しい場合は下記メールでも相談できます。' : '大学・学年、科目、希望時期、困りごとなどを入力します。講義資料や答案の添付は不要です。'}</p>
+          <h3>${isParentPage ? '保護者の方からも、相談できます。' : 'フォームで、今の状況を送る。'}</h3>${hasLearnerScope ? `
+          <div class="inquiry-example" id="learner-contact"><h4>社会人・大学院生の方も、同じフォームから。</h4><p>「ご相談者」で、在学していない方は「本人（学生以外）」、大学院生・専門職大学院生は「学生本人」を選んでください。保護者の方は「保護者」を選べます。</p><p>学校情報は在学中の方のみ、期限は分かる範囲で構いません。会社名・年齢は不要です。対応可否は教材・問題を確認してご案内します。</p></div>` : ''}
+          <p>${isParentPage ? 'フォームの「ご相談者」で「保護者」を選んでください。大学・期限などは「不明」「未定」でも構いません。科目が分からない場合は「その他」を選べます。入力が難しい場合は下記メールでも相談できます。' : hasLearnerScope ? '学習の目的、科目・教材名、困っている問題や箇所を分かる範囲でお知らせください。教材や答案の添付は不要です。資料の共有方法は返信後にご案内します。' : '大学・学年、科目、希望時期、困りごとなどを入力します。講義資料や答案の添付は不要です。'}</p>
           <details class="inquiry-example inquiry-writing-example"><summary>困りごとの書き方の例を見る</summary><p>${isParentPage ? '保護者です。大学生の子どもが経済数学の授業で困っています。まず、支援内容と費用について確認したいです。' : entryExamples[page] || '統計学の検定で、どの公式を使うのか判断できません。授業の演習を一人で進められるようになりたいです。'}</p></details>
           <a class="button button-navy contact-form-button" href="${site.consultationForm.url}" target="_blank" rel="noopener">${isParentPage ? '保護者として相談する' : '科目と困りごとを相談する'}</a>
           <p class="contact-assurance">フォーム送信だけで契約・支払いは確定しません。</p>${isParentPage ? '\n          <p class="fineprint">成績や答案など、本人の個人情報は同意なく送らないでください。実際の受講はご本人の希望も確認して進めます。</p>' : ''}
