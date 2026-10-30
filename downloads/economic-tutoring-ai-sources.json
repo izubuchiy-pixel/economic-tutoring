@@ -1,14 +1,14 @@
 {
   "status": "GENERATED_PUBLIC_INFORMATION_SNAPSHOT",
-  "generated_at_jst": "2026-10-29T04:45:50.178708+09:00",
-  "source_base_commit": "bc254a18c9a3506777c62bc9e818f08f3f0173e7",
+  "generated_at_jst": "2026-10-30T15:12:41.277060+09:00",
+  "source_base_commit": "8c1494a36d4777b4df4286c0162a7d31d8791d8d",
   "page_count": 51,
   "guide_count": 9,
   "product_count": 7,
   "config_sha256": "864b9133c033097978b0adc62d1d12967b004da8e2240f18d1137d9893041c9c",
   "pack_file": "economic-tutoring-ai-information.txt",
-  "pack_sha256": "6c5dda774acb64696efa8d6780c313de8421afae9afb98e45e12bfae181ca656",
-  "pack_bytes": 970005,
+  "pack_sha256": "916328def98d0ff387c5233e22492661df4f61fa968fd606cde1f215e2674e64",
+  "pack_bytes": 969999,
   "sns_changed": false,
   "excluded_pages": [
     "404.html (error navigation)",
@@ -104,8 +104,8 @@
       "file": "index.html",
       "url": "https://economic-tutoring.pages.dev/",
       "title": "大学の経済学・統計学専門オンライン個別指導｜economic_tutoring",
-      "html_sha256": "f0db1ed41af52fa3ed68b2a1b62ac5a225455114b55977e4a063ef4418c353e4",
-      "text_sha256": "3ebab045402bb3c7d00313fdc4cebee95691de828b3936ee547eeeb23b32aa32"
+      "html_sha256": "5189a5fe665e10883d830c9ef93f3b5902efdd781ad5cf6a819b7b3277769a49",
+      "text_sha256": "f69c5dd54530d4e7480a382eaee6dd1372a0b386f53a04989960558fa3967d64"
     },
     {
       "file": "instagram/index.html",
