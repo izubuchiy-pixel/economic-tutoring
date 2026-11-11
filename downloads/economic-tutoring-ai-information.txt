@@ -1,5 +1,5 @@
 Economic Tutoring｜自分のAIに渡す公開情報パック
-作成日時：2026-11-11T20:15:41+09:00（日本時間）
+作成日時：2026-11-12T01:57:03+09:00（日本時間）
 対象：公式HPで公開しているサービス情報・教材本文・大学別案内・利用条件と、今回運営者が確認した授業案内。
 公式の公開案内を、ご自身のAIで確認するための資料です。料金・サービスの変更ではありません。
 
@@ -559,14 +559,35 @@ AIへの添付・質問はご自身のサービスで行います。対応可否
 
 CONSULTATION
 
-相談と、授業体験のご案内。
+まずは、無料のメール相談から。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。 フォーム送信だけで予約・契約・支払いは確定しません。
+単発の授業を受けたい方も、継続的に学びたい方も。対応できる科目・進め方・料金をメールで確認できます。フォーム送信だけで予約・契約・支払いは確定しません。
 
-初回相談・体験で行うこと
+単発・短期
 
-相談しながら、
-授業を体験する60分。
+必要な授業を相談する。
+
+科目・教材・希望時期を送って、対応可否と料金を確認します。体験を経ずに授業を申し込めます。
+単発・短期について相談 →
+
+継続受講を検討中
+
+授業を体験して考える。
+
+初回相談・体験は60分3,000円（税込）。教え方や学習の進め方を確認し、受講するか検討できます。継続契約は任意です。
+体験の内容を見る →
+
+まだ決まっていない
+
+まずはメールで聞く。
+
+どの支援が合うか、対応できるかなど、分かる範囲でお知らせください。メール相談は無料です。
+無料でメール相談 →
+
+継続受講を検討する方へ / 有料の体験
+
+授業を体験する、
+60分3,000円。
 
 いまの授業や勉強の悩みを相談し、つまずいているテーマを一つ、実際の授業のように進めます。教え方や進め方を体験したうえで、今後受講するかどうかをご検討ください。
 
@@ -595,18 +616,11 @@ CONSULTATION
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -636,8 +650,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -650,13 +664,13 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/consultation/#contact
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%AD%A6%E7%BF%92%E3%81%AE%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%E3%83%BB%E6%95%99%E6%9D%90%E5%90%8D%EF%BC%88%E7%89%88%E3%83%BB%E8%A9%B2%E5%BD%93%E7%AE%87%E6%89%80%E3%82%82%E5%88%86%E3%81%8B%E3%82%8C%E3%81%B0%EF%BC%89%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E5%AD%A6%E7%BF%92%E3%81%AE%E6%9C%9F%E9%99%90%EF%BC%88%E6%9C%AA%E5%AE%9A%E3%81%A7%E3%82%82%E5%8F%AF%EF%BC%89%EF%BC%9A%0A%E5%A4%A7%E5%AD%A6%E3%83%BB%E5%AD%A6%E9%83%A8%E3%83%BB%E5%AD%A6%E5%B9%B4%EF%BC%88%E5%9C%A8%E5%AD%A6%E4%B8%AD%E3%81%AE%E6%96%B9%E3%81%AE%E3%81%BF%E3%80%81%E5%88%86%E3%81%8B%E3%82%8B%E7%AF%84%E5%9B%B2%E3%81%A7%EF%BC%89%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%AD%A6%E7%BF%92%E3%81%AE%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%E3%83%BB%E6%95%99%E6%9D%90%E5%90%8D%EF%BC%88%E7%89%88%E3%83%BB%E8%A9%B2%E5%BD%93%E7%AE%87%E6%89%80%E3%82%82%E5%88%86%E3%81%8B%E3%82%8C%E3%81%B0%EF%BC%89%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E5%AD%A6%E7%BF%92%E3%81%AE%E6%9C%9F%E9%99%90%EF%BC%88%E6%9C%AA%E5%AE%9A%E3%81%A7%E3%82%82%E5%8F%AF%EF%BC%89%EF%BC%9A%0A%E5%A4%A7%E5%AD%A6%E3%83%BB%E5%AD%A6%E9%83%A8%E3%83%BB%E5%AD%A6%E5%B9%B4%EF%BC%88%E5%9C%A8%E5%AD%A6%E4%B8%AD%E3%81%AE%E6%96%B9%E3%81%AE%E3%81%BF%E3%80%81%E5%88%86%E3%81%8B%E3%82%8B%E7%AF%84%E5%9B%B2%E3%81%A7%EF%BC%89%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
@@ -771,18 +785,11 @@ FAQ
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -806,8 +813,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -830,9 +837,11 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/pricing
 
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
+
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
@@ -1048,18 +1057,11 @@ RELATED GUIDES
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -1083,8 +1085,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -1107,13 +1109,13 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/guides/matrix-linear-equations
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
@@ -1429,18 +1431,11 @@ RELATED GUIDES
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -1469,8 +1464,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -1505,7 +1500,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/guides/epsilon-delta-definition
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -1513,7 +1508,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E7%B5%8C%E6%B8%88%E6%95%B0%E5%AD%A6%E3%81%AE%E5%AD%A6%E7%BF%92%E3%82%AC%E3%82%A4%E3%83%89
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E7%B5%8C%E6%B8%88%E6%95%B0%E5%AD%A6%E3%81%AE%E5%AD%A6%E7%BF%92%E3%82%AC%E3%82%A4%E3%83%89
 
 
 ==================================================
@@ -1738,18 +1733,11 @@ RELATED GUIDES
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -1773,8 +1761,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -1797,13 +1785,13 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/guides/matrix-linear-equations
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
@@ -2026,18 +2014,11 @@ RELATED GUIDES
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -2061,8 +2042,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -2085,13 +2066,13 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/guides/economics-math-basics
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
@@ -2199,18 +2180,11 @@ WHEN A GUIDE IS NOT ENOUGH
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -2234,8 +2208,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -2276,11 +2250,11 @@ Instagram DM またはメール
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
@@ -2501,18 +2475,11 @@ RELATED GUIDES
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -2536,8 +2503,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -2560,13 +2527,13 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/guides/matrix-linear-equations
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
@@ -2778,18 +2745,11 @@ RELATED GUIDES
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -2813,8 +2773,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -2837,13 +2797,13 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/guides/economics-math-basics
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
@@ -3047,18 +3007,11 @@ RELATED GUIDES
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -3082,8 +3035,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -3106,13 +3059,13 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/guides/macro-is-lm-shifts
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
@@ -3319,18 +3272,11 @@ RELATED GUIDES
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -3354,8 +3300,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -3378,13 +3324,13 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/guides/game-theory-nash-equilibrium
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
@@ -3578,18 +3524,11 @@ RELATED GUIDES
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -3613,8 +3552,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -3637,22 +3576,19 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/guides/econometrics-regression-basics
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
 資料 14｜大学の経済学・統計学専門オンライン個別指導｜economic_tutoring
 公式URL：https://economic-tutoring.pages.dev/
 本文
-[画像の代替テキスト：窓辺の自然光が差し込む机に、ノートと本を置いた学びのイメージ]
-A QUIET MOMENT FOR LEARNING / 学びの風景・生成イメージ
-
 ECONOMICS / MATHEMATICS / STATISTICS
 
 経済学の学びを、
@@ -3662,9 +3598,43 @@ ECONOMICS / MATHEMATICS / STATISTICS
 あなたの講義資料に合わせて、必要な基礎から。
 経済学・数学・統計学を、意味から理解するための
 オンライン個別指導と学習サポートです。
-私たちの学び方を知る →
+
+料金・サービスを見る →無料でメール相談する →
+
+単発60分6,600円（税込）から。プランが未定でもご相談いただけます。
+
+[画像の代替テキスト：窓辺の自然光が差し込む机に、ノートと本を置いた学びのイメージ]
+A QUIET MOMENT FOR LEARNING / 学びの風景・生成イメージ
 
 大学学部レベルの経済学・統計学を中心に、学部・所属を問わずご相談いただけます。対応可否は教材・問題を確認してご案内します。大学院・資格学習・社会人の方へ →
+
+SERVICES
+
+必要な支援と、料金。
+
+授業を受ける、継続して学ぶ、自分で取り組む。目的に合わせた支援の全体像をご案内します。
+
+01
+
+単発・短期の個別指導
+
+必要な問題・単元を、授業で確認する。60分6,600円／3回18,000円
+
+↗ 02
+
+継続的な学習サポート
+
+授業・計画・授業外の質問をつなげる。月4回29,800円から
+
+↗ 03
+
+授業なしの学習確認
+
+小テストと講師の確認で、自習を続ける。1科目 月額12,800円
+
+↗
+
+表示は税込です。既存受講者・提示済みの条件は維持します。回数・支援範囲を詳しく見る →
 
 対応科目
 
@@ -3674,69 +3644,24 @@ ECONOMICS / MATHEMATICS / STATISTICS
 
 ミクロ経済学 需要・供給／最適化／ゲーム理論マクロ経済学 IS-LM／政策／経済成長統計学 確率／推定／仮説検定計量経済学 回帰／係数の解釈／検定経済数学 微分／行列／制約付き最適化
 
-大学・ご家族の状況から
+ABOUT OUR LESSONS
 
-あなたに近い案内から、相談へ。
+講義資料に合わせて、意味から理解する。
 
-大学生ご本人へ
-大学・科目別の学び直し案内
+公式を当てはめるだけでなく、なぜそうなるかを確認し、実際に解きながら身につけます。
+教え方・授業の進め方 →
 
-慶應・上智など、大学と科目から授業に近い案内へ。公開授業情報と復習先を確認し、個別指導ではご本人の講義資料に合わせます。
-大学別の入口を見る → 保護者の方へ
-大学の授業で困るお子さまに
+MORE INFORMATION
 
-何につまずいているか、何を支援するか。費用・回数の決め方と、本人同意に基づく進捗の共有をご案内します。
-保護者向けの説明を見る →
+詳しく知りたい方へ。
 
-まず読んでみる
+・大学・科目別の案内 →
 
-授業の「ここが分からない」を解説。
+・保護者の方へ →
 
-学習ガイドは、直感・条件・式・数値例をつなげて読めます。
+・自習に役立つ無料の学習ガイド →
 
-経済数学
-経済数学、どこから復習する？
-
-式変形・微分・最適化。必要なところから復習できます。
-解説を読む → 統計学
-標準偏差と標準誤差は、何が違う？
-
-ばらつきと、推定の不確かさを分けて考えます。
-解説を読む → ミクロ経済学・ゲーム理論
-ナッシュ均衡は、最大利得のマスではない
-
-相手の行動を固定して、自分の選択を比べます。
-解説を読む →
-
-9本の学習ガイドをすべて見る →
-
-SERVICES
-
-学びを支える、サービス。
-
-授業を受ける、継続して学ぶ、自分で取り組む。目的に合わせた支援の全体像をご案内します。
-
-01
-
-単発・短期の個別指導
-
-必要な問題・単元を、授業で確認する。
-
-↗ 02
-
-継続的な学習サポート
-
-学習の進め方や支援範囲を確認する。
-
-↗ 03
-
-学習環境・学習確認
-
-授業と自習を支える仕組みを知る。
-
-↗
-
-料金・回数・支援範囲の詳細は、サービスページにまとめています。
+・受講者の学習環境 →
 
 BEFORE UNIVERSITY / 検討中
 入学前の学びについて
@@ -3748,15 +3673,23 @@ CONTACT
 
 学びについて、相談する。
 
-メールでの相談と、継続受講を検討する方向けの体験について。
+単発でも継続でも、まだ未定でも。メールでのご相談は無料です。
 
-相談・体験の案内を見る →
+無料相談の案内を見る →
 
 本文内のリンク（同一ページ内へのリンクを含む）
 
-・https://economic-tutoring.pages.dev/approach/
+・https://economic-tutoring.pages.dev/pricing
+
+・https://economic-tutoring.pages.dev/consultation/
 
 ・https://economic-tutoring.pages.dev/subjects#learner-scope
+
+・https://economic-tutoring.pages.dev/pricing#single
+
+・https://economic-tutoring.pages.dev/pricing#monthly
+
+・https://economic-tutoring.pages.dev/pricing#learning-check-course
 
 ・https://economic-tutoring.pages.dev/subjects#micro
 
@@ -3768,27 +3701,17 @@ CONTACT
 
 ・https://economic-tutoring.pages.dev/subjects#mathematics
 
+・https://economic-tutoring.pages.dev/approach/
+
 ・https://economic-tutoring.pages.dev/universities/
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/guides/economics-math-basics
-
-・https://economic-tutoring.pages.dev/guides/university-statistics-study-order
-
-・https://economic-tutoring.pages.dev/guides/game-theory-nash-equilibrium
-
 ・https://economic-tutoring.pages.dev/guides/
-
-・https://economic-tutoring.pages.dev/pricing#single
-
-・https://economic-tutoring.pages.dev/pricing#monthly
 
 ・https://economic-tutoring.pages.dev/web-learning
 
 ・https://economic-tutoring.pages.dev/before-university/
-
-・https://economic-tutoring.pages.dev/consultation/
 
 
 ==================================================
@@ -3918,18 +3841,11 @@ FAQ
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 INSTAGRAM
 
@@ -3957,8 +3873,8 @@ Instagramのプロフィールを開く
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 DM以外をご希望の方は、フォームでも。 項目に沿って相談内容を送れます。資料の添付は不要です。
 フォームから相談する
@@ -3982,11 +3898,13 @@ economic.tutoring.office@gmail.comコピー
 
 ・https://economic-tutoring.pages.dev/pricing#faq
 
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
+
 ・https://www.instagram.com/economic_tutoring/
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9AInstagram%20LP
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9AInstagram%20LP
 
 
 ==================================================
@@ -4222,18 +4140,11 @@ economic.tutoring.office@gmail.comコピー
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -4259,8 +4170,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -4301,13 +4212,13 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E4%BF%9D%E8%AD%B7%E8%80%85%E5%90%91%E3%81%91%E3%83%9A%E3%83%BC%E3%82%B8
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E4%BF%9D%E8%AD%B7%E8%80%85%E5%90%91%E3%81%91%E3%83%9A%E3%83%BC%E3%82%B8
 
 
 ==================================================
@@ -4328,8 +4239,8 @@ PRICE & SERVICE
 3つの方法。
 
 最初に見る選択肢は、単発・授業あり伴走・授業なし学習確認の3つです。各商品の細かな違いは下で開いて確認できます。
-初回・単発・短期授業あり伴走授業なし学習確認紹介・ペア特典よくある質問
-初回相談・体験：通常60分3,000円（税込）
+単発・短期授業あり伴走授業なし学習確認紹介・ペア特典よくある質問
+受講についてのメール相談は無料です。
 内容・日程・条件を確認してから実施します。送信だけで契約・支払いは確定しません。
 
 どこまで支援が必要か、
@@ -4354,7 +4265,7 @@ PRICE & SERVICE
 
 6,600円／回
 
-初回・単発・3回パックの詳細 →
+単発・3回パックの詳細 →
 
 02 ／ 授業あり伴走
 ゴールへの進め方も支援
@@ -4396,35 +4307,11 @@ PRICE & SERVICE
 
 単発でも伴走でも、公式の意味・理由を理解し、自分で説明・練習して使える形に定着させる指導方針は共通です。回数だけでなく、必要な支援範囲から選びます。
 
-表示は税込の通常料金。初回相談・体験は通常60分3,000円です。
+表示は税込の通常料金です。単発・短期の申込みに体験は必須ではありません。
 
 単発・短期
 
 毎回「ここが分からない」と持ち込む問題・単元を中心に扱います。必要に応じて複数回利用する場合も、回数だけで伴走になるわけではありません。授業内の理解確認・簡単な復習案内を含み、長期計画・授業外質問・継続的な進捗管理は含みません。
-
-ENTRY初回相談・体験3,000円60分
-
-現在地を確認し、実際の問題を扱いながら次の進め方を整理します。
-
-授業や勉強の悩みを相談しながら、つまずいているテーマを一つ選び、実際の授業のように説明・練習を進めます。体験後に今後受講するかどうかをご検討いただけます。相談・授業体験・振り返りを合わせて60分です。
-
-含まれる内容
-
-・事前資料の基本確認
-
-・本人・保護者の希望確認
-
-・理解状況の確認
-
-・体験指導
-
-・推奨プランの案内
-
-確認事項
-
-・継続契約は必須ではありません
-
-このプランを相談する →
 
 ONE TIME単発個別指導6,600円60分／回
 
@@ -4465,6 +4352,38 @@ EXAM試験前3回集中パック18,000円60分×3回
 ・長期的な進捗管理・専用学習環境は含みません
 
 このプランを相談する →
+
+継続受講を検討する方へ
+
+初回相談・体験
+
+メールでの無料相談とは別に、授業を体験し、今後の学習について相談する60分です。継続契約は任意です。
+
+ENTRY初回相談・体験3,000円60分
+
+現在地を確認し、実際の問題を扱いながら次の進め方を整理します。
+
+授業や勉強の悩みを相談しながら、つまずいているテーマを一つ選び、実際の授業のように説明・練習を進めます。体験後に今後受講するかどうかをご検討いただけます。相談・授業体験・振り返りを合わせて60分です。
+
+含まれる内容
+
+・事前資料の基本確認
+
+・本人・保護者の希望確認
+
+・理解状況の確認
+
+・体験指導
+
+・推奨プランの案内
+
+確認事項
+
+・継続契約は必須ではありません
+
+このプランを相談する →
+
+体験の内容を見る →
 
 授業あり伴走
 
@@ -4664,18 +4583,11 @@ PRICE FAQ
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -4705,8 +4617,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -4729,6 +4641,8 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/pricing#contact
 
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
+
 ・https://economic-tutoring.pages.dev/web-learning#learning-check-course
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
@@ -4737,7 +4651,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%AD%A6%E7%BF%92%E3%81%AE%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%E3%83%BB%E6%95%99%E6%9D%90%E5%90%8D%EF%BC%88%E7%89%88%E3%83%BB%E8%A9%B2%E5%BD%93%E7%AE%87%E6%89%80%E3%82%82%E5%88%86%E3%81%8B%E3%82%8C%E3%81%B0%EF%BC%89%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E5%AD%A6%E7%BF%92%E3%81%AE%E6%9C%9F%E9%99%90%EF%BC%88%E6%9C%AA%E5%AE%9A%E3%81%A7%E3%82%82%E5%8F%AF%EF%BC%89%EF%BC%9A%0A%E5%A4%A7%E5%AD%A6%E3%83%BB%E5%AD%A6%E9%83%A8%E3%83%BB%E5%AD%A6%E5%B9%B4%EF%BC%88%E5%9C%A8%E5%AD%A6%E4%B8%AD%E3%81%AE%E6%96%B9%E3%81%AE%E3%81%BF%E3%80%81%E5%88%86%E3%81%8B%E3%82%8B%E7%AF%84%E5%9B%B2%E3%81%A7%EF%BC%89%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%AD%A6%E7%BF%92%E3%81%AE%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%E3%83%BB%E6%95%99%E6%9D%90%E5%90%8D%EF%BC%88%E7%89%88%E3%83%BB%E8%A9%B2%E5%BD%93%E7%AE%87%E6%89%80%E3%82%82%E5%88%86%E3%81%8B%E3%82%8C%E3%81%B0%EF%BC%89%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E5%AD%A6%E7%BF%92%E3%81%AE%E6%9C%9F%E9%99%90%EF%BC%88%E6%9C%AA%E5%AE%9A%E3%81%A7%E3%82%82%E5%8F%AF%EF%BC%89%EF%BC%9A%0A%E5%A4%A7%E5%AD%A6%E3%83%BB%E5%AD%A6%E9%83%A8%E3%83%BB%E5%AD%A6%E5%B9%B4%EF%BC%88%E5%9C%A8%E5%AD%A6%E4%B8%AD%E3%81%AE%E6%96%B9%E3%81%AE%E3%81%BF%E3%80%81%E5%88%86%E3%81%8B%E3%82%8B%E7%AF%84%E5%9B%B2%E3%81%A7%EF%BC%89%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
@@ -4832,6 +4746,8 @@ MRSと最適消費のガイド →
 
 02 / MACROECONOMICSマクロ経済学
 
+マクロ経済学の授業を相談する →
+
 国民所得、乗数、IS-LM、AD-AS、インフレ・失業、経済成長、ソローモデルなど。
 
 ・曲線上の移動と曲線そのもののシフトが混ざる
@@ -4843,6 +4759,8 @@ MRSと最適消費のガイド →
 IS-LMのガイド →
 
 03 / STATISTICS統計学
+
+統計学の授業を相談する →
 
 記述統計、確率、確率分布、標本分布、推定、信頼区間、仮説検定など。
 
@@ -4856,6 +4774,8 @@ IS-LMのガイド →
 
 04 / ECONOMETRICS計量経済学
 
+計量経済学の授業を相談する →
+
 単回帰・重回帰、係数の解釈、標準誤差、検定、ダミー変数、欠落変数バイアスなど。
 
 ・母集団モデル・推定式・残差が混ざる
@@ -4867,6 +4787,8 @@ IS-LMのガイド →
 回帰分析の基礎ガイド →
 
 05 / ECONOMICS MATHEMATICS経済数学
+
+経済数学の授業を相談する →
 
 関数、微分・偏微分、最適化、制約付き最適化、行列、連立方程式など。計算と意味に加え、定義・定理の条件・証明の筋道も、いまの授業に合わせて確認します。
 
@@ -4993,18 +4915,11 @@ BOUNDARY
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -5034,8 +4949,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -5057,6 +4972,8 @@ Instagram DM またはメール
 ・https://economic-tutoring.pages.dev/subjects#mathematics
 
 ・https://economic-tutoring.pages.dev/guides/micro-marginal-rate-substitution
+
+・https://economic-tutoring.pages.dev/consultation/
 
 ・https://economic-tutoring.pages.dev/guides/macro-is-lm-shifts
 
@@ -5088,13 +5005,13 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/pricing
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%AD%A6%E7%BF%92%E3%81%AE%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%E3%83%BB%E6%95%99%E6%9D%90%E5%90%8D%EF%BC%88%E7%89%88%E3%83%BB%E8%A9%B2%E5%BD%93%E7%AE%87%E6%89%80%E3%82%82%E5%88%86%E3%81%8B%E3%82%8C%E3%81%B0%EF%BC%89%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E5%AD%A6%E7%BF%92%E3%81%AE%E6%9C%9F%E9%99%90%EF%BC%88%E6%9C%AA%E5%AE%9A%E3%81%A7%E3%82%82%E5%8F%AF%EF%BC%89%EF%BC%9A%0A%E5%A4%A7%E5%AD%A6%E3%83%BB%E5%AD%A6%E9%83%A8%E3%83%BB%E5%AD%A6%E5%B9%B4%EF%BC%88%E5%9C%A8%E5%AD%A6%E4%B8%AD%E3%81%AE%E6%96%B9%E3%81%AE%E3%81%BF%E3%80%81%E5%88%86%E3%81%8B%E3%82%8B%E7%AF%84%E5%9B%B2%E3%81%A7%EF%BC%89%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%AD%A6%E7%BF%92%E3%81%AE%E7%9B%AE%E7%9A%84%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%E3%83%BB%E6%95%99%E6%9D%90%E5%90%8D%EF%BC%88%E7%89%88%E3%83%BB%E8%A9%B2%E5%BD%93%E7%AE%87%E6%89%80%E3%82%82%E5%88%86%E3%81%8B%E3%82%8C%E3%81%B0%EF%BC%89%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E5%AD%A6%E7%BF%92%E3%81%AE%E6%9C%9F%E9%99%90%EF%BC%88%E6%9C%AA%E5%AE%9A%E3%81%A7%E3%82%82%E5%8F%AF%EF%BC%89%EF%BC%9A%0A%E5%A4%A7%E5%AD%A6%E3%83%BB%E5%AD%A6%E9%83%A8%E3%83%BB%E5%AD%A6%E5%B9%B4%EF%BC%88%E5%9C%A8%E5%AD%A6%E4%B8%AD%E3%81%AE%E6%96%B9%E3%81%AE%E3%81%BF%E3%80%81%E5%88%86%E3%81%8B%E3%82%8B%E7%AF%84%E5%9B%B2%E3%81%A7%EF%BC%89%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
@@ -5597,18 +5514,11 @@ f(2)で止まるなら関数への代入から。5と4の違いを説明でき�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -5637,8 +5547,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -5691,7 +5601,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -5699,7 +5609,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-aoyama-gakuin
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-aoyama-gakuin
 
 
 ==================================================
@@ -5989,18 +5899,11 @@ Instagram DM またはメール
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -6029,8 +5932,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -6081,7 +5984,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -6089,7 +5992,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-chuo
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-chuo
 
 
 ==================================================
@@ -6413,18 +6316,11 @@ K = 3なら F(3,L) = 3L
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -6453,8 +6349,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -6513,7 +6409,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -6521,7 +6417,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-doshisha
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-doshisha
 
 ・https://www.econ.doshisha.ac.jp/images/keijm/page/curriculum_tree_economics.pdf
 
@@ -6768,18 +6664,11 @@ y = 12 − 2x と直すと、xを1増やすためにyを2減らす関係が見�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -6808,8 +6697,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -6858,7 +6747,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -6866,7 +6755,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-gakushuin
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-gakushuin
 
 
 ==================================================
@@ -7165,18 +7054,11 @@ PDFを視覚確認。1年の経済学入門A・Bは必修。ビジネス数学�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -7205,8 +7087,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -7269,7 +7151,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -7277,7 +7159,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-hosei
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-hosei
 
 
 ==================================================
@@ -8061,18 +7943,11 @@ GMARCH
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -8101,8 +7976,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -8555,7 +8430,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -8563,7 +8438,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
 
 
 ==================================================
@@ -8879,18 +8754,11 @@ Instagram DM またはメール
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -8919,8 +8787,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -8977,7 +8845,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -8985,7 +8853,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-kansai
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-kansai
 
 
 ==================================================
@@ -9436,18 +9304,11 @@ q＝3から少しだけΔq増やすと、利潤の変化は約2Δqです。「1�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -9476,8 +9337,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -9562,13 +9423,13 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/guides/economics-math-basics
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-keio-math
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-keio-math
 
 ・https://gslbs.keio.jp/pub-syllabus/detail?ttblyr=2026&entno=74659&lang=jp
 
@@ -9920,18 +9781,11 @@ Gが10増えたときの、均衡所得Yの増加分を求めましょう。
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -9960,8 +9814,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -10034,7 +9888,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/universities/#economics-subjects
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -10042,7 +9896,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-keio-macroeconomics
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-keio-macroeconomics
 
 ・https://www.keio.ac.jp/ja/econ/department/economics/curriculum-hiyoshi/basic/
 
@@ -10390,18 +10244,11 @@ Uの微分は12−4x。これを0と置くとx＝3で、y＝6です。U＝18。�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -10430,8 +10277,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -10504,7 +10351,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/universities/#economics-subjects
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -10512,7 +10359,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-keio-microeconomics
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-keio-microeconomics
 
 ・https://www.keio.ac.jp/ja/econ/department/economics/curriculum-hiyoshi/basic/
 
@@ -10840,18 +10687,11 @@ q＝5で総費用は25＋15＋40＝80。一方、限界費用は2×5＋3＝13。
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -10880,8 +10720,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -10942,7 +10782,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -10950,7 +10790,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-kindai
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-kindai
 
 ・https://www.kindai.ac.jp/economics/files/department/economics/curriculum/dep_economics_map.pdf
 
@@ -11269,18 +11109,11 @@ x₁・x₂・x₃を数字に置く
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -11309,8 +11142,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -11367,7 +11200,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -11375,7 +11208,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-komazawa
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-komazawa
 
 ・https://www.komazawa-u.ac.jp/academics/ai.html
 
@@ -11690,18 +11523,11 @@ y＝6−xを満たす組合せはすべて解です。例えば(0,6)、(2,4)、(
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -11730,8 +11556,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -11790,7 +11616,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -11798,7 +11624,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-konan
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-konan
 
 
 ==================================================
@@ -12099,18 +11925,11 @@ C(10) = 100 + 100 + 100 = 300。C(11) = 121 + 110 + 100 = 331。
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -12139,8 +11958,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -12205,7 +12024,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -12213,7 +12032,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-kwansei
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-kwansei
 
 ・https://www.kwansei.ac.jp/s_economics/about/
 
@@ -12524,18 +12343,11 @@ GDPの測定と、需要や金利の変化による所得決定は別の問い�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -12564,8 +12376,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -12634,7 +12446,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/universities/#economics-subjects
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -12642,7 +12454,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-kwansei-gakuin-macroeconomics
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-kwansei-gakuin-macroeconomics
 
 ・https://www.kwansei.ac.jp/s_economics/about/
 
@@ -12952,18 +12764,11 @@ P＝100−Qなら売上は(100−Q)Q。Pだけを微分しても限界収入に�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -12992,8 +12797,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -13062,7 +12867,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/universities/#economics-subjects
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -13070,7 +12875,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-kwansei-gakuin-microeconomics
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-kwansei-gakuin-microeconomics
 
 ・https://www.kwansei.ac.jp/s_economics/about/
 
@@ -13393,18 +13198,11 @@ q個売るなら、1個300円の売上は300q円。まず単位当たりの金�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -13433,8 +13231,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -13495,7 +13293,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -13503,7 +13301,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-kyoto-sangyo
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-kyoto-sangyo
 
 
 ==================================================
@@ -13764,18 +13562,11 @@ PDFを視覚確認。経済学科の1年次必修にミクロ経済学Ⅰ・Ⅱ�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -13804,8 +13595,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -13866,7 +13657,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -13874,7 +13665,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-meiji
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-meiji
 
 
 ==================================================
@@ -14214,18 +14005,11 @@ Instagram DM またはメール
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -14254,8 +14038,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -14314,7 +14098,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -14322,7 +14106,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-nihon
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-nihon
 
 
 ==================================================
@@ -14614,18 +14398,11 @@ x + 2y = 7
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -14654,8 +14431,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -14714,7 +14491,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -14722,7 +14499,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-rikkyo
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-rikkyo
 
 ・https://sy.rikkyo.ac.jp/web/preview.php?kodo_2=BX009&nendo=2026
 
@@ -15024,18 +14801,11 @@ Instagram DM またはメール
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -15064,8 +14834,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -15126,7 +14896,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/universities/#economics-subjects
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -15134,7 +14904,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-rikkyo-macroeconomics
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-rikkyo-macroeconomics
 
 ・https://www.rikkyo.ac.jp/undergraduate/economics/department_01.html
 
@@ -15434,18 +15204,11 @@ Q＝40では限界便益60に対して社会的限界費用80。この付近で�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -15474,8 +15237,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -15536,7 +15299,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/universities/#economics-subjects
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -15544,7 +15307,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-rikkyo-microeconomics
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-rikkyo-microeconomics
 
 ・https://www.rikkyo.ac.jp/undergraduate/economics/department_01.html
 
@@ -15840,18 +15603,11 @@ n年後なら100 × 1.1ⁿ。この式が読めると、指数で書かれた成
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -15880,8 +15636,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -15940,7 +15696,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -15948,7 +15704,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-ritsumeikan
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-ritsumeikan
 
 ・https://www.ritsumei.ac.jp/ec/qa/
 
@@ -16258,18 +16014,11 @@ q＝25なら平均費用は225÷25＝9。固定費をより多くの数量で分
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -16298,8 +16047,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -16350,7 +16099,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -16358,7 +16107,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-ryukoku
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-ryukoku
 
 ・https://www.ryukoku.ac.jp/cooperation/lifelong_learning/nds/data/2026_kamoku.pdf
 
@@ -16672,18 +16421,11 @@ P＝20をそれぞれ代入すると、需要量60、供給量20。超過需要�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -16712,8 +16454,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -16768,7 +16510,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -16776,7 +16518,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-senshu
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-senshu
 
 ・https://syllabus.acc.senshu-u.ac.jp/syllsenshu/slbssbdr.do?value%28crclumcd%29=&value%28kougicd%29=17020&value%28risyunen%29=2026&value%28semekikn%29=1
 
@@ -17092,18 +16834,11 @@ SPSFや別の経済数学科目も同じ内容ですか？
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -17132,8 +16867,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -17194,7 +16929,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -17202,7 +16937,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-sophia
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-sophia
 
 ・https://www.sophia.ac.jp/jpn/academics/ug/ug_econ/ug_econ_economics/
 
@@ -17527,18 +17262,11 @@ ISの式そのものは変わっていません。新しい均衡点がIS上を�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -17567,8 +17295,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -17635,7 +17363,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/universities/#economics-subjects
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -17643,7 +17371,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-sophia-macroeconomics
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-sophia-macroeconomics
 
 ・https://www.sophia.ac.jp/jpn/academics/ug/ug_econ/ug_econ_economics/
 
@@ -17967,18 +17695,11 @@ PDF13〜14ページの経済学科授業科目表を目視確認。A群8単位�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -18007,8 +17728,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -18075,7 +17796,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/universities/#economics-subjects
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -18083,7 +17804,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-sophia-microeconomics
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-sophia-microeconomics
 
 ・https://www.sophia.ac.jp/jpn/academics/ug/ug_econ/ug_econ_economics/
 
@@ -18394,18 +18115,11 @@ V × 1.10² = 121
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -18434,8 +18148,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -18492,7 +18206,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/parents/
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -18500,7 +18214,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-toyo
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-toyo
 
 ・https://g-sys.toyo.ac.jp/syllabus/html/gakugai/2026/2026_127839.html
 
@@ -18823,18 +18537,11 @@ GDPの基本から相談してもよいですか？
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -18863,8 +18570,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -18931,7 +18638,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/universities/#economics-subjects
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -18939,7 +18646,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-waseda-macroeconomics
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-waseda-macroeconomics
 
 ・https://www.waseda.jp/fpse/pse/students/lectures/
 
@@ -19263,18 +18970,11 @@ P＝25に固定して比較すると、需要量は50から70へ増えていま�
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 ご家族に説明したいときは
 
@@ -19303,8 +19003,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -19371,7 +19071,7 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/universities/#economics-subjects
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://economic-tutoring.pages.dev/parents/#share
 
@@ -19379,7 +19079,7 @@ Instagram DM またはメール
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-waseda-microeconomics
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9Auniversity-waseda-microeconomics
 
 ・https://www.waseda.jp/fpse/pse/students/lectures/
 
@@ -19530,18 +19230,11 @@ FAQ
 
 科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
 
-メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
 
-初回相談・体験60分 3,000円 （税込）
-
-・相談 つまずいているテーマを一つ選びます。
-
-・授業体験 実際の授業のように説明・練習し、途中の疑問も確認します。
-
-・振り返り 今後受講するかどうかを、体験してから検討できます。
-
-相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。
-継続する場合の料金・支援範囲 →
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
 
 CONSULTATION FORM
 
@@ -19565,8 +19258,8 @@ CONSULTATION FORM
 内容を確認して返信し、必要な支援と条件をご案内します。
 
 ・ 03
-合意後に、初回相談・体験
-対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
 
 フォームでいただいた内容を確認し、事業用メールからご連絡します。
 
@@ -19591,10 +19284,10 @@ Instagram DM またはメール
 
 ・https://economic-tutoring.pages.dev/pricing
 
-・https://economic-tutoring.pages.dev/pricing#single
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
 
 ・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
 
 ・https://www.instagram.com/economic_tutoring/
 
-・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%88%9D%E5%9B%9E%E7%9B%B8%E8%AB%87%E3%83%BB%E4%BD%93%E9%A8%93&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88

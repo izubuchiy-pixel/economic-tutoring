@@ -14,13 +14,7 @@ export function renderComponents(site, page) {
   const campaignLink = isInstagramPage ? site.instagram.url : site.consultationForm.url;
   const trialOutline = `<ol class="trial-outline" aria-label="相談・体験の内容"><li><strong>相談</strong><span>つまずいているテーマを一つ選びます。</span></li><li><strong>授業体験</strong><span>実際の授業のように説明・練習し、途中の疑問も確認します。</span></li><li><strong>振り返り</strong><span>今後受講するかどうかを、体験してから検討できます。</span></li></ol>`;
   // Preserve historical post links without retaining the ended offer itself.
-  const standardTrial = `<div class="inquiry-trial"${campaign ? '' : ' id="autumn-trial"'} data-standard-trial${campaign ? ' hidden' : ''}>
-            <p class="inquiry-trial-note">メールでのご相談は原則無料です。継続的なご利用を検討されている方向けの体験授業と今後の学習・ご利用についての相談は、60分3,000円（税込）です。継続契約は任意で、体験だけでも利用できます。</p>
-            <p class="inquiry-trial-price">初回相談・体験60分 <strong data-price="trial">${priceText('trial')}</strong><span>（税込）</span></p>
-            ${trialOutline}
-            <p class="inquiry-trial-note">相談・授業体験・振り返りを合わせて60分。継続契約は必須ではありません。資料の共有方法は返信後にご案内します。</p>
-            <a class="text-link" href="/pricing#single">継続する場合の料金・支援範囲 →</a>
-          </div>`;
+  const standardTrial = `<div class="inquiry-trial"${campaign ? '' : ' id="autumn-trial"'} data-standard-trial${campaign ? ' hidden' : ''}><p class="inquiry-trial-note"><strong>メールでのご相談は無料です。</strong><br>単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。</p><p class="inquiry-trial-note">継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。</p><a class="text-link" href="/consultation/#trial-flow">体験の内容・条件を見る →</a></div>`;
   const trialFeature = `
           <aside class="trial-feature${page === 'top' ? '' : ' trial-feature-wide'}" aria-label="初回相談・体験と入会金のご案内">
             <div class="trial-feature-main">
@@ -73,7 +67,7 @@ export function renderComponents(site, page) {
     'university-kwansei': '関西学院大学の経済数学入門で、関数に代入することはできますが、微分の意味が分かりません。何から復習すべきか相談したいです。',
     'university-rikkyo': '立教大学の経済数学入門で、連立方程式と行列の関係が分かりません。いまの単元の前提から確認したいです。'
   };
-  const navItems = [["approach","私たちの学び方","/approach/"],["subjects","科目から探す","/subjects"],["universities","大学から探す","/universities/"],["guides","学習ガイド","/guides/"],["pricing","サービス","/pricing"]];
+  const navItems = [["pricing","料金・サービス","/pricing"],["subjects","対応科目","/subjects"],["approach","教え方・学び方","/approach/"],["guides","学習ガイド","/guides/"]];
   const consultationHref = site.consultationForm.url;
   const contactIsOnPage = isInstagramPage || hasLearnerScope;
   const primaryContactHref = isInstagramPage ? "#contact" : "/consultation/";
@@ -89,7 +83,7 @@ export function renderComponents(site, page) {
         <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav"><span></span><span></span><span></span></button>
         <nav class="nav" id="global-nav" aria-label="メインナビゲーション">
           ${navItems.map(([id, label, href]) => `<a href="${href}"${page === id ? ' aria-current="page"' : page.startsWith('guide-') && id === 'guides' || page.startsWith('university-') && id === 'universities' ? ' aria-current="location"' : ""}>${label}</a>`).join("")}
-          <a class="nav-cta" href="${primaryContactHref}">相談する</a>
+          <a class="nav-cta" href="${primaryContactHref}">無料相談</a>
         </nav>
       </div>
     </header>${campaign ? `
@@ -115,7 +109,7 @@ export function renderComponents(site, page) {
     </footer>`;
 
   const inquirySource = isInstagramPage ? "Instagram LP" : isParentPage ? "保護者向けページ" : isMathGuide ? "経済数学の学習ガイド" : page.startsWith('university-') ? page : "公式サイト";
-  const inquirySubject = encodeURIComponent("【サイト相談】初回相談・体験");
+  const inquirySubject = encodeURIComponent("【サイト相談】受講について");
   const inquiryBody = encodeURIComponent(hasLearnerScope ? `学習の目的：
 相談したい科目・教材名（版・該当箇所も分かれば）：
 現在困っていること：
@@ -137,10 +131,10 @@ export function renderComponents(site, page) {
         </div>`;
 
   const inquirySteps = `
-          <ol class="inquiry-steps" aria-label="問い合わせから初回相談・体験まで">
+          <ol class="inquiry-steps" aria-label="問い合わせから利用開始まで">
             <li><span>01</span><div><strong>状況を送る</strong><p>科目・時期・困りごと。プランは未定でも構いません。</p></div></li>
             <li><span>02</span><div><strong>対応可否と日程を確認</strong><p>内容を確認して返信し、必要な支援と条件をご案内します。</p></div></li>
-            <li><span>03</span><div><strong>合意後に、初回相談・体験</strong><p>対応内容・料金・日程を確認してから実施します。資料の共有方法は返信後にご案内します。</p></div></li>
+            <li><span>03</span><div><strong>希望する支援を、合意後に開始</strong><p>単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。</p></div></li>
           </ol>`;
 
   const instagramContact = `
@@ -194,7 +188,7 @@ export function renderComponents(site, page) {
       </div>
     </section>`;
 
-  const contact = page === "top" ? "<section class=\"section section-white hub-short-contact\" id=\"contact\"><div class=\"shell\"><div><p class=\"section-label\">CONTACT</p><h2>学びについて、相談する。</h2><p>メールでの相談と、継続受講を検討する方向けの体験について。</p></div><a class=\"button\" href=\"/consultation/\">相談・体験の案内を見る →</a></div></section>" : isInstagramPage ? instagramContact : officialContact;
+  const contact = page === "top" ? "<section class=\"section section-white hub-short-contact\" id=\"contact\"><div class=\"shell\"><div><p class=\"section-label\">CONTACT</p><h2>学びについて、相談する。</h2><p>単発でも継続でも、まだ未定でも。メールでのご相談は無料です。</p></div><a class=\"button\" href=\"/consultation/\">無料相談の案内を見る →</a></div></section>" : isInstagramPage ? instagramContact : officialContact;
 
   const detailRow = (key) => {
     const item = product(key);

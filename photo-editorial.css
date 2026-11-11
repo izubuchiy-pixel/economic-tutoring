@@ -12,3 +12,11 @@
 /* Preserve contrast when outline variants share the primary button base. */
 .button.button-outline{background:transparent!important;color:#414c39!important;border:1px solid #87917d!important}
 .button.button-outline:hover{background:#edf0e7!important;color:#30352f!important}
+
+/* Service-first navigation: retain the editorial style, reduce decisions. */
+.service-first-hero .photo-intro{padding-top:45px;padding-bottom:32px;align-items:center;gap:50px}
+.service-first-hero .photo-intro h1{font-size:clamp(30px,3.1vw,43px)!important;line-height:1.65!important}
+.service-first-hero .intro-body{padding-top:0}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.hero-actions .button{padding:12px 20px}.photo-intro .hero-small{font-size:11px;margin:14px 0 0}
+.service-first-hero .photo-feature{max-width:1240px;margin:auto}.service-first-hero .photo-feature img{height:240px}.service-first-hero .photo-note{margin:16px 0 0}
+.service-price{display:block;font-size:16px;font-weight:500;margin-top:9px;color:#414c39}.supporting-routes{display:grid;grid-template-columns:1fr 1fr;gap:65px}.supporting-routes h2{font-size:24px;font-weight:400;line-height:1.65}.supporting-routes p{font-size:13px;line-height:2}.supporting-links{list-style:none;padding:0}.supporting-links li{border-bottom:1px solid #dcded4;padding:13px 0}.supporting-links a{font-size:13px}.consultation-options{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.consultation-options article{border-top:2px solid #87917d;padding-top:25px}.consultation-options h2{font-size:22px!important;font-weight:500!important;line-height:1.6}.consultation-options p{font-size:13px;line-height:1.9}.consultation-options .button{margin-top:10px}.hub-page-hero .hub-hero-lead{max-width:760px}.subject-consult{margin-bottom:14px}
+@media(max-width:800px){.service-first-hero .photo-intro{padding-top:30px;padding-bottom:26px;gap:20px}.service-first-hero .photo-feature{margin:0 17px}.service-first-hero .photo-feature img{height:190px}.hero-actions{flex-direction:column}.hero-actions .button{flex:0 0 auto;min-height:48px;justify-content:center}.service-first-hero .photo-intro h1{font-size:29px!important}.supporting-routes,.consultation-options{grid-template-columns:1fr;gap:28px}.photo-intro .hero-small{font-size:11px}.service-price{font-size:14px}}
