@@ -8,6 +8,7 @@ import {renderComponents} from './site-templates.mjs';
 import {siteFiles,entryPages} from './site-files.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const baseline=process.argv[2] || 'HEAD';
+const priceDraft=process.argv.includes("--allow-new-client-price-draft");
 // Explicit, page-scoped approval: never disable preservation for other guides.
 const guideUpdate=process.argv.includes('--allow-math-guide-update');
 const mathGuide='guides/economics-math-basics.html';
@@ -17,6 +18,7 @@ const context={window:{}};
 vm.runInNewContext(read('site-config.js'),context);
 const config=context.window.ECONOMIC_TUTORING;
 const baselineFiles=new Set(execFileSync('git',['ls-tree','-r','--name-only',baseline],{cwd:root,encoding:'utf8'}).trim().split('\n'));
+const editorialPages = ["approach/index.html", "consultation/index.html", "before-university/index.html"];
 const files=siteFiles(root);
 const pages=new Map(files.map(f=>[f,read(f)]));
 const norm=s=>s.replace(/[ \t]+$/gm,'').trim();
@@ -32,7 +34,7 @@ function resolve(url,from) {
 }
 for(const [file,html] of pages) {
  const old=baselineFiles.has(file)?previous(file):null;
- check(!!old||entryPages.includes(file),file+': unexpected new page');
+ check(!!old||entryPages.includes(file)||editorialPages.includes(file),file+': unexpected new page');
  check((html.match(/<h1(?:\s|>)/g)||[]).length===1,file+': h1 count');
  const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
  check(ids.length===new Set(ids).size,file+': duplicate IDs');
@@ -43,6 +45,7 @@ for(const [file,html] of pages) {
  try {
    if(old) {
      const before=json(old),after=json(html);
+     if(priceDraft && file==="pricing.html") for(const block of before) for(const offer of block.itemListElement||[]) {if(offer.name==="単発個別指導 60分") offer.price="6600";if(offer.name==="試験前3回集中パック") offer.price="18000";}
      // The approved subject expansion renames only this collection; all other
      // structured-data fields and all other pages retain strict regression checks.
      if(file==='universities/index.html') {
@@ -66,7 +69,7 @@ for(const [file,html] of pages) {
  for(const kind of ['header','footer','contact']) {
    const marker=new RegExp('<!-- site:'+kind+' -->([\\s\\S]*?)<!-- /site:'+kind+' -->');
    const match=html.match(marker);
-   if(kind!=='contact'||!old||old.includes('data-site-contact')||old.includes('site:contact')) {
+   if(kind!=='contact'||file==='consultation/index.html'||(!editorialPages.includes(file)&&(!old||old.includes('data-site-contact')||old.includes('site:contact')))) {
      check(!!match,file+': static '+kind+' missing');
      if(match) {check(norm(match[1])===norm(comp[kind]),file+': stale '+kind);componentCount++;}
    }
@@ -104,6 +107,9 @@ for(const key of Object.keys(config.products)) {
  for(const t of [...item.includes,...(item.excludes||[])]) check(pricing.includes(t),'pricing: missing scope '+key+' '+t);
 }
 for(const f of ['site-config.js','robots.txt','_redirects']) {
+ if(f==='site-config.js' && priceDraft) {
+ const oldContext={window:{}};vm.runInNewContext(previous(f),oldContext);const expected=JSON.parse(JSON.stringify(oldContext.window.ECONOMIC_TUTORING));expected.products.single.price=6600;expected.products.exam.price=18000;try{assert.deepEqual(JSON.parse(JSON.stringify(config)),expected);}catch(e){issues.push('Unexpected change outside two draft prices: '+e.message);}continue;
+ }
  if(f==='site-config.js' && process.argv.includes('--allow-autumn-2026-campaign')) {
    const oldContext={window:{}};
    vm.runInNewContext(previous(f),oldContext);
@@ -124,7 +130,16 @@ check(read('script.js').includes('event.key === "Escape"'),'Escape handling miss
 const urls=[...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
 const oldUrls=[...previous('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
 for(const url of oldUrls) check(urls.includes(url),'old sitemap URL removed '+url);
-check(urls.length===18+entryPages.length,'sitemap count');
+check(urls.length===18+entryPages.length+2,'sitemap count');
+for (const file of editorialPages) {
+ const html=pages.get(file);
+ check(!!html, file+': missing editorial page');
+ if(file==='before-university/index.html') {
+  check(html.includes('noindex,nofollow'),file+': draft must remain noindex');
+  check(html.includes('未確定'),file+': undecided terms missing');
+  check(!urls.includes('https://economic-tutoring.pages.dev/before-university/'),file+': draft in sitemap');
+ } else check(urls.includes('https://economic-tutoring.pages.dev/'+file.replace(/index\.html$/,'')),file+': missing sitemap entry');
+}
 check(urls.length===new Set(urls).size,'duplicate sitemap URL');
 check(read('sitemap.txt')===urls.join('\n')+'\n','text sitemap differs from XML URL list');
 for(const url of urls) check(pages.has(resolve(url,'index.html').file),'sitemap unresolved '+url);

@@ -113,7 +113,7 @@ console.log(JSON.stringify({files:siteFiles(process.cwd()),config:context.window
     assert len(data['files']) >= 52
     pages = []
     for filename in sorted(data['files']):
-        if filename in {'404.html', 'ai/index.html'}:
+        if filename in {'404.html', 'ai/index.html', 'before-university/index.html'}:
             continue  # Error navigation is not a service-information page.
         raw = (SITE / filename).read_bytes()
         parser = PublicText()
@@ -147,7 +147,7 @@ AIが添付ファイルを読めるか、全文を扱えるかは利用先・設
 情報の範囲・読み方
 ・第1部：正式な設定に基づく料金・サービス・条件の一覧。
 ・第2部：今回の運営者回答に基づく授業・申込み・準備の補足。運営者が確認した指導方法を含みます。
-・第3部：公式HPの公開情報51ページの本文と本文内リンク。無料学習ガイド9本の解答・解説も含めます（エラー表示用ページは除外）。
+・第3部：公式HPの公開情報{len(pages)}ページの本文と本文内リンク。無料学習ガイド9本の解答・解説も含めます（エラー表示用ページは除外）。
 ・公開情報「一式」とは上記の範囲です。非公開の運用資料、顧客情報、フォーム回答、認証情報、個別契約・予約在庫・残席は含みません。他事業の情報も含みません。
 ・外部note記事、SNS投稿全履歴、ログイン後の受講者専用環境は取り込んでいません。本文中の外部リンクは案内先であり、その内容を読んだ証拠ではありません。
 ・HTMLの本文をテキスト化しています。画像・図は代替テキストの範囲のみ。見た目、動画・音声、動的画面の全内容は再現しません。見出し・表・数式はテキスト表記です。
@@ -225,7 +225,7 @@ HPの積の微分は指導方法を示す自作例です。実際の教科書・
 【連絡先・正式な確認先】
 ''')
     parts.append(f"申込フォーム：{cfg['consultationForm']['url']}\nメール：{cfg['email']}\nInstagram：{cfg['instagram']['url']}\n")
-    parts.append('\n第3部｜公式HPの公開本文・関連リンク\n目次（51ページ）\n')
+    parts.append(f'\n第3部｜公式HPの公開本文・関連リンク\n目次（{len(pages)}ページ）\n')
     for i, page in enumerate(pages, 1):
         parts.append(f"{i:02d}. {page['title']}\n    {page['url']}\n")
     for i, page in enumerate(pages, 1):
@@ -248,7 +248,7 @@ HPの積の微分は指導方法を示す自作例です。実際の教科書・
         'product_count': len(products), 'config_sha256': sha((SITE / 'site-config.js').read_bytes()),
         'pack_file': pack.name, 'pack_sha256': sha(pack.read_bytes()), 'pack_bytes': pack.stat().st_size,
         'sns_changed': False,
-        'excluded_pages': ['404.html (error navigation)', 'ai/index.html (download instructions)'],
+        'excluded_pages': ['404.html (error navigation)', 'ai/index.html (download instructions)', 'before-university/index.html (unconfirmed draft)' ],
         'scope': 'Official public HTML main text, body links, public service configuration, owner-confirmed lesson clarifications',
         'limitations': ['No live remaining-capacity or booking data',
                         'No off-site note/SNS archive ingestion', 'No authenticated student content',
