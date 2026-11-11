@@ -1,14 +1,14 @@
 {
   "status": "GENERATED_PUBLIC_INFORMATION_SNAPSHOT",
-  "generated_at_jst": "2026-11-12T01:57:03.376810+09:00",
-  "source_base_commit": "7b6299409a43b79859cd814212f346d906fef618",
+  "generated_at_jst": "2026-11-12T02:18:58.102377+09:00",
+  "source_base_commit": "24cb41e49cde02c069a10f3939b7f1fb9a8e61f3",
   "page_count": 53,
   "guide_count": 9,
   "product_count": 7,
   "config_sha256": "b344f2adfb60f50aa1aa7ecbe8a879aca1eab6842443f60ded76433ca2a34631",
   "pack_file": "economic-tutoring-ai-information.txt",
-  "pack_sha256": "b1b5bf5eda74443ad12aad0092d16eaa03cc3af7280231e66b3f93de481b69d0",
-  "pack_bytes": 968472,
+  "pack_sha256": "3a878805536ae9ecebf60faa400b618d87cbdfce49b44bd791efb0e9b96804d6",
+  "pack_bytes": 969865,
   "sns_changed": false,
   "excluded_pages": [
     "404.html (error navigation)",
