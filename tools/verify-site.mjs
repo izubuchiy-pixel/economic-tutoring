@@ -18,7 +18,7 @@ const context={window:{}};
 vm.runInNewContext(read('site-config.js'),context);
 const config=context.window.ECONOMIC_TUTORING;
 const baselineFiles=new Set(execFileSync('git',['ls-tree','-r','--name-only',baseline],{cwd:root,encoding:'utf8'}).trim().split('\n'));
-const editorialPages = ["approach/index.html", "consultation/index.html", "before-university/index.html"];
+const editorialPages = ["approach/index.html", "consultation/index.html", "before-university/index.html", "learning-notes/product-rule/index.html"];
 const files=siteFiles(root);
 const pages=new Map(files.map(f=>[f,read(f)]));
 const norm=s=>s.replace(/[ \t]+$/gm,'').trim();
@@ -130,7 +130,7 @@ check(read('script.js').includes('event.key === "Escape"'),'Escape handling miss
 const urls=[...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
 const oldUrls=[...previous('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
 for(const url of oldUrls) check(urls.includes(url),'old sitemap URL removed '+url);
-check(urls.length===18+entryPages.length+2,'sitemap count');
+check(urls.length===18+entryPages.length+3,'sitemap count');
 for (const file of editorialPages) {
  const html=pages.get(file);
  check(!!html, file+': missing editorial page');
@@ -158,6 +158,8 @@ for(const f of entryPages) {
  }
 }
 check(pages.get('parents/index.html')?.includes('本人が同意した相手・情報・範囲に限って'),'parent consent boundary missing');
+const movedProof=s=>s.match(/<article class="proof-preview"[\s\S]*?<\/article>/)?.[0];
+check(movedProof(pages.get('learning-notes/product-rule/index.html'))===movedProof(previous('approach/index.html')), 'migrated proof differs from approved original');
 const result={ok:issues.length===0,baseline,pages:files.length,staticComponents:componentCount,localLinksChecked:linkCount,jsonLdBlocks:jsonCount,preservedGuideArticles:guideCount,updatedGuideArticles:updatedGuideCount,completeProducts:Object.keys(config.products).length,sitemapUrls:urls.length,issues,browserVisualQA:'Not run: not requested',checkedAt:new Date().toISOString()};
 console.log(JSON.stringify(result,null,2));
 process.exitCode=issues.length?1:0;

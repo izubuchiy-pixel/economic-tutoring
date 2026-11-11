@@ -51,3 +51,4 @@ https://economic-tutoring.pages.dev/universities/rikkyo/macroeconomics/
 https://economic-tutoring.pages.dev/ai/
 https://economic-tutoring.pages.dev/approach/
 https://economic-tutoring.pages.dev/consultation/
+https://economic-tutoring.pages.dev/learning-notes/product-rule/

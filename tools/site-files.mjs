@@ -16,5 +16,5 @@ export const entryPages = [
 ];
 export function siteFiles(root) {
   const tracked = execFileSync('git', ['ls-files', '*.html'], {cwd: root, encoding: 'utf8'}).trim().split('\n').filter(Boolean);
-  return [...new Set([...tracked, ...entryPages.filter(f => fs.existsSync(`${root}/${f}`)), ...["approach/index.html","consultation/index.html","before-university/index.html"].filter(f => fs.existsSync(`${root}/${f}`))])];
+  return [...new Set([...tracked, ...entryPages.filter(f => fs.existsSync(`${root}/${f}`)), ...["approach/index.html","consultation/index.html","before-university/index.html","learning-notes/product-rule/index.html"].filter(f => fs.existsSync(`${root}/${f}`))])];
 }

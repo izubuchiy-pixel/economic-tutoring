@@ -1,5 +1,5 @@
 Economic Tutoring｜自分のAIに渡す公開情報パック
-作成日時：2026-11-12T02:18:58+09:00（日本時間）
+作成日時：2026-11-12T04:04:44+09:00（日本時間）
 対象：公式HPで公開しているサービス情報・教材本文・大学別案内・利用条件と、今回運営者が確認した授業案内。
 公式の公開案内を、ご自身のAIで確認するための資料です。料金・サービスの変更ではありません。
 
@@ -14,7 +14,7 @@ AIが添付ファイルを読めるか、全文を扱えるかは利用先・設
 情報の範囲・読み方
 ・第1部：正式な設定に基づく料金・サービス・条件の一覧。
 ・第2部：今回の運営者回答に基づく授業・申込み・準備の補足。運営者が確認した指導方法を含みます。
-・第3部：公式HPの公開情報53ページの本文と本文内リンク。無料学習ガイド9本の解答・解説も含めます（エラー表示用ページは除外）。
+・第3部：公式HPの公開情報54ページの本文と本文内リンク。無料学習ガイド9本の解答・解説も含めます（エラー表示用ページは除外）。
 ・公開情報「一式」とは上記の範囲です。非公開の運用資料、顧客情報、フォーム回答、認証情報、個別契約・予約在庫・残席は含みません。他事業の情報も含みません。
 ・外部note記事、SNS投稿全履歴、ログイン後の受講者専用環境は取り込んでいません。本文中の外部リンクは案内先であり、その内容を読んだ証拠ではありません。
 ・HTMLの本文をテキスト化しています。画像・図は代替テキストの範囲のみ。見た目、動画・音声、動的画面の全内容は再現しません。見出し・表・数式はテキスト表記です。
@@ -232,7 +232,7 @@ Instagram：https://www.instagram.com/economic_tutoring/
 
 
 第3部｜公式HPの公開本文・関連リンク
-目次（53ページ）
+目次（54ページ）
 
 01. 私たちの学び方｜Economic Tutoring
     https://economic-tutoring.pages.dev/approach/
@@ -279,118 +279,121 @@ Instagram：https://www.instagram.com/economic_tutoring/
 15. Instagramからご覧の方へ｜economic_tutoring
     https://economic-tutoring.pages.dev/instagram/
 
-16. 大学の経済学・数学で困るお子さまの保護者へ｜economic_tutoring
+16. 積の微分｜なぜ同じ項を足して引くのか｜Economic Tutoring
+    https://economic-tutoring.pages.dev/learning-notes/product-rule/
+
+17. 大学の経済学・数学で困るお子さまの保護者へ｜economic_tutoring
     https://economic-tutoring.pages.dev/parents/
 
-17. 料金・サービス｜単発・伴走・学習確認｜economic_tutoring
+18. 料金・サービス｜単発・伴走・学習確認｜economic_tutoring
     https://economic-tutoring.pages.dev/pricing
 
-18. プライバシーポリシー｜economic_tutoring
+19. プライバシーポリシー｜economic_tutoring
     https://economic-tutoring.pages.dev/privacy
 
-19. 大学のミクロ・マクロ・統計・計量・経済数学｜対応科目｜economic_tutoring
+20. 大学のミクロ・マクロ・統計・計量・経済数学｜対応科目｜economic_tutoring
     https://economic-tutoring.pages.dev/subjects
 
-20. 利用案内・受講規約｜economic_tutoring
+21. 利用案内・受講規約｜economic_tutoring
     https://economic-tutoring.pages.dev/terms
 
-21. 特定商取引法に基づく表記｜economic_tutoring
+22. 特定商取引法に基づく表記｜economic_tutoring
     https://economic-tutoring.pages.dev/tokusho
 
-22. 青山学院大学の入門経済数学｜関数・微分の学び直しと個別指導
+23. 青山学院大学の入門経済数学｜関数・微分の学び直しと個別指導
     https://economic-tutoring.pages.dev/universities/aoyama-gakuin/economics-math/
 
-23. 中央大学の基礎数学・経済数学｜微分と利潤最大化の学び直し
+24. 中央大学の基礎数学・経済数学｜微分と利潤最大化の学び直し
     https://economic-tutoring.pages.dev/universities/chuo/economics-math/
 
-24. 同志社大学の経済数学Ⅰ・Ⅱ｜偏微分の前提から学び直す個別指導
+25. 同志社大学の経済数学Ⅰ・Ⅱ｜偏微分の前提から学び直す個別指導
     https://economic-tutoring.pages.dev/universities/doshisha/economics-math/
 
-25. 学習院大学の経済数学｜予算制約・グラフから学び直す個別指導
+26. 学習院大学の経済数学｜予算制約・グラフから学び直す個別指導
     https://economic-tutoring.pages.dev/universities/gakushuin/economics-math/
 
-26. 法政大学のビジネス数学入門B｜微分・確率の学び直しと個別指導
+27. 法政大学のビジネス数学入門B｜微分・確率の学び直しと個別指導
     https://economic-tutoring.pages.dev/universities/hosei/economics-math/
 
-27. 大学別の経済学・経済数学サポート｜早慶・上智ほか21大学
+28. 大学別の経済学・経済数学サポート｜早慶・上智ほか21大学
     https://economic-tutoring.pages.dev/universities/
 
-28. 関西大学の経済数学｜経済ツール入門からの復習と個別指導
+29. 関西大学の経済数学｜経済ツール入門からの復習と個別指導
     https://economic-tutoring.pages.dev/universities/kansai/economics-math/
 
-29. 慶應経済の数学概論・微分積分｜授業に合わせた経済数学サポート
+30. 慶應経済の数学概論・微分積分｜授業に合わせた経済数学サポート
     https://economic-tutoring.pages.dev/universities/keio/economics-math/
 
-30. 慶應義塾大学のマクロ経済学｜乗数効果・国民所得の個別指導
+31. 慶應義塾大学のマクロ経済学｜乗数効果・国民所得の個別指導
     https://economic-tutoring.pages.dev/universities/keio/macroeconomics/
 
-31. 慶應義塾大学のミクロ経済学｜消費者の選択・効用最大化の個別指導
+32. 慶應義塾大学のミクロ経済学｜消費者の選択・効用最大化の個別指導
     https://economic-tutoring.pages.dev/universities/keio/microeconomics/
 
-32. 近畿大学の経済数学Ⅰ・Ⅱ｜微分・積分と費用関数の学び直し
+33. 近畿大学の経済数学Ⅰ・Ⅱ｜微分・積分と費用関数の学び直し
     https://economic-tutoring.pages.dev/universities/kindai/economics-math/
 
-33. 駒澤大学の経済数学｜Σ・平均・ばらつきの学び直しと個別指導
+34. 駒澤大学の経済数学｜Σ・平均・ばらつきの学び直しと個別指導
     https://economic-tutoring.pages.dev/universities/komazawa/economics-math/
 
-34. 甲南大学の数学入門・経済数学｜連立方程式・行列の学び直し
+35. 甲南大学の数学入門・経済数学｜連立方程式・行列の学び直し
     https://economic-tutoring.pages.dev/universities/konan/economics-math/
 
-35. 関西学院大学の経済数学入門についていけない方へ｜economic_tutoring
+36. 関西学院大学の経済数学入門についていけない方へ｜economic_tutoring
     https://economic-tutoring.pages.dev/universities/kwansei-gakuin/economics-math/
 
-36. 関西学院大学のマクロ経済学｜名目GDP・実質GDPを学び直す個別指導
+37. 関西学院大学のマクロ経済学｜名目GDP・実質GDPを学び直す個別指導
     https://economic-tutoring.pages.dev/universities/kwansei-gakuin/macroeconomics/
 
-37. 関西学院大学のミクロ経済学｜独占・限界収入を学び直す個別指導
+38. 関西学院大学のミクロ経済学｜独占・限界収入を学び直す個別指導
     https://economic-tutoring.pages.dev/universities/kwansei-gakuin/microeconomics/
 
-38. 京都産業大学の経済数学入門｜一次関数・損益分岐の学び直し
+39. 京都産業大学の経済数学入門｜一次関数・損益分岐の学び直し
     https://economic-tutoring.pages.dev/universities/kyoto-sangyo/economics-math/
 
-39. 明治大学の数量経済分析｜割合・指数・数学の学び直しと個別指導
+40. 明治大学の数量経済分析｜割合・指数・数学の学び直しと個別指導
     https://economic-tutoring.pages.dev/universities/meiji/economics-math/
 
-40. 日本大学経済学部の数学・基礎ミクロ｜割合と弾力性の学び直し
+41. 日本大学経済学部の数学・基礎ミクロ｜割合と弾力性の学び直し
     https://economic-tutoring.pages.dev/universities/nihon/economics-math/
 
-41. 立教大学の経済数学入門｜行列・微分の学び直しと個別指導
+42. 立教大学の経済数学入門｜行列・微分の学び直しと個別指導
     https://economic-tutoring.pages.dev/universities/rikkyo/economics-math/
 
-42. 立教大学のマクロ経済学｜失業率・労働力人口を学び直す個別指導
+43. 立教大学のマクロ経済学｜失業率・労働力人口を学び直す個別指導
     https://economic-tutoring.pages.dev/universities/rikkyo/macroeconomics/
 
-43. 立教大学のミクロ経済学｜外部性・市場の失敗を学び直す個別指導
+44. 立教大学のミクロ経済学｜外部性・市場の失敗を学び直す個別指導
     https://economic-tutoring.pages.dev/universities/rikkyo/microeconomics/
 
-44. 立命館大学の経済数学｜高校数学の前提からの復習と個別指導
+45. 立命館大学の経済数学｜高校数学の前提からの復習と個別指導
     https://economic-tutoring.pages.dev/universities/ritsumeikan/economics-math/
 
-45. 龍谷大学の経済数学｜平均費用・限界費用の違いから学び直す
+46. 龍谷大学の経済数学｜平均費用・限界費用の違いから学び直す
     https://economic-tutoring.pages.dev/universities/ryukoku/economics-math/
 
-46. 専修大学のミクロ経済学入門｜需要供給の計算・グラフの学び直し
+47. 専修大学のミクロ経済学入門｜需要供給の計算・グラフの学び直し
     https://economic-tutoring.pages.dev/universities/senshu/economics-math/
 
-47. 上智大学の経済数学・経済数学解析が分からない方へ｜economic_tutoring
+48. 上智大学の経済数学・経済数学解析が分からない方へ｜economic_tutoring
     https://economic-tutoring.pages.dev/universities/sophia/economics-math/
 
-48. 上智大学のマクロ経済学｜IS-LM・金融政策の学び直しと個別指導
+49. 上智大学のマクロ経済学｜IS-LM・金融政策の学び直しと個別指導
     https://economic-tutoring.pages.dev/universities/sophia/macroeconomics/
 
-49. 上智大学のミクロ経済学｜税の負担・需要供給から学び直す個別指導
+50. 上智大学のミクロ経済学｜税の負担・需要供給から学び直す個別指導
     https://economic-tutoring.pages.dev/universities/sophia/microeconomics/
 
-50. 東洋大学の経済学の数学入門｜金利・現在価値から学び直す
+51. 東洋大学の経済学の数学入門｜金利・現在価値から学び直す
     https://economic-tutoring.pages.dev/universities/toyo/economics-math/
 
-51. 早稲田大学のマクロ経済学｜GDP・付加価値から学び直す個別指導
+52. 早稲田大学のマクロ経済学｜GDP・付加価値から学び直す個別指導
     https://economic-tutoring.pages.dev/universities/waseda/macroeconomics/
 
-52. 早稲田大学のミクロ経済学｜需要曲線・市場均衡から学び直す個別指導
+53. 早稲田大学のミクロ経済学｜需要曲線・市場均衡から学び直す個別指導
     https://economic-tutoring.pages.dev/universities/waseda/microeconomics/
 
-53. 受講者専用学習環境・月4回・学習確認コース｜economic_tutoring
+54. 受講者専用学習環境・月4回・学習確認コース｜economic_tutoring
     https://economic-tutoring.pages.dev/web-learning
 
 
@@ -402,154 +405,66 @@ Instagram：https://www.instagram.com/economic_tutoring/
 
 OUR APPROACH
 
-意味から理解し、
-自分で使える学びへ。
+分かるところから、
+自分で解けるまで。
 
-講義資料を出発点に、つまずいた地点を確認する。説明の例、指導の進め方、相談前のよくある疑問をまとめました。
+大学の講義資料を出発点に、必要なところまで戻り、一緒に解いて確かめる。いまの授業につながる個別指導を大切にしています。
 
-こんな困りごとから
+大切にしていること
 
-困っているところから、
-一緒に整理します。
+講義に合わせて、
+理解をつなぐ。
 
-経済数学・微積で、
-授業の式が追えない。
+01 / MATERIALS
 
-式変形・計算だけでなく、定義や証明の「なぜ」も確認。必要な前提から、いまの授業へつなぎ直します。
-計算の前提を無料ガイドで確かめる →
+大学の教材に合わせる。
 
-解説を見れば分かるのに、
-一人では解けない。
+講義資料・指定教材・試験範囲を確認。同じ科目でも異なる記号や進め方に合わせて、今取り組む内容を整理します。
 
-解説を閉じて、最初に何を決めるかを言葉にしてみます。途中式と判断の理由を分けて、説明が必要な地点を整理します。
-ETの説明・確認の進め方を見る →
+02 / UNDERSTANDING
 
-いまの授業では、
-何から復習すればいい？
+分からなくなったところまで戻る。
 
-授業名・今の単元・試験範囲を並べて確認。公開授業情報と学習の入口を参考に、ご本人の講義資料に合わせて優先順を相談します。
-大学・科目から近い案内を探す →
+式の意味、計算の手順、定理を使う条件。「どこから分からないか」を一緒に見つけ、必要な前提からつなぎ直します。
 
-ガイドは登録不要です。読んで自習するだけでも構いません。個別に確認したい方は、相談・体験の内容をご覧ください。
+03 / PRACTICE
 
-説明のイメージ
+一緒に解いて、確かめる。
 
-公式の先にある、
-「なぜ？」を一緒に。
+説明を聞くだけで終わらず、自分で途中式を書いたり、考え方を言葉にしたり。使えるようになったかを確かめながら進めます。
 
-「計算はできる。でも証明が読めない」。定義の意味、定理を使う条件、式変形の理由を分けて確認します。内容を薄めず、理解できる前提からつなぎます。
+答案・課題・レポートの代行や、単位・成績の保証は行いません。対応できる内容は資料を確認してご案内します。
 
-説明を聞いたあとには、類題を解いたり理由を説明したり。ご本人が自分で使えるかまで確かめます。
+もう少し知りたい方へ
 
-ここにある内容は指導方法を示す自作例です。教科書・課題の転載や実際の受講者の記録ではありません。未習の内容は飛ばして構いません。個別の対応可否は授業資料を確認して判断します。
-計算や式の意味から確認する無料ガイド →
+「なぜ？」をほどく。
 
-自作の授業例 ／ 積の微分
+積の微分で「同じ項を足して引く」理由を、式の意味からたどる自作の学習記事です。詳しい解説は別ページで読めます。
 
-なぜ、途中で
-「足して引く」の？
+積の微分の解説を読む →
 
-一般に、積の微分は、微分したもの同士の積ではありません。両方が変わるときの変化を、二つに分けます。
+NEXT STEP
 
-(uv)′ = u′v + uv′
+必要なサポートを、
+一緒に考えます。
 
-・前提を確かめる uとvは同じ開区間で微分可能。′はxでの微分です。
+プランが決まっていなくても、科目と困っていることからご相談ください。
 
-・変化を二つに分ける 同じ項を足して引くと、uの差とvの差が現れます。
+無料でメール相談する料金・サービスを見る
 
-・自分の言葉で確かめる 「どちらの変化を取り出したか」を説明してみます。
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。無料のメール相談とは別のサービスです。単発・短期の申込みに体験は必須ではありません。
 
-式の一手と、微分の定義をつなぐ
-
-xとx+hが区間内にあるh ≠ 0を取り、A = u(x)、B = v(x)、A_(h) = u(x+h)、B_(h) = v(x+h)と置きます。下の式は省略記号で書いた、積の変化です。
-
-A_(h)B_(h) − AB = A_(h)B_(h) − AB_(h) + AB_(h) − AB = (A_(h) − A)B_(h) + A(B_(h) − B)
-
-AB_(h)を足して引いても値は変わりません。目的は、微分の定義で使う「関数の差」をそれぞれ取り出すことです。
-
-(A_(h)B_(h) − AB) / h = [(A_(h) − A) / h] B_(h)  + A [(B_(h) − B) / h]
-
-h → 0で二つの差商はu′(x)、v′(x)へ。vは微分可能なので連続で、B_(h) → Bです。したがって積の微分はu′(x)v(x) + u(x)v′(x)となります。
-
-確認：なぜAB_(h)を選ぶと、二つの微分につながるのでしょう？ 最後の二つの差商を指しながら説明してみてください。
-
-別の例を、自分で確かめる
-
-H(x) = x²(x − 1)を、積の微分で微分してください。二つの項がそれぞれ何の変化を表すかも説明してみましょう。
-
-取り組んだあとに、解答・理由を見る
-
-H′(x) = 2x(x − 1) + x² = 3x² − 2x。第一項はx²の変化を、第二項はx − 1の変化を取り出したものです。先にH(x) = x³ − x²と展開して微分しても一致します。x = 1ではH′(1) = 1で、微分同士を掛けた2とは異なります。
-
-一問の正誤だけで理解度や必要回数は決めません。説明の様子も踏まえて、次の練習を選びます。
-
-指導の進め方
-
-あなたの講義資料を、
-学び直しの出発点に。
-
-同じ「ミクロ経済学」でも、教材や記号、試験形式は違います。一般的な解説を聞くだけでなく、いまの授業につながる練習を進めます。
-
-・授業と範囲を確認する講義資料・指定教材・試験時期を確認します。
-
-・止まった地点を見つける定義の意味、定理の条件、計算、証明の筋道を分けて確認します。
-
-・説明のあと、自分で確かめる本人が途中式を書き、考え方を説明する練習へ進みます。
-
-継続学習を支える仕組みを見る →
-
-[画像の代替テキスト：今日の優先行動と次回授業を一覧できる受講者専用学習環境の公開サンプル]
-月額伴走の学習環境・公開サンプル。画面はすべて架空データです。単発授業には専用環境を含みません。
-
-安心して相談するために
-
-相談から、その後の学習まで。
-
-同じ担当が状況を確認
-
-対応可否の判断、初回体験、その後の支援へ、相談内容をつなげます。
-
-継続契約は必須ではありません
-
-必要な支援と条件を確認してから判断できます。単発の利用も可能です。
-
-自分で学ぶための支援です
-
-答案・課題・レポートの代行や、単位・成績の保証は行いません。
-
-高校数学の内容から分からなくても相談できますか？
-
-相談できます。いまの授業に必要な前提を確認し、どこまで戻るとつながるかを整理します。資料・範囲・希望時期を確認して対応可否をご案内します。
-
-保護者から相談してもいいですか？
-
-相談できます。授業は受講者本人の理解と意思を中心に進めます。成人受講者の学習情報を共有する場合は、本人同意の範囲に限定します。
-
-自分のAIで、知りたいことを確認
-
-ETのことを、
-あなたのAIに聞いてみる。
-
-料金・授業の進め方・体験・教材などの公開情報を、一つのファイルにまとめました。普段使うAIに渡して、自分に合う支援や気になる条件を質問できます。
-
-情報を受け取る・使い方を見る →
-AIへの添付・質問はご自身のサービスで行います。対応可否・空き日程・契約条件は、ETへの相談時に確認してください。
+自分のAIでETの公開情報を確認したい方へ →
 
 本文内のリンク（同一ページ内へのリンクを含む）
 
 ・https://economic-tutoring.pages.dev/
 
-・https://economic-tutoring.pages.dev/guides/economics-math-basics#start
+・https://economic-tutoring.pages.dev/learning-notes/product-rule/
 
-・https://economic-tutoring.pages.dev/approach/#teaching-example
+・https://economic-tutoring.pages.dev/consultation/
 
-・https://economic-tutoring.pages.dev/universities/
-
-・https://economic-tutoring.pages.dev/consultation/#trial-flow
-
-・https://economic-tutoring.pages.dev/guides/
-
-・https://economic-tutoring.pages.dev/web-learning
+・https://economic-tutoring.pages.dev/pricing
 
 ・https://economic-tutoring.pages.dev/ai/
 
@@ -3911,7 +3826,123 @@ economic.tutoring.office@gmail.comコピー
 
 
 ==================================================
-資料 16｜大学の経済学・数学で困るお子さまの保護者へ｜economic_tutoring
+資料 16｜積の微分｜なぜ同じ項を足して引くのか｜Economic Tutoring
+公式URL：https://economic-tutoring.pages.dev/learning-notes/product-rule/
+本文
+教え方・学び方 / 学習記事
+
+LEARNING NOTE
+
+積の微分を、
+式変形の理由から。
+
+公式の暗記から一歩戻って、二つの関数の変化をどう取り出すかを確かめます。
+
+自作の授業例 ／ 積の微分
+
+なぜ、途中で
+「足して引く」の？
+
+一般に、積の微分は、微分したもの同士の積ではありません。両方が変わるときの変化を、二つに分けます。
+
+(uv)′ = u′v + uv′
+
+・前提を確かめる uとvは同じ開区間で微分可能。′はxでの微分です。
+
+・変化を二つに分ける 同じ項を足して引くと、uの差とvの差が現れます。
+
+・自分の言葉で確かめる 「どちらの変化を取り出したか」を説明してみます。
+
+式の一手と、微分の定義をつなぐ
+
+xとx+hが区間内にあるh ≠ 0を取り、A = u(x)、B = v(x)、A_(h) = u(x+h)、B_(h) = v(x+h)と置きます。下の式は省略記号で書いた、積の変化です。
+
+A_(h)B_(h) − AB = A_(h)B_(h) − AB_(h) + AB_(h) − AB = (A_(h) − A)B_(h) + A(B_(h) − B)
+
+AB_(h)を足して引いても値は変わりません。目的は、微分の定義で使う「関数の差」をそれぞれ取り出すことです。
+
+(A_(h)B_(h) − AB) / h = [(A_(h) − A) / h] B_(h)  + A [(B_(h) − B) / h]
+
+h → 0で二つの差商はu′(x)、v′(x)へ。vは微分可能なので連続で、B_(h) → Bです。したがって積の微分はu′(x)v(x) + u(x)v′(x)となります。
+
+確認：なぜAB_(h)を選ぶと、二つの微分につながるのでしょう？ 最後の二つの差商を指しながら説明してみてください。
+
+別の例を、自分で確かめる
+
+H(x) = x²(x − 1)を、積の微分で微分してください。二つの項がそれぞれ何の変化を表すかも説明してみましょう。
+
+取り組んだあとに、解答・理由を見る
+
+H′(x) = 2x(x − 1) + x² = 3x² − 2x。第一項はx²の変化を、第二項はx − 1の変化を取り出したものです。先にH(x) = x³ − x²と展開して微分しても一致します。x = 1ではH′(1) = 1で、微分同士を掛けた2とは異なります。
+
+一問の正誤だけで理解度や必要回数は決めません。説明の様子も踏まえて、次の練習を選びます。
+
+この内容は指導方法を示す自作例です。教科書・課題の転載や実際の受講者の記録ではありません。個別の対応可否は授業資料を確認して判断します。
+
+教え方・学び方に戻る →
+
+ほかの無料学習ガイドを見る →
+
+相談の入口
+
+プランは未定でも、
+相談できます。
+
+科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。
+
+メールでのご相談は無料です。
+単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。
+
+継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。
+体験の内容・条件を見る →
+
+CONSULTATION FORM
+
+フォームで、今の状況を送る。
+
+大学・学年、科目、希望時期、困りごとなどを入力します。講義資料や答案の添付は不要です。
+
+困りごとの書き方の例を見る
+
+統計学の検定で、どの公式を使うのか判断できません。授業の演習を一人で進められるようになりたいです。
+
+科目と困りごとを相談する
+フォーム送信だけで契約・支払いは確定しません。
+
+・ 01
+状況を送る
+科目・時期・困りごと。プランは未定でも構いません。
+
+・ 02
+対応可否と日程を確認
+内容を確認して返信し、必要な支援と条件をご案内します。
+
+・ 03
+希望する支援を、合意後に開始
+単発授業や体験など、ご希望に応じて内容・料金・日程を確認します。メール相談のみで終えても構いません。
+
+フォームでいただいた内容を確認し、事業用メールからご連絡します。
+
+入力前に短く相談したい方は
+Instagram DM またはメール
+
+本文内のリンク（同一ページ内へのリンクを含む）
+
+・https://economic-tutoring.pages.dev/approach/
+
+・https://economic-tutoring.pages.dev/guides/
+
+・https://economic-tutoring.pages.dev/consultation/#trial-flow
+
+・https://docs.google.com/forms/d/e/1FAIpQLSd714ibyXkN88-IXnr0NBzbCdx7ZZmWE0qEH-Y8IXeAlNOZCw/viewform
+
+・https://www.instagram.com/economic_tutoring/
+
+・mailto:economic.tutoring.office@gmail.com?subject=%E3%80%90%E3%82%B5%E3%82%A4%E3%83%88%E7%9B%B8%E8%AB%87%E3%80%91%E5%8F%97%E8%AC%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&body=%E5%A4%A7%E5%AD%A6%E5%90%8D%E3%83%BB%E5%AD%A6%E9%83%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E7%A7%91%E7%9B%AE%EF%BC%9A%0A%E8%A9%A6%E9%A8%93%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%81%AE%E6%99%82%E6%9C%9F%EF%BC%9A%0A%E7%8F%BE%E5%9C%A8%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%E7%9B%B8%E8%AB%87%E7%B5%8C%E8%B7%AF%EF%BC%9A%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88
+
+
+==================================================
+資料 17｜大学の経済学・数学で困るお子さまの保護者へ｜economic_tutoring
 公式URL：https://economic-tutoring.pages.dev/parents/
 本文
 ホーム / 保護者の方へ
@@ -4225,7 +4256,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 17｜料金・サービス｜単発・伴走・学習確認｜economic_tutoring
+資料 18｜料金・サービス｜単発・伴走・学習確認｜economic_tutoring
 公式URL：https://economic-tutoring.pages.dev/pricing
 本文
 新規申込みの料金について
@@ -4658,7 +4689,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 18｜プライバシーポリシー｜economic_tutoring
+資料 19｜プライバシーポリシー｜economic_tutoring
 公式URL：https://economic-tutoring.pages.dev/privacy
 本文
 PRIVACY
@@ -4717,7 +4748,7 @@ economic.tutoring.office@gmail.com
 
 
 ==================================================
-資料 19｜大学のミクロ・マクロ・統計・計量・経済数学｜対応科目｜economic_tutoring
+資料 20｜大学のミクロ・マクロ・統計・計量・経済数学｜対応科目｜economic_tutoring
 公式URL：https://economic-tutoring.pages.dev/subjects
 本文
 トップ ／ 対応科目
@@ -5018,7 +5049,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 20｜利用案内・受講規約｜economic_tutoring
+資料 21｜利用案内・受講規約｜economic_tutoring
 公式URL：https://economic-tutoring.pages.dev/terms
 本文
 TERMS
@@ -5143,7 +5174,7 @@ TERMS
 
 
 ==================================================
-資料 21｜特定商取引法に基づく表記｜economic_tutoring
+資料 22｜特定商取引法に基づく表記｜economic_tutoring
 公式URL：https://economic-tutoring.pages.dev/tokusho
 本文
 LEGAL NOTICE
@@ -5211,7 +5242,7 @@ Instagram：@economic_tutoring
 
 
 ==================================================
-資料 22｜青山学院大学の入門経済数学｜関数・微分の学び直しと個別指導
+資料 23｜青山学院大学の入門経済数学｜関数・微分の学び直しと個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/aoyama-gakuin/economics-math/
 本文
 ホーム / 大学・科目別 / 青山学院大学
@@ -5616,7 +5647,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 23｜中央大学の基礎数学・経済数学｜微分と利潤最大化の学び直し
+資料 24｜中央大学の基礎数学・経済数学｜微分と利潤最大化の学び直し
 公式URL：https://economic-tutoring.pages.dev/universities/chuo/economics-math/
 本文
 ホーム / 大学・科目別 / 中央大学
@@ -5999,7 +6030,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 24｜同志社大学の経済数学Ⅰ・Ⅱ｜偏微分の前提から学び直す個別指導
+資料 25｜同志社大学の経済数学Ⅰ・Ⅱ｜偏微分の前提から学び直す個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/doshisha/economics-math/
 本文
 ホーム / 大学・科目別 / 同志社大学
@@ -6426,7 +6457,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 25｜学習院大学の経済数学｜予算制約・グラフから学び直す個別指導
+資料 26｜学習院大学の経済数学｜予算制約・グラフから学び直す個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/gakushuin/economics-math/
 本文
 ホーム / 大学・科目別 / 学習院大学
@@ -6762,7 +6793,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 26｜法政大学のビジネス数学入門B｜微分・確率の学び直しと個別指導
+資料 27｜法政大学のビジネス数学入門B｜微分・確率の学び直しと個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/hosei/economics-math/
 本文
 ホーム / 大学・科目別 / 法政大学
@@ -7166,7 +7197,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 27｜大学別の経済学・経済数学サポート｜早慶・上智ほか21大学
+資料 28｜大学別の経済学・経済数学サポート｜早慶・上智ほか21大学
 公式URL：https://economic-tutoring.pages.dev/universities/
 本文
 ホーム / 大学・科目別
@@ -8445,7 +8476,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 28｜関西大学の経済数学｜経済ツール入門からの復習と個別指導
+資料 29｜関西大学の経済数学｜経済ツール入門からの復習と個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/kansai/economics-math/
 本文
 ホーム / 大学・科目別 / 関西大学
@@ -8860,7 +8891,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 29｜慶應経済の数学概論・微分積分｜授業に合わせた経済数学サポート
+資料 30｜慶應経済の数学概論・微分積分｜授業に合わせた経済数学サポート
 公式URL：https://economic-tutoring.pages.dev/universities/keio/economics-math/
 本文
 ホーム / 大学・科目別 / 慶應義塾大学・経済数学
@@ -9444,7 +9475,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 30｜慶應義塾大学のマクロ経済学｜乗数効果・国民所得の個別指導
+資料 31｜慶應義塾大学のマクロ経済学｜乗数効果・国民所得の個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/keio/macroeconomics/
 本文
 ホーム / 大学・科目別 / 慶應義塾大学
@@ -9907,7 +9938,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 31｜慶應義塾大学のミクロ経済学｜消費者の選択・効用最大化の個別指導
+資料 32｜慶應義塾大学のミクロ経済学｜消費者の選択・効用最大化の個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/keio/microeconomics/
 本文
 ホーム / 大学・科目別 / 慶應義塾大学
@@ -10370,7 +10401,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 32｜近畿大学の経済数学Ⅰ・Ⅱ｜微分・積分と費用関数の学び直し
+資料 33｜近畿大学の経済数学Ⅰ・Ⅱ｜微分・積分と費用関数の学び直し
 公式URL：https://economic-tutoring.pages.dev/universities/kindai/economics-math/
 本文
 ホーム / 大学・科目別 / 近畿大学
@@ -10799,7 +10830,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 33｜駒澤大学の経済数学｜Σ・平均・ばらつきの学び直しと個別指導
+資料 34｜駒澤大学の経済数学｜Σ・平均・ばらつきの学び直しと個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/komazawa/economics-math/
 本文
 ホーム / 大学・科目別 / 駒澤大学
@@ -11217,7 +11248,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 34｜甲南大学の数学入門・経済数学｜連立方程式・行列の学び直し
+資料 35｜甲南大学の数学入門・経済数学｜連立方程式・行列の学び直し
 公式URL：https://economic-tutoring.pages.dev/universities/konan/economics-math/
 本文
 ホーム / 大学・科目別 / 甲南大学
@@ -11631,7 +11662,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 35｜関西学院大学の経済数学入門についていけない方へ｜economic_tutoring
+資料 36｜関西学院大学の経済数学入門についていけない方へ｜economic_tutoring
 公式URL：https://economic-tutoring.pages.dev/universities/kwansei-gakuin/economics-math/
 本文
 ホーム / 大学・科目別 / 関西学院大学
@@ -12041,7 +12072,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 36｜関西学院大学のマクロ経済学｜名目GDP・実質GDPを学び直す個別指導
+資料 37｜関西学院大学のマクロ経済学｜名目GDP・実質GDPを学び直す個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/kwansei-gakuin/macroeconomics/
 本文
 ホーム / 大学・科目別 / 関西学院大学
@@ -12463,7 +12494,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 37｜関西学院大学のミクロ経済学｜独占・限界収入を学び直す個別指導
+資料 38｜関西学院大学のミクロ経済学｜独占・限界収入を学び直す個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/kwansei-gakuin/microeconomics/
 本文
 ホーム / 大学・科目別 / 関西学院大学
@@ -12884,7 +12915,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 38｜京都産業大学の経済数学入門｜一次関数・損益分岐の学び直し
+資料 39｜京都産業大学の経済数学入門｜一次関数・損益分岐の学び直し
 公式URL：https://economic-tutoring.pages.dev/universities/kyoto-sangyo/economics-math/
 本文
 ホーム / 大学・科目別 / 京都産業大学
@@ -13308,7 +13339,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 39｜明治大学の数量経済分析｜割合・指数・数学の学び直しと個別指導
+資料 40｜明治大学の数量経済分析｜割合・指数・数学の学び直しと個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/meiji/economics-math/
 本文
 ホーム / 大学・科目別 / 明治大学
@@ -13672,7 +13703,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 40｜日本大学経済学部の数学・基礎ミクロ｜割合と弾力性の学び直し
+資料 41｜日本大学経済学部の数学・基礎ミクロ｜割合と弾力性の学び直し
 公式URL：https://economic-tutoring.pages.dev/universities/nihon/economics-math/
 本文
 ホーム / 大学・科目別 / 日本大学
@@ -14113,7 +14144,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 41｜立教大学の経済数学入門｜行列・微分の学び直しと個別指導
+資料 42｜立教大学の経済数学入門｜行列・微分の学び直しと個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/rikkyo/economics-math/
 本文
 ホーム / 大学・科目別 / 立教大学
@@ -14510,7 +14541,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 42｜立教大学のマクロ経済学｜失業率・労働力人口を学び直す個別指導
+資料 43｜立教大学のマクロ経済学｜失業率・労働力人口を学び直す個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/rikkyo/macroeconomics/
 本文
 ホーム / 大学・科目別 / 立教大学
@@ -14913,7 +14944,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 43｜立教大学のミクロ経済学｜外部性・市場の失敗を学び直す個別指導
+資料 44｜立教大学のミクロ経済学｜外部性・市場の失敗を学び直す個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/rikkyo/microeconomics/
 本文
 ホーム / 大学・科目別 / 立教大学
@@ -15316,7 +15347,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 44｜立命館大学の経済数学｜高校数学の前提からの復習と個別指導
+資料 45｜立命館大学の経済数学｜高校数学の前提からの復習と個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/ritsumeikan/economics-math/
 本文
 ホーム / 大学・科目別 / 立命館大学
@@ -15713,7 +15744,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 45｜龍谷大学の経済数学｜平均費用・限界費用の違いから学び直す
+資料 46｜龍谷大学の経済数学｜平均費用・限界費用の違いから学び直す
 公式URL：https://economic-tutoring.pages.dev/universities/ryukoku/economics-math/
 本文
 ホーム / 大学・科目別 / 龍谷大学
@@ -16116,7 +16147,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 46｜専修大学のミクロ経済学入門｜需要供給の計算・グラフの学び直し
+資料 47｜専修大学のミクロ経済学入門｜需要供給の計算・グラフの学び直し
 公式URL：https://economic-tutoring.pages.dev/universities/senshu/economics-math/
 本文
 ホーム / 大学・科目別 / 専修大学
@@ -16527,7 +16558,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 47｜上智大学の経済数学・経済数学解析が分からない方へ｜economic_tutoring
+資料 48｜上智大学の経済数学・経済数学解析が分からない方へ｜economic_tutoring
 公式URL：https://economic-tutoring.pages.dev/universities/sophia/economics-math/
 本文
 ホーム / 大学・科目別 / 上智大学
@@ -16946,7 +16977,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 48｜上智大学のマクロ経済学｜IS-LM・金融政策の学び直しと個別指導
+資料 49｜上智大学のマクロ経済学｜IS-LM・金融政策の学び直しと個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/sophia/macroeconomics/
 本文
 ホーム / 大学・科目別 / 上智大学
@@ -17380,7 +17411,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 49｜上智大学のミクロ経済学｜税の負担・需要供給から学び直す個別指導
+資料 50｜上智大学のミクロ経済学｜税の負担・需要供給から学び直す個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/sophia/microeconomics/
 本文
 ホーム / 大学・科目別 / 上智大学
@@ -17813,7 +17844,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 50｜東洋大学の経済学の数学入門｜金利・現在価値から学び直す
+資料 51｜東洋大学の経済学の数学入門｜金利・現在価値から学び直す
 公式URL：https://economic-tutoring.pages.dev/universities/toyo/economics-math/
 本文
 ホーム / 大学・科目別 / 東洋大学
@@ -18223,7 +18254,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 51｜早稲田大学のマクロ経済学｜GDP・付加価値から学び直す個別指導
+資料 52｜早稲田大学のマクロ経済学｜GDP・付加価値から学び直す個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/waseda/macroeconomics/
 本文
 ホーム / 大学・科目別 / 早稲田大学
@@ -18655,7 +18686,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 52｜早稲田大学のミクロ経済学｜需要曲線・市場均衡から学び直す個別指導
+資料 53｜早稲田大学のミクロ経済学｜需要曲線・市場均衡から学び直す個別指導
 公式URL：https://economic-tutoring.pages.dev/universities/waseda/microeconomics/
 本文
 ホーム / 大学・科目別 / 早稲田大学
@@ -19088,7 +19119,7 @@ Instagram DM またはメール
 
 
 ==================================================
-資料 53｜受講者専用学習環境・月4回・学習確認コース｜economic_tutoring
+資料 54｜受講者専用学習環境・月4回・学習確認コース｜economic_tutoring
 公式URL：https://economic-tutoring.pages.dev/web-learning
 本文
 トップ ／ 学習環境

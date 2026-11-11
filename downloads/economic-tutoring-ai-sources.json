@@ -1,14 +1,14 @@
 {
   "status": "GENERATED_PUBLIC_INFORMATION_SNAPSHOT",
-  "generated_at_jst": "2026-11-12T02:18:58.102377+09:00",
-  "source_base_commit": "24cb41e49cde02c069a10f3939b7f1fb9a8e61f3",
-  "page_count": 53,
+  "generated_at_jst": "2026-11-12T04:04:44.976021+09:00",
+  "source_base_commit": "0ee583f6443f90193b65755c9c75a596ba68bbbd",
+  "page_count": 54,
   "guide_count": 9,
   "product_count": 7,
   "config_sha256": "b344f2adfb60f50aa1aa7ecbe8a879aca1eab6842443f60ded76433ca2a34631",
   "pack_file": "economic-tutoring-ai-information.txt",
-  "pack_sha256": "3a878805536ae9ecebf60faa400b618d87cbdfce49b44bd791efb0e9b96804d6",
-  "pack_bytes": 969865,
+  "pack_sha256": "2fa0f0c22f7f27a6ce1e0cc517da9538c8c2a0d2949f007ba9ee8d6925485fa8",
+  "pack_bytes": 970622,
   "sns_changed": false,
   "excluded_pages": [
     "404.html (error navigation)",
@@ -28,8 +28,8 @@
       "file": "approach/index.html",
       "url": "https://economic-tutoring.pages.dev/approach/",
       "title": "私たちの学び方｜Economic Tutoring",
-      "html_sha256": "face378863c26084b8e75c0d356054276ddb1727129bdb134842ebcf92522978",
-      "text_sha256": "279e83967e2f9d55c7d2d5270ae9d8106745babac4d6be501598335528ad8aed"
+      "html_sha256": "cd120bd8ae20848d0ab76e56b9f22c26a007c5da73f5367ca3c1b55aec802400",
+      "text_sha256": "fc4c6fef10c531064dcb9a64eff03a53ea181ff3730bb71caf6c85bd3dcb6734"
     },
     {
       "file": "consultation/index.html",
@@ -128,6 +128,13 @@
       "title": "Instagramからご覧の方へ｜economic_tutoring",
       "html_sha256": "ccea2704a7ab3907706a7c31298796c078f7bf4deffbe85c1ed089537e09764d",
       "text_sha256": "9bd715553a8cca1779a1272e0b7db341654627fcd3d255c4a67200efa6ffeaf0"
+    },
+    {
+      "file": "learning-notes/product-rule/index.html",
+      "url": "https://economic-tutoring.pages.dev/learning-notes/product-rule/",
+      "title": "積の微分｜なぜ同じ項を足して引くのか｜Economic Tutoring",
+      "html_sha256": "fa8e7e0d71a6060f7a3070ce406262efe0a17133a451ddb344a47cbfa35cc336",
+      "text_sha256": "7df6ad28a3e84357e11a107a4a79bbe791526f3740fa46cd2e7c17ddabbb3b59"
     },
     {
       "file": "parents/index.html",
