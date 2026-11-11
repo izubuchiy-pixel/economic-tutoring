@@ -20,3 +20,11 @@
 .service-first-hero .photo-feature{max-width:1240px;margin:auto}.service-first-hero .photo-feature img{height:240px}.service-first-hero .photo-note{margin:16px 0 0}
 .service-price{display:block;font-size:16px;font-weight:500;margin-top:9px;color:#414c39}.supporting-routes{display:grid;grid-template-columns:1fr 1fr;gap:65px}.supporting-routes h2{font-size:24px;font-weight:400;line-height:1.65}.supporting-routes p{font-size:13px;line-height:2}.supporting-links{list-style:none;padding:0}.supporting-links li{border-bottom:1px solid #dcded4;padding:13px 0}.supporting-links a{font-size:13px}.consultation-options{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.consultation-options article{border-top:2px solid #87917d;padding-top:25px}.consultation-options h2{font-size:22px!important;font-weight:500!important;line-height:1.6}.consultation-options p{font-size:13px;line-height:1.9}.consultation-options .button{margin-top:10px}.hub-page-hero .hub-hero-lead{max-width:760px}.subject-consult{margin-bottom:14px}
 @media(max-width:800px){.service-first-hero .photo-intro{padding-top:30px;padding-bottom:26px;gap:20px}.service-first-hero .photo-feature{margin:0 17px}.service-first-hero .photo-feature img{height:190px}.hero-actions{flex-direction:column}.hero-actions .button{flex:0 0 auto;min-height:48px;justify-content:center}.service-first-hero .photo-intro h1{font-size:29px!important}.supporting-routes,.consultation-options{grid-template-columns:1fr;gap:28px}.photo-intro .hero-small{font-size:11px}.service-price{font-size:14px}}
+
+/* Light cards in dark sections must not inherit the former dark-card text. */
+.hub-band .hub-hero-aside :is(h2,h3,strong,p,li,span){color:#30392e}
+.hub-band .hub-hero-aside > span{color:#59684b}
+.hub-band .hub-hero-aside .text-link{color:#394737;border-color:currentColor}
+.hub-band .hub-hero-aside .text-link:hover{color:#30392e}
+.hub-band .hub-hero-aside .hub-checks li{border-color:#b8bcae}
+.hub-band .hub-split-copy > .section-label{color:#c8d3bb!important}
