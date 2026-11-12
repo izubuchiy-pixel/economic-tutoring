@@ -1,14 +1,14 @@
 {
   "status": "GENERATED_PUBLIC_INFORMATION_SNAPSHOT",
-  "generated_at_jst": "2026-11-12T17:06:53.371560+09:00",
-  "source_base_commit": "02679e95741d55765f250d6e499f2e9ff2d361e9",
+  "generated_at_jst": "2026-11-13T06:09:43.401629+09:00",
+  "source_base_commit": "c00a8eabe0df36ec8b66f9a7d32e59242d8017f9",
   "page_count": 54,
   "guide_count": 9,
   "product_count": 7,
   "config_sha256": "b344f2adfb60f50aa1aa7ecbe8a879aca1eab6842443f60ded76433ca2a34631",
   "pack_file": "economic-tutoring-ai-information.txt",
-  "pack_sha256": "16b318737bf16047465128f7c0361ba923faf54424a5d61063397f124a7dac52",
-  "pack_bytes": 971859,
+  "pack_sha256": "55121d7c7106d367a04cb10c38715037556bb19b45f745396e6575e86bb2e03c",
+  "pack_bytes": 973039,
   "sns_changed": false,
   "excluded_pages": [
     "404.html (error navigation)",
@@ -147,8 +147,8 @@
       "file": "pricing.html",
       "url": "https://economic-tutoring.pages.dev/pricing",
       "title": "料金・サービス｜単発・伴走・学習確認｜economic_tutoring",
-      "html_sha256": "83a75f852a0b9aab02e5f099a96226cc8e93dab7f13fb874f4e8c4c9feefe733",
-      "text_sha256": "e52970151ccbbce04953330ebb4ba8e8fd78abe104863956ad40c23adca7b0a5"
+      "html_sha256": "54bdda971e2be6dfd792404ab4158c34a710f3a9df4432cc88cb4dc387395d1e",
+      "text_sha256": "8f7b069dc2652425a9371e67df514e17ff2fd0a7d05ddb973afe27f3e396ad7b"
     },
     {
       "file": "privacy.html",
@@ -399,8 +399,8 @@
       "file": "web-learning.html",
       "url": "https://economic-tutoring.pages.dev/web-learning",
       "title": "受講者専用学習環境・月4回・学習確認コース｜economic_tutoring",
-      "html_sha256": "e340706265659cfda20c5f780834149ed88ce865c511da8cd9f4797ca64b1618",
-      "text_sha256": "a4e7bf1d43ebdb43947c0ff8d17e8f5c2e7a5544e20499bdc1517800ad21e258"
+      "html_sha256": "6f5c1bcc3c7cef4d61d540cda39b5903b09d3f76bf2dbc7fe74ec5219e60d0ac",
+      "text_sha256": "b34a899730544b3e2851954118f97db5e9244d40d8e2fa5f0b1dd384075d6af7"
     }
   ]
 }
