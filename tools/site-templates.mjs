@@ -121,11 +121,13 @@ export function renderComponents(site, page) {
 現在困っていること：
 相談経路：${inquirySource}`);
 
+  // On detailed pricing/consultation pages, avoid repeating the full trial explanation.
+  const compactTrial = `<div class="inquiry-trial" id="autumn-trial" data-standard-trial><p class="inquiry-trial-note"><strong>メールでのご相談は無料です。</strong> 内容を確認して返信します。</p><a class="text-link" href="${page === 'consultation' ? '#trial-flow' : '#trial'}">有料の初回相談・体験について →</a></div>`;
   const consultationIntro = `
         <div class="inquiry-intro">
           <p class="section-label">相談の入口</p>
           <h2>プランは未定でも、<br>相談できます。</h2>
-          <p>科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。</p>${campaignNotice || standardTrial}
+          <p>科目と、いま困っていることを分かる範囲で。「どこが分からないか」が整理できていなくても大丈夫です。</p>${campaignNotice || (['pricing', 'consultation'].includes(page) ? compactTrial : standardTrial)}
           ${page.startsWith('university-') || page === 'universities' || isMathGuide ? `
           <div class="inquiry-example"><h3>ご家族に説明したいときは</h3><p>支援内容・費用・進め方をまとめたページを、そのまま送れます。成人の受講者の学習状況は、ご本人の同意なく保護者へ共有しません。</p><a href="/parents/#share">保護者への説明用ページを見る →</a></div>` : ''}
         </div>`;
