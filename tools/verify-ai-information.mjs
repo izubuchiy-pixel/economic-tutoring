@@ -63,8 +63,13 @@ for(const [name,fn] of cases)assert.throws(fn,undefined,name);
 const beforeFiles=execFileSync('git',['ls-tree','-r','--name-only',baseline],{cwd:root,encoding:'utf8'}).trim().split('\n');
 for(const f of beforeFiles.filter(f=>f.endsWith('.html'))){
  let old=execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'});
- if(f==='before-university/index.html')old=old.replace('入学前の方に向けた学習サービスを準備・検討しています。','大学入学を控えた高校生など、入学前の方に向けた学習サービスを準備・検討しています。').replace('学びながら出てくる疑問を質問できます。質問の対象・回数・回答方法や目安は未確定です。','学びながら出てくる疑問を質問できる形を検討しています。質問の対象・回数・回答方法や目安は未確定です。');
- assert.equal(read(f),old,f+': unrelated HTML changed');
+ if(f==='before-university/index.html'&&!old.includes('大学入学を控えた高校生など'))old=old.replace('入学前の方に向けた学習サービスを準備・検討しています。','大学入学を控えた高校生など、入学前の方に向けた学習サービスを準備・検討しています。').replace('学びながら出てくる疑問を質問できます。質問の対象・回数・回答方法や目安は未確定です。','学びながら出てくる疑問を質問できる形を検討しています。質問の対象・回数・回答方法や目安は未確定です。');
+ let current=read(f);
+ if(process.argv.includes('--allow-teaching-example-update')&&f==='approach/index.html') {
+   const strip=s=>s.replace(/<section class="section section-white" id="teaching-example">[\s\S]*?<\/section>/,'').replace(/<link rel="stylesheet" href="\/(?:proof-example|teaching-example)\.css\?v=1">/,'');
+   old=strip(old);current=strip(current);
+ }
+ assert.equal(current,old,f+': unrelated HTML changed');
 }
 for(const f of ['site-config.js','script.js','robots.txt','_redirects','styles.css','hp-refresh.css','entry-navigation.css'].filter(f=>beforeFiles.includes(f)))assert.equal(read(f),execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}),f+': unchanged');
 console.log(JSON.stringify({ok:true,baseline,publicSourcePages:54,negativeCases:cases.map(([name])=>name),allSourceHashesMatch:true,pricesAndUnreleasedTermsVerified:true},null,2));

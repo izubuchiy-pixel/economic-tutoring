@@ -159,7 +159,7 @@ for(const f of entryPages) {
 }
 check(pages.get('parents/index.html')?.includes('本人が同意した相手・情報・範囲に限って'),'parent consent boundary missing');
 const movedProof=s=>s.match(/<article class="proof-preview"[\s\S]*?<\/article>/)?.[0];
-check(movedProof(pages.get('learning-notes/product-rule/index.html'))===movedProof(previous('approach/index.html')), 'migrated proof differs from approved original');
+check(movedProof(pages.get('learning-notes/product-rule/index.html'))===movedProof(previous(baselineFiles.has('learning-notes/product-rule/index.html') ? 'learning-notes/product-rule/index.html' : 'approach/index.html')), 'migrated proof differs from approved original');
 const result={ok:issues.length===0,baseline,pages:files.length,staticComponents:componentCount,localLinksChecked:linkCount,jsonLdBlocks:jsonCount,preservedGuideArticles:guideCount,updatedGuideArticles:updatedGuideCount,completeProducts:Object.keys(config.products).length,sitemapUrls:urls.length,issues,browserVisualQA:'Not run: not requested',checkedAt:new Date().toISOString()};
 console.log(JSON.stringify(result,null,2));
 process.exitCode=issues.length?1:0;
