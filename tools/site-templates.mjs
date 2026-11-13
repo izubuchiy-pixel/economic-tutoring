@@ -14,7 +14,7 @@ export function renderComponents(site, page) {
   const campaignLink = isInstagramPage ? site.instagram.url : site.consultationForm.url;
   const trialOutline = `<ol class="trial-outline" aria-label="相談・体験の内容"><li><strong>相談</strong><span>つまずいているテーマを一つ選びます。</span></li><li><strong>授業体験</strong><span>実際の授業のように説明・練習し、途中の疑問も確認します。</span></li><li><strong>振り返り</strong><span>今後受講するかどうかを、体験してから検討できます。</span></li></ol>`;
   // Preserve historical post links without retaining the ended offer itself.
-  const standardTrial = `<div class="inquiry-trial"${campaign ? '' : ' id="autumn-trial"'} data-standard-trial${campaign ? ' hidden' : ''}><p class="inquiry-trial-note"><strong>メールでのご相談は無料です。</strong><br>単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。</p><p class="inquiry-trial-note">継続受講を検討する方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。</p><a class="text-link" href="/consultation/#trial-flow">体験の内容・条件を見る →</a></div>`;
+  const standardTrial = `<div class="inquiry-trial"${campaign ? '' : ' id="autumn-trial"'} data-standard-trial${campaign ? ' hidden' : ''}><p class="inquiry-trial-note"><strong>メールでのご相談は無料です。</strong><br>単発・短期の利用、継続的な学習支援、まだ決まっていない方も、同じ窓口でご相談いただけます。</p><p class="inquiry-trial-note">これから継続的な受講を検討している方の初回相談・体験は60分3,000円（税込）。メール相談とは別の有料サービスです。単発・短期の申込みに体験は必須ではありません。</p><a class="text-link" href="/consultation/#trial-flow">体験の内容・条件を見る →</a></div>`;
   const trialFeature = `
           <aside class="trial-feature${page === 'top' ? '' : ' trial-feature-wide'}" aria-label="初回相談・体験と入会金のご案内">
             <div class="trial-feature-main">

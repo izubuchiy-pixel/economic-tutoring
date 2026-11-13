@@ -30,7 +30,7 @@ function verify(m,text,source=read){
   for(const item of [...p.includes,...p.excludes])assert.ok(text.includes(item),item);
  }
  for(const marker of ['6,600円','18,000円','29,800円','入会金：0円',
- '60分3,000円（税込）の初回相談・体験は、継続受講を検討する方向けです',
+ '60分3,000円（税込）の初回相談・体験は、これから継続的な受講を検討している方向けです',
  '単発・短期の申込みに体験は必須ではありません',
  '掲載の新料金は改定公開後の新規受付が対象です',
  '入学前の学習支援は準備中で、募集は開始していません。料金・教材範囲・質問対応の条件は未確定です',
@@ -56,7 +56,7 @@ const cases=[
  ['pack altered',()=>verify(meta,pack+'changed')],
  ['wrong price with refreshed hash',()=>{const t=pack.replaceAll('6,600円','6,500円');verify({...meta,pack_sha256:hash(t),pack_bytes:Buffer.byteLength(t)},t)}],
  ['unreleased service offered',()=>verify(meta,pack,f=>f==='before-university/index.html'?read(f).replace('募集は始めていません','募集開始しました'):read(f))],
- ['trial eligibility removed',()=>{const t=pack.replaceAll('継続受講を検討する方向けです','どなたでも利用できます');verify({...meta,pack_sha256:hash(t),pack_bytes:Buffer.byteLength(t)},t)}]
+ ['trial eligibility removed',()=>{const t=pack.replaceAll('これから継続的な受講を検討している方向けです','どなたでも利用できます');verify({...meta,pack_sha256:hash(t),pack_bytes:Buffer.byteLength(t)},t)}]
 ];
 for(const [name,fn] of cases)assert.throws(fn,undefined,name);
 // Preserve all current approved content except the explicitly scoped pre-university clarification.
@@ -65,6 +65,10 @@ for(const f of beforeFiles.filter(f=>f.endsWith('.html'))){
  let old=execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'});
  if(f==='before-university/index.html'&&!old.includes('大学入学を控えた高校生など'))old=old.replace('入学前の方に向けた学習サービスを準備・検討しています。','大学入学を控えた高校生など、入学前の方に向けた学習サービスを準備・検討しています。').replace('学びながら出てくる疑問を質問できます。質問の対象・回数・回答方法や目安は未確定です。','学びながら出てくる疑問を質問できる形を検討しています。質問の対象・回数・回答方法や目安は未確定です。');
  let current=read(f);
+ if(process.argv.includes('--allow-trial-wording-update')) {
+   old=old.replaceAll('継続受講を検討する','これから継続的な受講を検討している');
+   if(f==='ai/index.html')old=old.replace(/<time datetime="[^"]+" data-ai-updated>[^<]+<\/time>/,current.match(/<time datetime="[^"]+" data-ai-updated>[^<]+<\/time>/)[0]);
+ }
  if(process.argv.includes('--allow-teaching-example-update')&&f==='approach/index.html') {
    const strip=s=>s.replace(/<section class="section section-white" id="teaching-example">[\s\S]*?<\/section>/,'').replace(/<link rel="stylesheet" href="\/(?:proof-example|teaching-example)\.css\?v=1">/,'');
    old=strip(old);current=strip(current);
